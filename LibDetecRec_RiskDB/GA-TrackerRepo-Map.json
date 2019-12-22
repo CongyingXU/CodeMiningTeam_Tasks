@@ -1,0 +1,158 @@
+[
+    {
+        "groupId": "ch.qos.logback",
+        "artifactId": "logback-classic",
+        "trackerUrl": "https://jira.qos.ch/browse/LOGBACK-1459?jql=project%20%3D%20LOGBACK",
+        "repoUrl": "https://github.com/qos-ch/logback"
+    },
+    {
+        "groupId": "commons-cli",
+        "artifactId": "commons-cli",
+        "trackerUrl": "http://issues.apache.org/jira/browse/CLI\u00a0",
+        "repoUrl": "!!!https://gitbox.apache.org/repos/asf?p=commons-cli.git"
+    },
+    {
+        "groupId": "commons-codec",
+        "artifactId": "commons-codec",
+        "trackerUrl": "http://issues.apache.org/jira/browse/CODEC\u00a0",
+        "repoUrl": "https://github.com/apache/commons-codec"
+    },
+    {
+        "groupId": "commons-collections",
+        "artifactId": "commons-collections",
+        "trackerUrl": "\u00a0http://issues.apache.org/jira/browse/COLLECTIONS",
+        "repoUrl": "!!!https://git-wip-us.apache.org/repos/asf?p=commons-collections.git"
+    },
+    {
+        "groupId": "commons-io",
+        "artifactId": "commons-io",
+        "trackerUrl": "http://issues.apache.org/jira/browse/IO\u00a0",
+        "repoUrl": "!!!https://gitbox.apache.org/repos/asf?p=commons-io.git"
+    },
+    {
+        "groupId": "commons-lang",
+        "artifactId": "commons-lang",
+        "trackerUrl": "http://issues.apache.org/jira/browse/LANG\u00a0",
+        "repoUrl": "!!!http://commons.apache.org/proper/commons-lang/"
+    },
+    {
+        "groupId": "commons-logging",
+        "artifactId": "commons-logging",
+        "trackerUrl": "http://issues.apache.org/jira/browse/LOGGING",
+        "repoUrl": "!!!http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
+    },
+    {
+        "groupId": "org.apache.commons",
+        "artifactId": "commons-lang3",
+        "trackerUrl": "http://issues.apache.org/jira/browse/LANG",
+        "repoUrl": "!!!https://git-wip-us.apache.org/repos/asf?p=commons-lang.git"
+    },
+    {
+        "groupId": "org.apache.httpcomponents",
+        "artifactId": "httpclient",
+        "trackerUrl": "http://issues.apache.org/jira/browse/HTTPCLIENT\u00a0",
+        "repoUrl": "?"
+    },
+    {
+        "groupId": "org.apache.logging.log4j",
+        "artifactId": "log4j-core",
+        "trackerUrl": "https://issues.apache.org/jira/browse/LOG4J2",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "org.codehaus.groovy",
+        "artifactId": "groovy-all",
+        "trackerUrl": "https://issues.apache.org/jira/browse/GROOVY\u00a0",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "org.slf4j",
+        "artifactId": "jcl-over-slf4j",
+        "trackerUrl": "https://jira.qos.ch/issues/?jql=project%2520%253D%2520SLF4J",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-api",
+        "trackerUrl": "https://jira.qos.ch/issues/?jql=project%2520%253D%2520SLF4J",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-log4j12",
+        "trackerUrl": "https://jira.qos.ch/issues/?jql=project%2520%253D%2520SLF4J",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-simple",
+        "trackerUrl": "https://jira.qos.ch/issues/?jql=project%2520%253D%2520SLF4J",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "commons-beanutils",
+        "artifactId": "commons-beanutils",
+        "trackerUrl": "https://issues.apache.org/jira/projects/BEANUTILS/issues",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "commons-configuration",
+        "artifactId": "commons-configuration",
+        "trackerUrl": "https://issues.apache.org/jira/projects/CONFIGURATION/issues",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "commons-dbcp",
+        "artifactId": "commons-dbcp",
+        "trackerUrl": "https://issues.apache.org/jira/projects/DBCP/issues",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "commons-fileupload",
+        "artifactId": "commons-fileupload",
+        "trackerUrl": "http://issues.apache.org/jira/browse/FILEUPLOAD",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "commons-httpclient",
+        "artifactId": "commons-httpclient",
+        "trackerUrl": "http://issues.apache.org/jira/browse/HTTPCLIENT",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "org.apache.commons",
+        "artifactId": "commons-compress",
+        "trackerUrl": "https://issues.apache.org/jira/projects/COMPRESS/issues",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "org.apache.commons",
+        "artifactId": "commons-math3",
+        "trackerUrl": "https://issues.apache.org/jira/projects/MATH/issues",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "org.apache.hadoop",
+        "artifactId": "hadoop-common",
+        "trackerUrl": "https://issues.apache.org/jira/browse/HADOOP/issues",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "org.apache.httpcomponents",
+        "artifactId": "httpcore",
+        "trackerUrl": "https://issues.apache.org/jira/projects/HTTPCORE/issues",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "org.apache.velocity",
+        "artifactId": "velocity",
+        "trackerUrl": "https://issues.apache.org/jira/browse/VELOCITY",
+        "repoUrl": ""
+    },
+    {
+        "groupId": "org.apache.zookeeper",
+        "artifactId": "zookeeper",
+        "trackerUrl": "https://issues.apache.org/jira/browse/ZOOKEEPER",
+        "repoUrl": ""
+    }
+]
