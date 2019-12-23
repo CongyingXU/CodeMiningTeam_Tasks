@@ -49,12 +49,6 @@ def bs4_paraser(html):
     return data_dict
 
 
-    # print([text.strip() for text in div.find_all(text=True) if text.parent.name != 'span' and text.strip()])
-
-    # for ele in a_:
-    #     # print(ele.string)
-    #     version = ele
-    #     print(version)
 
 
 def main():
