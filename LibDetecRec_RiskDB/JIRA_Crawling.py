@@ -5,7 +5,7 @@ Created on Thu Mar  7 16:26:02 2019
 
 @author: congyingxu
 """
-import json,sqlite3
+import os,json,sqlite3
 import requests
 from bs4 import BeautifulSoup
 
@@ -120,7 +120,10 @@ def craw_write():
         except KeyError:
             print( issuekey,'not exist' )
             continue
-        
+        if os.path.exists(Path):
+            pass
+        else:
+            os.mkdir(Path)
         filePath = Path +'/'+ issuekey+'_'+ status+'.txt'
         f = open(filePath, 'w')
         f.write(json.dumps(info_dict, indent=4))

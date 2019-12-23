@@ -113,10 +113,11 @@ def insertRecord(formated_issue_info):
 
 def main():
     get_pojlist()
-    for pojIssuePrefix in pojIssuePrefix_list:
-        path = CrawledIssuesFloder_path + pojIssuePrefix
-        importIssuesInfo()
+    print(pojIssuePrefix_list)
+    # for pojIssuePrefix in pojIssuePrefix_list:
+    #     path = CrawledIssuesFloder_path + pojIssuePrefix
+    #     importIssuesInfo()
 
 if __name__ == '__main__':
-    # main()
-    importIssuesInfo('CrawledIssues/CLI/CLI-294_Resolved.txt')
+    main()
+    # importIssuesInfo('CrawledIssues/CLI/CLI-294_Resolved.txt')
