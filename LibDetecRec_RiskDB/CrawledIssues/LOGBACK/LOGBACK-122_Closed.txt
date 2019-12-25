@@ -1,0 +1,314 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|3c151688d959f5e45f923476a0ef57190a6539fa|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "aab9e906373d6cc9516dbcad235f1ec7", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Closed&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.&lt;/span&gt;\">Closed</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value resolved\" >\n                             Fixed\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-core\" title=\"logback-core \">logback-core</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-10558-value\">None</span>\n            </div>\n    </div>\n</li>                                <li class=\"item full-width\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Environment:</strong>\n        <div id=\"environment-val\" class=\"value\">\n                                          <p>Windows Vista<br/>\nquad core<br/>\nApache Tomcat 6.0.18<br/>\nJDK 1.6</p>\n      \n                    </div>\n    </div>\n</li>        </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "f7ca7b2604030ef401345f8e07e54bb4", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>As Robert Dale mentioned on  23/Mar/09 04:05 PM<br/>\nI'm getting that deadlock in logback core (0.9.14 and 0.9.15). No console plugin or socket appenders, just plain RollingFileAppender.</p>\n\n<p>I am getting the deadlock using ConsoleAppender.</p>\n\n<p>see attached thread dump:</p>\n\n<p>2009-04-06 11:49:45<br/>\nFull thread dump Java HotSpot(TM) Client VM (11.0-b12 mixed mode, sharing):</p>\n\n<p>\"http-8084-5\" daemon prio=6 tid=0x04700c00 nid=0xc54 in Object.wait() <span class=\"error\">&#91;0x05d1f000..0x05d1fc68&#93;</span><br/>\n   java.lang.Thread.State: WAITING (on object monitor)<br/>\n\tat java.lang.Object.wait(Native Method)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>waiting on &lt;0x24338c70&gt; (a org.apache.tomcat.util.net.JIoEndpoint$Worker)<br/>\n\tat java.lang.Object.wait(Object.java:485)<br/>\n\tat org.apache.tomcat.util.net.JIoEndpoint$Worker.await(JIoEndpoint.java:416)</li>\n\t<li>locked &lt;0x24338c70&gt; (a org.apache.tomcat.util.net.JIoEndpoint$Worker)<br/>\n\tat org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:442)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</li>\n</ul>\n\n\n<p>\"http-8084-4\" daemon prio=6 tid=0x04700000 nid=0xe24 in Object.wait() <span class=\"error\">&#91;0x05c7f000..0x05c7fbe8&#93;</span><br/>\n   java.lang.Thread.State: WAITING (on object monitor)<br/>\n\tat java.lang.Object.wait(Native Method)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>waiting on &lt;0x24254da8&gt; (a org.apache.tomcat.util.net.JIoEndpoint$Worker)<br/>\n\tat java.lang.Object.wait(Object.java:485)<br/>\n\tat org.apache.tomcat.util.net.JIoEndpoint$Worker.await(JIoEndpoint.java:416)</li>\n\t<li>locked &lt;0x24254da8&gt; (a org.apache.tomcat.util.net.JIoEndpoint$Worker)<br/>\n\tat org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:442)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</li>\n</ul>\n\n\n<p>\"http-8084-3\" daemon prio=6 tid=0x04700400 nid=0x134c waiting for monitor entry <span class=\"error\">&#91;0x05c2f000..0x05c2fa68&#93;</span><br/>\n   java.lang.Thread.State: BLOCKED (on object monitor)<br/>\n\tat ch.qos.logback.core.AppenderBase.doAppend(AppenderBase.java:66)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>waiting to lock &lt;0x23b16ac8&gt; (a ch.qos.logback.core.ConsoleAppender)<br/>\n\tat ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:60)<br/>\n\tat ch.qos.logback.classic.Logger.appendLoopOnAppenders(Logger.java:270)<br/>\n\tat ch.qos.logback.classic.Logger.callAppenders(Logger.java:257)<br/>\n\tat ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:439)<br/>\n\tat ch.qos.logback.classic.Logger.filterAndLog_1(Logger.java:411)<br/>\n\tat ch.qos.logback.classic.Logger.debug(Logger.java:504)<br/>\n\tat de.ims.server.jguard.ImsRemoteServiceServlet.processCall(ImsRemoteServiceServlet.java:88)<br/>\n\tat com.google.gwt.user.server.rpc.RemoteServiceServlet.doPost(RemoteServiceServlet.java:86)<br/>\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:637)<br/>\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:717)<br/>\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)<br/>\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)<br/>\n\tat org.netbeans.modules.web.monitor.server.MonitorFilter.doFilter(MonitorFilter.java:390)<br/>\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)<br/>\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)<br/>\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)<br/>\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)<br/>\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)<br/>\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)<br/>\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)<br/>\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)<br/>\n\tat org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:845)<br/>\n\tat org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)<br/>\n\tat org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</li>\n</ul>\n\n\n<p>\"Thread-10\" daemon prio=6 tid=0x046ff800 nid=0x122c runnable <span class=\"error\">&#91;0x05bdf000..0x05bdfb68&#93;</span><br/>\n   java.lang.Thread.State: RUNNABLE<br/>\n\tat sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)<br/>\n\tat sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:125)</p>\n\n<p>\"http-8084-2\" daemon prio=6 tid=0x046ff400 nid=0x17f4 waiting for monitor entry <span class=\"error\">&#91;0x05b8f000..0x05b8fa68&#93;</span><br/>\n   java.lang.Thread.State: BLOCKED (on object monitor)<br/>\n\tat ch.qos.logback.core.AppenderBase.doAppend(AppenderBase.java:66)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>waiting to lock &lt;0x23b16ac8&gt; (a ch.qos.logback.core.ConsoleAppender)<br/>\n\tat ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:60)<br/>\n\tat ch.qos.logback.classic.Logger.appendLoopOnAppenders(Logger.java:270)<br/>\n\tat ch.qos.logback.classic.Logger.callAppenders(Logger.java:257)<br/>\n\tat ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:439)<br/>\n\tat ch.qos.logback.classic.Logger.filterAndLog_1(Logger.java:411)<br/>\n\tat ch.qos.logback.classic.Logger.debug(Logger.java:504)<br/>\n\tat de.ims.server.jguard.ImsRemoteServiceServlet.processCall(ImsRemoteServiceServlet.java:88)<br/>\n\tat com.google.gwt.user.server.rpc.RemoteServiceServlet.doPost(RemoteServiceServlet.java:86)<br/>\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:637)<br/>\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:717)<br/>\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)<br/>\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)<br/>\n\tat org.netbeans.modules.web.monitor.server.MonitorFilter.doFilter(MonitorFilter.java:390)<br/>\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)<br/>\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)<br/>\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)<br/>\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)<br/>\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)<br/>\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)<br/>\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)<br/>\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)<br/>\n\tat org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:845)<br/>\n\tat org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)<br/>\n\tat org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</li>\n</ul>\n\n\n<p>\"TP-Monitor\" daemon prio=6 tid=0x04a17400 nid=0x830 in Object.wait() <span class=\"error\">&#91;0x05b3f000..0x05b3fce8&#93;</span><br/>\n   java.lang.Thread.State: TIMED_WAITING (on object monitor)<br/>\n\tat java.lang.Object.wait(Native Method)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>waiting on &lt;0x23e0a900&gt; (a org.apache.tomcat.util.threads.ThreadPool$MonitorRunnable)<br/>\n\tat org.apache.tomcat.util.threads.ThreadPool$MonitorRunnable.run(ThreadPool.java:565)</li>\n\t<li>locked &lt;0x23e0a900&gt; (a org.apache.tomcat.util.threads.ThreadPool$MonitorRunnable)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</li>\n</ul>\n\n\n<p>\"TP-Processor4\" daemon prio=6 tid=0x0497a000 nid=0x11dc runnable <span class=\"error\">&#91;0x05a8f000..0x05a8fd68&#93;</span><br/>\n   java.lang.Thread.State: RUNNABLE<br/>\n\tat java.net.PlainSocketImpl.socketAccept(Native Method)<br/>\n\tat java.net.PlainSocketImpl.accept(PlainSocketImpl.java:384)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>locked &lt;0x23e0a9b0&gt; (a java.net.SocksSocketImpl)<br/>\n\tat java.net.ServerSocket.implAccept(ServerSocket.java:453)<br/>\n\tat java.net.ServerSocket.accept(ServerSocket.java:421)<br/>\n\tat org.apache.jk.common.ChannelSocket.accept(ChannelSocket.java:306)<br/>\n\tat org.apache.jk.common.ChannelSocket.acceptConnections(ChannelSocket.java:660)<br/>\n\tat org.apache.jk.common.ChannelSocket$SocketAcceptor.runIt(ChannelSocket.java:870)<br/>\n\tat org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</li>\n</ul>\n\n\n<p>\"TP-Processor3\" daemon prio=6 tid=0x04979c00 nid=0xfe8 in Object.wait() <span class=\"error\">&#91;0x05a3f000..0x05a3f9e8&#93;</span><br/>\n   java.lang.Thread.State: WAITING (on object monitor)<br/>\n\tat java.lang.Object.wait(Native Method)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>waiting on &lt;0x23e0abc8&gt; (a org.apache.tomcat.util.threads.ThreadPool$ControlRunnable)<br/>\n\tat java.lang.Object.wait(Object.java:485)<br/>\n\tat org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:662)</li>\n\t<li>locked &lt;0x23e0abc8&gt; (a org.apache.tomcat.util.threads.ThreadPool$ControlRunnable)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</li>\n</ul>\n\n\n<p>\"TP-Processor2\" daemon prio=6 tid=0x04982800 nid=0x10bc in Object.wait() <span class=\"error\">&#91;0x059ef000..0x059efa68&#93;</span><br/>\n   java.lang.Thread.State: WAITING (on object monitor)<br/>\n\tat java.lang.Object.wait(Native Method)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>waiting on &lt;0x23e0ac68&gt; (a org.apache.tomcat.util.threads.ThreadPool$ControlRunnable)<br/>\n\tat java.lang.Object.wait(Object.java:485)<br/>\n\tat org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:662)</li>\n\t<li>locked &lt;0x23e0ac68&gt; (a org.apache.tomcat.util.threads.ThreadPool$ControlRunnable)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</li>\n</ul>\n\n\n<p>\"TP-Processor1\" daemon prio=6 tid=0x04982000 nid=0x131c in Object.wait() <span class=\"error\">&#91;0x0599f000..0x0599fae8&#93;</span><br/>\n   java.lang.Thread.State: WAITING (on object monitor)<br/>\n\tat java.lang.Object.wait(Native Method)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>waiting on &lt;0x23e0ad08&gt; (a org.apache.tomcat.util.threads.ThreadPool$ControlRunnable)<br/>\n\tat java.lang.Object.wait(Object.java:485)<br/>\n\tat org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:662)</li>\n\t<li>locked &lt;0x23e0ad08&gt; (a org.apache.tomcat.util.threads.ThreadPool$ControlRunnable)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</li>\n</ul>\n\n\n<p>\"http-8084-1\" daemon prio=6 tid=0x04917000 nid=0x15f4 runnable <span class=\"error\">&#91;0x0594f000..0x0594fb68&#93;</span><br/>\n   java.lang.Thread.State: RUNNABLE<br/>\n\tat java.io.FileOutputStream.writeBytes(Native Method)<br/>\n\tat java.io.FileOutputStream.write(FileOutputStream.java:260)<br/>\n\tat java.io.BufferedOutputStream.write(BufferedOutputStream.java:105)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>locked &lt;0x2395d280&gt; (a java.io.BufferedOutputStream)<br/>\n\tat java.io.PrintStream.write(PrintStream.java:430)</li>\n\t<li>locked &lt;0x23951d08&gt; (a java.io.PrintStream)<br/>\n\tat org.apache.tomcat.util.log.SystemLogHandler.write(SystemLogHandler.java:166)<br/>\n\tat sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:202)<br/>\n\tat sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:272)<br/>\n\tat sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:276)<br/>\n\tat sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:122)</li>\n\t<li>locked &lt;0x23b1c1f0&gt; (a java.io.OutputStreamWriter)<br/>\n\tat java.io.OutputStreamWriter.flush(OutputStreamWriter.java:212)<br/>\n\tat ch.qos.logback.core.WriterAppender.writerWrite(WriterAppender.java:245)<br/>\n\tat ch.qos.logback.core.WriterAppender.subAppend(WriterAppender.java:261)<br/>\n\tat ch.qos.logback.core.WriterAppender.append(WriterAppender.java:114)<br/>\n\tat ch.qos.logback.core.AppenderBase.doAppend(AppenderBase.java:87)</li>\n\t<li>locked &lt;0x23b16ac8&gt; (a ch.qos.logback.core.ConsoleAppender)<br/>\n\tat ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:60)<br/>\n\tat ch.qos.logback.classic.Logger.appendLoopOnAppenders(Logger.java:270)<br/>\n\tat ch.qos.logback.classic.Logger.callAppenders(Logger.java:257)<br/>\n\tat ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:439)<br/>\n\tat ch.qos.logback.classic.Logger.filterAndLog_1(Logger.java:411)<br/>\n\tat ch.qos.logback.classic.Logger.debug(Logger.java:504)<br/>\n\tat de.ims.server.jguard.ImsRemoteServiceServlet.processCall(ImsRemoteServiceServlet.java:92)<br/>\n\tat com.google.gwt.user.server.rpc.RemoteServiceServlet.doPost(RemoteServiceServlet.java:86)<br/>\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:637)<br/>\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:717)<br/>\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)<br/>\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)<br/>\n\tat org.netbeans.modules.web.monitor.server.MonitorFilter.doFilter(MonitorFilter.java:390)<br/>\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)<br/>\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)<br/>\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)<br/>\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)<br/>\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)<br/>\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)<br/>\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)<br/>\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)<br/>\n\tat org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:845)<br/>\n\tat org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)<br/>\n\tat org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</li>\n</ul>\n\n\n<p>\"http-8084-Acceptor-0\" daemon prio=6 tid=0x049c2400 nid=0x129c runnable <span class=\"error\">&#91;0x058bf000..0x058bfbe8&#93;</span><br/>\n   java.lang.Thread.State: RUNNABLE<br/>\n\tat java.net.PlainSocketImpl.socketAccept(Native Method)<br/>\n\tat java.net.PlainSocketImpl.accept(PlainSocketImpl.java:384)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>locked &lt;0x23a40168&gt; (a java.net.SocksSocketImpl)<br/>\n\tat java.net.ServerSocket.implAccept(ServerSocket.java:453)<br/>\n\tat java.net.ServerSocket.accept(ServerSocket.java:421)<br/>\n\tat org.apache.tomcat.util.net.DefaultServerSocketFactory.acceptSocket(DefaultServerSocketFactory.java:61)<br/>\n\tat org.apache.tomcat.util.net.JIoEndpoint$Acceptor.run(JIoEndpoint.java:310)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</li>\n</ul>\n\n\n<p>\"ContainerBackgroundProcessor[StandardEngine<span class=\"error\">&#91;Catalina&#93;</span>]\" daemon prio=6 tid=0x051c9800 nid=0x152c waiting on condition <span class=\"error\">&#91;0x0452f000..0x0452fc68&#93;</span><br/>\n   java.lang.Thread.State: TIMED_WAITING (sleeping)<br/>\n\tat java.lang.Thread.sleep(Native Method)<br/>\n\tat org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1579)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</p>\n\n<p>\"Thread-1\" daemon prio=2 tid=0x04638c00 nid=0x1360 in Object.wait() <span class=\"error\">&#91;0x044df000..0x044dfce8&#93;</span><br/>\n   java.lang.Thread.State: TIMED_WAITING (on object monitor)<br/>\n\tat java.lang.Object.wait(Native Method)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>waiting on &lt;0x23b87d30&gt; (a EDU.oswego.cs.dl.util.concurrent.ClockDaemon)<br/>\n\tat EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(ClockDaemon.java:328)</li>\n\t<li>locked &lt;0x23b87d30&gt; (a EDU.oswego.cs.dl.util.concurrent.ClockDaemon)<br/>\n\tat EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(ClockDaemon.java:362)<br/>\n\tat java.lang.Thread.run(Thread.java:619)</li>\n</ul>\n\n\n<p>\"ElementEventQueue.QProcessor-1\" daemon prio=6 tid=0x050f2800 nid=0x17d0 in Object.wait() <span class=\"error\">&#91;0x0442f000..0x0442fd68&#93;</span><br/>\n   java.lang.Thread.State: WAITING (on object monitor)<br/>\n\tat java.lang.Object.wait(Native Method)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>waiting on &lt;0x23b81398&gt; (a java.lang.Object)<br/>\n\tat java.lang.Object.wait(Object.java:485)<br/>\n\tat org.apache.jcs.engine.control.event.ElementEventQueue.take(ElementEventQueue.java:181)</li>\n\t<li>locked &lt;0x23b81398&gt; (a java.lang.Object)<br/>\n\tat org.apache.jcs.engine.control.event.ElementEventQueue.access$300(ElementEventQueue.java:35)<br/>\n\tat org.apache.jcs.engine.control.event.ElementEventQueue$QProcessor.run(ElementEventQueue.java:245)</li>\n</ul>\n\n\n<p>\"Low Memory Detector\" daemon prio=6 tid=0x0215c800 nid=0x1370 runnable <span class=\"error\">&#91;0x00000000..0x00000000&#93;</span><br/>\n   java.lang.Thread.State: RUNNABLE</p>\n\n<p>\"CompilerThread0\" daemon prio=10 tid=0x02156400 nid=0x758 waiting on condition <span class=\"error\">&#91;0x00000000..0x0433f890&#93;</span><br/>\n   java.lang.Thread.State: RUNNABLE</p>\n\n<p>\"Attach Listener\" daemon prio=10 tid=0x02155400 nid=0x14f4 waiting on condition <span class=\"error\">&#91;0x00000000..0x00000000&#93;</span><br/>\n   java.lang.Thread.State: RUNNABLE</p>\n\n<p>\"Signal Dispatcher\" daemon prio=10 tid=0x0214ac00 nid=0x151c runnable <span class=\"error\">&#91;0x00000000..0x00000000&#93;</span><br/>\n   java.lang.Thread.State: RUNNABLE</p>\n\n<p>\"Finalizer\" daemon prio=8 tid=0x02143000 nid=0x430 in Object.wait() <span class=\"error\">&#91;0x0424f000..0x0424fce8&#93;</span><br/>\n   java.lang.Thread.State: WAITING (on object monitor)<br/>\n\tat java.lang.Object.wait(Native Method)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>waiting on &lt;0x2394e760&gt; (a java.lang.ref.ReferenceQueue$Lock)<br/>\n\tat java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:116)</li>\n\t<li>locked &lt;0x2394e760&gt; (a java.lang.ref.ReferenceQueue$Lock)<br/>\n\tat java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:132)<br/>\n\tat java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:159)</li>\n</ul>\n\n\n<p>\"Reference Handler\" daemon prio=10 tid=0x02141000 nid=0x510 in Object.wait() <span class=\"error\">&#91;0x0091f000..0x0091fc68&#93;</span><br/>\n   java.lang.Thread.State: WAITING (on object monitor)<br/>\n\tat java.lang.Object.wait(Native Method)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>waiting on &lt;0x2394e7e8&gt; (a java.lang.ref.Reference$Lock)<br/>\n\tat java.lang.Object.wait(Object.java:485)<br/>\n\tat java.lang.ref.Reference$ReferenceHandler.run(Reference.java:116)</li>\n\t<li>locked &lt;0x2394e7e8&gt; (a java.lang.ref.Reference$Lock)</li>\n</ul>\n\n\n<p>\"main\" prio=6 tid=0x0020a800 nid=0xef4 runnable <span class=\"error\">&#91;0x0025f000..0x0025fe28&#93;</span><br/>\n   java.lang.Thread.State: RUNNABLE<br/>\n\tat java.net.PlainSocketImpl.socketAccept(Native Method)<br/>\n\tat java.net.PlainSocketImpl.accept(PlainSocketImpl.java:384)</p>\n<ul class=\"alternate\" type=\"square\">\n\t<li>locked &lt;0x23e18dc0&gt; (a java.net.SocksSocketImpl)<br/>\n\tat java.net.ServerSocket.implAccept(ServerSocket.java:453)<br/>\n\tat java.net.ServerSocket.accept(ServerSocket.java:421)<br/>\n\tat org.apache.catalina.core.StandardServer.await(StandardServer.java:389)<br/>\n\tat org.apache.catalina.startup.Catalina.await(Catalina.java:642)<br/>\n\tat org.apache.catalina.startup.Catalina.start(Catalina.java:602)<br/>\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)<br/>\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)<br/>\n\tat java.lang.reflect.Method.invoke(Method.java:597)<br/>\n\tat org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:288)<br/>\n\tat org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)</li>\n</ul>\n\n\n<p>\"VM Thread\" prio=10 tid=0x0213fc00 nid=0xdc0 runnable </p>\n\n<p>\"VM Periodic Task Thread\" prio=10 tid=0x0215dc00 nid=0x1128 waiting on condition </p>\n\n<p>JNI global references: 781</p>\n\n<p>i also attach my logback configuration:<br/>\n&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;<br/>\n&lt;configuration debug=\"true\"&gt;</p>\n\n<p>\t&lt;appender name=\"stdout\"<br/>\n\t\tclass=\"ch.qos.logback.core.ConsoleAppender\"&gt;<br/>\n\t\t&lt;layout class=\"ch.qos.logback.classic.PatternLayout\"&gt;<br/>\n\t\t\t&lt;Pattern&gt;<br/>\n\t\t\t\tOperator %X</p>\n{client}\n<p>: %d</p>\n{HH:mm:ss.SSS}\n<p> <span class=\"error\">&#91;%thread&#93;</span> %-5level %logger</p>\n{36} %L - %msg%n<br/>\n\t\t\t&lt;/Pattern&gt;<br/>\n\t\t&lt;/layout&gt;<br/>\n\t&lt;/appender&gt;<br/>\n<br/>\n\t&lt;!--<br/>\n\t&lt;appender name=\"file\"<br/>\n        class=\"ch.qos.logback.core.FileAppender\" &gt;<br/>\n        &lt;File&gt;imsm-debug.log&lt;/File&gt;<br/>\n        &lt;Append&gt;false&lt;/Append&gt;<br/>\n        &lt;layout class=\"ch.qos.logback.classic.PatternLayout\"&gt;<br/>\n            &lt;Pattern&gt;<br/>\n                %d{HH:mm:ss.SSS} <span class=\"error\">&#91;%thread&#93;</span> %-5level %logger{36}\n<p> %L - %msg%n<br/>\n            &lt;/Pattern&gt;<br/>\n        &lt;/layout&gt;</p>\n\n<p>    &lt;/appender&gt;<br/>\n--&gt;<br/>\n\t&lt;logger name=\"net.sf.jguard.core\" additivity=\"false\"&gt;<br/>\n\t\t&lt;level value=\"INFO\" /&gt;<br/>\n\t\t&lt;appender-ref ref=\"stdout\" /&gt;<br/>\n\t\t&lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n\t&lt;/logger&gt;</p>\n\n<p>\t&lt;logger name=\"net.sf.jguard.core.authorization\" additivity=\"false\"&gt;<br/>\n\t   &lt;level value=\"debug\"/&gt;<br/>\n\t   &lt;appender-ref ref=\"stdout\" /&gt;<br/>\n       &lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n    &lt;/logger&gt;</p>\n\n<p>    &lt;logger name=\"net.sf.jguard.core.filters\" additivity=\"false\"&gt;<br/>\n       &lt;level value=\"debug\"/&gt;<br/>\n       &lt;appender-ref ref=\"stdout\" /&gt;<br/>\n       &lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n    &lt;/logger&gt;</p>\n\n\n<p>\t&lt;logger name=\"net.sf.jguard.ext\" additivity=\"false\"&gt;<br/>\n\t\t&lt;level value=\"INFO\" /&gt;<br/>\n\t\t&lt;appender-ref ref=\"stdout\" /&gt;<br/>\n\t\t&lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n\t&lt;/logger&gt;</p>\n\n<p>\t&lt;logger name=\"net.sf.jguard.jee\" additivity=\"false\"&gt;<br/>\n\t\t&lt;level value=\"INFO\" /&gt;<br/>\n\t\t&lt;appender-ref ref=\"stdout\" /&gt;<br/>\n\t\t&lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n\t&lt;/logger&gt;</p>\n\n<p>\t&lt;logger name=\"net.sf.ehcache\" additivity=\"false\"&gt;<br/>\n\t\t&lt;level value=\"INFO\" /&gt;<br/>\n\t\t&lt;appender-ref ref=\"stdout\" /&gt;<br/>\n\t\t&lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n\t&lt;/logger&gt;</p>\n\n<p>\t&lt;logger name=\"de.ims.core.db\" additivity=\"false\"&gt;<br/>\n\t\t&lt;level value=\"DEBUG\" /&gt;<br/>\n\t\t&lt;appender-ref ref=\"stdout\" /&gt;<br/>\n\t\t&lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n\t&lt;/logger&gt;</p>\n\n<p>    &lt;logger name=\"de.ims.core.db.util\" additivity=\"false\"&gt;<br/>\n\t\t&lt;level value=\"INFO\" /&gt;<br/>\n\t\t&lt;appender-ref ref=\"stdout\" /&gt;<br/>\n\t\t&lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n\t&lt;/logger&gt;</p>\n\n<p>    &lt;logger name=\"de.ims.core.db.jguard\" additivity=\"false\"&gt;<br/>\n\t\t&lt;level value=\"INFO\" /&gt;<br/>\n\t\t&lt;appender-ref ref=\"stdout\" /&gt;<br/>\n\t\t&lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n\t&lt;/logger&gt;</p>\n\n<p>    &lt;logger name=\"de.ims.core.db.DBUserImpl\" additivity=\"false\"&gt;<br/>\n\t\t&lt;level value=\"DEBUG\" /&gt;<br/>\n\t\t&lt;appender-ref ref=\"stdout\" /&gt;<br/>\n\t\t&lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n\t&lt;/logger&gt;<br/>\n    &lt;logger name=\"de.ims.core.db.DBGroupImpl\" additivity=\"false\"&gt;<br/>\n\t\t&lt;level value=\"DEBUG\" /&gt;<br/>\n\t\t&lt;appender-ref ref=\"stdout\" /&gt;<br/>\n\t\t&lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n\t&lt;/logger&gt;<br/>\n    &lt;logger name=\"de.ims.core.db.DBOperatorImpl\" additivity=\"false\"&gt;<br/>\n\t\t&lt;level value=\"INFO\" /&gt;<br/>\n\t\t&lt;appender-ref ref=\"stdout\" /&gt;<br/>\n\t\t&lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n\t&lt;/logger&gt;<br/>\n    &lt;logger name=\"de.ims.core.db.DBInstitutionImpl\" additivity=\"false\"&gt;<br/>\n\t\t&lt;level value=\"INFO\" /&gt;<br/>\n\t\t&lt;appender-ref ref=\"stdout\" /&gt;<br/>\n\t\t&lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n\t&lt;/logger&gt;</p>\n\n<p>\t&lt;logger name=\"org.apache.jcs\" additivity=\"false\"&gt;<br/>\n\t   &lt;level value=\"WARN\" /&gt;<br/>\n       &lt;appender-ref ref=\"stdout\" /&gt;<br/>\n       &lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n    &lt;/logger&gt;</p>\n\n<p>\t&lt;root&gt;<br/>\n\t\t&lt;!-- The following level element is not necessary since the --&gt;<br/>\n\t\t&lt;!-- level of the root level is set to DEBUG by default.    --&gt;<br/>\n\t\t&lt;level value=\"DEBUG\" /&gt;<br/>\n\t\t&lt;appender-ref ref=\"stdout\" /&gt;<br/>\n\t\t&lt;!-<del>&lt;appender-ref ref=\"file\" /&gt;</del>-&gt;<br/>\n\t&lt;/root&gt;<br/>\n&lt;/configuration&gt;</p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [
+                        {
+                            "header": {
+                                "id": "attachment-sorting-options", 
+                                "weight": 10
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "viewissue.subtasks.tab.show.all.name", 
+                                    "label": "Sort By Name", 
+                                    "href": "/browse/LOGBACK-122?attachmentSortBy=fileName#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-sort-key-name"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Sort By Date", 
+                                    "label": "Sort By Date", 
+                                    "href": "/browse/LOGBACK-122?attachmentSortBy=dateTime#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-sort-key-date"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-sorting-order-options", 
+                                "weight": 20
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Ascending", 
+                                    "label": "Ascending", 
+                                    "href": "/browse/LOGBACK-122?attachmentOrder=asc#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-sort-direction-asc"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Descending", 
+                                    "label": "Descending", 
+                                    "href": "/browse/LOGBACK-122?attachmentOrder=desc#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-sort-direction-desc"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-view-mode-options", 
+                                "weight": 20
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Thumbnails", 
+                                    "label": "Thumbnails", 
+                                    "href": "/browse/LOGBACK-122?attachmentViewMode=gallery#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-view-mode-gallery"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "List", 
+                                    "label": "List", 
+                                    "href": "/browse/LOGBACK-122?attachmentViewMode=list#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-view-mode-list"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-manage-options", 
+                                "weight": 90
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 1, 
+                                    "title": "Download all attachments as a ZIP file", 
+                                    "label": "Download All", 
+                                    "href": "/secure/attachmentzip/10558.zip", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "aszip"
+                                }
+                            ]
+                        }
+                    ], 
+                    "links": []
+                }, 
+                "contentId": "d29f50ac860fcf7441025893df920895", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:attachmentmodule", 
+                "prefix": "", 
+                "html": "<ol id=\"attachment_thumbnails\" class=\"item-attachments\" data-sort-key=\"fileName\" data-sort-order=\"asc\"><li class=\"attachment-content js-file-attachment\" draggable=\"true\" data-downloadurl=\"text/plain:AppenderBaseLock.patch:https://jira.qos.ch/secure/attachment/10157/AppenderBaseLock.patch\"data-issue-id=\"10558\"data-attachment-type=\"file\"><div class=\"attachment-thumb\"><a href=\"/secure/attachment/10157/AppenderBaseLock.patch\" title=\"AppenderBaseLock.patch - Latest 19/May/09 6:01 PM - Joern Huxhorn\"><span class=\"aui-icon aui-icon-large attachment-thumbnail-icon aui-iconfont-file-txt\"></span></a></div><dl ><dt><span class=\"blender\"></span><a  href=\"/secure/attachment/10157/AppenderBaseLock.patch\" class=\"attachment-title\" title=\"AppenderBaseLock.patch - Latest 19/May/09 6:01 PM - Joern Huxhorn\">AppenderBaseLock.patch</a></dt><dd class=\"attachment-size\">1 kB</dd><dd class=\"attachment-date\"><time class=\"livestamp\" datetime=\"2009-05-19T18:01:37.000+02:00\">19/May/09 6:01 PM</time></dd></dl></li></ol>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "attachmentmodule"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "29ab63168b1285a063b1118cd02a4c17", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_logback-dev\" rel=\"logback-dev\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Logback dev list&quot;,&quot;emailAddress&quot;:&quot;logback-dev@qos.ch&quot;,&quot;username&quot;:&quot;logback-dev&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"logback-dev\" /></span></span>\n            Logback dev list\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_feistner\" rel=\"feistner\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Lars Feistner&quot;,&quot;emailAddress&quot;:&quot;feistner@uni-heidelberg.de&quot;,&quot;username&quot;:&quot;feistner&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"feistner\" /></span></span>\n            Lars Feistner\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">0</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">3</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "c305e71a8bfbcdaa2a07d39cd38c638d", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"06/Apr/09 11:54 AM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2009-04-06T11:54:44+0200\">06/Apr/09 11:54 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"12/Jun/12 11:59 AM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2012-06-12T11:59:31+0200\">12/Jun/12 11:59 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Resolved:</dt>\n            <dd class=\"date user-tz\"  title=\"28/May/09 7:55 PM\" >\n                <span data-name=\"Resolved\" id=\"resolutiondate-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2009-05-28T19:55:40+0200\">28/May/09 7:55 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-122%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "d42184649253d901c1a73bd51df2ab4e", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "8de67a11cf7a71f996dca6e163a4f6d6", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-122/LOGBACK-122.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "e75e0a0856dbc9002da8876f7e5b3cd1", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-122/LOGBACK-122.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "6b3b275ff58ea5cac02a1166ea0311e0", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-122/LOGBACK-122.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "6", 
+            "iconUrl": "/images/icons/statuses/closed.png", 
+            "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.", 
+            "name": "Closed"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "28c2ea8cd572d7f9bfddc4184559bbc3", 
+        "summary": "Deadlock when running on multiple core processors", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-122", 
+        "id": 10558, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-122", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552217081192
+}

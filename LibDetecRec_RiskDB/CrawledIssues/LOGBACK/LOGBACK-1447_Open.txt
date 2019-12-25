@@ -1,0 +1,205 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|e7956974f531f6f9673fe54d02efa6bd364b7924|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "1dfac3654aed6c65f67783ef1a77bb1d", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;\">Open</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/critical.svg\" title=\"Critical - Crashes, loss of data, severe memory leak.\" width=\"16\" /> Critical\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value unresolved\" >\n                            Unresolved\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"versions-field\">\n                                            <span title=\"1.1.7 \">1.1.7</span>                                    </span>\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-core\" title=\"logback-core \">logback-core</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <ul class=\"labels\" id=\"labels-15406-value\">\n                                                                        <li><a class=\"lozenge\" href=\"/issues/?jql=labels+%3D+logging\" title=\"logging\"><span>logging</span></a></li>\n                                                                    </ul>\n    </div>\n    </div>\n</li>                                <li class=\"item full-width\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Environment:</strong>\n        <div id=\"environment-val\" class=\"value\">\n                                          <div id=\"field-environment\" class=\"twixi-block twixi-block-inverted collapsed \">\n            <div class=\"twixi-wrap verbose\">\n                <a href=\"#\" class=\"twixi \"><span class=\"icon-default aui-icon aui-icon-small aui-iconfont-expanded\"><span>Hide</span></span></a>\n                <div class=\"flooded\">\n                    <p><b>List of log jars in my project\uff1a</b></p>\n\n<p>springframework-3.1.1-RELEASE</p>\n\n<p>slf4j-api-1.7.25</p>\n\n<p>jcl-over-slf4j-1.7.25\uff08Used to replace commons-logging-1.0.3\uff09</p>\n\n<p>log4j-over-slf4j-1.7.25\uff08Used to replace\u00a0log4j-1.2.15\uff09</p>\n\n<p>logback-core-1.1.7</p>\n\n<p>logback-classic-1.1.7</p>\n\n<p>\u00a0</p>\n\n<p><b>logback.xml\uff1a</b></p>\n\n<p>&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;<br/>\n&lt;configuration debug=\"false\"&gt;<br/>\n &lt;contextName&gt;my-test&lt;/contextName&gt;</p>\n\n<p> &lt;appender name=\"logFile\" class=\"ch.qos.logback.core.rolling.RollingFileAppender\"&gt;<br/>\n &lt;filter class=\"ch.qos.logback.classic.filter.ThresholdFilter\"&gt;<br/>\n &lt;level&gt;INFO&lt;/level&gt;<br/>\n &lt;/filter&gt;<br/>\n &lt;encoder charset=\"UTF-8\"&gt;<br/>\n &lt;ImmediateFlush&gt;false&lt;/ImmediateFlush&gt;<br/>\n &lt;pattern&gt;%d{yyyy-MM-dd HH:mm:ss.SSS} <span class=\"error\">&#91;%-5level&#93;</span> %X{threadId:--}%X{clientIp} %c{0}:%L: %m%n&lt;/pattern&gt;<br/>\n &lt;/encoder&gt;<br/>\n &lt;File&gt;c:/test.log&lt;/File&gt;<br/>\n &lt;rollingPolicy class=\"ch.qos.logback.core.rolling.TimeBasedRollingPolicy\"&gt;<br/>\n &lt;fileNamePattern&gt;c:/test.log%d{yyyyMMdd}&lt;/fileNamePattern&gt;<br/>\n &lt;maxHistory&gt;2&lt;/maxHistory&gt;<br/>\n &lt;/rollingPolicy&gt;<br/>\n &lt;/appender&gt;<br/>\n &lt;appender name=\"asyncLogFile\" class=\"ch.qos.logback.classic.AsyncAppender\"&gt;<br/>\n &lt;discardingThreshold&gt;0&lt;/discardingThreshold&gt;<br/>\n &lt;neverBlock&gt;true&lt;/neverBlock&gt;<br/>\n &lt;queueSize&gt;2048&lt;/queueSize&gt;<br/>\n &lt;includeCallerData&gt;true&lt;/includeCallerData&gt;<br/>\n &lt;appender-ref ref=\"logFile\" /&gt;<br/>\n &lt;/appender&gt;</p>\n\n<p> &lt;appender name=\"errorLogFile\" class=\"ch.qos.logback.core.rolling.RollingFileAppender\"&gt;<br/>\n &lt;filter class=\"ch.qos.logback.classic.filter.LevelFilter\"&gt;<br/>\n &lt;level&gt;ERROR&lt;/level&gt;<br/>\n &lt;onMatch&gt;ACCEPT&lt;/onMatch&gt;<br/>\n &lt;onMismatch&gt;DENY&lt;/onMismatch&gt;<br/>\n &lt;/filter&gt;<br/>\n &lt;encoder charset=\"UTF-8\"&gt;<br/>\n &lt;ImmediateFlush&gt;false&lt;/ImmediateFlush&gt;<br/>\n &lt;pattern&gt;%d{yyyy-MM-dd HH:mm:ss.SSS} <span class=\"error\">&#91;%-5level&#93;</span> %X{threadId:--}%X{clientIp} %c{0}:%L: %m%n&lt;/pattern&gt;<br/>\n &lt;/encoder&gt;<br/>\n &lt;File&gt;c:/error.log&lt;/File&gt;<br/>\n &lt;rollingPolicy class=\"ch.qos.logback.core.rolling.TimeBasedRollingPolicy\"&gt;<br/>\n &lt;fileNamePattern&gt;c:/error.log%d{yyyyMMdd}&lt;/fileNamePattern&gt;<br/>\n &lt;maxHistory&gt;2&lt;/maxHistory&gt;<br/>\n &lt;/rollingPolicy&gt;<br/>\n &lt;/appender&gt;<br/>\n &lt;appender name=\"asyncErrorLogFile\" class=\"ch.qos.logback.classic.AsyncAppender\"&gt;<br/>\n &lt;discardingThreshold&gt;0&lt;/discardingThreshold&gt;<br/>\n &lt;neverBlock&gt;true&lt;/neverBlock&gt;<br/>\n &lt;queueSize&gt;2048&lt;/queueSize&gt;<br/>\n &lt;includeCallerData&gt;true&lt;/includeCallerData&gt;<br/>\n &lt;appender-ref ref=\"errorLogFile\" /&gt;<br/>\n &lt;/appender&gt;</p>\n\n<p>&lt;logger name=\"RocketmqClient\" level=\"error\" /&gt;<br/>\n &lt;logger name=\"RocketmqRemoting\" level=\"error\" /&gt;<br/>\n &lt;logger name=\"com.ibatis\" level=\"INFO\" /&gt;<br/>\n &lt;logger name=\"java.sql.Connection\" level=\"INFO\" /&gt;<br/>\n &lt;logger name=\"java.sql.Statement\" level=\"INFO\" /&gt;<br/>\n &lt;logger name=\"java.sql.PreparedStatement\" level=\"INFO\" /&gt;</p>\n\n<p>&lt;root level=\"INFO\"&gt;<br/>\n &lt;appender-ref ref=\"asyncLogFile\" /&gt;<br/>\n &lt;appender-ref ref=\"asyncErrorLogFile\" /&gt;<br/>\n &lt;/root&gt;<br/>\n&lt;/configuration&gt;</p>\n\n<p>\u00a0</p>\n\n<p>\u00a0</p>\n                </div>\n            </div>\n            <div class=\"twixi-wrap concise\">\n                <a href=\"#\" class=\"twixi \"><span class=\"icon-default aui-icon aui-icon-small aui-iconfont-collapsed\"><span>Show</span></span></a>\n                <div class=\"flooded\">\n                                              List of log jars in my project\uff1a  \n\n springframework-3.1.1-RELEASE \n\n slf4j-api-1.7.25 \n\n jcl-over-slf4j-1.7.25\uff08Used to replace commons-logging-1.0.3\uff09 \n\n log4j-over-slf4j-1.7.25\uff08Used to replace\u00a0log4j-1.2.15\uff09 \n\n logback-core-1.1.7 \n\n logback-classic-1.1.7 \n\n \u00a0 \n\n  logback.xml\uff1a  \n\n &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt; \n&lt;configuration debug=\"false\"&gt; \n &lt;contextName&gt;my-test&lt;/contextName&gt; \n\n  &lt;appender name=\"logFile\" class=\"ch.qos.logback.core.rolling.RollingFileAppender\"&gt; \n &lt;filter class=\"ch.qos.logback.classic.filter.ThresholdFilter\"&gt; \n &lt;level&gt;INFO&lt;/level&gt; \n &lt;/filter&gt; \n &lt;encoder charset=\"UTF-8\"&gt; \n &lt;ImmediateFlush&gt;false&lt;/ImmediateFlush&gt; \n &lt;pattern&gt;%d{yyyy-MM-dd HH:mm:ss.SSS}  &#91;%-5level&#93;  %X{threadId:--}%X{clientIp} %c{0}:%L: %m%n&lt;/pattern&gt; \n &lt;/encoder&gt; \n &lt;File&gt;c:/test.log&lt;/File&gt; \n &lt;rollingPolicy class=\"ch.qos.logback.core.rolling.TimeBasedRollingPolicy\"&gt; \n &lt;fileNamePattern&gt;c:/test.log%d{yyyyMMdd}&lt;/fileNamePattern&gt; \n &lt;maxHistory&gt;2&lt;/maxHistory&gt; \n &lt;/rollingPolicy&gt; \n &lt;/appender&gt; \n &lt;appender name=\"asyncLogFile\" class=\"ch.qos.logback.classic.AsyncAppender\"&gt; \n &lt;discardingThreshold&gt;0&lt;/discardingThreshold&gt; \n &lt;neverBlock&gt;true&lt;/neverBlock&gt; \n &lt;queueSize&gt;2048&lt;/queueSize&gt; \n &lt;includeCallerData&gt;true&lt;/includeCallerData&gt; \n &lt;appender-ref ref=\"logFile\" /&gt; \n &lt;/appender&gt; \n\n  &lt;appender name=\"errorLogFile\" class=\"ch.qos.logback.core.rolling.RollingFileAppender\"&gt; \n &lt;filter class=\"ch.qos.logback.classic.filter.LevelFilter\"&gt; \n &lt;level&gt;ERROR&lt;/level&gt; \n &lt;onMatch&gt;ACCEPT&lt;/onMatch&gt; \n &lt;onMismatch&gt;DENY&lt;/onMismatch&gt; \n &lt;/filter&gt; \n &lt;encoder charset=\"UTF-8\"&gt; \n &lt;ImmediateFlush&gt;false&lt;/ImmediateFlush&gt; \n &lt;pattern&gt;%d{yyyy-MM-dd HH:mm:ss.SSS}  &#91;%-5level&#93;  %X{threadId:--}%X{clientIp} %c{0}:%L: %m%n&lt;/pattern&gt; \n &lt;/encoder&gt; \n &lt;File&gt;c:/error.log&lt;/File&gt; \n &lt;rollingPolicy class=\"ch.qos.logback.core.rolling.TimeBasedRollingPolicy\"&gt; \n &lt;fileNamePattern&gt;c:/error.log%d{yyyyMMdd}&lt;/fileNamePattern&gt; \n &lt;maxHistory&gt;2&lt;/maxHistory&gt; \n &lt;/rollingPolicy&gt; \n &lt;/appender&gt; \n &lt;appender name=\"asyncErrorLogFile\" class=\"ch.qos.logback.classic.AsyncAppender\"&gt; \n &lt;discardingThreshold&gt;0&lt;/discardingThreshold&gt; \n &lt;neverBlock&gt;true&lt;/neverBlock&gt; \n &lt;queueSize&gt;2048&lt;/queueSize&gt; \n &lt;includeCallerData&gt;true&lt;/includeCallerData&gt; \n &lt;appender-ref ref=\"errorLogFile\" /&gt; \n &lt;/appender&gt; \n\n &lt;logger name=\"RocketmqClient\" level=\"error\" /&gt; \n &lt;logger name=\"RocketmqRemoting\" level=\"error\" /&gt; \n &lt;logger name=\"com.ibatis\" level=\"INFO\" /&gt; \n &lt;logger name=\"java.sql.Connection\" level=\"INFO\" /&gt; \n &lt;logger name=\"java.sql.Statement\" level=\"INFO\" /&gt; \n &lt;logger name=\"java.sql.PreparedStatement\" level=\"INFO\" /&gt; \n\n &lt;root level=\"INFO\"&gt; \n &lt;appender-ref ref=\"asyncLogFile\" /&gt; \n &lt;appender-ref ref=\"asyncErrorLogFile\" /&gt; \n &lt;/root&gt; \n&lt;/configuration&gt; \n\n \u00a0 \n\n \u00a0 \n                                    </div>\n            </div>\n        </div>\n      \n                    </div>\n    </div>\n</li>        </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "251eb2097c7c6f8cd94bb4afd412fd64", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>Hello\uff0cgood programmers\uff01</p>\n\n<p>When high concurrency, the log will be printed twice\uff0cbut Not necessarily, the probability is about 2%\uff1a</p>\n\n<p>like this\uff1a</p>\n\n<p>2019-01-01 14:11:55.<b>766</b> <span class=\"error\">&#91;INFO &#93;</span> &lt;T=L0MW82ZxY002Fupw&gt;&lt;IP=10.55.63.113&gt; GSOneAuthSource:111: loginName=testetsss,auth in redis,authResult=true<br/>\n 2019-01-01 14:11:55.<b>767</b> <span class=\"error\">&#91;INFO &#93;</span> &lt;T=L0MW82ZxY002Fupw&gt;&lt;IP=10.55.63.113&gt; GSOneAuthSource:111: loginName=testetsss,auth in redis,authResult=true</p>\n\n<p>Has anyone ever encountered such a problem, is there any solution?</p>\n\n<p>thanks!</p>\n\n<p>\u00a0</p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "225547d747e5d2185958eff47387c28b", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_logback-dev\" rel=\"logback-dev\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Logback dev list&quot;,&quot;emailAddress&quot;:&quot;logback-dev@qos.ch&quot;,&quot;username&quot;:&quot;logback-dev&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"logback-dev\" /></span></span>\n            Logback dev list\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_gukun\" rel=\"gukun\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=12014&quot;,&quot;displayName&quot;:&quot;GUKUN&quot;,&quot;emailAddress&quot;:&quot;igukun@qq.com&quot;,&quot;username&quot;:&quot;gukun&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=12014\" alt=\"gukun\" /></span></span>\n            GUKUN\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">0</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">1</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "dcbeaee730b72721551d386e9463a096", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"02/Jan/19 4:08 AM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2019-01-02T04:08:16+0100\">02/Jan/19 4:08 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"02/Jan/19 6:57 AM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2019-01-02T06:57:44+0100\">02/Jan/19 6:57 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-1447%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "14b76800f393d7501593cf419f9b2b8f", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "9a41dabd0d0c1b7a15ec62da66f5527c", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-1447/LOGBACK-1447.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "3a9cc1a85914d9332b63dc3bdbb22f14", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-1447/LOGBACK-1447.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "67c820ab16cc15ebbadecacef30c96d5", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-1447/LOGBACK-1447.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "1", 
+            "iconUrl": "/images/icons/statuses/open.png", 
+            "description": "The issue is open and ready for the assignee to start work on it.", 
+            "name": "Open"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "f50386a2c76e0f9e978bf46297c82435", 
+        "summary": "Logback occasionally repeats printing logs", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-1447", 
+        "id": 15406, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-1447", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552208330965
+}
