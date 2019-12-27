@@ -1,0 +1,205 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|10725942aa50a9dc551cda41a5841035322c3dc0|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "b499139dd8615d241bc4bf2523a76464", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;\">Open</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value unresolved\" >\n                            Unresolved\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-10781-value\">None</span>\n            </div>\n    </div>\n</li>                                <li class=\"item full-width\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Environment:</strong>\n        <div id=\"environment-val\" class=\"value\">\n                                          <p>Logback-Classic 0.9.20 SLF4J 1.5.11</p>\n      \n                    </div>\n    </div>\n</li>        </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "358bbdeaad1ea807b9aed20c0c7d6cad", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>Error Message</p>\n\n<p>java.lang.NoClassDefFoundError: ch/qos/logback/core/recovery/RecoveryCoordinator</p>\n\n<p>Stack Trace</p>\n\n<p>ch.qos.logback.core.recovery.ResilientOutputStreamBase.postIOFailure(ResilientOutputStreamBase.java:105)<br/>\nch.qos.logback.core.recovery.ResilientOutputStreamBase.write(ResilientOutputStreamBase.java:55)<br/>\njava.io.OutputStream.write(OutputStream.java:58)<br/>\nch.qos.logback.core.encoder.LayoutWrappingEncoder.doEncode(LayoutWrappingEncoder.java:103)<br/>\nch.qos.logback.core.OutputStreamAppender.writeOut(OutputStreamAppender.java:193)<br/>\nch.qos.logback.core.FileAppender.writeOut(FileAppender.java:220)<br/>\nch.qos.logback.core.OutputStreamAppender.subAppend(OutputStreamAppender.java:216)<br/>\nch.qos.logback.core.rolling.RollingFileAppender.subAppend(RollingFileAppender.java:148)<br/>\nch.qos.logback.core.OutputStreamAppender.append(OutputStreamAppender.java:108)<br/>\nch.qos.logback.core.UnsynchronizedAppenderBase.doAppend(UnsynchronizedAppenderBase.java:91)<br/>\nch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:64)<br/>\nch.qos.logback.classic.Logger.appendLoopOnAppenders(Logger.java:275)<br/>\nch.qos.logback.classic.Logger.callAppenders(Logger.java:262)<br/>\nch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:465)<br/>\nch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:419)<br/>\nch.qos.logback.classic.Logger.info(Logger.java:635)<br/>\ncom.locamoda.service.user.UserNameHandler.updateIfNecessary(UserNameHandler.java:121)<br/>\ncom.locamoda.service.user.UserNameHandler.onHttpRequest(UserNameHandler.java:76)<br/>\nsun.reflect.GeneratedMethodAccessor1325.invoke(Unknown Source)<br/>\nsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)<br/>\njava.lang.reflect.Method.invoke(Method.java:597)<br/>\ncom.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:168)<br/>\ncom.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:67)<br/>\ncom.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:259)<br/>\ncom.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:83)<br/>\ncom.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:133)<br/>\ncom.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:71)<br/>\ncom.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:990)<br/>\ncom.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:941)<br/>\ncom.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:932)<br/>\ncom.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:384)<br/>\ncom.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:451)<br/>\ncom.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:632)<br/>\njavax.servlet.http.HttpServlet.service(HttpServlet.java:717)<br/>\norg.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)<br/>\norg.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)<br/>\norg.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:343)<br/>\norg.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)<br/>\norg.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)<br/>\norg.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)<br/>\norg.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)<br/>\norg.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)<br/>\norg.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:100)<br/>\norg.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)<br/>\norg.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)<br/>\norg.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)<br/>\norg.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)<br/>\norg.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)<br/>\norg.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:35)<br/>\norg.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)<br/>\norg.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilter(BasicAuthenticationFilter.java:177)<br/>\norg.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)<br/>\norg.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)<br/>\norg.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:355)<br/>\norg.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:149)<br/>\norg.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)<br/>\norg.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)<br/>\norg.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)<br/>\norg.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)<br/>\norg.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)<br/>\norg.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)<br/>\norg.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)<br/>\norg.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)<br/>\norg.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)<br/>\norg.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)<br/>\norg.apache.coyote.http11.Http11AprProcessor.process(Http11AprProcessor.java:859)<br/>\norg.apache.coyote.http11.Http11AprProtocol$Http11ConnectionHandler.process(Http11AprProtocol.java:574)<br/>\norg.apache.tomcat.util.net.AprEndpoint$SocketWithOptionsProcessor.run(AprEndpoint.java:1987)<br/>\njava.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)<br/>\njava.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)<br/>\njava.lang.Thread.run(Thread.java:619)</p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "e74e9de0ba6c14995cf71a78ab00cf5a", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_logback-dev\" rel=\"logback-dev\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Logback dev list&quot;,&quot;emailAddress&quot;:&quot;logback-dev@qos.ch&quot;,&quot;username&quot;:&quot;logback-dev&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"logback-dev\" /></span></span>\n            Logback dev list\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_bdarfler\" rel=\"bdarfler\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Benjamin Darfler&quot;,&quot;emailAddress&quot;:&quot;ben@locamoda.com&quot;,&quot;username&quot;:&quot;bdarfler&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"bdarfler\" /></span></span>\n            Benjamin Darfler\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">0</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">0</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "37c222ab6b4458a41caa0edca2fd7ddb", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"30/May/10 3:27 PM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2010-05-30T15:27:02+0200\">30/May/10 3:27 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"12/Jun/12 11:59 AM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2012-06-12T11:59:21+0200\">12/Jun/12 11:59 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-65%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "c17ad635f807ba873f34c31db69b12ad", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "4973294a148a945d13188ec61d1e05c0", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-65/LOGBACK-65.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "9bc1c41d07f863dfda6aa66a014a9c0a", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-65/LOGBACK-65.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "73c4c3393e21c3b042f3f61effc59cd8", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-65/LOGBACK-65.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "1", 
+            "iconUrl": "/images/icons/statuses/open.png", 
+            "description": "The issue is open and ready for the assignee to start work on it.", 
+            "name": "Open"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "82643efb59b452d0691e7289b8c0361c", 
+        "summary": " 3 similar errors Share this error Delete this error Error Message  java.lang.NoClassDefFoundError: ch/qos/logback/core/recovery/RecoveryCoordinator", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-65", 
+        "id": 10781, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-65", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552224913190
+}

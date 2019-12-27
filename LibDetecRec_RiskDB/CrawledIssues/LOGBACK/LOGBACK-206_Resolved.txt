@@ -1,0 +1,221 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|baee9e8ccd482d792079cf83c5c6496726a628ee|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "bf797947d263d862ffb0362b4e6637cd", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11111&amp;avatarType=issuetype\" title=\"New Feature - A new feature of the product, which has yet to be developed.\" width=\"16\" /> New Feature\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Resolved&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.&lt;/span&gt;\">Resolved</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value resolved\" >\n                             Won&#39;t Fix\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-10540-value\">None</span>\n            </div>\n    </div>\n</li>            </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "48d81b8b66a1458149ced1b1c42a9b70", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>Let flushing be a settable policy of WriteAppender. Thus, the user would be able to set the FlushingPolicy of a WriterAppender or any<br/>\nderived class which would allow you to flush the underlying output stream according to any criteria available to the shouldFlush() method<br/>\n(see below), including time.</p>\n\n<p>Here is the relevant interface:</p>\n\n<p>interface FlushingPolicy {<br/>\n   booelan shouldFlush(LoggingEvent e);<br/>\n} </p>\n\n<p>We could easily imagine a policy flushing on every warning or error in addition to special markers. For example,</p>\n\n<p>Marker FLUSH = MarkerFactory.getMarker(\"FLUSH\");<br/>\nlogger.info(FLUSH, \"finished serving request {}\", request.getId()); </p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 400, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "81bc6daed43e5a5ccd10df1ae17f10b6", 
+                "subpanelHtmls": [], 
+                "label": "Issue Links", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:linkingmodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n<div class=\"links-container\" data-default-link-icon=\"/images/icons/generic_link_16.png\">\n                <dl class=\"links-list \">\n            <dt title=\"is duplicated by\">is duplicated by</dt>\n                            <dd id=\"internal-10310_10001\"\n                                                                            >\n                    <div class=\"link-content\">\n                                                    \n\n\n\n<p>\n            <img src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11110&amp;avatarType=issuetype\" width=\"16\" height=\"16\" title=\"Improvement - An improvement or enhancement to an existing feature or task.\" alt=\"Improvement - An improvement or enhancement to an existing feature or task.\" />\n        <span title=\"LOGBACK-271: introduce FlushableAppender\">\n        <a href=\"/browse/LOGBACK-271\" data-issue-key=\"LOGBACK-271\" class=\"issue-link link-title resolution\">LOGBACK-271</a>\n        <span class=\"link-summary\">introduce FlushableAppender</span>\n    </span>\n</p>\n<ul class=\"link-snapshot\">\n        <li class=\"priority\">        <img src=\"/images/icons/priorities/minor.svg\" width=\"16\" height=\"16\" title=\"Minor - Minor loss of function, or other problem where easy workaround is present.\" alt=\"Minor - Minor loss of function, or other problem where easy workaround is present.\" />\n    </li>\n                <li class=\"status\">\n                        <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-short\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Resolved&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.&lt;/span&gt;\">Resolved</span>\n                    </li>\n    </ul>\n                                            </div>\n                                    </dd>\n                    </dl>\n        </div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "linkingmodule"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "e54e7628f218c3a09904a86878d8c2ba", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_ceki\" rel=\"ceki\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Ceki G\u00fclc\u00fc&quot;,&quot;emailAddress&quot;:&quot;ceki+jira@qos.ch&quot;,&quot;username&quot;:&quot;ceki&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"ceki\" /></span></span>\n            Ceki G\u00fclc\u00fc\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_ceki\" rel=\"ceki\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Ceki G\u00fclc\u00fc&quot;,&quot;emailAddress&quot;:&quot;ceki+jira@qos.ch&quot;,&quot;username&quot;:&quot;ceki&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"ceki\" /></span></span>\n            Ceki G\u00fclc\u00fc\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">0</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">0</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "0e395a44c2f972ef7ce0aeb4e4a8651a", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"09/Mar/09 2:51 PM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2009-03-09T14:51:19+0100\">09/Mar/09 2:51 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"12/Jun/12 11:59 AM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2012-06-12T11:59:41+0200\">12/Jun/12 11:59 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Resolved:</dt>\n            <dd class=\"date user-tz\"  title=\"18/Mar/10 6:31 PM\" >\n                <span data-name=\"Resolved\" id=\"resolutiondate-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2010-03-18T18:31:57+0100\">18/Mar/10 6:31 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-206%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "18a4bcb9415925677239e34c3ee08813", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "cbecdcbf3d8b7ef1c2ee27fa10df2254", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-206/LOGBACK-206.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "a0cba91d4beb29bbb60f938a2d40d879", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-206/LOGBACK-206.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "1096ebb1f766bfd12112b8e01f318bab", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-206/LOGBACK-206.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "5", 
+            "iconUrl": "/images/icons/statuses/resolved.png", 
+            "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.", 
+            "name": "Resolved"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "635ef4c3a9bdbefb7e2dbe00dbd9f016", 
+        "summary": "FlushingPolicy", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-206", 
+        "id": 10540, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-206", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552214890138
+}

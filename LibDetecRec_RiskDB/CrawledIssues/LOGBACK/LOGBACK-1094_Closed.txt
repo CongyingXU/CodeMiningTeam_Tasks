@@ -1,0 +1,221 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|98b946e79da62c49333fe2fb6be91e2751dd76de|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "916da79eb25834c24b931e5457ba0892", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11110&amp;avatarType=issuetype\" title=\"Improvement - An improvement or enhancement to an existing feature or task.\" width=\"16\" /> Improvement\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Closed&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.&lt;/span&gt;\">Closed</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value resolved\" >\n                             Fixed\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"versions-field\">\n                                            <span title=\"1.1.3 \">1.1.3</span>                                    </span>\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"fixVersions-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+fixVersion+%3D+1.3.0-alpha1\" title=\"1.3.0-alpha1 \">1.3.0-alpha1</a>                                    </span>\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-classic\" title=\"logback-classic \">logback-classic</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <ul class=\"labels\" id=\"labels-13182-value\">\n                                                                        <li><a class=\"lozenge\" href=\"/issues/?jql=labels+%3D+smtpappender\" title=\"smtpappender\"><span>smtpappender</span></a></li>\n                                                                    </ul>\n    </div>\n    </div>\n</li>            </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "a16fd7353b50d995a69a53910d214557", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>SMTPAppender cannot be used to send mails using an SSL connection with the last two releases of JavaMail (1.5.3 and 1.5.4).</p>\n\n<p>When JavaMail 1.5.3 or 1.5.4 is used, the session isn't correctly built anymore and it results in JavaMail being unable to connect to the server:</p>\n\n<div class=\"code panel\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent\">\n<pre class=\"code-java\">DEBUG: JavaMail version 1.5.4\nDEBUG: successfully loaded resource: /META-INF/javamail.<span class=\"code-keyword\">default</span>.providers\nDEBUG: Tables of loaded providers\nDEBUG: Providers Listed By <span class=\"code-object\">Class</span> Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Oracle], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Oracle], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Oracle], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Oracle], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Oracle]}\nDEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Oracle], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Oracle], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Oracle], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Oracle], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Oracle], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]}\nDEBUG: successfully loaded resource: /META-INF/javamail.<span class=\"code-keyword\">default</span>.address.map\n2015-08-14 14:35:33.104 ERROR   --- [est.Main.main()] fr.romainmoreau.test.Main                : Test\nDEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]\nDEBUG SMTP: need username and password <span class=\"code-keyword\">for</span> authentication\nDEBUG SMTP: useEhlo <span class=\"code-keyword\">true</span>, useAuth <span class=\"code-keyword\">true</span>\nDEBUG SMTP: trying to connect to host <span class=\"code-quote\">\"smtp.gmail.com\"</span>, port 465, isSSL <span class=\"code-keyword\">false</span>\nDEBUG SMTP: EOF: [EOF]\nDEBUG SMTP: could not connect to host <span class=\"code-quote\">\"smtp.gmail.com\"</span>, port: 465, response: -1</pre>\n</div></div> \n\n<p>A reproduction project based on Gmail can be found here: <a href=\"https://github.com/romainmoreau/logback-test/\" class=\"external-link\" rel=\"nofollow\">https://github.com/romainmoreau/logback-test/</a></p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 400, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7e867fd2c5f6734755bfe117ad62ea23", 
+                "subpanelHtmls": [], 
+                "label": "Issue Links", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:linkingmodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n<div class=\"links-container\" data-default-link-icon=\"/images/icons/generic_link_16.png\">\n                <dl class=\"links-list \">\n            <dt title=\"links to\">links to</dt>\n                            <dd id=\"remote-10301\"\n                     data-remote-link-id=\"10301\"                                         class=\"\n                        remote-link                                            \"                >\n                    <div class=\"link-content\">\n                                                \n\n\n\n\n\n\n\n\n\n\n\n\n<p>\n            <img src=\"https://java.net/favicon.ico\" width=\"16\" height=\"16\" title=\"Web Link\" alt=\"Web Link\" />\n        <span title=\"Update to java.mail 1.5.x\">\n        <a href=\"https://java.net/projects/javamail/forums/forum/topics/223631-Exception-sending-email-through-smtp-port-465\" class=\"link-title\">Update to java.mail 1.5.x</a>\n        <span class=\"link-summary\"></span>\n    </span>\n</p>\n<ul class=\"link-snapshot\">\n    </ul>\n                                        </div>\n                                    </dd>\n                    </dl>\n        </div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "linkingmodule"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "2a7106d7371ee2a56e9d78d583ee55df", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_ceki\" rel=\"ceki\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Ceki G\u00fclc\u00fc&quot;,&quot;emailAddress&quot;:&quot;ceki+jira@qos.ch&quot;,&quot;username&quot;:&quot;ceki&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"ceki\" /></span></span>\n            Ceki G\u00fclc\u00fc\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_romainmoreau\" rel=\"romainmoreau\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Romain Moreau&quot;,&quot;emailAddress&quot;:&quot;qos@romainmoreau.fr&quot;,&quot;username&quot;:&quot;romainmoreau&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"romainmoreau\" /></span></span>\n            Romain Moreau\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">0</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">2</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "4d36aa536afd910c293e08b85f16765c", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"14/Aug/15 2:54 PM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2015-08-14T14:54:32+0200\">14/Aug/15 2:54 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"28/Jan/18 10:56 AM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2018-01-28T10:56:13+0100\">28/Jan/18 10:56 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Resolved:</dt>\n            <dd class=\"date user-tz\"  title=\"27/Jan/18 10:15 PM\" >\n                <span data-name=\"Resolved\" id=\"resolutiondate-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2018-01-27T22:15:05+0100\">27/Jan/18 10:15 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-1094%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "cdd23f186f3fd138d07d622652322526", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "b1677952f7a426e8e96b522e6e5b5095", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-1094/LOGBACK-1094.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "c6f46793bfefb652694a67d11162f0b0", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-1094/LOGBACK-1094.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "bdbd06bfdc3399eb506cb75131ff90f5", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-1094/LOGBACK-1094.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "6", 
+            "iconUrl": "/images/icons/statuses/closed.png", 
+            "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.", 
+            "name": "Closed"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "a56d254c2df9767f8556154ddcc7ae79", 
+        "summary": "Add full support of JavaMail 1.5 for SMTPAppender", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-1094", 
+        "id": 13182, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-1094", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552210087228
+}

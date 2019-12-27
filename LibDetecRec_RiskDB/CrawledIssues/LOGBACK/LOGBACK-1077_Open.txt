@@ -1,0 +1,205 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|8132572685530ba920e22dc053251090baf3eefb|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "ad84fef2c1570d8dae363674ea027916", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;\">Open</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value unresolved\" >\n                            Unresolved\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"versions-field\">\n                                            <span title=\"1.1.3 \">1.1.3</span>                                    </span>\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-13098-value\">None</span>\n            </div>\n    </div>\n</li>                                <li class=\"item full-width\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Environment:</strong>\n        <div id=\"environment-val\" class=\"value\">\n                                          <p>Wildfly with logback and janino as a module</p>\n      \n                    </div>\n    </div>\n</li>        </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "4fa0b7ca666d259e4a29b52b3f6f4427", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>I've configured janino with some basic conditions as:<br/>\n&lt;if condition='property(\"portal.envType\").contains(\"dev\")'&gt;<br/>\n\t&lt;then&gt;<br/>\n\t\t&lt;logger name=\"org.hibernate.SQL\" level=\"DEBUG\"/&gt;<br/>\n\t&lt;/then&gt;<br/>\n&lt;/if&gt;<br/>\nBut when running it in wildfly as a module it throws an exception:</p>\n\n<p>22:26:02,962 |-ERROR in ch.qos.logback.core.joran.conditional.IfAction - Failed to parse condition <span class=\"error\">&#91;property(&quot;portal.envType&quot;).contains(&quot;dev&quot;)&#93;</span> org.codehaus.janino.JaninoRuntimeException: Cannot load class 'ch.qos.logback.core.joran.conditional.PropertyWrapperForScripts' through the parent loader<br/>\n\tat org.codehaus.janino.JaninoRuntimeException: Cannot load class 'ch.qos.logback.core.joran.conditional.PropertyWrapperForScripts' through the parent loader<br/>\n\tat \tat org.codehaus.janino.SimpleCompiler$1.getDelegate(SimpleCompiler.java:306)<br/>\n\tat \tat org.codehaus.janino.SimpleCompiler$1.accept(SimpleCompiler.java:291)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.getType(UnitCompiler.java:5159)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.access$16700(UnitCompiler.java:185)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler$29.getSuperclass2(UnitCompiler.java:8154)<br/>\n\tat \tat org.codehaus.janino.IClass.getSuperclass(IClass.java:406)<br/>\n\tat \tat org.codehaus.janino.IClass.getIMethods(IClass.java:223)<br/>\n\tat \tat org.codehaus.janino.IClass.getIMethods(IClass.java:199)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.compile2(UnitCompiler.java:409)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.compile2(UnitCompiler.java:393)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.access$400(UnitCompiler.java:185)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler$2.visitPackageMemberClassDeclaration(UnitCompiler.java:347)<br/>\n\tat \tat org.codehaus.janino.Java$PackageMemberClassDeclaration.accept(Java.java:1139)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.compile(UnitCompiler.java:354)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.compileUnit(UnitCompiler.java:322)<br/>\n\tat \tat org.codehaus.janino.SimpleCompiler.compileToClassLoader(SimpleCompiler.java:383)<br/>\n\tat \tat org.codehaus.janino.ClassBodyEvaluator.compileToClass(ClassBodyEvaluator.java:315)<br/>\n\tat \tat org.codehaus.janino.ClassBodyEvaluator.cook(ClassBodyEvaluator.java:233)<br/>\n\tat \tat org.codehaus.janino.SimpleCompiler.cook(SimpleCompiler.java:192)<br/>\n\tat \tat org.codehaus.commons.compiler.Cookable.cook(Cookable.java:84)<br/>\n\tat \tat org.codehaus.commons.compiler.Cookable.cook(Cookable.java:77)<br/>\n\tat \tat ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(PropertyEvalScriptBuilder.java:54)<br/>\n\tat \tat ch.qos.logback.core.joran.conditional.IfAction.begin(IfAction.java:67)<br/>\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.callBeginAction(Interpreter.java:275)<br/>\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:147)<br/>\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:129)<br/>\n\tat \tat ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:50)<br/>\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:149)<br/>\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:135)<br/>\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:99)<br/>\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:49)<br/>\n\tat \tat ch.qos.logback.classic.util.ContextInitializer.configureByResource(ContextInitializer.java:77)<br/>\n\tat \tat me.janario.logback.deployment.LogbackContextSelector.lambda$getLoggerContext$1(LogbackContextSelector.java:81)<br/>\n\tat \tat me.janario.logback.deployment.LogbackContextSelector$$Lambda$1/1291367132.apply(Unknown Source)<br/>\n\tat \tat java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)<br/>\n\tat \tat me.janario.logback.deployment.LogbackContextSelector.getLoggerContext(LogbackContextSelector.java:65)<br/>\n\tat \tat org.slf4j.impl.StaticLoggerBinder.getLoggerFactory(StaticLoggerBinder.java:111)<br/>\n\tat \tat org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:315)<br/>\n\tat \tat org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:277)<br/>\n\tat \tat org.jboss.logging.Slf4jLoggerProvider.getLogger(Slf4jLoggerProvider.java:29)<br/>\n\tat \tat org.jboss.logging.Logger.getLogger(Logger.java:2163)<br/>\n\tat \tat org.jboss.logging.Logger$1.run(Logger.java:2263)<br/>\n\tat \tat java.security.AccessController.doPrivileged(Native Method)<br/>\n\tat \tat org.jboss.logging.Logger.getMessageLogger(Logger.java:2227)<br/>\n\tat \tat org.jboss.logging.Logger.getMessageLogger(Logger.java:2214)<br/>\n\tat \tat org.hibernate.validator.internal.util.logging.LoggerFactory.make(LoggerFactory.java:29)<br/>\n\tat \tat org.hibernate.validator.internal.cdi.ValidationExtension.&lt;clinit&gt;(ValidationExtension.java:87)<br/>\n\tat \tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>\n\tat \tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br/>\n\tat \tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br/>\n\tat \tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)<br/>\n\tat \tat java.lang.Class.newInstance(Class.java:442)<br/>\n\tat \tat org.jboss.as.weld.deployment.WeldPortableExtensions.tryRegisterExtension(WeldPortableExtensions.java:54)<br/>\n\tat \tat org.jboss.as.weld.deployment.processors.WeldPortableExtensionProcessor.loadAttachments(WeldPortableExtensionProcessor.java:121)<br/>\n\tat \tat org.jboss.as.weld.deployment.processors.WeldPortableExtensionProcessor.deploy(WeldPortableExtensionProcessor.java:81)<br/>\n\tat \tat org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159)<br/>\n\tat \tat org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)<br/>\n\tat \tat org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)<br/>\n\tat \tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br/>\n\tat \tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br/>\n\tat \tat java.lang.Thread.run(Thread.java:745)<br/>\n22:26:02,962 |-ERROR in ch.qos.logback.core.joran.conditional.IfAction - Failed to determine \"if then else\" result<br/>\n22:26:02,962 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO<br/>\n22:26:02,962 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named <span class=\"error\">&#91;ASYNC_FILE&#93;</span> to Logger<span class=\"error\">&#91;ROOT&#93;</span><br/>\n22:26:02,964 |-ERROR in ch.qos.logback.core.joran.conditional.IfAction - Failed to parse condition <span class=\"error\">&#91;property(&quot;portal.envType&quot;).contains(&quot;dev&quot;)&#93;</span> org.codehaus.janino.JaninoRuntimeException: Cannot load class 'ch.qos.logback.core.joran.conditional.PropertyWrapperForScripts' through the parent loader<br/>\n\tat org.codehaus.janino.JaninoRuntimeException: Cannot load class 'ch.qos.logback.core.joran.conditional.PropertyWrapperForScripts' through the parent loader<br/>\n\tat \tat org.codehaus.janino.SimpleCompiler$1.getDelegate(SimpleCompiler.java:306)<br/>\n\tat \tat org.codehaus.janino.SimpleCompiler$1.accept(SimpleCompiler.java:291)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.getType(UnitCompiler.java:5159)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.access$16700(UnitCompiler.java:185)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler$29.getSuperclass2(UnitCompiler.java:8154)<br/>\n\tat \tat org.codehaus.janino.IClass.getSuperclass(IClass.java:406)<br/>\n\tat \tat org.codehaus.janino.IClass.getIMethods(IClass.java:223)<br/>\n\tat \tat org.codehaus.janino.IClass.getIMethods(IClass.java:199)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.compile2(UnitCompiler.java:409)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.compile2(UnitCompiler.java:393)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.access$400(UnitCompiler.java:185)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler$2.visitPackageMemberClassDeclaration(UnitCompiler.java:347)<br/>\n\tat \tat org.codehaus.janino.Java$PackageMemberClassDeclaration.accept(Java.java:1139)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.compile(UnitCompiler.java:354)<br/>\n\tat \tat org.codehaus.janino.UnitCompiler.compileUnit(UnitCompiler.java:322)<br/>\n\tat \tat org.codehaus.janino.SimpleCompiler.compileToClassLoader(SimpleCompiler.java:383)<br/>\n\tat \tat org.codehaus.janino.ClassBodyEvaluator.compileToClass(ClassBodyEvaluator.java:315)<br/>\n\tat \tat org.codehaus.janino.ClassBodyEvaluator.cook(ClassBodyEvaluator.java:233)<br/>\n\tat \tat org.codehaus.janino.SimpleCompiler.cook(SimpleCompiler.java:192)<br/>\n\tat \tat org.codehaus.commons.compiler.Cookable.cook(Cookable.java:84)<br/>\n\tat \tat org.codehaus.commons.compiler.Cookable.cook(Cookable.java:77)<br/>\n\tat \tat ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(PropertyEvalScriptBuilder.java:54)<br/>\n\tat \tat ch.qos.logback.core.joran.conditional.IfAction.begin(IfAction.java:67)<br/>\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.callBeginAction(Interpreter.java:275)<br/>\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:147)<br/>\n\tat \tat ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:129)<br/>\n\tat \tat ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:50)<br/>\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:149)<br/>\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:135)<br/>\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:99)<br/>\n\tat \tat ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:49)<br/>\n\tat \tat ch.qos.logback.classic.util.ContextInitializer.configureByResource(ContextInitializer.java:77)<br/>\n\tat \tat me.janario.logback.deployment.LogbackContextSelector.lambda$getLoggerContext$1(LogbackContextSelector.java:81)<br/>\n\tat \tat me.janario.logback.deployment.LogbackContextSelector$$Lambda$1/1291367132.apply(Unknown Source)<br/>\n\tat \tat java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)<br/>\n\tat \tat me.janario.logback.deployment.LogbackContextSelector.getLoggerContext(LogbackContextSelector.java:65)<br/>\n\tat \tat org.slf4j.impl.StaticLoggerBinder.getLoggerFactory(StaticLoggerBinder.java:111)<br/>\n\tat \tat org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:315)<br/>\n\tat \tat org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:277)<br/>\n\tat \tat org.jboss.logging.Slf4jLoggerProvider.getLogger(Slf4jLoggerProvider.java:29)<br/>\n\tat \tat org.jboss.logging.Logger.getLogger(Logger.java:2163)<br/>\n\tat \tat org.jboss.logging.Logger$1.run(Logger.java:2263)<br/>\n\tat \tat java.security.AccessController.doPrivileged(Native Method)<br/>\n\tat \tat org.jboss.logging.Logger.getMessageLogger(Logger.java:2227)<br/>\n\tat \tat org.jboss.logging.Logger.getMessageLogger(Logger.java:2214)<br/>\n\tat \tat org.hibernate.validator.internal.util.logging.LoggerFactory.make(LoggerFactory.java:29)<br/>\n\tat \tat org.hibernate.validator.internal.cdi.ValidationExtension.&lt;clinit&gt;(ValidationExtension.java:87)<br/>\n\tat \tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>\n\tat \tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br/>\n\tat \tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br/>\n\tat \tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)<br/>\n\tat \tat java.lang.Class.newInstance(Class.java:442)<br/>\n\tat \tat org.jboss.as.weld.deployment.WeldPortableExtensions.tryRegisterExtension(WeldPortableExtensions.java:54)<br/>\n\tat \tat org.jboss.as.weld.deployment.processors.WeldPortableExtensionProcessor.loadAttachments(WeldPortableExtensionProcessor.java:121)<br/>\n\tat \tat org.jboss.as.weld.deployment.processors.WeldPortableExtensionProcessor.deploy(WeldPortableExtensionProcessor.java:81)<br/>\n\tat \tat org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:159)<br/>\n\tat \tat org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)<br/>\n\tat \tat org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)<br/>\n\tat \tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)<br/>\n\tat \tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)<br/>\n\tat \tat java.lang.Thread.run(Thread.java:745)<br/>\n22:26:02,964 |-ERROR in ch.qos.logback.core.joran.conditional.IfAction - Failed to determine \"if then else\" result<br/>\n22:26:02,964 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.</p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "0ca897945eb0646dbf65d00c9c3c6756", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_logback-dev\" rel=\"logback-dev\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Logback dev list&quot;,&quot;emailAddress&quot;:&quot;logback-dev@qos.ch&quot;,&quot;username&quot;:&quot;logback-dev&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"logback-dev\" /></span></span>\n            Logback dev list\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_janario\" rel=\"janario\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Janario Oliveira&quot;,&quot;emailAddress&quot;:&quot;janarioliver@gmail.com&quot;,&quot;username&quot;:&quot;janario&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"janario\" /></span></span>\n            Janario Oliveira\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">1</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">1</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "06e5110e0a4774d194b0b336a49a5a34", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"12/Jun/15 3:29 AM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2015-06-12T03:29:47+0200\">12/Jun/15 3:29 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"12/Jun/15 3:37 AM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2015-06-12T03:37:31+0200\">12/Jun/15 3:37 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-1077%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "a17114b4dc894662103cc8769fd63f8d", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "d3afe6862509ddc16ff4e8314fc1e720", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-1077/LOGBACK-1077.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "f6158559fa9db8d2d085cdaab7cb3c61", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-1077/LOGBACK-1077.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "f4b84cbe4eb9596a4f14cca607ed71fd", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-1077/LOGBACK-1077.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "1", 
+            "iconUrl": "/images/icons/statuses/open.png", 
+            "description": "The issue is open and ready for the assignee to start work on it.", 
+            "name": "Open"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "e45505c325c65b2962bc186835c94048", 
+        "summary": "Conditional log with janino doesn't work on WildFly as a module", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-1077", 
+        "id": 13098, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-1077", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552210130484
+}

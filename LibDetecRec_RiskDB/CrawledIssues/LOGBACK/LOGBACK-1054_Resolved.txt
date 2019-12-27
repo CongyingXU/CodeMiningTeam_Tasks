@@ -1,0 +1,205 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|ac830eb81f1eb3651b09295715999d785c2effb1|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "84e384efededc1875b6c3d08a58250cd", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Resolved&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.&lt;/span&gt;\">Resolved</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value resolved\" >\n                             Fixed\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"versions-field\">\n                                            <span title=\"1.1.2 \">1.1.2</span>                                    </span>\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"fixVersions-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+fixVersion+%3D+1.1.6\" title=\"1.1.6 \">1.1.6</a>                                    </span>\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-classic\" title=\"logback-classic \">logback-classic</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <ul class=\"labels\" id=\"labels-12011-value\">\n                                                                        <li><a class=\"lozenge\" href=\"/issues/?jql=labels+%3D+logging\" title=\"logging\"><span>logging</span></a></li>\n                                                                                                            <li><a class=\"lozenge\" href=\"/issues/?jql=labels+%3D+rollingFileappender\" title=\"rollingFileappender\"><span>rollingFileappender</span></a></li>\n                                                                    </ul>\n    </div>\n    </div>\n</li>            </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7bcedf042a2ac63a32b48cbc2260e0be", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>Having this logback configuration: </p>\n\n<div class=\"code panel\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent\">\n<pre class=\"code-java\">&lt;?xml version=<span class=\"code-quote\">\"1.0\"</span> encoding=<span class=\"code-quote\">\"UTF-8\"</span>?&gt; \n&lt;configuration debug=<span class=\"code-quote\">\"<span class=\"code-keyword\">true</span>\"</span> scan=<span class=\"code-quote\">\"<span class=\"code-keyword\">true</span>\"</span> scanPeriod=<span class=\"code-quote\">\"60 minutes\"</span>&gt;\n    &lt;appender name=<span class=\"code-quote\">\"LOGOUTPUT\"</span> class=<span class=\"code-quote\">\"ch.qos.logback.core.rolling.RollingFileAppender\"</span>&gt;\n        &lt;file&gt;${catalina.base}/logs/gateway_api.log&lt;/file&gt;\n        &lt;encoder&gt;\n            &lt;pattern&gt;%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n&lt;/pattern&gt;\n        &lt;/encoder&gt;\n        &lt;rollingPolicy class=<span class=\"code-quote\">\"ch.qos.logback.core.rolling.TimeBasedRollingPolicy\"</span>&gt;\n            &lt;FileNamePattern&gt;logFile.%d{yyyy-MM-dd}.log&lt;/FileNamePattern&gt;\n        &lt;/rollingPolicy&gt;\n    &lt;/appender&gt;\n\n    &lt;appender name=<span class=\"code-quote\">\"STDOUTPUT\"</span> class=<span class=\"code-quote\">\"ch.qos.logback.core.ConsoleAppender\"</span>&gt;\n        &lt;encoder&gt;\n            &lt;pattern&gt;%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n&lt;/pattern&gt;\n        &lt;/encoder&gt;\n    &lt;/appender&gt;\n\n    &lt;logger name=<span class=\"code-quote\">\"com.groupgti\"</span> level=<span class=\"code-quote\">\"DEBUG\"</span>/&gt;\n    &lt;logger name=<span class=\"code-quote\">\"org.springframework\"</span> level=<span class=\"code-quote\">\"INFO\"</span>/&gt;\n    &lt;logger name=<span class=\"code-quote\">\"org.apache.cxf\"</span> level=<span class=\"code-quote\">\"INFO\"</span>/&gt;\n    &lt;root level=<span class=\"code-quote\">\"WARN\"</span>&gt;\n        &lt;appender-ref ref=<span class=\"code-quote\">\"LOGOUTPUT\"</span>/&gt;\n    &lt;/root&gt;\n&lt;/configuration&gt;\n</pre>\n</div></div>\n<p>And these dependencies in classpath: </p>\n<div class=\"code panel\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent\">\n<pre class=\"code-java\">        &lt;dependency&gt;\n            &lt;groupId&gt;org.slf4j&lt;/groupId&gt;\n            &lt;artifactId&gt;slf4j-api&lt;/artifactId&gt;\n            &lt;version&gt;1.7.10&lt;/version&gt;\n            &lt;scope&gt;compile&lt;/scope&gt;\n        &lt;/dependency&gt;\n        &lt;dependency&gt;\n            &lt;groupId&gt;org.slf4j&lt;/groupId&gt;\n            &lt;artifactId&gt;jcl-over-slf4j&lt;/artifactId&gt;\n            &lt;version&gt;1.7.10&lt;/version&gt;\n            &lt;scope&gt;compile&lt;/scope&gt;\n        &lt;/dependency&gt;\n        &lt;dependency&gt;\n            &lt;groupId&gt;ch.qos.logback&lt;/groupId&gt;\n            &lt;artifactId&gt;logback-classic&lt;/artifactId&gt;\n            &lt;version&gt;1.1.2&lt;/version&gt;\n            &lt;scope&gt;compile&lt;/scope&gt;\n        &lt;/dependency&gt;\n</pre>\n</div></div>\n\n<p>Getting a lot of these exceptions in log files. </p>\n\n<div class=\"code panel\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent\">\n<pre class=\"code-java\">08:55:58,884 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Elapsed period: Wed Feb 25 08:55:45 GMT 2015 \n08:55:58,889 |-INFO in c.q.l.co.rolling.helper.RenameUtil - Renaming file [/usr/share/apache-tomcat-8.0.18/logs/saml.log] to [logFile.2015-02-25.log] \n08:55:58,891 |-WARN in c.q.l.co.rolling.helper.RenameUtil - Failed to rename file [/usr/share/apache-tomcat-8.0.18/logs/saml.log] as [logFile.2015-02-25.log]. \n08:55:58,892 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[LOGOUTPUT] - Appender [LOGOUTPUT] failed to append. java.lang.NullPointerException \n        at java.lang.NullPointerException \n        at at ch.qos.logback.core.rolling.helper.FileStoreUtil.areOnSameFileStore(FileStoreUtil.java:44) \n        at at ch.qos.logback.core.rolling.helper.RenameUtil.areOnDifferentVolumes(RenameUtil.java:97) \n        at at ch.qos.logback.core.rolling.helper.RenameUtil.rename(RenameUtil.java:67) \n        at at ch.qos.logback.core.rolling.TimeBasedRollingPolicy.rollover(TimeBasedRollingPolicy.java:153) \n        at at ch.qos.logback.core.rolling.RollingFileAppender.attemptRollover(RollingFileAppender.java:158) \n        at at ch.qos.logback.core.rolling.RollingFileAppender.rollover(RollingFileAppender.java:137) \n        at at ch.qos.logback.core.rolling.RollingFileAppender.subAppend(RollingFileAppender.java:178) \n        at at ch.qos.logback.core.OutputStreamAppender.append(OutputStreamAppender.java:103) \n        at at ch.qos.logback.core.UnsynchronizedAppenderBase.doAppend(UnsynchronizedAppenderBase.java:88) \n        at at ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:48) \n        at at ch.qos.logback.classic.Logger.appendLoopOnAppenders(Logger.java:273) \n        at at ch.qos.logback.classic.Logger.callAppenders(Logger.java:260) \n        at at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:442) \n        at at ch.qos.logback.classic.Logger.filterAndLog_1(Logger.java:414) \n        at at ch.qos.logback.classic.Logger.debug(Logger.java:507) \n        at at com.groupgti.saml.handler.AssertionHandler.purgeRecords(AssertionHandler.java:95) \n        at at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) \n        at at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) \n        at at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) \n        at at java.lang.reflect.Method.invoke(Method.java:483) \n        at at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) \n        at at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) \n        at at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) \n        at at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) \n        at at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) \n        at at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) \n        at at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) \n        at at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) \n        at at java.lang.<span class=\"code-object\">Thread</span>.run(<span class=\"code-object\">Thread</span>.java:745) \n08:55:58,944 |-ERROR in c.q.l.c.recovery.ResilientFileOutputStream@1011140840 - IO failure <span class=\"code-keyword\">while</span> writing to file [/usr/share/apache-tomcat-8.0.18/logs/saml.log] java.io.IOException: Stream Closed \n        at java.io.IOException: Stream Closed \n        at at java.io.FileOutputStream.writeBytes(Native Method) \n        at at java.io.FileOutputStream.write(FileOutputStream.java:315) \n        at at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82) \n        at at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140) \n        at at ch.qos.logback.core.recovery.ResilientOutputStreamBase.flush(ResilientOutputStreamBase.java:79) \n        at at ch.qos.logback.core.encoder.LayoutWrappingEncoder.doEncode(LayoutWrappingEncoder.java:137) \n        at at ch.qos.logback.core.OutputStreamAppender.writeOut(OutputStreamAppender.java:194) \n        at at ch.qos.logback.core.FileAppender.writeOut(FileAppender.java:209) \n        at at ch.qos.logback.core.OutputStreamAppender.subAppend(OutputStreamAppender.java:219) \n        at at ch.qos.logback.core.rolling.RollingFileAppender.subAppend(RollingFileAppender.java:182) \n        at at ch.qos.logback.core.OutputStreamAppender.append(OutputStreamAppender.java:103) \n        at at ch.qos.logback.core.UnsynchronizedAppenderBase.doAppend(UnsynchronizedAppenderBase.java:88) \n        at at ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:48) \n        at at ch.qos.logback.classic.Logger.appendLoopOnAppenders(Logger.java:273) \n        at at ch.qos.logback.classic.Logger.callAppenders(Logger.java:260) \n        at at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:442) \n        at at ch.qos.logback.classic.Logger.filterAndLog_1(Logger.java:414) \n        at at ch.qos.logback.classic.Logger.error(Logger.java:547) \n        at at com.groupgti.saml.handler.AssertionHandler.purgeRecords(AssertionHandler.java:103) \n        at at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) \n        at at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) \n        at at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) \n        at at java.lang.reflect.Method.invoke(Method.java:483) \n        at at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65) \n        at at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) \n        at at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) \n        at at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) \n        at at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) \n        at at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) \n        at at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) \n        at at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) \n        at at java.lang.<span class=\"code-object\">Thread</span>.run(<span class=\"code-object\">Thread</span>.java:745) \n10:07:37,098 |-INFO in c.q.l.c.recovery.ResilientFileOutputStream@1011140840 - Attempting to recover from IO failure on file [/usr/share/apache-tomcat-8.0.18/logs/saml.log] \n10:07:37,099 |-INFO in c.q.l.c.recovery.ResilientFileOutputStream@1011140840 - Recovered from IO failure on file [/usr/share/apache-tomcat-8.0.18/logs/saml.log] \n08:55:58,946 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Elapsed period: Thu Feb 26 08:55:58 GMT 2015 \n08:55:58,947 |-INFO in c.q.l.co.rolling.helper.RenameUtil - Renaming file [/usr/share/apache-tomcat-8.0.18/logs/saml.log] to [logFile.2015-02-26.log] \n08:55:58,947 |-WARN in c.q.l.co.rolling.helper.RenameUtil - Failed to rename file [/usr/share/apache-tomcat-8.0.18/logs/saml.log] as [logFile.2015-02-26.log]. \n08:55:58,947 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[LOGOUTPUT] - Appender [LOGOUTPUT] failed to append. java.lang.NullPointerException \n</pre>\n</div></div>\n\n<p>I have been adviced to raise a bug. Reference in a mailing list:</p>\n\n<p><a href=\"http://logback.10977.n7.nabble.com/java-lang-NullPointerException-from-RollingFileAppender-td14082.html#a14087\" class=\"external-link\" rel=\"nofollow\">http://logback.10977.n7.nabble.com/java-lang-NullPointerException-from-RollingFileAppender-td14082.html#a14087</a></p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7665389078792bd81ee8b4584d19721e", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_ceki\" rel=\"ceki\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Ceki G\u00fclc\u00fc&quot;,&quot;emailAddress&quot;:&quot;ceki+jira@qos.ch&quot;,&quot;username&quot;:&quot;ceki&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"ceki\" /></span></span>\n            Ceki G\u00fclc\u00fc\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_pmatulionis\" rel=\"pmatulionis\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Paulius Matulionis&quot;,&quot;emailAddress&quot;:&quot;p.matulionis@gmail.com&quot;,&quot;username&quot;:&quot;pmatulionis&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"pmatulionis\" /></span></span>\n            Paulius Matulionis\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">2</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">5</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "18a6a7900f30aa237e2810505163d876", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"05/Mar/15 11:56 AM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2015-03-05T11:56:08+0100\">05/Mar/15 11:56 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"27/Feb/16 6:41 PM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2016-02-27T18:41:04+0100\">27/Feb/16 6:41 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Resolved:</dt>\n            <dd class=\"date user-tz\"  title=\"27/Feb/16 6:41 PM\" >\n                <span data-name=\"Resolved\" id=\"resolutiondate-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2016-02-27T18:41:04+0100\">27/Feb/16 6:41 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-1054%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "867406c96efe6fd33f3637f1168a1e77", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "b91ea42811afdc5a2f62b9975c211fc7", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-1054/LOGBACK-1054.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "33a1acb4e5db4211430bd1d6914fb1c1", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-1054/LOGBACK-1054.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "2789f535e25df72c6848b4a8086c67c4", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-1054/LOGBACK-1054.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "5", 
+            "iconUrl": "/images/icons/statuses/resolved.png", 
+            "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.", 
+            "name": "Resolved"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "e7950770fcecbd43b07aa24f24aea239", 
+        "summary": "NullPointerException from RollingFileAppender", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-1054", 
+        "id": 12011, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-1054", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552210185575
+}

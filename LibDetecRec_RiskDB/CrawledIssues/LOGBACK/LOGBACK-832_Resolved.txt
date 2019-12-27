@@ -1,0 +1,205 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|85e2d99c071c3bd1e75d8655170820fe9a375c2e|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "e3c0db0de84f97b03465e12a843c386d", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Resolved&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.&lt;/span&gt;\">Resolved</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value resolved\" >\n                             Fixed\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"fixVersions-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+fixVersion+%3D+1.1.0\" title=\"1.1.0 \">1.1.0</a>                                    </span>\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-11581-value\">None</span>\n            </div>\n    </div>\n</li>            </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "18cf3565275a17530f8a68673d4eb882", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>Hello, I have a logback configuration like this:</p>\n\n<div class=\"code panel\" style=\"border-width: 1px;\"><div class=\"codeContent panelContent\">\n<pre class=\"code-java\">    &lt;<span class=\"code-keyword\">if</span> condition='property(<span class=\"code-quote\">\"CONTEXT_NAME\"</span>).equalsIgnoreCase(<span class=\"code-quote\">\"my.propject.name\"</span>)'&gt;\n        &lt;then&gt;\n            &lt;property name=<span class=\"code-quote\">\"logentries.token\"</span> value=<span class=\"code-quote\">\"my-token\"</span> /&gt;\n            &lt;property name=<span class=\"code-quote\">\"appender\"</span> value=<span class=\"code-quote\">\"logentries\"</span> /&gt; \n        &lt;/then&gt;\n    &lt;/<span class=\"code-keyword\">if</span>&gt;\n</pre>\n</div></div>\n\n<p>This works fine when loaded via Tomcat or run through a test, but when run through an axis2 aar, I get this exception:</p>\n\n<blockquote>\n<p>00:31:58,704 |-ERROR in ch.qos.logback.core.joran.conditional.IfAction - Failed to parse condition <span class=\"error\">&#91;property(&quot;CONTEXT_NAME&quot;).equalsIgnoreCase(&quot;inovacel.server&quot;)&#93;</span> org.codehaus.janino.JaninoRuntimeException: Cannot load class \"ch.qos.logback.core.spi.PropertyContainer\" through the given ClassLoader<br/>\n        at org.codehaus.janino.JaninoRuntimeException: Cannot load class \"ch.qos.logback.core.spi.PropertyContainer\" through the given ClassLoader<br/>\n        at      at org.codehaus.janino.ReflectionIClass.classToIClass(ReflectionIClass.java:310)<br/>\n        at      at org.codehaus.janino.ReflectionIClass.classesToIClasses(ReflectionIClass.java:320)<br/>\n        at      at org.codehaus.janino.ReflectionIClass.access$200(ReflectionIClass.java:38)<br/>\n        at      at org.codehaus.janino.ReflectionIClass$ReflectionIMethod.getParameterTypes(ReflectionIClass.java:226)<br/>\n        at      at org.codehaus.janino.IClass$IMethod.getDescriptor(IClass.java:807)<br/>\n        at      at org.codehaus.janino.IClass.getIMethods(IClass.java:180)<br/>\n        at      at org.codehaus.janino.IClass.getIMethods(IClass.java:195)<br/>\n        at      at org.codehaus.janino.IClass.getIMethods(IClass.java:170)<br/>\n        at      at org.codehaus.janino.UnitCompiler.compile2(UnitCompiler.java:372)<br/>\n        at      at org.codehaus.janino.UnitCompiler.compile2(UnitCompiler.java:357)<br/>\n        at      at org.codehaus.janino.UnitCompiler$3.visitPackageMemberClassDeclaration(UnitCompiler.java:312)<br/>\n        at      at org.codehaus.janino.Java$PackageMemberClassDeclaration.accept(Java.java:770)<br/>\n        at      at org.codehaus.janino.UnitCompiler.compile(UnitCompiler.java:319)<br/>\n        at      at org.codehaus.janino.UnitCompiler.compileUnit(UnitCompiler.java:288)<br/>\n        at      at org.codehaus.janino.SimpleCompiler.compileToClassLoader(SimpleCompiler.java:393)<br/>\n        at      at org.codehaus.janino.ClassBodyEvaluator.compileToClass(ClassBodyEvaluator.java:311)<br/>\n        at      at org.codehaus.janino.ClassBodyEvaluator.cook(ClassBodyEvaluator.java:224)<br/>\n        at      at org.codehaus.janino.SimpleCompiler.cook(SimpleCompiler.java:194)<br/>\n        at      at org.codehaus.commons.compiler.Cookable.cook(Cookable.java:80)<br/>\n        at      at org.codehaus.commons.compiler.Cookable.cook(Cookable.java:72)<br/>\n        at      at ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(PropertyEvalScriptBuilder.java:50)<br/>\n        at      at ch.qos.logback.core.joran.conditional.IfAction.begin(IfAction.java:67)<br/>\n        at      at ch.qos.logback.core.joran.spi.Interpreter.callBeginAction(Interpreter.java:276)<br/>\n        at      at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:148)<br/>\n        at      at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:130)<br/>\n        at      at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:50)<br/>\n        at      at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:157)<br/>\n        at      at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:143)<br/>\n        at      at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:106)<br/>\n        at      at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:56)<br/>\n        at      at ch.qos.logback.classic.util.ContextInitializer.configureByResource(ContextInitializer.java:75)<br/>\n        at      at ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:148)<br/>\n        at      at org.slf4j.impl.StaticLoggerBinder.init(StaticLoggerBinder.java:85)<br/>\n        at      at org.slf4j.impl.StaticLoggerBinder.&lt;clinit&gt;(StaticLoggerBinder.java:55)<br/>\n        at      at org.slf4j.LoggerFactory.bind(LoggerFactory.java:128)<br/>\n        at      at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:107)<br/>\n        at      at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:295)<br/>\n        at      at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:269)<br/>\n        at      at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:281)<br/>\n        at      at com.assuredlabor.inovacel.server.SpringInit.&lt;clinit&gt;(SpringInit.java)<br/>\n        at      at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br/>\n        at      at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)<br/>\n        at      at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)<br/>\n        at      at java.lang.reflect.Constructor.newInstance(Constructor.java:513)<br/>\n        at      at java.lang.Class.newInstance0(Class.java:355)<br/>\n        at      at java.lang.Class.newInstance(Class.java:308)<br/>\n        at      at org.apache.axis2.deployment.ServiceBuilder.loadServiceLifeCycleClass(ServiceBuilder.java:518)<br/>\n        at      at org.apache.axis2.deployment.ServiceBuilder.populateService(ServiceBuilder.java:213)<br/>\n        at      at org.apache.axis2.deployment.ServiceGroupBuilder.populateServiceGroup(ServiceGroupBuilder.java:101)<br/>\n        at      at org.apache.axis2.deployment.repository.util.ArchiveReader.buildServiceGroup(ArchiveReader.java:109)<br/>\n        at      at org.apache.axis2.deployment.repository.util.ArchiveReader.processServiceGroup(ArchiveReader.java:143)<br/>\n        at      at org.apache.axis2.deployment.ServiceDeployer.deploy(ServiceDeployer.java:82)<br/>\n        at      at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136)<br/>\n        at      at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:813)<br/>\n        at      at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:144)<br/>\n        at      at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:377)<br/>\n        at      at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:254)<br/>\n        at      at org.apache.axis2.deployment.DeploymentEngine.loadServices(DeploymentEngine.java:142)<br/>\n        at      at org.apache.axis2.deployment.WarBasedAxisConfigurator.loadServices(WarBasedAxisConfigurator.java:283)<br/>\n        at      at org.apache.axis2.context.ConfigurationContextFactory.createConfigurationContext(ConfigurationContextFactory.java:95)<br/>\n        at      at org.apache.axis2.transport.http.AxisServlet.initConfigContext(AxisServlet.java:584)<br/>\n        at      at org.apache.axis2.transport.http.AxisServlet.init(AxisServlet.java:454)<br/>\n        at      at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)<br/>\n        at      at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)<br/>\n        at      at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)<br/>\n        at      at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5033)<br/>\n        at      at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5317)<br/>\n        at      at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)<br/>\n        at      at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)<br/>\n        at      at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)<br/>\n        at      at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)<br/>\n        at      at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:977)<br/>\n        at      at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1655)<br/>\n        at      at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)<br/>\n        at      at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)<br/>\n        at      at java.util.concurrent.FutureTask.run(FutureTask.java:138)<br/>\n        at      at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)<br/>\n        at      at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)<br/>\n        at      at java.lang.Thread.run(Thread.java:662)</p></blockquote>\n\n<p>I realize this is probably an esoteric problem, but I wanted to report it. Please let me know if you know of any work around. I tried moving all the logback, slf4j, and janino, etc jars into tomcat, and the error went away, but logging did not seem to work for my axis2 aar file. (Other webapps were logging fine in that situation.)</p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "abe4f8687b7f9117c19a40f76eed1adc", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_tony19\" rel=\"tony19\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Tony Trinh&quot;,&quot;emailAddress&quot;:&quot;tony19@gmail.com&quot;,&quot;username&quot;:&quot;tony19&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"tony19\" /></span></span>\n            Tony Trinh\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_josh@assuredlabor.com\" rel=\"josh@assuredlabor.com\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Joshua Chaitin-Pollak&quot;,&quot;emailAddress&quot;:&quot;josh@assuredlabor.com&quot;,&quot;username&quot;:&quot;josh@assuredlabor.com&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"josh@assuredlabor.com\" /></span></span>\n            Joshua Chaitin-Pollak\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">1</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">5</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "ad902e1120769bfdc156e222691a681f", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"10/Apr/13 2:39 AM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2013-04-10T02:39:03+0200\">10/Apr/13 2:39 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"12/Nov/13 8:01 PM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2013-11-12T20:01:46+0100\">12/Nov/13 8:01 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Resolved:</dt>\n            <dd class=\"date user-tz\"  title=\"19/Sep/13 3:15 AM\" >\n                <span data-name=\"Resolved\" id=\"resolutiondate-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2013-09-19T03:15:06+0200\">19/Sep/13 3:15 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-832%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "9d5b7ce30d6d788e117e169e79a7bd0f", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "f8231d70924f38c494347c84277ae55b", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-832/LOGBACK-832.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "08009e5fa2a645e11789f1b5c72ba21b", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-832/LOGBACK-832.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "c94dcbbc62c9e7e3ffbafa3ae058e990", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-832/LOGBACK-832.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "5", 
+            "iconUrl": "/images/icons/statuses/resolved.png", 
+            "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.", 
+            "name": "Resolved"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "d232ff9f5203715e79ade4c052ea2a00", 
+        "summary": "logback conditional configuration fails when loaded within axis2", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-832", 
+        "id": 11581, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-832", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552211674201
+}

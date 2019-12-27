@@ -1,0 +1,205 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|8d9852a2f49c565869265807c6750747dd28dcf7|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "71b6f249cada13f50e4578915eb5927c", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;\">Open</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value unresolved\" >\n                            Unresolved\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"versions-field\">\n                                            <span title=\"1.2.2 \">1.2.2</span>,                                            <span title=\"1.2.3 \">1.2.3</span>                                    </span>\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"fixVersions-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+fixVersion+%3D+1.3.0-alpha5\" title=\"1.3.0-alpha5 \">1.3.0-alpha5</a>                                    </span>\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-access\" title=\"logback-access \">logback-access</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-14887-value\">None</span>\n            </div>\n    </div>\n</li>                                <li class=\"item full-width\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Environment:</strong>\n        <div id=\"environment-val\" class=\"value\">\n                                          <p>Oracle Java\u00a01.7.0_71</p>\n\n<p>Apache Tomcat 7.0.77</p>\n      \n                    </div>\n    </div>\n</li>        </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "75a7e88bc15724a4f162d0222b4d334c", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>I'm trying to set up logging using Logback similar to my existing JULI logging configuration where I used %S macro in pattern. Logback throws an error when it tries to append message to access log\u00a0and request is not logged.</p>\n\n<p>Without %S macro\u00a0everything seems to working fine.</p>\n\n<p>logback-access.xml</p>\n<div class=\"preformatted panel\" style=\"border-width: 1px;\"><div class=\"preformattedContent panelContent\">\n<pre>&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;\r\n\r\n&lt;configuration&gt;\r\n\r\n    &lt;appender name=\"ACCESS-LOG\" class=\"ch.qos.logback.core.rolling.RollingFileAppender\"&gt;\r\n        &lt;file&gt;${catalina.base}/logs/access.log&lt;/file&gt;\r\n        &lt;append&gt;true&lt;/append&gt;\r\n        &lt;encoder class=\"ch.qos.logback.access.PatternLayoutEncoder\"&gt;\r\n            &lt;charset&gt;utf-8&lt;/charset&gt;\r\n            &lt;pattern&gt;%t %I %i{X-Forwarded-For} %h \"%r\" %s %b %D %S \"%i{User-Agent}\"&lt;/pattern&gt;\r\n        &lt;/encoder&gt;\r\n        &lt;rollingPolicy class=\"ch.qos.logback.core.rolling.TimeBasedRollingPolicy\"&gt;\r\n            &lt;fileNamePattern&gt;${catalina.base}/logs/access.log.%d{yyyyMMdd}.gz&lt;/fileNamePattern&gt;\r\n        &lt;/rollingPolicy&gt;\r\n    &lt;/appender&gt;\r\n\r\n    &lt;appender-ref ref=\"ACCESS-LOG\" /&gt;\r\n\r\n&lt;/configuration&gt;\r\n</pre>\n</div></div>\n<p>\u00a0</p>\n\n<p>Error message in catalina.out</p>\n<div class=\"preformatted panel\" style=\"border-width: 1px;\"><div class=\"preformattedContent panelContent\">\n<pre>14:53:13,142 |-INFO in ch.qos.logback.access.tomcat.LogbackValve[null] - filename property not set. Assuming [conf/logback-access.xml]\r\n14:53:13,146 |-INFO in ch.qos.logback.access.tomcat.LogbackValve[null] - Found configuration file [/pub/site/exchg/conf/logback-access.xml] using property \"catalina.base\"\r\n14:53:13,181 |-INFO in ch.qos.logback.access.joran.action.ConfigurationAction - debug attribute not set\r\n14:53:13,181 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]\r\n14:53:13,189 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ACCESS-LOG]\r\n14:53:13,223 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@14729364 - Will use gz compression\r\n14:53:13,224 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@14729364 - Will use the pattern /pub/site/exchg/logs/access.log.%d{yyyyMMdd} for the active file\r\n14:53:13,227 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyyMMdd' from file name pattern '/pub/site/exchg/logs/access.log.%d{yyyyMMdd}.gz'.\r\n14:53:13,227 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.\r\n14:53:13,228 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Sun May 14 14:53:13 NOVT 2017\r\n14:53:13,230 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ACCESS-LOG] - Active log file name: /pub/site/exchg/logs/access.log\r\n14:53:13,230 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ACCESS-LOG] - File property is set to [/pub/site/exchg/logs/access.log]\r\n14:53:13,231 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ACCESS-LOG] to ch.qos.logback.access.tomcat.LogbackValve[null]\r\n14:53:13,231 |-INFO in ch.qos.logback.access.joran.action.ConfigurationAction - End of configuration.\r\n14:53:13,231 |-INFO in ch.qos.logback.access.joran.JoranConfigurator@1836d6a - Registering current configuration as safe fallback point\r\n14:53:13,231 |-INFO in ch.qos.logback.access.tomcat.LogbackValve[null] - Done configuring\r\n14:53:14,496 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[ACCESS-LOG] - Appender [ACCESS-LOG] failed to append. java.lang.IllegalStateException: Cannot create a session after the response has been committed\r\n        at java.lang.IllegalStateException: Cannot create a session after the response has been committed\r\n        at      at org.apache.catalina.connector.Request.doGetSession(Request.java:3069)\r\n        at      at org.apache.catalina.connector.Request.getSession(Request.java:2424)\r\n        at      at ch.qos.logback.access.spi.AccessEvent.getSessionID(AccessEvent.java:249)\r\n        at      at ch.qos.logback.access.pattern.SessionIDConverter.convert(SessionIDConverter.java:21)\r\n        at      at ch.qos.logback.access.pattern.SessionIDConverter.convert(SessionIDConverter.java:18)\r\n        at      at ch.qos.logback.core.pattern.FormattingConverter.write(FormattingConverter.java:36)\r\n        at      at ch.qos.logback.core.pattern.PatternLayoutBase.writeLoopOnConverters(PatternLayoutBase.java:115)\r\n        at      at ch.qos.logback.access.PatternLayout.doLayout(PatternLayout.java:200)\r\n        at      at ch.qos.logback.access.PatternLayout.doLayout(PatternLayout.java:69)\r\n        at      at ch.qos.logback.core.encoder.LayoutWrappingEncoder.encode(LayoutWrappingEncoder.java:115)\r\n        at      at ch.qos.logback.core.OutputStreamAppender.subAppend(OutputStreamAppender.java:230)\r\n        at      at ch.qos.logback.core.rolling.RollingFileAppender.subAppend(RollingFileAppender.java:235)\r\n        at      at ch.qos.logback.core.OutputStreamAppender.append(OutputStreamAppender.java:102)\r\n        at      at ch.qos.logback.core.UnsynchronizedAppenderBase.doAppend(UnsynchronizedAppenderBase.java:84)\r\n        at      at ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:51)\r\n        at      at ch.qos.logback.access.tomcat.LogbackValve.invoke(LogbackValve.java:268)\r\n        at      at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)\r\n        at      at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)\r\n        at      at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)\r\n        at      at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)\r\n        at      at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\r\n        at      at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\r\n        at      at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n        at      at java.lang.Thread.run(Thread.java:745)\r\n14:53:14,498 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[ACCESS-LOG] - Appender [ACCESS-LOG] failed to append. java.lang.IllegalStateException: Cannot create a session after the response has been committed\r\n        at java.lang.IllegalStateException: Cannot create a session after the response has been committed\r\n        at      at org.apache.catalina.connector.Request.doGetSession(Request.java:3069)\r\n        at      at org.apache.catalina.connector.Request.getSession(Request.java:2424)\r\n        at      at ch.qos.logback.access.spi.AccessEvent.getSessionID(AccessEvent.java:249)\r\n        at      at ch.qos.logback.access.pattern.SessionIDConverter.convert(SessionIDConverter.java:21)\r\n        at      at ch.qos.logback.access.pattern.SessionIDConverter.convert(SessionIDConverter.java:18)\r\n        at      at ch.qos.logback.core.pattern.FormattingConverter.write(FormattingConverter.java:36)\r\n        at      at ch.qos.logback.core.pattern.PatternLayoutBase.writeLoopOnConverters(PatternLayoutBase.java:115)\r\n        at      at ch.qos.logback.access.PatternLayout.doLayout(PatternLayout.java:200)\r\n        at      at ch.qos.logback.access.PatternLayout.doLayout(PatternLayout.java:69)\r\n        at      at ch.qos.logback.core.encoder.LayoutWrappingEncoder.encode(LayoutWrappingEncoder.java:115)\r\n        at      at ch.qos.logback.core.OutputStreamAppender.subAppend(OutputStreamAppender.java:230)\r\n        at      at ch.qos.logback.core.rolling.RollingFileAppender.subAppend(RollingFileAppender.java:235)\r\n        at      at ch.qos.logback.core.OutputStreamAppender.append(OutputStreamAppender.java:102)\r\n        at      at ch.qos.logback.core.UnsynchronizedAppenderBase.doAppend(UnsynchronizedAppenderBase.java:84)\r\n        at      at ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:51)\r\n        at      at ch.qos.logback.access.tomcat.LogbackValve.invoke(LogbackValve.java:268)\r\n        at      at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)\r\n        at      at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)\r\n        at      at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)\r\n        at      at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)\r\n        at      at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\r\n        at      at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\r\n        at      at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n        at      at java.lang.Thread.run(Thread.java:745)\r\n14:53:14,502 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[ACCESS-LOG] - Appender [ACCESS-LOG] failed to append. java.lang.IllegalStateException: Cannot create a session after the response has been committed\r\n        at java.lang.IllegalStateException: Cannot create a session after the response has been committed\r\n        at      at org.apache.catalina.connector.Request.doGetSession(Request.java:3069)\r\n        at      at org.apache.catalina.connector.Request.getSession(Request.java:2424)\r\n        at      at ch.qos.logback.access.spi.AccessEvent.getSessionID(AccessEvent.java:249)\r\n        at      at ch.qos.logback.access.pattern.SessionIDConverter.convert(SessionIDConverter.java:21)\r\n        at      at ch.qos.logback.access.pattern.SessionIDConverter.convert(SessionIDConverter.java:18)\r\n        at      at ch.qos.logback.core.pattern.FormattingConverter.write(FormattingConverter.java:36)\r\n        at      at ch.qos.logback.core.pattern.PatternLayoutBase.writeLoopOnConverters(PatternLayoutBase.java:115)\r\n        at      at ch.qos.logback.access.PatternLayout.doLayout(PatternLayout.java:200)\r\n        at      at ch.qos.logback.access.PatternLayout.doLayout(PatternLayout.java:69)\r\n        at      at ch.qos.logback.core.encoder.LayoutWrappingEncoder.encode(LayoutWrappingEncoder.java:115)\r\n        at      at ch.qos.logback.core.OutputStreamAppender.subAppend(OutputStreamAppender.java:230)\r\n        at      at ch.qos.logback.core.rolling.RollingFileAppender.subAppend(RollingFileAppender.java:235)\r\n        at      at ch.qos.logback.core.OutputStreamAppender.append(OutputStreamAppender.java:102)\r\n        at      at ch.qos.logback.core.UnsynchronizedAppenderBase.doAppend(UnsynchronizedAppenderBase.java:84)\r\n        at      at ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:51)\r\n        at      at ch.qos.logback.access.tomcat.LogbackValve.invoke(LogbackValve.java:268)\r\n        at      at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)\r\n        at      at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)\r\n        at      at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)\r\n        at      at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)\r\n        at      at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\r\n        at      at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\r\n        at      at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n        at      at java.lang.Thread.run(Thread.java:745)\r\n</pre>\n</div></div>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "81debb5fcf8e234962ea6297e471bb8d", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_ceki\" rel=\"ceki\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Ceki G\u00fclc\u00fc&quot;,&quot;emailAddress&quot;:&quot;ceki+jira@qos.ch&quot;,&quot;username&quot;:&quot;ceki&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"ceki\" /></span></span>\n            Ceki G\u00fclc\u00fc\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_akhnin\" rel=\"akhnin\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Nikita Akhnin&quot;,&quot;emailAddress&quot;:&quot;n.akhnin@ftc.ru&quot;,&quot;username&quot;:&quot;akhnin&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"akhnin\" /></span></span>\n            Nikita Akhnin\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">0</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">1</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "ee9b1c80f0d845df792e6dcf3c7642f8", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"14/May/17 10:06 AM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2017-05-14T10:06:58+0200\">14/May/17 10:06 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"11/Feb/18 10:26 PM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2018-02-11T22:26:28+0100\">11/Feb/18 10:26 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-1298%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "99c146673260dc972a99430f54621846", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "b7d7f2602162c840a93d1e877d91fbce", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-1298/LOGBACK-1298.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "15d55e83a4b4cf31e2132353b94a1c76", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-1298/LOGBACK-1298.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "501d5454960b50cf8ec1650304794a20", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-1298/LOGBACK-1298.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "1", 
+            "iconUrl": "/images/icons/statuses/open.png", 
+            "description": "The issue is open and ready for the assignee to start work on it.", 
+            "name": "Open"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "60a954ab85c567583bdb99a3295e8e46", 
+        "summary": "logback-access: %S macros is broken", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-1298", 
+        "id": 14887, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-1298", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552208813522
+}

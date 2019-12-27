@@ -1,0 +1,314 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|053ea2dd0022b0873f0bb1987682a093b07eb471|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "d15486e8f689432d1276c12db93e7ae1", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Resolved&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.&lt;/span&gt;\">Resolved</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/critical.svg\" title=\"Critical - Crashes, loss of data, severe memory leak.\" width=\"16\" /> Critical\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value resolved\" >\n                             Won&#39;t Fix\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-core\" title=\"logback-core \">logback-core</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-10527-value\">None</span>\n            </div>\n    </div>\n</li>                                <li class=\"item full-width\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Environment:</strong>\n        <div id=\"environment-val\" class=\"value\">\n                                          <p>win-xp SP2, logback-0.9.15, sun java-1.6.0_12</p>\n      \n                    </div>\n    </div>\n</li>        </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "737de5891293854be66eba157c9aff25", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>I was looking on the sample test program trying to compare some inhouse logging system vs logback/slf4j and noticed really poor performance when using rolling file appender. Here is the sample program:</p>\n\n<p>public class LoggerTest {</p>\n\n<p>\tprivate static final int NUMBER_OF_LOG_STMTS = 10000;</p>\n\n<p>\tprivate static final String FIRST_PART = \"Some lengthy log statement which includes string concatenation. Here it goes: int = [\";<br/>\n\tprivate static final String WHOLE_STRING = \"Some lengthy log statement which includes string concatenation. Here it goes: int = <span class=\"error\">&#91;{}&#93;</span>, bd = <span class=\"error\">&#91;{}&#93;</span>, complexType = <span class=\"error\">&#91;{}&#93;</span>\";</p>\n\n<p>\tstatic class ComplexType {</p>\n\n<p>\t\tprivate String s1;<br/>\n\t\tprivate String s2;<br/>\n\t\tprivate String s3;</p>\n\n<p>\t\tpublic ComplexType(String s1, String s2, String s3) </p>\n{\n\t\t\tthis.s1 = s1;\n\t\t\tthis.s2 = s2;\n\t\t\tthis.s3 = s3;\n\t\t}\n\n<p>\t\t@Override<br/>\n\t\tpublic String toString() </p>\n{\n\t\t\treturn \"Complex type toString: s1 = [\" + s1 + \"], s2 = [\" + s2 + \"], s3 = [\" + s3 + \"]\";\n\t\t}\n<p>\t}</p>\n\n<p>\t@SuppressWarnings(\"unchecked\")<br/>\n\tpublic static void main(String[] args) {<br/>\n\t\tInteger someInt = new Integer(500);<br/>\n\t\tBigDecimal decimal = new BigDecimal(10000.67458239);<br/>\n\t\tComplexType type = new ComplexType(\"info\", \"another info\", \"yet another useless statement\");</p>\n\n<p>\t\tensureFullGC();<br/>\n\t\tSystem.err.println(\"STARTING LOGGER SIM\");<br/>\n\t\tfor (int i = 0; i &lt; NUMBER_OF_LOG_STMTS; i++) </p>\n{\n\t\t\tLogger.log( FIRST_PART\t+ someInt + \"], bd = [\" + decimal + \"], complexType = [\" + type + \"]\");\n\t\t}\n<p>\t\tensureFullGC();</p>\n\n<p>\t\tLogger log = LoggerFactory.getLogger(LoggerTest.class);<br/>\n\t\tensureFullGC();<br/>\n\t\tSystem.err.println(\"STARTING SLF4J SIM\");<br/>\n\t\tfor (int i = 0; i &lt; NUMBER_OF_LOG_STMTS; i++) {<br/>\n\t\t\tlog.info(WHOLE_STRING, new Object[] </p>\n{someInt, decimal, type}\n<p>);<br/>\n\t\t}<br/>\n\t\tensureFullGC();</p>\n\n<p>\t\tsynchronized(LoggerTest.class) {<br/>\n\t\t\ttry </p>\n{\n\t\t\t\tLoggerTest.class.wait();\n\t\t\t}\n<p> catch (InterruptedException e) </p>\n{\n\t\t\t\te.printStackTrace();\n\t\t\t}\n<p>\t\t}<br/>\n\t}</p>\n\n<p>\tprivate static void ensureFullGC() {<br/>\n\t\tfor (int i = 0; i &lt; 4; i++) </p>\n{\n\t\t\tSystem.gc();\n\t\t}\n<p>\t}<br/>\n}</p>\n\n<p>What it does is just runs log statements 10000 times with both systems using rollover policies (of some kind). First one is the inhouse logger which is just a wrapper over printstream/messageformatter and the second one is logback via slf4j.</p>\n\n<p>When i start this program with GC debug parameters, i've noticed that cycle with logback logger took 12 times more then for inhouse logger. Detailed perf analysis is in the image attached. </p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [
+                        {
+                            "header": {
+                                "id": "attachment-sorting-options", 
+                                "weight": 10
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "viewissue.subtasks.tab.show.all.name", 
+                                    "label": "Sort By Name", 
+                                    "href": "/browse/LOGBACK-178?attachmentSortBy=fileName#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-sort-key-name"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Sort By Date", 
+                                    "label": "Sort By Date", 
+                                    "href": "/browse/LOGBACK-178?attachmentSortBy=dateTime#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-sort-key-date"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-sorting-order-options", 
+                                "weight": 20
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Ascending", 
+                                    "label": "Ascending", 
+                                    "href": "/browse/LOGBACK-178?attachmentOrder=asc#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-sort-direction-asc"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Descending", 
+                                    "label": "Descending", 
+                                    "href": "/browse/LOGBACK-178?attachmentOrder=desc#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-sort-direction-desc"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-view-mode-options", 
+                                "weight": 20
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Thumbnails", 
+                                    "label": "Thumbnails", 
+                                    "href": "/browse/LOGBACK-178?attachmentViewMode=gallery#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-view-mode-gallery"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "List", 
+                                    "label": "List", 
+                                    "href": "/browse/LOGBACK-178?attachmentViewMode=list#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-view-mode-list"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-manage-options", 
+                                "weight": 90
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 1, 
+                                    "title": "Download all attachments as a ZIP file", 
+                                    "label": "Download All", 
+                                    "href": "/secure/attachmentzip/10527.zip", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "aszip"
+                                }
+                            ]
+                        }
+                    ], 
+                    "links": []
+                }, 
+                "contentId": "63f2a50e23fa18a33589bedc1228687e", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:attachmentmodule", 
+                "prefix": "", 
+                "html": "<ol id=\"attachment_thumbnails\" class=\"item-attachments\" data-sort-key=\"fileName\" data-sort-order=\"asc\"><li class=\"attachment-content js-file-attachment\" draggable=\"true\" data-downloadurl=\"image/jpeg:screenshot-1.jpg:https://jira.qos.ch/secure/attachment/10142/screenshot-1.jpg\"data-issue-id=\"10527\"data-attachment-type=\"image\"><div class=\"attachment-thumb\"><a href=\"/secure/attachment/10142/screenshot-1.jpg\" title=\"screenshot-1.jpg - Latest 25/Feb/09 1:24 PM - Vadim Mironov\" file-preview-id=\"10142\" file-preview-title=\"screenshot-1.jpg\" file-preview-type=\"image\"file-preview-url=\"https://jira.qos.ch/secure/thumbnail/10142/_thumb_10142.png\"><img src=\"https://jira.qos.ch/secure/thumbnail/10142/_thumb_10142.png\" alt=\"screenshot-1.jpg\" /></a></div><dl ><dt><span class=\"blender\"></span><a  href=\"/secure/attachment/10142/screenshot-1.jpg\" class=\"attachment-title\" title=\"screenshot-1.jpg - Latest 25/Feb/09 1:24 PM - Vadim Mironov\" file-preview-id=\"10142\" file-preview-title=\"screenshot-1.jpg\" file-preview-type=\"image\"file-preview-url=\"https://jira.qos.ch/secure/thumbnail/10142/_thumb_10142.png\">screenshot-1.jpg</a></dt><dd class=\"attachment-size\">307 kB</dd><dd class=\"attachment-date\"><time class=\"livestamp\" datetime=\"2009-02-25T13:24:13.000+01:00\">25/Feb/09 1:24 PM</time></dd></dl></li></ol>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "attachmentmodule"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "ca2de690f1a4ce6ccb8e72dc20c93378", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_logback-dev\" rel=\"logback-dev\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Logback dev list&quot;,&quot;emailAddress&quot;:&quot;logback-dev@qos.ch&quot;,&quot;username&quot;:&quot;logback-dev&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"logback-dev\" /></span></span>\n            Logback dev list\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_vadik_mironov\" rel=\"vadik_mironov\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Vadim Mironov&quot;,&quot;emailAddress&quot;:&quot;vadim.mironov@db.com&quot;,&quot;username&quot;:&quot;vadik_mironov&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"vadik_mironov\" /></span></span>\n            Vadim Mironov\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">0</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">1</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7808fff2851803ba6a2a117cca0fdd18", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"25/Feb/09 1:21 PM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2009-02-25T13:21:49+0100\">25/Feb/09 1:21 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"12/Jun/12 11:59 AM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2012-06-12T11:59:37+0200\">12/Jun/12 11:59 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Resolved:</dt>\n            <dd class=\"date user-tz\"  title=\"25/Feb/09 2:50 PM\" >\n                <span data-name=\"Resolved\" id=\"resolutiondate-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2009-02-25T14:50:53+0100\">25/Feb/09 2:50 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-178%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "638df88af844944d4268c1dae3828340", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "a02b2fc33c80d0ca8485828a25994db6", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-178/LOGBACK-178.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "8568a6df3db9360cf68f425dced83434", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-178/LOGBACK-178.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "feb8173d088a21cced1e4f6526aeefe8", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-178/LOGBACK-178.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "5", 
+            "iconUrl": "/images/icons/statuses/resolved.png", 
+            "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.", 
+            "name": "Resolved"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "f0490717c3ae3af429ac721c34ea2e28", 
+        "summary": "RollingFileAppender constantly reopens log file which leads to very poor performance", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-178", 
+        "id": 10527, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-178", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552214993032
+}

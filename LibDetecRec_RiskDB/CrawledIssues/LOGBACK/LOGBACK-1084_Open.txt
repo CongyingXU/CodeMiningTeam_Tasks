@@ -1,0 +1,314 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|682c092de4b9afe90a36f088e6d9686ca6381bb5|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "06368c7377583b3f4cc6244903a53a0c", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;\">Open</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/critical.svg\" title=\"Critical - Crashes, loss of data, severe memory leak.\" width=\"16\" /> Critical\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value unresolved\" >\n                            Unresolved\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"versions-field\">\n                                            <span title=\"1.1.3 \">1.1.3</span>                                    </span>\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-13105-value\">None</span>\n            </div>\n    </div>\n</li>            </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "51e6cdb7e4685b601fdaf3173f285f27", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>This problem has occurred when after I upgraded from logback 1.1.2 to logback 1.1.3 </p>\n\n<p>I have a configuration with a SizeAndTimeBasedFNATP, with a date in the filename and a size restriction and file compression (gz). Now when I start my application a new files get created correctly, with a rollover as expected, and the debug output reports no problems with my configuration. <br/>\nUntil midnight the rollover continues to work without error (roughly every 5MB = 60 minutes). After midnight however I get tmp files (uncompressed), instead of correctly named compressed files </p>\n\n<p>Possibly the problem is that the date is in a different timezone (UTC) than the system (+2:00, CEST). This worked like a charm in v1.1.2, but the files were created based on the date in the local timezone, and not the UTC timezone (which is not a surprise because this feature was added in v1.1.3, hence my upgrade).</p>\n\n<p>I did two runs, one where I found the issue on the 22nd to the 23rd and around 6 hours later one where I turned on logback debug logging on the 23rd to the 24th.</p>\n\n<p>After starting I get the following logback warning:<br/>\n17:33:37,044 |-WARN in ReconfigureOnChangeFilter</p>\n{invocationCounter=0}\n<p> - Due to missing top level configuration file, automatic reconfiguration is impossible.<br/>\nI don't think this was here before, also it doesn't seem relevent.</p>\n\n<p>I get the following warnings in my console (timestamps are local time, and probably are at the time of the rollowever <br/>\n18:12:00,453 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n19:01:27,046 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n19:52:31,045 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n20:51:25,044 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n21:44:09,045 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n22:38:10,646 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n23:35:08,245 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n00:00:00,045 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n00:00:42,813 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@1550481 - Unexpected periodsElapsed value 0<br/>\n00:59:41,645 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n00:59:41,645 |-WARN in ch.qos.logback.core.rolling.helper.Compressor - The target compressed file named <span class=\"error\">&#91;/home/orbit/orbit-log/./gps-2015-06-23.0.log.gz&#93;</span> exist already. Aborting file compression.<br/>\n02:00:06,045 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n02:00:06,045 |-WARN in ch.qos.logback.core.rolling.helper.Compressor - The target compressed file named <span class=\"error\">&#91;/home/orbit/orbit-log/./gps-2015-06-23.1.log.gz&#93;</span> exist already. Aborting file compression.<br/>\n02:58:23,846 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n02:58:23,847 |-WARN in ch.qos.logback.core.rolling.helper.Compressor - The target compressed file named <span class=\"error\">&#91;/home/orbit/orbit-log/./gps-2015-06-23.2.log.gz&#93;</span> exist already. Aborting file compression.<br/>\n03:53:51,446 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n03:53:51,446 |-WARN in ch.qos.logback.core.rolling.helper.Compressor - The target compressed file named <span class=\"error\">&#91;/home/orbit/orbit-log/./gps-2015-06-23.3.log.gz&#93;</span> exist already. Aborting file compression.<br/>\n04:53:19,846 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n04:53:19,846 |-WARN in ch.qos.logback.core.rolling.helper.Compressor - The target compressed file named <span class=\"error\">&#91;/home/orbit/orbit-log/./gps-2015-06-23.4.log.gz&#93;</span> exist already. Aborting file compression.<br/>\n05:53:13,046 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n05:53:13,046 |-WARN in ch.qos.logback.core.rolling.helper.Compressor - The target compressed file named <span class=\"error\">&#91;/home/orbit/orbit-log/./gps-2015-06-23.5.log.gz&#93;</span> exist already. Aborting file compression.<br/>\n06:49:48,045 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n06:49:48,045 |-WARN in ch.qos.logback.core.rolling.helper.Compressor - The target compressed file named <span class=\"error\">&#91;/home/orbit/orbit-log/./gps-2015-06-23.6.log.gz&#93;</span> exist already. Aborting file compression.<br/>\n07:46:35,245 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n07:46:35,245 |-WARN in ch.qos.logback.core.rolling.helper.Compressor - The target compressed file named <span class=\"error\">&#91;/home/orbit/orbit-log/./gps-2015-06-23.7.log.gz&#93;</span> exist already. Aborting file compression.</p>\n\n<p>Note that the first lines correspond to compression that did work.</p>\n\n<p>The last 2 warnings are contained in the following log block:</p>\n\n<p>2015-06-24T05:46:21.264Z I [MyThread<span class=\"error\">&#91;1&#93;</span>] My log message<br/>\n07:46:35,244 |-INFO in c.q.l.co.rolling.helper.RenameUtil - Renaming file <span class=\"error\">&#91;/home/orbit/orbit-log/./gps.log&#93;</span> to <span class=\"error\">&#91;/home/orbit/orbit-log/./gps.log142143386539207.tmp&#93;</span><br/>\n07:46:35,245 |-WARN in ch.qos.logback.core.rolling.helper.SizeAndTimeBasedArchiveRemover@bc464 - Unexpected periodsElapsed value 0<br/>\n07:46:35,245 |-WARN in ch.qos.logback.core.rolling.helper.Compressor - The target compressed file named <span class=\"error\">&#91;/home/me/log/./gps-2015-06-23.7.log.gz&#93;</span> exist already. Aborting file compression.<br/>\n2015-06-24T05:46:46.291Z I [MyThread<span class=\"error\">&#91;1&#93;</span>] My log message</p>\n\n<p>Note that the file tries to create a file for 2015-06-23, while the date already is 2015-06-24 in both local timezone and UTC.</p>\n\n<p>The following files are created:<br/>\n<del>rw-r</del><del>r</del>-  1 me me 1,4M jun 24 08:28 debug.log<br/>\n<del>rw-r</del><del>r</del>-  1 me me 443K jun 22 10:45 gps-2015-06-22.0.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 790K jun 22 20:54 gps-2015-06-22.10.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 504K jun 22 21:44 gps-2015-06-22.11.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 667K jun 22 22:39 gps-2015-06-22.12.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 606K jun 22 23:32 gps-2015-06-22.13.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 305K jun 23 00:00 gps-2015-06-22.14.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 445K jun 22 11:35 gps-2015-06-22.1.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 444K jun 22 12:25 gps-2015-06-22.2.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 451K jun 22 13:15 gps-2015-06-22.3.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 463K jun 22 14:04 gps-2015-06-22.4.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 465K jun 22 16:34 gps-2015-06-22.5.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 465K jun 22 17:23 gps-2015-06-22.6.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 472K jun 22 18:13 gps-2015-06-22.7.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 467K jun 22 19:02 gps-2015-06-22.8.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 617K jun 22 19:55 gps-2015-06-22.9.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 540K jun 23 18:12 gps-2015-06-23.0.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 467K jun 23 19:01 gps-2015-06-23.1.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 491K jun 23 19:52 gps-2015-06-23.2.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 841K jun 23 20:51 gps-2015-06-23.3.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 589K jun 23 21:44 gps-2015-06-23.4.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 631K jun 23 22:38 gps-2015-06-23.5.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 765K jun 23 23:35 gps-2015-06-23.6.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 338K jun 24 00:00 gps-2015-06-23.7.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 4,0M jun 24 08:28 gps.log<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 24 00:59 gps.log117729785907984.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 24 02:00 gps.log121354186583311.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 24 02:58 gps.log124851987521238.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 24 03:53 gps.log128179587434968.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 24 04:53 gps.log131747987324007.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 24 05:53 gps.log135341187168934.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 24 06:49 gps.log138736186478923.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 24 07:46 gps.log142143386539207.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 23 00:56 gps.log31136498179814.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 23 01:56 gps.log34724898094749.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 23 02:56 gps.log38335098833090.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 23 03:48 gps.log41436897868386.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 23 04:37 gps.log44389898817954.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 23 05:27 gps.log47402097911265.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 23 06:22 gps.log50717897411081.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 23 07:19 gps.log54092097393732.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 23 08:16 gps.log57567298020701.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 23 09:10 gps.log60805298522413.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 23 10:00 gps.log63755698125678.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 5,1M jun 23 10:51 gps.log66864097980152.tmp<br/>\n<del>rw-r</del><del>r</del>-  1 me me 2,9K jun 23 00:00 system-2015-06-22.0.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me 6,3K jun 24 00:00 system-2015-06-23.0.log.gz<br/>\n<del>rw-r</del><del>r</del>-  1 me me  41K jun 24 08:28 system.log</p>\n\n<p>The relevant configuration for the gps is:</p>\n\n<p>    &lt;appender name=\"GpsLogFileAppender\"<br/>\n        class=\"ch.qos.logback.core.rolling.RollingFileAppender\"&gt;<br/>\n        &lt;file&gt;$</p>\n{GPSLOG_FILEBASE}.log&lt;/file&gt;<br/>\n        &lt;rollingPolicy class=\"ch.qos.logback.core.rolling.TimeBasedRollingPolicy\"&gt;<br/>\n            &lt;!-- rollover daily --&gt;<br/>\n            &lt;fileNamePattern&gt;${GPSLOG_FILEBASE}\n<p>-%d</p>\n{yyyy-MM-dd,UTC}\n<p>.%i.log.gz&lt;/fileNamePattern&gt;<br/>\n            &lt;timeBasedFileNamingAndTriggeringPolicy<br/>\n                class=\"ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP\"&gt;<br/>\n                &lt;maxFileSize&gt;5MB&lt;/maxFileSize&gt;<br/>\n            &lt;/timeBasedFileNamingAndTriggeringPolicy&gt;<br/>\n            &lt;maxHistory&gt;10&lt;/maxHistory&gt;<br/>\n            &lt;cleanHistoryOnStart&gt;true&lt;/cleanHistoryOnStart&gt;<br/>\n        &lt;/rollingPolicy&gt;</p>\n\n<p>        &lt;encoder&gt;<br/>\n            &lt;pattern&gt;$</p>\n{SYSTEMLOG_PARTTERN}\n<p>&lt;/pattern&gt;<br/>\n        &lt;/encoder&gt;<br/>\n    &lt;/appender&gt;</p>\n\n<p>I will attach the full configuration file, note that the variable instancename is not set here. In v1.1.2 I used the same config file (except for the debug=\"true\" part).</p>\n\n<p>This is ran using debian 7.1 linux.</p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [
+                        {
+                            "header": {
+                                "id": "attachment-sorting-options", 
+                                "weight": 10
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "viewissue.subtasks.tab.show.all.name", 
+                                    "label": "Sort By Name", 
+                                    "href": "/browse/LOGBACK-1084?attachmentSortBy=fileName#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-sort-key-name"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Sort By Date", 
+                                    "label": "Sort By Date", 
+                                    "href": "/browse/LOGBACK-1084?attachmentSortBy=dateTime#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-sort-key-date"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-sorting-order-options", 
+                                "weight": 20
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Ascending", 
+                                    "label": "Ascending", 
+                                    "href": "/browse/LOGBACK-1084?attachmentOrder=asc#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-sort-direction-asc"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Descending", 
+                                    "label": "Descending", 
+                                    "href": "/browse/LOGBACK-1084?attachmentOrder=desc#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-sort-direction-desc"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-view-mode-options", 
+                                "weight": 20
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Thumbnails", 
+                                    "label": "Thumbnails", 
+                                    "href": "/browse/LOGBACK-1084?attachmentViewMode=gallery#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-view-mode-gallery"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "List", 
+                                    "label": "List", 
+                                    "href": "/browse/LOGBACK-1084?attachmentViewMode=list#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-view-mode-list"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-manage-options", 
+                                "weight": 90
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 1, 
+                                    "title": "Download all attachments as a ZIP file", 
+                                    "label": "Download All", 
+                                    "href": "/secure/attachmentzip/13105.zip", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "aszip"
+                                }
+                            ]
+                        }
+                    ], 
+                    "links": []
+                }, 
+                "contentId": "e823e89d1fb60e18aaf0f3d61154ce19", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:attachmentmodule", 
+                "prefix": "", 
+                "html": "<ol id=\"attachment_thumbnails\" class=\"item-attachments\" data-sort-key=\"fileName\" data-sort-order=\"asc\"><li class=\"attachment-content js-file-attachment\" draggable=\"true\" data-downloadurl=\"text/xml:logback_gps_fails.xml:https://jira.qos.ch/secure/attachment/11454/logback_gps_fails.xml\"data-issue-id=\"13105\"data-attachment-type=\"file\"><div class=\"attachment-thumb\"><a href=\"/secure/attachment/11454/logback_gps_fails.xml\" title=\"logback_gps_fails.xml - Latest 24/Jun/15 9:14 AM - Menno Lodder\"><span class=\"aui-icon aui-icon-large attachment-thumbnail-icon aui-iconfont-file-code\"></span></a></div><dl ><dt><span class=\"blender\"></span><a  href=\"/secure/attachment/11454/logback_gps_fails.xml\" class=\"attachment-title\" title=\"logback_gps_fails.xml - Latest 24/Jun/15 9:14 AM - Menno Lodder\">logback_gps_fails.xml</a></dt><dd class=\"attachment-size\">5 kB</dd><dd class=\"attachment-date\"><time class=\"livestamp\" datetime=\"2015-06-24T09:14:14.000+02:00\">24/Jun/15 9:14 AM</time></dd></dl></li></ol>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "attachmentmodule"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "c0d31e2bf261e11705a094b043f0314c", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_logback-dev\" rel=\"logback-dev\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Logback dev list&quot;,&quot;emailAddress&quot;:&quot;logback-dev@qos.ch&quot;,&quot;username&quot;:&quot;logback-dev&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"logback-dev\" /></span></span>\n            Logback dev list\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_mlodder\" rel=\"mlodder\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Menno Lodder&quot;,&quot;emailAddress&quot;:&quot;mennolodder@gmail.com&quot;,&quot;username&quot;:&quot;mlodder&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"mlodder\" /></span></span>\n            Menno Lodder\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">1</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">3</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "882941c21bc600771449e5ac537c399a", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"24/Jun/15 9:14 AM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2015-06-24T09:14:14+0200\">24/Jun/15 9:14 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"15/Sep/15 11:04 AM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2015-09-15T11:04:18+0200\">15/Sep/15 11:04 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-1084%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "b5736f31a0a831d9983483b22c8b62df", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "9e3ba3b71bf7c6b8b2bb7c521d757a51", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-1084/LOGBACK-1084.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "8dfce0fbb0e3171c66de4195418f64c8", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-1084/LOGBACK-1084.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "dfaa03f3ab438217f851e27ee7199dd5", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-1084/LOGBACK-1084.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "1", 
+            "iconUrl": "/images/icons/statuses/open.png", 
+            "description": "The issue is open and ready for the assignee to start work on it.", 
+            "name": "Open"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "3ff57e5e029c8d9049381d102bcbc61c", 
+        "summary": "Logback fails to create gz files on next day when doing rollover based on time and size", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-1084", 
+        "id": 13105, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-1084", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552210110836
+}

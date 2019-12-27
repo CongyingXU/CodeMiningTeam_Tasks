@@ -1,0 +1,314 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|3f3284d8e301d6b858bf830d8474d83291536759|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "e2061640d1b9df300439129862890c9b", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11110&amp;avatarType=issuetype\" title=\"Improvement - An improvement or enhancement to an existing feature or task.\" width=\"16\" /> Improvement\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Resolved&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.&lt;/span&gt;\">Resolved</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/minor.svg\" title=\"Minor - Minor loss of function, or other problem where easy workaround is present.\" width=\"16\" /> Minor\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value resolved\" >\n                             Fixed\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"versions-field\">\n                                            <span title=\"0.9.28 \">0.9.28</span>                                    </span>\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"fixVersions-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+fixVersion+%3D+1.1.5\" title=\"1.1.5 \">1.1.5</a>                                    </span>\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-classic\" title=\"logback-classic \">logback-classic</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-11003-value\">None</span>\n            </div>\n    </div>\n</li>            </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "18707bbec21312b79ce1cd5136c4643a", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>In our application we use a sifting file appender to log bot requests to a different log file than normal user requests. We have several sensor and aggregation threads that are started on different times that also have some logging output.</p>\n\n<p>My Problem:<br/>\nLog statements from request-independent threads are posted to bot.log and main.log on random. </p>\n\n<p>My Solution:<br/>\nI patched the LogbackMDCAdapter to be configureable by a system variable, to disable inheritance of the thread local member \"copyOnInheritThreadLocal\".<br/>\nThe patched version defaults to old behavior, so it doesn't change if you do not configure it.<br/>\nTo disable inheritance of that member, just pass \"logback.threadlocal.inherit.copy=false\" to the JVM.</p>\n\n<p>I applied the patch to Version 0.9.28 and tested it with our application. Maybe other logback users also want to configure logback in that way.</p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [
+                        {
+                            "header": {
+                                "id": "attachment-sorting-options", 
+                                "weight": 10
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "viewissue.subtasks.tab.show.all.name", 
+                                    "label": "Sort By Name", 
+                                    "href": "/browse/LOGBACK-624?attachmentSortBy=fileName#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-sort-key-name"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Sort By Date", 
+                                    "label": "Sort By Date", 
+                                    "href": "/browse/LOGBACK-624?attachmentSortBy=dateTime#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-sort-key-date"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-sorting-order-options", 
+                                "weight": 20
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Ascending", 
+                                    "label": "Ascending", 
+                                    "href": "/browse/LOGBACK-624?attachmentOrder=asc#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-sort-direction-asc"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Descending", 
+                                    "label": "Descending", 
+                                    "href": "/browse/LOGBACK-624?attachmentOrder=desc#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-sort-direction-desc"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-view-mode-options", 
+                                "weight": 20
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Thumbnails", 
+                                    "label": "Thumbnails", 
+                                    "href": "/browse/LOGBACK-624?attachmentViewMode=gallery#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-view-mode-gallery"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "List", 
+                                    "label": "List", 
+                                    "href": "/browse/LOGBACK-624?attachmentViewMode=list#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-view-mode-list"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-manage-options", 
+                                "weight": 90
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 1, 
+                                    "title": "Download all attachments as a ZIP file", 
+                                    "label": "Download All", 
+                                    "href": "/secure/attachmentzip/11003.zip", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "aszip"
+                                }
+                            ]
+                        }
+                    ], 
+                    "links": []
+                }, 
+                "contentId": "aa4718f7ada0338e36d78a17b7dfd892", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:attachmentmodule", 
+                "prefix": "", 
+                "html": "<ol id=\"attachment_thumbnails\" class=\"item-attachments\" data-sort-key=\"fileName\" data-sort-order=\"asc\"><li class=\"attachment-content js-file-attachment\" draggable=\"true\" data-downloadurl=\"text/x-java:LogbackMDCAdapter.java:https://jira.qos.ch/secure/attachment/10315/LogbackMDCAdapter.java\"data-issue-id=\"11003\"data-attachment-type=\"file\"><div class=\"attachment-thumb\"><a href=\"/secure/attachment/10315/LogbackMDCAdapter.java\" title=\"LogbackMDCAdapter.java - Latest 24/Oct/11 9:57 AM - Alexander Treptow\"><span class=\"aui-icon aui-icon-large attachment-thumbnail-icon aui-iconfont-file-code\"></span></a></div><dl ><dt><span class=\"blender\"></span><a  href=\"/secure/attachment/10315/LogbackMDCAdapter.java\" class=\"attachment-title\" title=\"LogbackMDCAdapter.java - Latest 24/Oct/11 9:57 AM - Alexander Treptow\">LogbackMDCAdapter.java</a></dt><dd class=\"attachment-size\">6 kB</dd><dd class=\"attachment-date\"><time class=\"livestamp\" datetime=\"2011-10-24T09:57:59.000+02:00\">24/Oct/11 9:57 AM</time></dd></dl></li><li class=\"attachment-content js-file-attachment\" draggable=\"true\" data-downloadurl=\"text/x-java:LogbackMDCAdapterTest.java:https://jira.qos.ch/secure/attachment/10316/LogbackMDCAdapterTest.java\"data-issue-id=\"11003\"data-attachment-type=\"file\"><div class=\"attachment-thumb\"><a href=\"/secure/attachment/10316/LogbackMDCAdapterTest.java\" title=\"LogbackMDCAdapterTest.java - Latest 24/Oct/11 9:58 AM - Alexander Treptow\"><span class=\"aui-icon aui-icon-large attachment-thumbnail-icon aui-iconfont-file-code\"></span></a></div><dl ><dt><span class=\"blender\"></span><a  href=\"/secure/attachment/10316/LogbackMDCAdapterTest.java\" class=\"attachment-title\" title=\"LogbackMDCAdapterTest.java - Latest 24/Oct/11 9:58 AM - Alexander Treptow\">LogbackMDCAdapterTest.java</a></dt><dd class=\"attachment-size\">5 kB</dd><dd class=\"attachment-date\"><time class=\"livestamp\" datetime=\"2011-10-24T09:58:23.000+02:00\">24/Oct/11 9:58 AM</time></dd></dl></li></ol>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "attachmentmodule"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "9682316f19d7098a3a04713faa735f55", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_logback-dev\" rel=\"logback-dev\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Logback dev list&quot;,&quot;emailAddress&quot;:&quot;logback-dev@qos.ch&quot;,&quot;username&quot;:&quot;logback-dev&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"logback-dev\" /></span></span>\n            Logback dev list\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_treptow\" rel=\"treptow\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Alexander Treptow&quot;,&quot;emailAddress&quot;:&quot;alexander.treptow@freiheit.com&quot;,&quot;username&quot;:&quot;treptow&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"treptow\" /></span></span>\n            Alexander Treptow\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">15</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">18</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "ccfce1c42425e0395561192292f5e222", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"24/Oct/11 9:56 AM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2011-10-24T09:56:46+0200\">24/Oct/11 9:56 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"02/Nov/17 2:03 PM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2017-11-02T14:03:31+0100\">02/Nov/17 2:03 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Resolved:</dt>\n            <dd class=\"date user-tz\"  title=\"13/Feb/16 10:21 PM\" >\n                <span data-name=\"Resolved\" id=\"resolutiondate-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2016-02-13T22:21:25+0100\">13/Feb/16 10:21 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-624%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "0a8f3aa6c0cf711923e7a655c4ac9473", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "12bef3a78930cf570a03ca30cdea507a", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-624/LOGBACK-624.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "5f43a763c5fbe608150301d6fe6d11f3", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-624/LOGBACK-624.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "6fa3d22e56fb25307b058705d599bced", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-624/LOGBACK-624.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "5", 
+            "iconUrl": "/images/icons/statuses/resolved.png", 
+            "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.", 
+            "name": "Resolved"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "c35d1eb3eba7ec4d689c942acf326386", 
+        "summary": "MDC Adapter with configurable InheritableThreadLocal", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-624", 
+        "id": 11003, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-624", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552212121477
+}

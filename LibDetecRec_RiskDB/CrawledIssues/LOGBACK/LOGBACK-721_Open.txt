@@ -1,0 +1,221 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|7104899b4814b053c36efabc054012eba30c6383|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "5411120676e21a24e1806447d4e8677a", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;\">Open</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value unresolved\" >\n                            Unresolved\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"versions-field\">\n                                            <span title=\"1.0.6 \">1.0.6</span>                                    </span>\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-core\" title=\"logback-core \">logback-core</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-11205-value\">None</span>\n            </div>\n    </div>\n</li>            </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "8a1be401e1c832826b5fc3685b350b87", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>I want log files to be placed in directories containing date and rolled over every day. Moreover I want log files to be of maximum size of, let's say, 10MB. Each time a new log file is created, I would like to have it timestamped. Unfortunately, SizeAndTimeBasedFNATP doesn't work like that. Here's my logback.xml:</p>\n\n<p>&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;<br/>\n&lt;configuration&gt;<br/>\n    &lt;timestamp key=\"millisecond\" datePattern=\"yyyyMMdd_HHmmssSSS\"/&gt;</p>\n\n<p>    &lt;appender name=\"SSR\" class=\"ch.qos.logback.core.rolling.RollingFileAppender\"&gt;<br/>\n        &lt;encoder class=\"ch.qos.logback.classic.encoder.PatternLayoutEncoder\"&gt;<br/>\n            &lt;pattern&gt;%p; %d; %t; %m; %n&lt;/pattern&gt;<br/>\n        &lt;/encoder&gt;<br/>\n        &lt;rollingPolicy class=\"ch.qos.logback.core.rolling.TimeBasedRollingPolicy\"&gt;<br/>\n            &lt;fileNamePattern&gt;d:/ssr/log/%d</p>\n{yyyyMMdd}/%d{yyyyMMdd_HHmmssSSS,aux}_ssr.log&lt;/fileNamePattern&gt;<br/>\n            &lt;timeBasedFileNamingAndTriggeringPolicy class=\"ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP\"&gt;<br/>\n                &lt;maxFileSize&gt;10MB&lt;/maxFileSize&gt;<br/>\n            &lt;/timeBasedFileNamingAndTriggeringPolicy&gt;<br/>\n        &lt;/rollingPolicy&gt;<br/>\n    &lt;/appender&gt;<br/>\n<br/>\n    &lt;logger name=\"asseco.ssr\" level=\"debug\"&gt;<br/>\n        &lt;appender-ref ref=\"SSR\"/&gt;<br/>\n    &lt;/logger&gt;<br/>\n<br/>\n    &lt;root level=\"info\"/&gt;<br/>\n&lt;/configuration&gt;<br/>\n<br/>\nIt causes a first file to be created, let's say d:\\ssr\\log\\20120713\\20120713_131110712_ssr.log<br/>\nBut after it reaches 10MB, it's not rotated, but log events are still appended to the same file.<br/>\n<br/>\nAdding token %i to pattern, for example d:/ssr/log/%d{yyyyMMdd}\n<p>/%d</p>\n{yyyyMMdd_HHmmssSSS,aux}\n<p>_ssr.%i.log shows the reason of problems. In such a case logs are rolled every 10MB, but filenames follow the same pattern with the same timestamp instead of new timestamp for every file: 20120713_131353836_ssr.0.log, 20120713_131353836_ssr.1.log etc.</p>\n\n<p>The reason for this is that TimeBasedFileNamingAndTriggeringPolicyBase.dateInCurrentPeriod field doesn't get changed. Either it should change if rollback occurred triggered by maximum size or there should be another possibility of adding absolute timestamp which is calculated every time when it's needed.</p>\n\n<p>Using:<br/>\n    &lt;timestamp key=\"millisecond\" datePattern=\"yyyyMMdd_HHmmssSSS\"/&gt;</p>\n\n<p>with pattern:<br/>\n     &lt;fileNamePattern&gt;d:/ssr/log/%d</p>\n{yyyyMMdd_HHmm}\n<p>/$</p>\n{millisecond}\n<p>_ssr.%i.log&lt;/fileNamePattern&gt;<br/>\ndoesn't help also, because in such a case timestamp is every time the same, even after rollback triggered by date change.</p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 400, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "f4be39ac70570cff9cea6ed6fec6f5d6", 
+                "subpanelHtmls": [], 
+                "label": "Issue Links", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:linkingmodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n<div class=\"links-container\" data-default-link-icon=\"/images/icons/generic_link_16.png\">\n                <dl class=\"links-list \">\n            <dt title=\"is duplicated by\">is duplicated by</dt>\n                            <dd id=\"internal-11295_10001\"\n                                                                            >\n                    <div class=\"link-content\">\n                                                    \n\n\n\n<p>\n            <img src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" width=\"16\" height=\"16\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" alt=\"Bug - A problem which impairs or prevents the functions of the product.\" />\n        <span title=\"LOGBACK-741: SizeAndTimeBasedFNATP not honoring auxilliary parameter...\">\n        <a href=\"/browse/LOGBACK-741\" data-issue-key=\"LOGBACK-741\" class=\"issue-link link-title\">LOGBACK-741</a>\n        <span class=\"link-summary\">SizeAndTimeBasedFNATP not honoring auxilliary parameter...</span>\n    </span>\n</p>\n<ul class=\"link-snapshot\">\n        <li class=\"priority\">        <img src=\"/images/icons/priorities/major.svg\" width=\"16\" height=\"16\" title=\"Major - Major loss of function.\" alt=\"Major - Major loss of function.\" />\n    </li>\n                <li class=\"status\">\n                        <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-short\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;\">Open</span>\n                    </li>\n    </ul>\n                                            </div>\n                                    </dd>\n                    </dl>\n        </div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "linkingmodule"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "9dca253d7cb0634e5e8c2657ac1946fc", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_ceki\" rel=\"ceki\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Ceki G\u00fclc\u00fc&quot;,&quot;emailAddress&quot;:&quot;ceki+jira@qos.ch&quot;,&quot;username&quot;:&quot;ceki&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"ceki\" /></span></span>\n            Ceki G\u00fclc\u00fc\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_daniel.stankiewicz@asseco.pl\" rel=\"daniel.stankiewicz@asseco.pl\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Daniel Stankiewicz&quot;,&quot;emailAddress&quot;:&quot;daniel.stankiewicz@asseco.pl&quot;,&quot;username&quot;:&quot;daniel.stankiewicz@asseco.pl&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"daniel.stankiewicz@asseco.pl\" /></span></span>\n            Daniel Stankiewicz\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">6</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">11</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "118309315125659bf50056f67c425035", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"13/Jul/12 1:22 PM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2012-07-13T13:22:58+0200\">13/Jul/12 1:22 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"17/Jun/13 3:06 PM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2013-06-17T15:06:08+0200\">17/Jun/13 3:06 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-721%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "59fc77f0775692ed752995fcd639a9f3", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "c7e51bab63fd56a661089e9325cb2c2a", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-721/LOGBACK-721.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "d3e019e92175949d74ed08849b281fed", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-721/LOGBACK-721.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "336f62d83776231a52355ae1288175e3", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-721/LOGBACK-721.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "1", 
+            "iconUrl": "/images/icons/statuses/open.png", 
+            "description": "The issue is open and ready for the assignee to start work on it.", 
+            "name": "Open"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "1d2a076c5d89b7ab8f947396d7b859e4", 
+        "summary": "SizeAndTimeBasedFNATP doesn't set timestamp in logged files after rollover triggered by maximum size", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-721", 
+        "id": 11205, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-721", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552211917868
+}

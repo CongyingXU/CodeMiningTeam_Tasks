@@ -1,0 +1,205 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|20b8cc77ca96d0a45aefb5e69b0284090b2b4278|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "2b1b794081367ec9fd735d5e50785119", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11111&amp;avatarType=issuetype\" title=\"New Feature - A new feature of the product, which has yet to be developed.\" width=\"16\" /> New Feature\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;\">Open</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value unresolved\" >\n                            Unresolved\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"versions-field\">\n                                            <span title=\"1.0.13 \">1.0.13</span>                                    </span>\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-classic\" title=\"logback-classic \">logback-classic</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-11890-value\">None</span>\n            </div>\n    </div>\n</li>            </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "bda4f715c9fbde68b8b3ae4281a9ad1a", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>Add a %match converter:</p>\n\n<p>import ch.qos.logback.classic.PatternLayout;<br/>\nimport ch.qos.logback.classic.pattern.ClassicConverter;<br/>\nimport ch.qos.logback.classic.spi.ILoggingEvent;<br/>\nimport ch.qos.logback.core.boolex.EvaluationException;<br/>\nimport ch.qos.logback.core.boolex.EventEvaluator;<br/>\nimport ch.qos.logback.core.status.ErrorStatus;</p>\n\n<p>import javax.annotation.Nonnull;<br/>\nimport java.util.LinkedHashMap;<br/>\nimport java.util.List;<br/>\nimport java.util.Map;<br/>\nimport java.util.Objects;</p>\n\n<p>import static ch.qos.logback.core.CoreConstants.EVALUATOR_MAP;<br/>\nimport static java.util.Collections.emptyMap;</p>\n\n<p>/**</p>\n<ul>\n\t<li>{@code MarkedConverter}\n<p> provides alternate conversions based on conditions.  Enable with:</p></li>\n\t<li>&lt;pre&gt;</li>\n\t<li>&lt;conversionRule</li>\n\t<li>conversionWord=\"match\"</li>\n\t<li>converterClass=\"mbl.laboratory.util.logging.osi.MatchConverter\"/&gt;&lt;/pre&gt; Use as:</li>\n\t<li>&lt;pre&gt;</li>\n\t<li>&lt;pattern&gt;%match\n{cond1,patt1,...,fallback}\n<p>&lt;/pattern&gt;&lt;/pre&gt; Example:</p></li>\n\t<li>&lt;pre&gt;</li>\n\t<li>&lt;evaluator name=\"WITH_MARKER\"&gt;</li>\n\t<li>&lt;expression&gt;null != marker &amp;mp;&amp;mp; \"ALERT\".equals(marker.getName())&lt;/expression&gt;</li>\n\t<li>&lt;/evaluator&gt;</li>\n\t<li>&lt;pattern&gt;%match(WITH_MARKER,%marker/%level,%level)&lt;/pattern&gt;&lt;/pre&gt; will log</li>\n\t<li>\"ALERT/ERROR\" when marker is \"ALERT\" and level is \"ERROR\", otherwise just \"ERROR\".<br/>\n*</li>\n\t<li>@author &lt;a href=\"mailto:Brian.Oxley@macquarie.com\"&gt;Brian Oxley&lt;/a&gt;</li>\n\t<li>@todo Fix error reporting - logback swallows<br/>\n*/<br/>\npublic final class MatchConverter<br/>\n        extends ClassicConverter {<br/>\n    private static final int MAX_ERROR_COUNT = 4;<br/>\n    private Map&lt;String, String&gt; conditions;<br/>\n    private String unmatched;<br/>\n    private Map&lt;String, EventEvaluator&lt;ILoggingEvent&gt;&gt; evaluators;<br/>\n    private int errors;</li>\n</ul>\n\n\n<p>    @Override<br/>\n    public void start() {<br/>\n        final List&lt;String&gt; options = getOptionList();<br/>\n        if (null == options || 2 &gt; options.size()) </p>\n{\n            addError(\"Missing options for %match - \" + Objects.toString(options));\n            conditions = emptyMap();\n            unmatched = \"\";\n            return;\n        }\n\n<p>        conditions = new LinkedHashMap&lt;&gt;();<br/>\n        for (int i = 0; i &lt; options.size() - 1; i += 2)<br/>\n            conditions.put(options.get<img class=\"emoticon\" src=\"/images/icons/emoticons/information.png\" height=\"16\" width=\"16\" align=\"absmiddle\" alt=\"\" border=\"0\"/>, options.get(i + 1));<br/>\n        unmatched = 0 == options.size() % 2 ? \"\" : options.get(options.size() - 1);</p>\n\n<p>        evaluators = (Map&lt;String, EventEvaluator&lt;ILoggingEvent&gt;&gt;) getContext()<br/>\n                .getObject(EVALUATOR_MAP);</p>\n\n<p>        super.start();<br/>\n    }</p>\n\n<p>    @Nonnull<br/>\n    @Override<br/>\n    public String convert(@Nonnull final ILoggingEvent event) </p>\n{\n        for (final Map.Entry&lt;String, String&gt; entry : conditions.entrySet())\n            if (evaluate(entry.getKey(), event))\n                return relayout(entry.getValue(), event);\n        return relayout(unmatched, event);\n    }\n\n<p>    private boolean evaluate(final String name, final ILoggingEvent event) {<br/>\n        final EventEvaluator&lt;ILoggingEvent&gt; evaluator = evaluators.get(name);<br/>\n        try </p>\n{\n            return null != evaluator &amp;&amp; evaluator.evaluate(event);\n        }\n<p> catch (final EvaluationException e) {<br/>\n            errors++;<br/>\n            if (errors &lt; MAX_ERROR_COUNT) </p>\n{\n                addError(\"Exception thrown for evaluator named [\" + evaluator.getName() + \"]\", e);\n            }\n<p> else if (errors == MAX_ERROR_COUNT) </p>\n{\n                ErrorStatus errorStatus = new ErrorStatus(\n                        \"Exception thrown for evaluator named [\" + evaluator.getName() + \"].\", this,\n                        e);\n                errorStatus.add(new ErrorStatus(\n                        \"This was the last warning about this evaluator's errors.\"\n                                + \"We don't want the StatusManager to get flooded.\", this));\n                addStatus(errorStatus);\n            }\n<p>            return false;<br/>\n        }<br/>\n    }</p>\n\n<p>    private String relayout(final String pattern, final ILoggingEvent event) </p>\n{\n        final PatternLayout layout = new PatternLayout();\n        layout.setContext(getContext());\n        layout.setPattern(pattern);\n        layout.start();\n        return layout.doLayout(event);\n    }\n<p>}</p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "ae8e193168315f8c61f17380ed002881", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_logback-dev\" rel=\"logback-dev\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Logback dev list&quot;,&quot;emailAddress&quot;:&quot;logback-dev@qos.ch&quot;,&quot;username&quot;:&quot;logback-dev&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"logback-dev\" /></span></span>\n            Logback dev list\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_binkley\" rel=\"binkley\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;B. K. Oxley (binkley)&quot;,&quot;emailAddress&quot;:&quot;binkley@alumni.rice.edu&quot;,&quot;username&quot;:&quot;binkley&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"binkley\" /></span></span>\n            B. K. Oxley (binkley)\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">0</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">1</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6550508f6ccbd7822a4c743d48d0dffe", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"23/Jan/14 10:39 AM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2014-01-23T10:39:59+0100\">23/Jan/14 10:39 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"23/Jan/14 11:27 PM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2014-01-23T23:27:36+0100\">23/Jan/14 11:27 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-939%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "ea5be49e2b9e6f2971e335bc4ae84603", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "4bd37e1b4ecc8ec546f2dad81bf1122b", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-939/LOGBACK-939.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "31b77bfddd15f23494bc90f52b35e70a", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-939/LOGBACK-939.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "4bce4099384cc176c8fdd9247937a28b", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-939/LOGBACK-939.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "1", 
+            "iconUrl": "/images/icons/statuses/open.png", 
+            "description": "The issue is open and ready for the assignee to start work on it.", 
+            "name": "Open"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "1dbf82868bc2fd36428673b908da4133", 
+        "summary": "add %match(...) converter for pattern layout", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-939", 
+        "id": 11890, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-939", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552210451154
+}

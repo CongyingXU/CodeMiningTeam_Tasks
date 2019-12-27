@@ -1,0 +1,281 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|171414dc8bedf5e1dc066afad64ced145ac21f8f|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "54e661060de79942ae9553e5e30906b0", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11110&amp;avatarType=issuetype\" title=\"Improvement - An improvement or enhancement to an existing feature or task.\" width=\"16\" /> Improvement\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Closed&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.&lt;/span&gt;\">Closed</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value resolved\" >\n                             Fixed\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"fixVersions-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+fixVersion+%3D+1.0.12\" title=\"1.0.12 \">1.0.12</a>                                    </span>\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-core\" title=\"logback-core \">logback-core</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-11680-value\">None</span>\n            </div>\n    </div>\n</li>            </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "9bc3dbce3d3f359ff2fc7246260ae57e", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>Currently it is not possible for SiftingAppender to define or access properties in local scope. </p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 400, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "73f34b1f46b1b1952126958bae78fca0", 
+                "subpanelHtmls": [], 
+                "label": "Issue Links", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:linkingmodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n<div class=\"links-container\" data-default-link-icon=\"/images/icons/generic_link_16.png\">\n                <dl class=\"links-list \">\n            <dt title=\"subsumes\">subsumes</dt>\n                            <dd id=\"internal-11030_10021\"\n                                                                            >\n                    <div class=\"link-content\">\n                                                    \n\n\n\n<p>\n            <img src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" width=\"16\" height=\"16\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" alt=\"Bug - A problem which impairs or prevents the functions of the product.\" />\n        <span title=\"LOGBACK-403: SiftingAppender does not substitute variable value inside sift\">\n        <a href=\"/browse/LOGBACK-403\" data-issue-key=\"LOGBACK-403\" class=\"issue-link link-title resolution\">LOGBACK-403</a>\n        <span class=\"link-summary\">SiftingAppender does not substitute variable value inside sift</span>\n    </span>\n</p>\n<ul class=\"link-snapshot\">\n        <li class=\"priority\">        <img src=\"/images/icons/priorities/major.svg\" width=\"16\" height=\"16\" title=\"Major - Major loss of function.\" alt=\"Major - Major loss of function.\" />\n    </li>\n                <li class=\"status\">\n                        <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-short\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Resolved&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.&lt;/span&gt;\">Resolved</span>\n                    </li>\n    </ul>\n                                            </div>\n                                    </dd>\n                    </dl>\n        </div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "linkingmodule"
+            }, 
+            {
+                "weight": 700, 
+                "headerLinks": {
+                    "groups": [
+                        {
+                            "header": {
+                                "id": "subtask-view-options", 
+                                "weight": 10
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Show All", 
+                                    "label": "Show All", 
+                                    "href": "/browse/LOGBACK-833?subTaskView=all#issuetable", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "subtasks-show-all"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Show Open", 
+                                    "label": "Show Open", 
+                                    "href": "/browse/LOGBACK-833?subTaskView=unresolved#issuetable", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "subtasks-show-open"
+                                }, 
+                                {
+                                    "weight": 30, 
+                                    "title": "Bulk operation", 
+                                    "label": "Bulk operation", 
+                                    "href": "/issue/bulkedit/BulkEdit1!default.jspa?reset=true&searchParent=LOGBACK-833", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "subtasks-bulk-operation"
+                                }, 
+                                {
+                                    "weight": 40, 
+                                    "title": "Open issue navigator", 
+                                    "label": "Open issue navigator", 
+                                    "href": "/issues/?jql=parent%3DLOGBACK-833", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "subtasks-open-issue-navigator"
+                                }
+                            ]
+                        }
+                    ], 
+                    "links": []
+                }, 
+                "contentId": "5f1acf9e5aeaf906944ace077a2edf16", 
+                "subpanelHtmls": [
+                    "<div class=\"subtask-prog-wrap\">\n    <span>Progress</span>\n    <table id=\"subtasks_resolution_percentage\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\">\n        <tr>\n                                            <td style=\"width:100%; background-color:#51A825\" >\n                    <img src=\"/images/border/spacer.gif\" style=\"height:10px; width:100%; border-width:0\" class=\"hideOnPrint\" title=\"Resolved Sub-Tasks\" alt=\"Resolved Sub-Tasks\" >\n                </td>\n                                                                </tr>\n    </table>\n</div>\n"
+                ], 
+                "label": "Sub-Tasks", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:view-subtasks", 
+                "prefix": "", 
+                "html": "<div class=\"mod-content intform subtask-table-container\">\n                \n\n\n                            <issuetable-web-component>\n                <table id=\"issuetable\"  >\n            \n\n                <tr id=\"issuerow11681\" rel=\"11681\" data-issuekey=\"LOGBACK-834\" class=\"issuerow\">\n                                            <td class=\"stsequence\"><div rel=\"0\" class=\"subtask-done\">1.</div>\n</td>\n                                            <td class=\"stsummary\"><a class='issue-link' data-issue-key='LOGBACK-834' href='/browse/LOGBACK-834'>add test case for variable substitution </a></td>\n                                            <td class=\"issuetype\">    <a class=\"issue-link\" data-issue-key=\"LOGBACK-834\" href=\"/browse/LOGBACK-834\">\n            <img src=\"https://jira.qos.ch/secure/viewavatar?size=xsmall&amp;avatarId=11116&amp;avatarType=issuetype\" height=\"16\" width=\"16\" border=\"0\" align=\"absmiddle\" alt=\"Sub-task\" title=\"Sub-task - The sub-task of the issue\">\n        </a>\n</td>\n                                            <td class=\"status\">\n                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-short\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Resolved&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.&lt;/span&gt;\">Resolved</span>    </td>\n                                            <td class=\"assignee\">            <span class=\"tinylink\"><a class=\"user-hover\" rel=\"logback-dev\" id=\"assignee_logback-dev\" href=\"/secure/ViewProfile.jspa?name=logback-dev\">Logback dev list</a></span>\n    </td>\n                                            <td class=\"streorder\"><!-- usage marker -->\n<div class=\"subtask-reorder\">\n            &nbsp;\n    </div></td>\n                    </tr>\n\n\n                <tr id=\"issuerow11682\" rel=\"11682\" data-issuekey=\"LOGBACK-835\" class=\"issuerow\">\n                                            <td class=\"stsequence\"><div rel=\"1\" class=\"subtask-done\">2.</div>\n</td>\n                                            <td class=\"stsummary\"><a class='issue-link' data-issue-key='LOGBACK-835' href='/browse/LOGBACK-835'>TimestampAction should not insert values into the context </a></td>\n                                            <td class=\"issuetype\">    <a class=\"issue-link\" data-issue-key=\"LOGBACK-835\" href=\"/browse/LOGBACK-835\">\n            <img src=\"https://jira.qos.ch/secure/viewavatar?size=xsmall&amp;avatarId=11116&amp;avatarType=issuetype\" height=\"16\" width=\"16\" border=\"0\" align=\"absmiddle\" alt=\"Sub-task\" title=\"Sub-task - The sub-task of the issue\">\n        </a>\n</td>\n                                            <td class=\"status\">\n                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-short\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Resolved&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.&lt;/span&gt;\">Resolved</span>    </td>\n                                            <td class=\"assignee\">            <span class=\"tinylink\"><a class=\"user-hover\" rel=\"logback-dev\" id=\"assignee_logback-dev\" href=\"/secure/ViewProfile.jspa?name=logback-dev\">Logback dev list</a></span>\n    </td>\n                                            <td class=\"streorder\"><!-- usage marker -->\n<div class=\"subtask-reorder\">\n            &nbsp;\n    </div></td>\n                    </tr>\n                </tbody>\n    </table>\n    </issuetable-web-component>\n    <div class=\"end-of-stable-message\"></div>\n            \n    </div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "view-subtasks"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "174da1c2498c86085c61212f9d5305b7", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_ceki\" rel=\"ceki\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Ceki G\u00fclc\u00fc&quot;,&quot;emailAddress&quot;:&quot;ceki+jira@qos.ch&quot;,&quot;username&quot;:&quot;ceki&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"ceki\" /></span></span>\n            Ceki G\u00fclc\u00fc\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_ceki\" rel=\"ceki\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Ceki G\u00fclc\u00fc&quot;,&quot;emailAddress&quot;:&quot;ceki+jira@qos.ch&quot;,&quot;username&quot;:&quot;ceki&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"ceki\" /></span></span>\n            Ceki G\u00fclc\u00fc\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">1</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">3</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "c31c924759209329227848223861cb20", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"16/Apr/13 8:10 PM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2013-04-16T20:10:18+0200\">16/Apr/13 8:10 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"26/Apr/13 11:12 PM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2013-04-26T23:12:40+0200\">26/Apr/13 11:12 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Resolved:</dt>\n            <dd class=\"date user-tz\"  title=\"23/Apr/13 12:22 PM\" >\n                <span data-name=\"Resolved\" id=\"resolutiondate-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2013-04-23T12:22:39+0200\">23/Apr/13 12:22 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-833%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "cd9bd3fbed2e2b5809d48bd2bb13243e", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "2d101d87a6536c0bab33adbd581d7b9c", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-833/LOGBACK-833.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "00ef62465d666660772bea07878126fc", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-833/LOGBACK-833.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "d9a69a979331de6608b154887f4a8cd5", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-833/LOGBACK-833.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "6", 
+            "iconUrl": "/images/icons/statuses/closed.png", 
+            "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.", 
+            "name": "Closed"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "3aeeaadb38a81572bb6cc149b39ea626", 
+        "summary": "In SiftingAppender, allow <sift> element to reference local properties", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-833", 
+        "id": 11680, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-833", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552211672308
+}

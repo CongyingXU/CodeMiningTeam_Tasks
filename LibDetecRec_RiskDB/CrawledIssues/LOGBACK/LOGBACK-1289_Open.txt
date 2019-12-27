@@ -1,0 +1,330 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|12c524e3a6030c5143acec0dc84c62f474826f64|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "ccd06aa4097c54e12b4d6a23bd16b114", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;\">Open</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value unresolved\" >\n                            Unresolved\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"versions-field\">\n                                            <span title=\"1.2.2 \">1.2.2</span>                                    </span>\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-classic\" title=\"logback-classic \">logback-classic</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <ul class=\"labels\" id=\"labels-14694-value\">\n                                                                        <li><a class=\"lozenge\" href=\"/issues/?jql=labels+%3D+SizeAndTimeBasedRollingPolicy\" title=\"SizeAndTimeBasedRollingPolicy\"><span>SizeAndTimeBasedRollingPolicy</span></a></li>\n                                                                    </ul>\n    </div>\n    </div>\n</li>                                <li class=\"item full-width\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Environment:</strong>\n        <div id=\"environment-val\" class=\"value\">\n                                          <p>logback version\u00a01.2.2\u00a0  <span class=\"image-wrap\" style=\"\"><img src=\"/secure/attachment/12757/12757_Capture2.PNG\" height=\"42\" width=\"821\" style=\"border: 0px solid black\" /></span></p>\n\n<p>\u00a0</p>\n      \n                    </div>\n    </div>\n</li>        </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "9568de08ff15a67e3ec4f433d6abb343", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>I'm using the latest version of LOGBACK because it has the fix with the\u00a0totalSizeCap in\u00a0<del><a href=\"https://jira.qos.ch/browse/LOGBACK-1277\" title=\"Capping log files does not work with large log file base\" class=\"issue-link\" data-issue-key=\"LOGBACK-1277\"><del>LOGBACK-1277</del></a></del>\u00a0, however, now the log file does not know how to roll to the next day and the main log file disappear, you will see it is logging to multi tmp files \u00a0all at once instead of the .txt</p>\n\n<p>I've attached the logback.xml and a screenshot of the log files inside the log folder.</p>\n\n<p>Can someone please give advice if it's a bug or some configuration I can do to fix that?</p>\n\n<p>thanks</p>\n\n<p>\u00a0</p>\n\n<p>Additional information:</p>\n\n<p>we have multi web app running on the same Tomcat server (8.0)\u00a0</p>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [
+                        {
+                            "header": {
+                                "id": "attachment-sorting-options", 
+                                "weight": 10
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "viewissue.subtasks.tab.show.all.name", 
+                                    "label": "Sort By Name", 
+                                    "href": "/browse/LOGBACK-1289?attachmentSortBy=fileName#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-sort-key-name"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Sort By Date", 
+                                    "label": "Sort By Date", 
+                                    "href": "/browse/LOGBACK-1289?attachmentSortBy=dateTime#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-sort-key-date"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-sorting-order-options", 
+                                "weight": 20
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Ascending", 
+                                    "label": "Ascending", 
+                                    "href": "/browse/LOGBACK-1289?attachmentOrder=asc#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-sort-direction-asc"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Descending", 
+                                    "label": "Descending", 
+                                    "href": "/browse/LOGBACK-1289?attachmentOrder=desc#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-sort-direction-desc"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-view-mode-options", 
+                                "weight": 20
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Thumbnails", 
+                                    "label": "Thumbnails", 
+                                    "href": "/browse/LOGBACK-1289?attachmentViewMode=gallery#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-view-mode-gallery"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "List", 
+                                    "label": "List", 
+                                    "href": "/browse/LOGBACK-1289?attachmentViewMode=list#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-view-mode-list"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-manage-options", 
+                                "weight": 90
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 1, 
+                                    "title": "Download all attachments as a ZIP file", 
+                                    "label": "Download All", 
+                                    "href": "/secure/attachmentzip/14694.zip", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "aszip"
+                                }
+                            ]
+                        }
+                    ], 
+                    "links": []
+                }, 
+                "contentId": "f97f156cb8f625f179205490414a3cc7", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:attachmentmodule", 
+                "prefix": "", 
+                "html": "<ol id=\"attachment_thumbnails\" class=\"item-attachments\" data-sort-key=\"fileName\" data-sort-order=\"asc\"><li class=\"attachment-content js-file-attachment\" draggable=\"true\" data-downloadurl=\"image/png:Capture.PNG:https://jira.qos.ch/secure/attachment/12755/Capture.PNG\"data-issue-id=\"14694\"data-attachment-type=\"image\"><div class=\"attachment-thumb\"><a href=\"/secure/attachment/12755/Capture.PNG\" title=\"Capture.PNG - Latest 23/Mar/17 3:57 PM - Kathy Li\" file-preview-id=\"12755\" file-preview-title=\"Capture.PNG\" file-preview-type=\"image\"file-preview-url=\"https://jira.qos.ch/secure/thumbnail/12755/_thumb_12755.png\"><img src=\"https://jira.qos.ch/secure/thumbnail/12755/_thumb_12755.png\" alt=\"Capture.PNG\" /></a></div><dl ><dt><span class=\"blender\"></span><a  href=\"/secure/attachment/12755/Capture.PNG\" class=\"attachment-title\" title=\"Capture.PNG - Latest 23/Mar/17 3:57 PM - Kathy Li\" file-preview-id=\"12755\" file-preview-title=\"Capture.PNG\" file-preview-type=\"image\"file-preview-url=\"https://jira.qos.ch/secure/thumbnail/12755/_thumb_12755.png\">Capture.PNG</a></dt><dd class=\"attachment-size\">23 kB</dd><dd class=\"attachment-date\"><time class=\"livestamp\" datetime=\"2017-03-23T15:57:50.252+01:00\">23/Mar/17 3:57 PM</time></dd></dl></li><li class=\"attachment-content js-file-attachment\" draggable=\"true\" data-downloadurl=\"image/png:Capture.PNG:https://jira.qos.ch/secure/attachment/12753/Capture.PNG\"data-issue-id=\"14694\"data-attachment-type=\"image\"><div class=\"attachment-thumb\"><a href=\"/secure/attachment/12753/Capture.PNG\" title=\"Capture.PNG - 23/Mar/17 3:45 PM - Kathy Li\" file-preview-id=\"12753\" file-preview-title=\"Capture.PNG\" file-preview-type=\"image\"file-preview-url=\"https://jira.qos.ch/secure/thumbnail/12753/_thumb_12753.png\"><img src=\"https://jira.qos.ch/secure/thumbnail/12753/_thumb_12753.png\" alt=\"Capture.PNG\" /></a></div><dl class=\"earlier-version\"><dt><span class=\"blender\"></span><a  href=\"/secure/attachment/12753/Capture.PNG\" class=\"attachment-title\" title=\"Capture.PNG - 23/Mar/17 3:45 PM - Kathy Li\" file-preview-id=\"12753\" file-preview-title=\"Capture.PNG\" file-preview-type=\"image\"file-preview-url=\"https://jira.qos.ch/secure/thumbnail/12753/_thumb_12753.png\">Capture.PNG</a></dt><dd class=\"attachment-size\">16 kB</dd><dd class=\"attachment-date\"><time class=\"livestamp\" datetime=\"2017-03-23T15:45:40.247+01:00\">23/Mar/17 3:45 PM</time></dd></dl></li><li class=\"attachment-content js-file-attachment\" draggable=\"true\" data-downloadurl=\"image/png:Capture2.PNG:https://jira.qos.ch/secure/attachment/12757/Capture2.PNG\"data-issue-id=\"14694\"data-attachment-type=\"image\"><div class=\"attachment-thumb\"><a href=\"/secure/attachment/12757/Capture2.PNG\" title=\"Capture2.PNG - Latest 23/Mar/17 4:45 PM - Kathy Li\" file-preview-id=\"12757\" file-preview-title=\"Capture2.PNG\" file-preview-type=\"image\"file-preview-url=\"https://jira.qos.ch/secure/thumbnail/12757/_thumb_12757.png\"><img src=\"https://jira.qos.ch/secure/thumbnail/12757/_thumb_12757.png\" alt=\"Capture2.PNG\" /></a></div><dl ><dt><span class=\"blender\"></span><a  href=\"/secure/attachment/12757/Capture2.PNG\" class=\"attachment-title\" title=\"Capture2.PNG - Latest 23/Mar/17 4:45 PM - Kathy Li\" file-preview-id=\"12757\" file-preview-title=\"Capture2.PNG\" file-preview-type=\"image\"file-preview-url=\"https://jira.qos.ch/secure/thumbnail/12757/_thumb_12757.png\">Capture2.PNG</a></dt><dd class=\"attachment-size\">9 kB</dd><dd class=\"attachment-date\"><time class=\"livestamp\" datetime=\"2017-03-23T16:45:28.655+01:00\">23/Mar/17 4:45 PM</time></dd></dl></li><li class=\"attachment-content js-file-attachment\" draggable=\"true\" data-downloadurl=\"application/octet-stream:catalina.out:https://jira.qos.ch/secure/attachment/12756/catalina.out\"data-issue-id=\"14694\"data-attachment-type=\"file\"><div class=\"attachment-thumb\"><a href=\"/secure/attachment/12756/catalina.out\" title=\"catalina.out - Latest 23/Mar/17 4:29 PM - Kathy Li\"><span class=\"aui-icon aui-icon-large attachment-thumbnail-icon aui-iconfont-devtools-file\"></span></a></div><dl ><dt><span class=\"blender\"></span><a  href=\"/secure/attachment/12756/catalina.out\" class=\"attachment-title\" title=\"catalina.out - Latest 23/Mar/17 4:29 PM - Kathy Li\">catalina.out</a></dt><dd class=\"attachment-size\">3 kB</dd><dd class=\"attachment-date\"><time class=\"livestamp\" datetime=\"2017-03-23T16:29:44.540+01:00\">23/Mar/17 4:29 PM</time></dd></dl></li><li class=\"attachment-content js-file-attachment\" draggable=\"true\" data-downloadurl=\"text/xml:logback.xml:https://jira.qos.ch/secure/attachment/12754/logback.xml\"data-issue-id=\"14694\"data-attachment-type=\"file\"><div class=\"attachment-thumb\"><a href=\"/secure/attachment/12754/logback.xml\" title=\"logback.xml - Latest 23/Mar/17 3:40 PM - Kathy Li\"><span class=\"aui-icon aui-icon-large attachment-thumbnail-icon aui-iconfont-file-code\"></span></a></div><dl ><dt><span class=\"blender\"></span><a  href=\"/secure/attachment/12754/logback.xml\" class=\"attachment-title\" title=\"logback.xml - Latest 23/Mar/17 3:40 PM - Kathy Li\">logback.xml</a></dt><dd class=\"attachment-size\">1 kB</dd><dd class=\"attachment-date\"><time class=\"livestamp\" datetime=\"2017-03-23T15:40:10.697+01:00\">23/Mar/17 3:40 PM</time></dd></dl></li></ol>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "attachmentmodule"
+            }, 
+            {
+                "weight": 400, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "8b167d94893afd2b1f4e118b8aecbd5d", 
+                "subpanelHtmls": [], 
+                "label": "Issue Links", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:linkingmodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n<div class=\"links-container\" data-default-link-icon=\"/images/icons/generic_link_16.png\">\n                <dl class=\"links-list \">\n            <dt title=\"blocks\">blocks</dt>\n                            <dd id=\"internal-15083_10000\"\n                                                                            >\n                    <div class=\"link-content\">\n                                                    \n\n\n\n<p>\n            <img src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" width=\"16\" height=\"16\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" alt=\"Bug - A problem which impairs or prevents the functions of the product.\" />\n        <span title=\"LOGBACK-1350: After rolling logback writes to the old and the new file (rolls-over twice)\">\n        <a href=\"/browse/LOGBACK-1350\" data-issue-key=\"LOGBACK-1350\" class=\"issue-link link-title\">LOGBACK-1350</a>\n        <span class=\"link-summary\">After rolling logback writes to the old and the new file (rolls-over twice)</span>\n    </span>\n</p>\n<ul class=\"link-snapshot\">\n        <li class=\"priority\">        <img src=\"/images/icons/priorities/major.svg\" width=\"16\" height=\"16\" title=\"Major - Major loss of function.\" alt=\"Major - Major loss of function.\" />\n    </li>\n                <li class=\"status\">\n                        <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-short\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;\">Open</span>\n                    </li>\n    </ul>\n                                            </div>\n                                    </dd>\n                    </dl>\n        </div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "linkingmodule"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "603252c63f3fa2d056ddc75ce113c310", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_logback-dev\" rel=\"logback-dev\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Logback dev list&quot;,&quot;emailAddress&quot;:&quot;logback-dev@qos.ch&quot;,&quot;username&quot;:&quot;logback-dev&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"logback-dev\" /></span></span>\n            Logback dev list\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_o0katkat0o\" rel=\"o0katkat0o\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=12014&quot;,&quot;displayName&quot;:&quot;Kathy Li&quot;,&quot;emailAddress&quot;:&quot;kli@toogood.com&quot;,&quot;username&quot;:&quot;o0katkat0o&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=12014\" alt=\"o0katkat0o\" /></span></span>\n            Kathy Li\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">1</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">3</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "ffbeae49084388efd0fc535e143bd2b0", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"23/Mar/17 3:54 PM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2017-03-23T15:54:39+0100\">23/Mar/17 3:54 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"10/Nov/17 2:14 PM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2017-11-10T14:14:20+0100\">10/Nov/17 2:14 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-1289%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "209848a76600c4ed372366346fd382be", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "a5f2c385cf4485867d259cc8874aee7e", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-1289/LOGBACK-1289.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "9fde61c4a7d132bce84274f9bfaee93e", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-1289/LOGBACK-1289.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "61d4af802bcd8fd0570bda3469d1a745", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-1289/LOGBACK-1289.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "1", 
+            "iconUrl": "/images/icons/statuses/open.png", 
+            "description": "The issue is open and ready for the assignee to start work on it.", 
+            "name": "Open"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "5c08c8e58fd2ee130d47b0f33d42aa09", 
+        "summary": "SizeAndTimeBasedRollingPolicy does not roll to the new date", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-1289", 
+        "id": 14694, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-1289", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552208840881
+}

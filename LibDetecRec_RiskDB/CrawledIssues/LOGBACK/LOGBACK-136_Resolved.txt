@@ -1,0 +1,314 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|43547f74d1532e0107677c3fb41d40e0598e2732|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "b501c8c155a172705384c3b7280a0ddd", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Resolved&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.&lt;/span&gt;\">Resolved</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value resolved\" >\n                             Fixed\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-core\" title=\"logback-core \">logback-core</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-10742-value\">None</span>\n            </div>\n    </div>\n</li>            </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "4640b99257ea720ea362111750dbe2be", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>Hi logback-dev,</p>\n\n<p>ConsoleAppender does not work nicely with JUnit.</p>\n\n<p>Symptom: when running junit tests with logback (default configuration, no logback configuration is provided), only the first test case's output was captured, the subsequent test cases' output were not captured by junit.</p>\n\n<p>The problem is that console appender binds itself to stdout / stderr statically.</p>\n\n<p>Illustrate what happens:<br/>\nJunit run test 1 -&gt; System.out is set to test1.out -&gt; Logback auto configure -&gt; Console appender is bind to System.out, which is test1.out<br/>\nJunit run test 2 -&gt; System.out is set to test2.out -&gt; Console appender is still bind to test1.out -&gt; The output of subsequent test cases are not correctly redirected.</p>\n\n<p>The ConsoleAppender's behavior is not correct as it should always write to current System.out / System.err.</p>\n\n<p>I worked out a simple fix and hope it will be useful:</p>\n\n<p>/**</p>\n<ul>\n\t<li>Logback: the generic, reliable, fast and flexible logging framework.</li>\n\t<li></li>\n\t<li>Copyright (C) 2000-2009, QOS.ch</li>\n\t<li></li>\n\t<li>This library is free software, you can redistribute it and/or modify it under</li>\n\t<li>the terms of the GNU Lesser General Public License as published by the Free</li>\n\t<li>Software Foundation.<br/>\n */<br/>\npackage ch.qos.logback.core;</li>\n</ul>\n\n\n<p>import java.io.IOException;<br/>\nimport java.io.OutputStream;</p>\n\n<p>import ch.qos.logback.core.status.Status;<br/>\nimport ch.qos.logback.core.status.WarnStatus;</p>\n\n<p>/**</p>\n<ul>\n\t<li>ConsoleAppender appends log events to &lt;code&gt;System.out&lt;/code&gt; or &lt;code&gt;System.err&lt;/code&gt; using a layout specified by</li>\n\t<li>the user. The default target is &lt;code&gt;System.out&lt;/code&gt;.</li>\n\t<li></li>\n\t<li>For more information about this appender, please refer to the online manual at</li>\n\t<li><a href=\"http://logback.qos.ch/manual/appenders.html#ConsoleAppender\" class=\"external-link\" rel=\"nofollow\">http://logback.qos.ch/manual/appenders.html#ConsoleAppender</a></li>\n\t<li></li>\n\t<li>@author Ceki G&uuml;lc&uuml;<br/>\n */</li>\n</ul>\n\n\n<p>public class ConsoleAppender&lt;E&gt; extends WriterAppender&lt;E&gt; {</p>\n\n<p>    public static final String SYSTEM_OUT = \"System.out\";</p>\n\n<p>    public static final String SYSTEM_ERR = \"System.err\";</p>\n\n<p>    protected String target = SYSTEM_OUT;</p>\n\n<p>    private interface OutputStreamProvider </p>\n{\n        OutputStream getOutputStream();\n    }\n\n<p>    private static class SysoutProvider implements OutputStreamProvider {<br/>\n        @Override<br/>\n        public OutputStream getOutputStream() </p>\n{\n            return System.out;\n        }\n<p>    }</p>\n\n<p>    private static class SyserrProvider implements OutputStreamProvider {<br/>\n        @Override<br/>\n        public OutputStream getOutputStream() </p>\n{\n            return System.err;\n        }\n<p>    }</p>\n\n<p>    private static class WrapperOutputStream extends OutputStream {</p>\n\n<p>        private final OutputStreamProvider provider;</p>\n\n<p>        WrapperOutputStream(OutputStreamProvider provider) </p>\n{\n            this.provider = provider;\n        }\n\n<p>        @Override<br/>\n        public void write(int b) throws IOException </p>\n{\n            provider.getOutputStream().write(b);\n        }<br/>\n<br/>\n        @Override<br/>\n        public void write(byte[] b, int off, int len) throws IOException {\n            provider.getOutputStream().write(b, off, len);\n        }<br/>\n<br/>\n        @Override<br/>\n        public void write(byte[] b) throws IOException {            provider.getOutputStream().write(b);        }\n\n<p>        @Override<br/>\n        public void close() throws IOException </p>\n{\n            provider.getOutputStream().close();\n        }\n\n<p>        @Override<br/>\n        public void flush() throws IOException </p>\n{\n            provider.getOutputStream().flush();\n        }\n<p>    }<br/>\n    /**</p>\n<ul>\n\t<li>As in most logback components, the default constructor does nothing.<br/>\n     */<br/>\n    public ConsoleAppender() {<br/>\n    }</li>\n</ul>\n\n\n<p>    /**</p>\n<ul>\n\t<li>Sets the value of the &lt;b&gt;Target&lt;/b&gt; option. Recognized values are \"System.out\" and \"System.err\". Any other value</li>\n\t<li>will be ignored.<br/>\n     */<br/>\n    public void setTarget(String value) {<br/>\n        String v = value.trim();</li>\n</ul>\n\n\n<p>        if (SYSTEM_OUT.equalsIgnoreCase(v)) </p>\n{\n            target = SYSTEM_OUT;\n        }\n<p> else if (SYSTEM_ERR.equalsIgnoreCase(v)) </p>\n{\n            target = SYSTEM_ERR;\n        }\n<p> else </p>\n{\n            targetWarn(value);\n        }\n<p>    }</p>\n\n<p>    /**</p>\n<ul>\n\t<li>Returns the current value of the &lt;b&gt;Target&lt;/b&gt; property. The default value of the option is \"System.out\".</li>\n\t<li></li>\n\t<li>See also \n{@link #setTarget}\n<p>.<br/>\n     */<br/>\n    public String getTarget() </p>\n{\n        return target;\n    }</li>\n</ul>\n\n\n<p>    void targetWarn(String val) </p>\n{\n        Status status = new WarnStatus(\"[\" + val + \" should be System.out or System.err.\", this);\n        status.add(new WarnStatus(\"Using previously set target, System.out by default.\", this));\n        addStatus(status);\n    }\n\n<p>    public void start() {<br/>\n        if (target.equals(SYSTEM_OUT)) </p>\n{\n            setWriter(createWriter(new WrapperOutputStream(new SysoutProvider())));\n        }\n<p> else </p>\n{\n            setWriter(createWriter(new WrapperOutputStream(new SyserrProvider())));\n        }\n<p>        super.start();<br/>\n    }</p>\n\n<p>    /**</p>\n<ul>\n\t<li>This method overrides the parent \n{@link WriterAppender#closeWriter}\n<p> implementation because the console stream is</p></li>\n\t<li>not ours to close.<br/>\n     */<br/>\n    protected final void closeWriter() \n{\n        writeFooter();\n    }</li>\n</ul>\n\n\n\n<p>}</p>\n\n\n\n\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [
+                        {
+                            "header": {
+                                "id": "attachment-sorting-options", 
+                                "weight": 10
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "viewissue.subtasks.tab.show.all.name", 
+                                    "label": "Sort By Name", 
+                                    "href": "/browse/LOGBACK-136?attachmentSortBy=fileName#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-sort-key-name"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Sort By Date", 
+                                    "label": "Sort By Date", 
+                                    "href": "/browse/LOGBACK-136?attachmentSortBy=dateTime#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-sort-key-date"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-sorting-order-options", 
+                                "weight": 20
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Ascending", 
+                                    "label": "Ascending", 
+                                    "href": "/browse/LOGBACK-136?attachmentOrder=asc#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-sort-direction-asc"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "Descending", 
+                                    "label": "Descending", 
+                                    "href": "/browse/LOGBACK-136?attachmentOrder=desc#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-sort-direction-desc"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-view-mode-options", 
+                                "weight": 20
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 10, 
+                                    "title": "Thumbnails", 
+                                    "label": "Thumbnails", 
+                                    "href": "/browse/LOGBACK-136?attachmentViewMode=gallery#attachmentmodule", 
+                                    "styleClass": "aui-list-checked aui-checked", 
+                                    "id": "attachment-view-mode-gallery"
+                                }, 
+                                {
+                                    "weight": 20, 
+                                    "title": "List", 
+                                    "label": "List", 
+                                    "href": "/browse/LOGBACK-136?attachmentViewMode=list#attachmentmodule", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "attachment-view-mode-list"
+                                }
+                            ]
+                        }, 
+                        {
+                            "header": {
+                                "id": "attachment-manage-options", 
+                                "weight": 90
+                            }, 
+                            "groups": [], 
+                            "links": [
+                                {
+                                    "weight": 1, 
+                                    "title": "Download all attachments as a ZIP file", 
+                                    "label": "Download All", 
+                                    "href": "/secure/attachmentzip/10742.zip", 
+                                    "styleClass": "aui-list-checked", 
+                                    "id": "aszip"
+                                }
+                            ]
+                        }
+                    ], 
+                    "links": []
+                }, 
+                "contentId": "8da30333580ebd71352aba7a4c88b376", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:attachmentmodule", 
+                "prefix": "", 
+                "html": "<ol id=\"attachment_thumbnails\" class=\"item-attachments\" data-sort-key=\"fileName\" data-sort-order=\"asc\"><li class=\"attachment-content js-file-attachment\" draggable=\"true\" data-downloadurl=\"text/java:ConsoleAppender.java:https://jira.qos.ch/secure/attachment/10241/ConsoleAppender.java\"data-issue-id=\"10742\"data-attachment-type=\"file\"><div class=\"attachment-thumb\"><a href=\"/secure/attachment/10241/ConsoleAppender.java\" title=\"ConsoleAppender.java - Latest 16/Mar/10 12:17 PM - tomliliu\"><span class=\"aui-icon aui-icon-large attachment-thumbnail-icon aui-iconfont-devtools-file\"></span></a></div><dl ><dt><span class=\"blender\"></span><a  href=\"/secure/attachment/10241/ConsoleAppender.java\" class=\"attachment-title\" title=\"ConsoleAppender.java - Latest 16/Mar/10 12:17 PM - tomliliu\">ConsoleAppender.java</a></dt><dd class=\"attachment-size\">4 kB</dd><dd class=\"attachment-date\"><time class=\"livestamp\" datetime=\"2010-03-16T12:17:26.000+01:00\">16/Mar/10 12:17 PM</time></dd></dl></li><li class=\"attachment-content js-file-attachment\" draggable=\"true\" data-downloadurl=\"application/octet-stream:refactoring:https://jira.qos.ch/secure/attachment/10243/refactoring\"data-issue-id=\"10742\"data-attachment-type=\"file\"><div class=\"attachment-thumb\"><a href=\"/secure/attachment/10243/refactoring\" title=\"refactoring - Latest 17/Mar/10 5:55 PM - R\u00fc\"><span class=\"aui-icon aui-icon-large attachment-thumbnail-icon aui-iconfont-devtools-file\"></span></a></div><dl ><dt><span class=\"blender\"></span><a  href=\"/secure/attachment/10243/refactoring\" class=\"attachment-title\" title=\"refactoring - Latest 17/Mar/10 5:55 PM - R\u00fc\">refactoring</a></dt><dd class=\"attachment-size\">6 kB</dd><dd class=\"attachment-date\"><time class=\"livestamp\" datetime=\"2010-03-17T17:55:51.000+01:00\">17/Mar/10 5:55 PM</time></dd></dl></li></ol>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "attachmentmodule"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "16dc9b0bdd8e71b4fd2c263dd1a6a6d8", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_logback-dev\" rel=\"logback-dev\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Logback dev list&quot;,&quot;emailAddress&quot;:&quot;logback-dev@qos.ch&quot;,&quot;username&quot;:&quot;logback-dev&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"logback-dev\" /></span></span>\n            Logback dev list\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_tomliliu\" rel=\"tomliliu\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;tomliliu&quot;,&quot;emailAddress&quot;:&quot;Tom.SH.Liu@morganstanley.com&quot;,&quot;username&quot;:&quot;tomliliu&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"tomliliu\" /></span></span>\n            tomliliu\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">1</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">3</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "f299cab5d09feec03d42c1fe1e1d9adc", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"16/Mar/10 12:16 PM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2010-03-16T12:16:20+0100\">16/Mar/10 12:16 PM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"12/Jun/12 11:59 AM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2012-06-12T11:59:32+0200\">12/Jun/12 11:59 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Resolved:</dt>\n            <dd class=\"date user-tz\"  title=\"17/Mar/10 10:23 AM\" >\n                <span data-name=\"Resolved\" id=\"resolutiondate-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2010-03-17T10:23:38+0100\">17/Mar/10 10:23 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-136%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "37738c5d6eb655d5c9149a1a87fd5395", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "9c4fdb828745ae1fb11f67ff120a0b3c", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-136/LOGBACK-136.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "7b144531da4762df6e9aa1341ceaab92", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-136/LOGBACK-136.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "7fd778dcb0569ebd20cfb48fa19a1636", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-136/LOGBACK-136.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "5", 
+            "iconUrl": "/images/icons/statuses/resolved.png", 
+            "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.", 
+            "name": "Resolved"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "a6e45c7cce4d345a9940044caff917de", 
+        "summary": "ConsoleAppender should always write to current System.out / System.err. The underlying outputstream should not be bind statically.", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-136", 
+        "id": 10742, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-136", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552217012077
+}

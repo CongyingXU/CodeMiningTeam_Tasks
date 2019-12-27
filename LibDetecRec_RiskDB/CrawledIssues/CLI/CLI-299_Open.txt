@@ -1,0 +1,213 @@
+{
+    "fields": [],
+    "errorCollection": {
+        "errorMessages": [],
+        "errors": {}
+    },
+    "issue": {
+        "id": 13269638,
+        "key": "CLI-299",
+        "metadata": {
+            "can-search-users": "false",
+            "can-edit-watchers": "false",
+            "default-avatar-url": "https://issues.apache.org/jira/secure/useravatar?size=xsmall&avatarId=10453",
+            "issue-project-type": "software",
+            "issue-key": "CLI-299"
+        },
+        "operations": {
+            "linkGroups": [
+                {
+                    "id": "view.issue.opsbar",
+                    "links": [],
+                    "groups": [
+                        {
+                            "id": "ops-login-lnk_container",
+                            "links": [
+                                {
+                                    "id": "ops-login-lnk",
+                                    "label": "Log In",
+                                    "title": "Log In",
+                                    "href": "/jira/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DCLI-299%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26",
+                                    "contentId": "ed2c102597f8aab1d94f9838f3a36d33"
+                                }
+                            ],
+                            "groups": []
+                        }
+                    ]
+                },
+                {
+                    "id": "jira.issue.tools",
+                    "links": [],
+                    "groups": [
+                        {
+                            "id": "view.issue.exports",
+                            "header": {
+                                "id": "viewissue-export",
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export",
+                                "label": "Export",
+                                "title": "Export this issue in another format"
+                            },
+                            "links": [
+                                {
+                                    "id": "jira.issueviews:issue-xml",
+                                    "label": "XML",
+                                    "href": "/jira/si/jira.issueviews:issue-xml/CLI-299/CLI-299.xml",
+                                    "contentId": "790e9a96958f7f7aa64ee6819a8b8b9d"
+                                },
+                                {
+                                    "id": "jira.issueviews:issue-word",
+                                    "label": "Word",
+                                    "href": "/jira/si/jira.issueviews:issue-word/CLI-299/CLI-299.doc",
+                                    "contentId": "c10e577ed0bb39d992f067ef07f71edb"
+                                },
+                                {
+                                    "id": "jira.issueviews:issue-html",
+                                    "label": "Printable",
+                                    "href": "/jira/si/jira.issueviews:issue-html/CLI-299/CLI-299.html",
+                                    "contentId": "ebefc8b68b0314b68b3835d3d844b243"
+                                },
+                                {
+                                    "id": "com.atlassian.jira.plugins.jira-importers-plugin:issue-json",
+                                    "label": "JSON",
+                                    "href": "/jira/si/com.atlassian.jira.plugins.jira-importers-plugin:issue-json/CLI-299/CLI-299.json",
+                                    "contentId": "fcd0ec6ff59cdbe68071185f9fd47ace"
+                                }
+                            ],
+                            "groups": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "project": {
+            "id": 12310463,
+            "key": "CLI",
+            "projectType": "software",
+            "name": "Commons CLI",
+            "avatarUrls": {
+                "48x48": "https://issues.apache.org/jira/secure/projectavatar?pid=12310463&avatarId=10011",
+                "24x24": "https://issues.apache.org/jira/secure/projectavatar?size=small&pid=12310463&avatarId=10011",
+                "16x16": "https://issues.apache.org/jira/secure/projectavatar?size=xsmall&pid=12310463&avatarId=10011",
+                "32x32": "https://issues.apache.org/jira/secure/projectavatar?size=medium&pid=12310463&avatarId=10011"
+            },
+            "systemAvatar": true,
+            "archived": false
+        },
+        "status": {
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "/images/icons/statuses/open.png",
+            "name": "Open",
+            "id": "1"
+        },
+        "summary": "Add Automatic-Module-Name to MANIFEST.MF",
+        "summaryContentId": "e72d5ecad0a8a64be01f1d2fb2e27674",
+        "isEditable": false,
+        "archived": false
+    },
+    "panels": {
+        "leftPanels": [
+            {
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module",
+                "prefix": "",
+                "id": "details-module",
+                "styleClass": "",
+                "label": "Details",
+                "renderHeader": true,
+                "headerLinks": {
+                    "links": [],
+                    "groups": []
+                },
+                "subpanelHtmls": [],
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/jira/secure/viewavatar?size=xsmall&amp;avatarId=21140&amp;avatarType=issuetype\" title=\"Improvement - An improvement or enhancement to an existing feature or task.\" width=\"16\" /> Improvement\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;\">Open</span>            </span>\n            </div>\n</li>\n    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/jira/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" />  Major                     </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value unresolved\" >\n                            Unresolved\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-13269638-value\">None</span>\n            </div>\n    </div>\n</li>            </ul>\n\n",
+                "weight": 100,
+                "contentId": "ee627ebb6e33630cb28291cc414cf3d6"
+            },
+            {
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule",
+                "prefix": "",
+                "id": "descriptionmodule",
+                "styleClass": "",
+                "label": "Description",
+                "renderHeader": true,
+                "headerLinks": {
+                    "links": [],
+                    "groups": []
+                },
+                "subpanelHtmls": [],
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>Add Automatic-Module-Name to the jar manifest in support of the Java 9 module system.\u00a0 See other Apache commons projects that have already made the update:</p>\n\n<p><a href=\"https://issues.apache.org/jira/browse/BEANUTILS-512\" class=\"external-link\" rel=\"nofollow\">https://issues.apache.org/jira/browse/BEANUTILS-512</a></p>\n\n<p><a href=\"https://issues.apache.org/jira/browse/LOGGING-165\" class=\"external-link\" rel=\"nofollow\">https://issues.apache.org/jira/browse/LOGGING-165</a></p>\n\n<p>I am opening this ticket because Accumulo requires its dependencies to have stable module names before it can release modules of its own.\u00a0 Here is some discussion and more information about this topic: <a href=\"https://github.com/apache/accumulo/issues/1434\" class=\"external-link\" rel=\"nofollow\">https://github.com/apache/accumulo/issues/1434</a></p>\n            </div>\n</div>\n",
+                "weight": 200,
+                "contentId": "63c971305baaca071fb1a9b0fb54a150"
+            },
+            {
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata",
+                "prefix": "",
+                "id": "dnd-metadata",
+                "styleClass": "",
+                "label": "Attachments",
+                "renderHeader": true,
+                "headerLinks": {
+                    "links": [],
+                    "groups": []
+                },
+                "subpanelHtmls": [],
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"62914560\" data-thumbnails-allowed=\"false\"></div>",
+                "weight": 300,
+                "contentId": "9f2fd3907c772e16cbc1aa320704035e"
+            },
+            {
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule",
+                "prefix": "",
+                "id": "activitymodule",
+                "styleClass": "",
+                "label": "Activity",
+                "renderHeader": true,
+                "headerLinks": {
+                    "links": [],
+                    "groups": []
+                },
+                "subpanelHtmls": [],
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n",
+                "weight": 900,
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb"
+            }
+        ],
+        "rightPanels": [
+            {
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule",
+                "prefix": "",
+                "id": "peoplemodule",
+                "styleClass": "",
+                "label": "People",
+                "renderHeader": true,
+                "headerLinks": {
+                    "links": [],
+                    "groups": []
+                },
+                "subpanelHtmls": [],
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n    \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://issues.apache.org/jira/secure/useravatar?size=small&amp;avatarId=10453\" /></span></span>\n    Unassigned\n</span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_milleruntime\" rel=\"milleruntime\">\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://issues.apache.org/jira/secure/useravatar?size=small&amp;avatarId=10452\" alt=\"milleruntime\" /></span></span>\n            Michael Miller\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <aui-badge id=\"vote-data\" class=\"\">0</aui-badge>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                \n                            <aui-badge id=\"watcher-data\" class=\"\">1</aui-badge>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n",
+                "weight": 10,
+                "contentId": "961b66e07f578ae800f188d85ab27016"
+            },
+            {
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule",
+                "prefix": "",
+                "id": "datesmodule",
+                "styleClass": "",
+                "label": "Dates",
+                "renderHeader": true,
+                "headerLinks": {
+                    "links": [],
+                    "groups": []
+                },
+                "subpanelHtmls": [],
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"20/Nov/19 17:40\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2019-11-20T17:40:07+0000\">20/Nov/19 17:40</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"21/Nov/19 16:34\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2019-11-21T16:34:40+0000\">21/Nov/19 16:34</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n",
+                "weight": 40,
+                "contentId": "15ef05cbf15489cb59c9694a91a92185"
+            }
+        ],
+        "infoPanels": []
+    },
+    "removedContentIds": {},
+    "readTime": 1577065179614,
+    "atl_token": "A5KQ-2QAV-T4JA-FDED_6b5b356de86594a5ae8404308dbabad5a47f60a9_lout"
+}

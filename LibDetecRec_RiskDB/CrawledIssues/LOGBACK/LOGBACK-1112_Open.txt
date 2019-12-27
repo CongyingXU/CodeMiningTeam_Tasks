@@ -1,0 +1,205 @@
+{
+    "errorCollection": {
+        "errorMessages": [], 
+        "errors": {}
+    }, 
+    "fields": [], 
+    "removedContentIds": {}, 
+    "atl_token": "APH4-RW9H-DTE9-IR2M|14b15b84b579ae17f9b66ca536c4f8aa6ecac338|lout", 
+    "panels": {
+        "leftPanels": [
+            {
+                "weight": 100, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "1ee0ea857e8734905623559d721a882b", 
+                "subpanelHtmls": [], 
+                "label": "Details", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:details-module", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n\n\n\n\n\n<ul id=\"issuedetails\" class=\"property-list two-cols\">\n                \n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Type:</strong>\n        <span id=\"type-val\" class=\"value\">\n                        <img  alt=\"\" height=\"16\" src=\"/secure/viewavatar?size=xsmall&amp;avatarId=11103&amp;avatarType=issuetype\" title=\"Bug - A problem which impairs or prevents the functions of the product.\" width=\"16\" /> Bug\n        </span>\n    </div>\n</li>                    <li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Status:</strong>\n            <span id=\"status-val\" class=\"value\">\n                                <span class=\" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new jira-issue-status-lozenge-max-width-medium\" data-tooltip=\"&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Open&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;jira-issue-status-tooltip-desc&quot;&gt;The issue is open and ready for the assignee to start work on it.&lt;/span&gt;\">Open</span>            </span>\n            </div>\n</li>    \n                        <li class=\"item new\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Priority:</strong>\n        <span id=\"priority-val\" class=\"value\">\n                                        <img  alt=\"\" height=\"16\" src=\"/images/icons/priorities/major.svg\" title=\"Major - Major loss of function.\" width=\"16\" /> Major\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Resolution:</strong>\n        <span id=\"resolution-val\" class=\"value unresolved\" >\n                            Unresolved\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Affects Version/s:</strong>\n        <span id=\"versions-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"versions-field\">\n                                            <span title=\"1.1.3 \">1.1.3</span>                                    </span>\n                    </span>\n    </div>\n</li>                                \n<li class=\"item item-right\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Fix Version/s:</strong>\n        <span id=\"fixfor-val\" class=\"value\">\n                                        None\n                    </span>\n    </div>\n</li>                                \n\n<li class=\"item\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Component/s:</strong>\n        <span id=\"components-val\" class=\"value\">\n                                        <span class=\"shorten\" id=\"components-field\">\n                                            <a href=\"/issues/?jql=project+%3D+LOGBACK+AND+component+%3D+logback-classic\" title=\"logback-classic \">logback-classic</a>                                    </span>\n                    </span>\n    </div>\n</li>                                    \n\n\n<li class=\"item full-width\">\n    <div class=\"wrap\" id=\"wrap-labels\">\n        <strong class=\"name\">Labels:</strong>\n                <div class=\"labels-wrap value\">\n            <span class=\"labels\" id=\"labels-13382-value\">None</span>\n            </div>\n    </div>\n</li>                                <li class=\"item full-width\">\n    <div class=\"wrap\">\n        <strong class=\"name\">Environment:</strong>\n        <div id=\"environment-val\" class=\"value\">\n                                          <div id=\"field-environment\" class=\"twixi-block twixi-block-inverted collapsed \">\n            <div class=\"twixi-wrap verbose\">\n                <a href=\"#\" class=\"twixi \"><span class=\"icon-default aui-icon aui-icon-small aui-iconfont-expanded\"><span>Hide</span></span></a>\n                <div class=\"flooded\">\n                    <div class=\"preformatted panel\" style=\"border-width: 1px;\"><div class=\"preformattedContent panelContent\">\n<pre>java -version\njava version \"1.8.0_45\"\nJava(TM) SE Runtime Environment (build 1.8.0_45-b14)\nJava HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)\n\nuname -r\n2.6.32-504.30.3.el6.x86_64\n</pre>\n</div></div>\n\n\n<p>jinfo</p>\n\n<div class=\"preformatted panel\" style=\"border-width: 1px;\"><div class=\"preformattedContent panelContent\">\n<pre>Attaching to process ID 10786, please wait...\nDebugger attached successfully.\nServer compiler detected.\nJVM version is 25.45-b02\nJava System Properties:\n\njava.vendor = Oracle Corporation\nsun.java.launcher = SUN_STANDARD\ncatalina.base = /tmp/tomcat.3682779737098545581.8686\nsun.management.compiler = HotSpot 64-Bit Tiered Compilers\ncatalina.useNaming = false\nrest.poolMaxTotal = 8\nos.name = Linux\nsun.boot.class.path = /usr/java/jdk1.8.0_45/jre/lib/resources.jar:/usr/java/jdk1.8.0_45/jre/lib/rt.jar:/usr/java/jdk1.8.0_45/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_45/jre/lib/jsse.jar:/usr/java/jdk1.8.0_45/jre/lib/jce.jar:/usr/java/jdk1.8.0_45/jre/lib/charsets.jar:/usr/java/jdk1.8.0_45/jre/lib/jfr.jar:/usr/java/jdk1.8.0_45/jre/classes\njava.vm.specification.vendor = Oracle Corporation\njava.runtime.version = 1.8.0_45-b14\nuser.language = en\nsun.boot.library.path = /usr/java/jdk1.8.0_45/jre/lib/amd64\ncom.sun.management.jmxremote.port = 3334\nPID = 10786\njava.version = 1.8.0_45\nsun.arch.data.model = 64\nrest.poolMaxPerRoute = 8\njava.endorsed.dirs = /usr/java/jdk1.8.0_45/jre/lib/endorsed\njava.rmi.server.randomIDs = true\nsun.cpu.isalist =\nsun.jnu.encoding = UTF-8\nfile.encoding.pkg = sun.io\nfile.separator = /\njava.specification.name = Java Platform API Specification\njava.class.version = 52.0\nuser.country = US\njava.home = /usr/java/jdk1.8.0_45/jre\njava.vm.info = mixed mode\nos.version = 2.6.32-504.30.3.el6.x86_64\nrest.server.nio2.enabled = false\ncom.sun.management.jmxremote.ssl = false\npath.separator = :\njava.vm.version = 25.45-b02\norg.jboss.logging.provider = slf4j\njava.protocol.handler.pkgs = null|org.springframework.boot.loader\njava.awt.printerjob = sun.print.PSPrinterJob\nsun.io.unicode.encoding = UnicodeLittle\nawt.toolkit = sun.awt.X11.XToolkit\ncom.sun.management.jmxremote.authenticate = false\njava.security.egd = file:/dev/./urandom\nuser.home = /home/wmapp\njava.specification.vendor = Oracle Corporation\njava.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib\njava.vendor.url = http://java.oracle.com/\njava.vm.vendor = Oracle Corporation\njava.runtime.name = Java(TM) SE Runtime Environment\nsun.java.command = server-start-2.0.0.jar --spring.config.location=classpath:/application-internal.properties\njava.class.path = server-start-2.0.0.jar\njava.vm.specification.name = Java Virtual Machine Specification\njava.vm.specification.version = 1.8\ncatalina.home = /tmp/tomcat.3682779737098545581.8686\nsun.cpu.endian = little\nsun.os.patch.level = unknown\njava.awt.headless = true\njava.io.tmpdir = /tmp\njava.vendor.url.bug = http://bugreport.sun.com/bugreport/\nos.arch = amd64\njava.awt.graphicsenv = sun.awt.X11GraphicsEnvironment\njava.ext.dirs = /usr/java/jdk1.8.0_45/jre/lib/ext:/usr/java/packages/lib/ext\nuser.dir = /home/wmapp/\nline.separator =\n\njava.vm.name = Java HotSpot(TM) 64-Bit Server VM\nfile.encoding = UTF-8\njava.specification.version = 1.8\nDIRECTORY_PATH_LOGS = /home/wmapp/hb2/\n\nVM Flags:\nNon-default VM flags: -XX:CICompilerCount=4 -XX:ConcGCThreads=2 -XX:G1HeapRegionSize=1048576 -XX:InitialHeapSize=2147483648 -XX:+ManagementServer -XX:MarkStackSize=4194304 -XX:MaxGCPauseMillis=50 -XX:MaxHeapSize=4294967296 -XX:MaxNewSize=2576351232 -XX:MinHeapDeltaBytes=1048576 -XX:+OptimizeStringConcat -XX:+PrintGC -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseTLAB\nCommand line:  -XX:+UseG1GC -Xmx4g -Xms2g -verbose:gc -XX:MaxGCPauseMillis=50 -XX:+UseTLAB -XX:+UseCompressedOops -XX:+OptimizeStringConcat -Djava.security.egd=file:/dev/./urandom -Dcom.sun.management.jmxremote.port=3334 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false\n</pre>\n</div></div>\n                </div>\n            </div>\n            <div class=\"twixi-wrap concise\">\n                <a href=\"#\" class=\"twixi \"><span class=\"icon-default aui-icon aui-icon-small aui-iconfont-collapsed\"><span>Show</span></span></a>\n                <div class=\"flooded\">\n                                              \n java -version\njava version \"1.8.0_45\"\nJava(TM) SE Runtime Environment (build 1.8.0_45-b14)\nJava HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)\n\nuname -r\n2.6.32-504.30.3.el6.x86_64\n \n  \n\n\n jinfo \n\n  \n Attaching to process ID 10786, please wait...\nDebugger attached successfully.\nServer compiler detected.\nJVM version is 25.45-b02\nJava System Properties:\n\njava.vendor = Oracle Corporation\nsun.java.launcher = SUN_STANDARD\ncatalina.base = /tmp/tomcat.3682779737098545581.8686\nsun.management.compiler = HotSpot 64-Bit Tiered Compilers\ncatalina.useNaming = false\nrest.poolMaxTotal = 8\nos.name = Linux\nsun.boot.class.path = /usr/java/jdk1.8.0_45/jre/lib/resources.jar:/usr/java/jdk1.8.0_45/jre/lib/rt.jar:/usr/java/jdk1.8.0_45/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_45/jre/lib/jsse.jar:/usr/java/jdk1.8.0_45/jre/lib/jce.jar:/usr/java/jdk1.8.0_45/jre/lib/charsets.jar:/usr/java/jdk1.8.0_45/jre/lib/jfr.jar:/usr/java/jdk1.8.0_45/jre/classes\njava.vm.specification.vendor = Oracle Corporation\njava.runtime.version = 1.8.0_45-b14\nuser.language = en\nsun.boot.library.path = /usr/java/jdk1.8.0_45/jre/lib/amd64\ncom.sun.management.jmxremote.port = 3334\nPID = 10786\njava.version = 1.8.0_45\nsun.arch.data.model = 64\nrest.poolMaxPerRoute = 8\njava.endorsed.dirs = /usr/java/jdk1.8.0_45/jre/lib/endorsed\njava.rmi.server.randomIDs = true\nsun.cpu.isalist =\nsun.jnu.encoding = UTF-8\nfile.encoding.pkg = sun.io\nfile.separator = /\njava.specification.name = Java Platform API Specification\njava.class.version = 52.0\nuser.country = US\njava.home = /usr/java/jdk1.8.0_45/jre\njava.vm.info = mixed mode\nos.version = 2.6.32-504.30.3.el6.x86_64\nrest.server.nio2.enabled = false\ncom.sun.management.jmxremote.ssl = false\npath.separator = :\njava.vm.version = 25.45-b02\norg.jboss.logging.provider = slf4j\njava.protocol.handler.pkgs = null|org.springframework.boot.loader\njava.awt.printerjob = sun.print.PSPrinterJob\nsun.io.unicode.encoding = UnicodeLittle\nawt.toolkit = sun.awt.X11.XToolkit\ncom.sun.management.jmxremote.authenticate = false\njava.security.egd = file:/dev/./urandom\nuser.home = /home/wmapp\njava.specification.vendor = Oracle Corporation\njava.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib\njava.vendor.url = http://java.oracle.com/\njava.vm.vendor = Oracle Corporation\njava.runtime.name = Java(TM) SE Runtime Environment\nsun.java.command = server-start-2.0.0.jar --spring.config.location=classpath:/application-internal.properties\njava.class.path = server-start-2.0.0.jar\njava.vm.specification.name = Java Virtual Machine Specification\njava.vm.specification.version = 1.8\ncatalina.home = /tmp/tomcat.3682779737098545581.8686\nsun.cpu.endian = little\nsun.os.patch.level = unknown\njava.awt.headless = true\njava.io.tmpdir = /tmp\njava.vendor.url.bug = http://bugreport.sun.com/bugreport/\nos.arch = amd64\njava.awt.graphicsenv = sun.awt.X11GraphicsEnvironment\njava.ext.dirs = /usr/java/jdk1.8.0_45/jre/lib/ext:/usr/java/packages/lib/ext\nuser.dir = /home/wmapp/\nline.separator =\n\njava.vm.name = Java HotSpot(TM) 64-Bit Server VM\nfile.encoding = UTF-8\njava.specification.version = 1.8\nDIRECTORY_PATH_LOGS = /home/wmapp/hb2/\n\nVM Flags:\nNon-default VM flags: -XX:CICompilerCount=4 -XX:ConcGCThreads=2 -XX:G1HeapRegionSize=1048576 -XX:InitialHeapSize=2147483648 -XX:+ManagementServer -XX:MarkStackSize=4194304 -XX:MaxGCPauseMillis=50 -XX:MaxHeapSize=4294967296 -XX:MaxNewSize=2576351232 -XX:MinHeapDeltaBytes=1048576 -XX:+OptimizeStringConcat -XX:+PrintGC -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC -XX:+UseTLAB\nCommand line:  -XX:+UseG1GC -Xmx4g -Xms2g -verbose:gc -XX:MaxGCPauseMillis=50 -XX:+UseTLAB -XX:+UseCompressedOops -XX:+OptimizeStringConcat -Djava.security.egd=file:/dev/./urandom -Dcom.sun.management.jmxremote.port=3334 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false\n \n  \n                                    </div>\n            </div>\n        </div>\n      \n                    </div>\n    </div>\n</li>        </ul>\n\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "details-module"
+            }, 
+            {
+                "weight": 200, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "849bb8c8a58d85ffc3c7fe2de968ae9f", 
+                "subpanelHtmls": [], 
+                "label": "Description", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:descriptionmodule", 
+                "prefix": "", 
+                "html": "<div id=\"description-val\" class=\"field-ignore-highlight\">\n    <div class=\"user-content-block\">\n                    <p>After 5 hours of running of my application I can see that running of this thread consumes 100% CPU and because of that my mythod is synchronized, it blocks my application forever. I thing the problem is with PackagingDataCalculator.populateFrames and preparing of stack trace.  </p>\n\n<p>I use pattern</p>\n\n<div class=\"preformatted panel\" style=\"border-width: 1px;\"><div class=\"preformattedContent panelContent\">\n<pre>%d{yyyy-MM-dd HH:mm:ss.SSS}|%thread| %m%n%nopex\n</pre>\n</div></div>\n\n<div class=\"preformatted panel\" style=\"border-width: 1px;\"><div class=\"preformattedContent panelContent\">\n<pre>\"http-nio-8686-exec-174\" #231 daemon prio=5 os_prio=0 tid=0x0000000000ced800 nid=0x3132 runnable [0x00007f76c6160000]\n   java.lang.Thread.State: RUNNABLE\n        at java.lang.Throwable.fillInStackTrace(Native Method)\n        at java.lang.Throwable.fillInStackTrace(Throwable.java:783)\n        - locked &lt;0x0000000710577e68&gt; (a java.lang.Throwable)\n        at java.lang.Throwable.&lt;init&gt;(Throwable.java:265)\n        at ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(PackagingDataCalculator.java:71)\n        at ch.qos.logback.classic.spi.PackagingDataCalculator.calculate(PackagingDataCalculator.java:57)\n        at ch.qos.logback.classic.spi.ThrowableProxy.calculatePackagingData(ThrowableProxy.java:147)\n        at ch.qos.logback.classic.spi.LoggingEvent.&lt;init&gt;(LoggingEvent.java:124)\n        at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:440)\n        at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:396)\n        at ch.qos.logback.classic.Logger.warn(Logger.java:725)\n        at org.myapp.r.impl.Manager.create(Manager.java:104)\n        - locked &lt;0x00000006c1b4e5a0&gt; (a org.myapp.r.impl.Manager)\n        at org.myapp.r.impl.Manager$$FastClassBySpringCGLIB$$8f0fc1fb.invoke(&lt;generated&gt;)\n        at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)\n        at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)\n        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)\n        at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:97)\n        at org.myapp.service.ServerNotifierImpl.logAround(ServerNotifierImpl.java:95)\n        at sun.reflect.GeneratedMethodAccessor29.invoke(Unknown Source)\n        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n        at java.lang.reflect.Method.invoke(Method.java:497)\n        at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)\n        at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)\n        at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:68)\n        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)\n        at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)\n        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)\n        at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)\n        at org.myapp.r.impl.Manager$$EnhancerBySpringCGLIB$$a26ad0d3.create(&lt;generated&gt;)\n        at org.myapp.service.RestLineCreateController.create(RestLineCreateController.java:101)\n        at org.myapp.service.RestLineCreateController$$FastClassBySpringCGLIB$$d8fabc30.invoke(&lt;generated&gt;)\n        at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)\n        at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)\n        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)\n        at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:97)\n        at org.myapp.service.DebugInterceptor.logAround(DebugInterceptor.java:29)\n        at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)\n        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n        at java.lang.reflect.Method.invoke(Method.java:497)\n        at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)\n        at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)\n        at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:68)\n        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)\n        at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)\n        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)\n        at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)\n        at org.myapp.service.RestLineCreateController$$EnhancerBySpringCGLIB$$7ee0c168.create(&lt;generated&gt;)\n        at sun.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)\n        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n        at java.lang.reflect.Method.invoke(Method.java:497)\n        at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)\n        at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)\n        at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)\n        at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)\n        at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)\n        at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)\n        at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)\n        at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)\n        at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)\n        at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)\n        at javax.servlet.http.HttpServlet.service(HttpServlet.java:644)\n        at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n        at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)\n        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)\n        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)\n        at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)\n        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)\n        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)\n        at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration$ApplicationContextHeaderFilter.doFilterInternal(EndpointWebMvcAutoConfiguration.java:291)\n        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)\n        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)\n        at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)\n        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)\n        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)\n        at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:102)\n        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)\n        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)\n        at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)\n        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)\n        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)\n        at org.springframework.boot.actuate.autoconfigure.MetricFilterAutoConfiguration$MetricsFilter.doFilterInternal(MetricFilterAutoConfiguration.java:90)\n        at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n        at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)\n        at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)\n        at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)\n        at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)\n        at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)\n        at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)\n        at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)\n        at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)\n        at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516)\n        at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086)\n        at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659)\n        at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)\n        at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558)\n        at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515)\n\n\t\t        - locked &lt;0x00000006e40572f8&gt; (a org.apache.tomcat.util.net.NioChannel)\n        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n        at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n        at java.lang.Thread.run(Thread.java:745)\n\n   Locked ownable synchronizers:\n        - &lt;0x00000006e2b01140&gt; (a java.util.concurrent.ThreadPoolExecutor$Worker)\n\n</pre>\n</div></div>\n            </div>\n</div>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "descriptionmodule"
+            }, 
+            {
+                "weight": 300, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "6d908a7160df2586b26e1d86a1ad3e4b", 
+                "subpanelHtmls": [], 
+                "label": "Attachments", 
+                "completeKey": "com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-metadata", 
+                "prefix": "", 
+                "html": "<div id=\"dnd-metadata-webpanel\" data-can-attach=\"false\" data-project-type=\"software\" data-upload-limit=\"10485760\"></div>", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "dnd-metadata"
+            }, 
+            {
+                "weight": 900, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "7c3b6d5c4fb77e1e582c27fae34ebbbb", 
+                "subpanelHtmls": [], 
+                "label": "Activity", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:activitymodule", 
+                "prefix": "", 
+                "html": "\n<big-pipe data-id=\"activity-panel-pipe-id\" style=\"height: 70px\">\n    <div></div>\n</big-pipe>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "activitymodule"
+            }
+        ], 
+        "rightPanels": [
+            {
+                "weight": 10, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "01c5c2369a611df7b521ce91a193070b", 
+                "subpanelHtmls": [], 
+                "label": "People", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:peoplemodule", 
+                "prefix": "", 
+                "html": "\n\n\n\n\n\n<ul class=\"item-details\" id=\"peopledetails\">\n    <li class=\"people-details\">\n                                \n<dl>\n    <dt>Assignee:</dt>\n    <dd>\n        <span id=\"assignee-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_assignee_logback-dev\" rel=\"logback-dev\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Logback dev list&quot;,&quot;emailAddress&quot;:&quot;logback-dev@qos.ch&quot;,&quot;username&quot;:&quot;logback-dev&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"logback-dev\" /></span></span>\n            Logback dev list\n        </span>\n    </span>\n            </dd>\n</dl>                                            \n<dl>\n    <dt>Reporter:</dt>\n    <dd>\n        <span id=\"reporter-val\" class=\"view-issue-field\">\n\n            <span class=\"user-hover\" id=\"issue_summary_reporter_MartinM\" rel=\"MartinM\" data-user='{&quot;avatarUrl&quot;:&quot;https://jira.qos.ch/secure/useravatar?size=xsmall&amp;avatarId=10122&quot;,&quot;displayName&quot;:&quot;Marcin M&quot;,&quot;emailAddress&quot;:&quot;martin@keinesorgen.net&quot;,&quot;username&quot;:&quot;MartinM&quot;}'>\n            \n\n    <span class=\"aui-avatar aui-avatar-small\"><span class=\"aui-avatar-inner\"><img src=\"https://jira.qos.ch/secure/useravatar?size=small&amp;avatarId=10122\" alt=\"MartinM\" /></span></span>\n            Marcin M\n        </span>\n    </span>\n    </dd>\n</dl>                        </li>\n</ul>\n    <ul class=\"item-details\">\n        <li>\n                            <dl>\n        <dt>Votes:</dt>\n        <dd>\n                                <span id=\"vote-data\" class=\"aui-badge vote-state-off\">0</span>\n            \n                                                <span id=\"vote-label\" title=\"You have to be logged in to vote for an issue.\">Vote for this issue</span>\n                    </dd>\n    </dl>\n                                <dl>\n        <dt>Watchers:</dt>\n        <dd>\n                                \n                                    <span id=\"watcher-data\" class=\"aui-badge watch-state-off\">1</span>\n            \n                                        <span id=\"watch-label\" title=\"You have to be logged in to watch an issue.\">Start watching this issue</span>\n                    </dd>\n    </dl>\n            </li>\n    </ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "peoplemodule"
+            }, 
+            {
+                "weight": 40, 
+                "headerLinks": {
+                    "groups": [], 
+                    "links": []
+                }, 
+                "contentId": "72d14d904553f41cb65db4c69f30a58f", 
+                "subpanelHtmls": [], 
+                "label": "Dates", 
+                "completeKey": "com.atlassian.jira.jira-view-issue-plugin:datesmodule", 
+                "prefix": "", 
+                "html": "\n<ul class=\"item-details\">\n    <li>\n            <dl class=\"dates\">\n            <dt>Created:</dt>\n            <dd class=\"date user-tz\"  title=\"22/Nov/15 9:52 AM\" >\n                <span data-name=\"Created\" id=\"created-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2015-11-22T09:52:43+0100\">22/Nov/15 9:52 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n            <dl class=\"dates\">\n            <dt>Updated:</dt>\n            <dd class=\"date user-tz\"  title=\"22/Nov/15 9:52 AM\" >\n                <span data-name=\"Updated\" id=\"updated-val\"  data-fieldtype=\"datetime\"  >\n                                                                                                        <time class=\"livestamp\" datetime=\"2015-11-22T09:52:43+0100\">22/Nov/15 9:52 AM</time>                                                                                         </span>\n            </dd>\n        </dl>\n        </li>\n</ul>\n", 
+                "renderHeader": true, 
+                "styleClass": "", 
+                "id": "datesmodule"
+            }
+        ], 
+        "infoPanels": []
+    }, 
+    "issue": {
+        "operations": {
+            "linkGroups": [
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "id": "ops-login-lnk_container", 
+                            "links": [
+                                {
+                                    "href": "/login.jsp?os_destination=%2Fsecure%2FAjaxIssueAction%21default.jspa%3FissueKey%3DLOGBACK-1112%26decorator%3Dnone%26prefetch%3Dfalse%26shouldUpdateCurrentProject%3Dfalse%26loadFields%3Dfalse%26_%3D1541138840233", 
+                                    "contentId": "6dd1c18b5345f62c0c1aac3bd0df65cb", 
+                                    "title": "Log In", 
+                                    "id": "ops-login-lnk", 
+                                    "label": "Log In"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "view.issue.opsbar", 
+                    "links": []
+                }, 
+                {
+                    "groups": [
+                        {
+                            "groups": [], 
+                            "header": {
+                                "iconClass": "icon-default aui-icon aui-icon-small aui-iconfont-export", 
+                                "title": "Export this issue in another format", 
+                                "id": "viewissue-export", 
+                                "label": "Export"
+                            }, 
+                            "id": "view.issue.exports", 
+                            "links": [
+                                {
+                                    "contentId": "1f193d15915a228a6f5a79177e1e8f58", 
+                                    "href": "/si/jira.issueviews:issue-xml/LOGBACK-1112/LOGBACK-1112.xml", 
+                                    "id": "jira.issueviews:issue-xml", 
+                                    "label": "XML"
+                                }, 
+                                {
+                                    "contentId": "3172ab98887b9d84ee1ac48191f6af10", 
+                                    "href": "/si/jira.issueviews:issue-word/LOGBACK-1112/LOGBACK-1112.doc", 
+                                    "id": "jira.issueviews:issue-word", 
+                                    "label": "Word"
+                                }, 
+                                {
+                                    "contentId": "59fb4c9f0bc4a902b19b2da2e4ed9daf", 
+                                    "href": "/si/jira.issueviews:issue-html/LOGBACK-1112/LOGBACK-1112.html", 
+                                    "id": "jira.issueviews:issue-html", 
+                                    "label": "Printable"
+                                }
+                            ]
+                        }
+                    ], 
+                    "id": "jira.issue.tools", 
+                    "links": []
+                }
+            ]
+        }, 
+        "status": {
+            "id": "1", 
+            "iconUrl": "/images/icons/statuses/open.png", 
+            "description": "The issue is open and ready for the assignee to start work on it.", 
+            "name": "Open"
+        }, 
+        "isEditable": false, 
+        "summaryContentId": "e8df3e7a5fe0b6f603f590cdefea8759", 
+        "summary": "PackagingDataCalculator.populateFrames calls Throwable.fillInStackTrace and running of this method is never finished", 
+        "project": {
+            "projectType": "software", 
+            "name": "logback", 
+            "avatarUrls": {
+                "24x24": "https://jira.qos.ch/secure/projectavatar?size=small&pid=10040&avatarId=10402", 
+                "32x32": "https://jira.qos.ch/secure/projectavatar?size=medium&pid=10040&avatarId=10402", 
+                "48x48": "https://jira.qos.ch/secure/projectavatar?pid=10040&avatarId=10402", 
+                "16x16": "https://jira.qos.ch/secure/projectavatar?size=xsmall&pid=10040&avatarId=10402"
+            }, 
+            "key": "LOGBACK", 
+            "systemAvatar": false, 
+            "id": 10040
+        }, 
+        "key": "LOGBACK-1112", 
+        "id": 13382, 
+        "metadata": {
+            "issue-project-type": "software", 
+            "issue-key": "LOGBACK-1112", 
+            "can-search-users": "false", 
+            "default-avatar-url": "https://jira.qos.ch/secure/useravatar?size=xsmall&avatarId=10123", 
+            "can-edit-watchers": "false"
+        }
+    }, 
+    "readTime": 1552209525760
+}
