@@ -51,6 +51,12 @@ def moveFile(srcfile, dstfile):
             # print("move %s -> %s " % (srcfile, dstfile))
             return ("move %s -> %s " % (srcfile, dstfile)+'\n')
 
+def read_TXTfile(path):
+    with open(path,'r') as f :
+        content = f.read()
+        return content
+
+
 
 
 if __name__ == '__main__':

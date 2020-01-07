@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GenerateDG/Netflix__fdse__SimianArmy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GenerateDG/vladmihalcea__fdse__flexy-pool" vcs="Git" />
   </component>
 </project>

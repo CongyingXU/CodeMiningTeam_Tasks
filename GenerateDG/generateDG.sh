@@ -1,806 +1,806 @@
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Netflix__fdse__SimianArmy/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/netty__fdse__netty/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/MovingBlocks__fdse__Terasology/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/xetorthio__fdse__jedis/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/grails__fdse__grails-core/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/openzipkin__fdse__zipkin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/liquibase__fdse__liquibase/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Graylog2__fdse__graylog2-server/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/MinecraftForge__fdse__MinecraftForge/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/nutzam__fdse__nutz/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Netflix__fdse__servo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/elastic__fdse__elasticsearch/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spullara__fdse__mustache.java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bigbluebutton__fdse__bigbluebutton/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/square__fdse__okhttp/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/geoserver__fdse__geoserver/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/clojure__fdse__clojure/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Atmosphere__fdse__atmosphere/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jhy__fdse__jsoup/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/brianfrankcooper__fdse__YCSB/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/scribejava__fdse__scribejava/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/cbeust__fdse__jcommander/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/VoltDB__fdse__voltdb/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apereo__fdse__cas/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mongodb__fdse__mongo-java-driver/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/swagger-api__fdse__swagger-core/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__hive/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__hbase/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/alibaba__fdse__dubbo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/gephi__fdse__gephi/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/BroadleafCommerce__fdse__BroadleafCommerce/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rest-assured__fdse__rest-assured/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JodaOrg__fdse__joda-time/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hazelcast__fdse__hazelcast/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hierynomus__fdse__sshj/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jersey__fdse__jersey/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/square__fdse__retrofit/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/eclipse__fdse__jetty.project/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/sk89q__fdse__WorldEdit/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hibernate__fdse__hibernate-orm/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rzwitserloot__fdse__lombok/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/tananaev__fdse__traccar/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/awaitility__fdse__awaitility/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/searchbox-io__fdse__Jest/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__activemq/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/FasterXML__fdse__jackson-core/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/FasterXML__fdse__jackson-databind/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__hadoop/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jOOQ__fdse__jOOQ/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__kafka/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/java-native-access__fdse__jna/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__flume/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JetBrains__fdse__intellij-community/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/thymeleaf__fdse__thymeleaf/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__camel/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/qos-ch__fdse__logback/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__shiro/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hamcrest__fdse__JavaHamcrest/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/yasserg__fdse__crawler4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/tomakehurst__fdse__wiremock/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/azkaban__fdse__azkaban/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spockframework__fdse__spock/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/chewiebug__fdse__GCViewer/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mrniko__fdse__netty-socketio/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/undertow-io__fdse__undertow/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/medcl__fdse__elasticsearch-analysis-ik/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/DozerMapper__fdse__dozer/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/timmolter__fdse__XChange/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__tomcat/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/antlr__fdse__antlr4/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/perwendel__fdse__spark/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/AsyncHttpClient__fdse__async-http-client/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__commons-lang/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/elastic__fdse__elasticsearch-hadoop/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jOOQ__fdse__jOOR/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/aragozin__fdse__jvm-tools/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jacoco__fdse__jacoco/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mockito__fdse__mockito/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jfinal__fdse__jfinal/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Netflix__fdse__eureka/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/oblac__fdse__jodd/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Activiti__fdse__Activiti/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/LMAX-Exchange__fdse__disruptor/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JesusFreke__fdse__smali/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/square__fdse__tape/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/sarxos__fdse__webcam-capture/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/zeromq__fdse__jeromq/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jankotek__fdse__mapdb/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/neo4j__fdse__neo4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/dreamhead__fdse__moco/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/aws__fdse__aws-sdk-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/killbill__fdse__killbill/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Netflix__fdse__Hystrix/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/flyway__fdse__flyway/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jmxtrans__fdse__jmxtrans/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ratpack__fdse__ratpack/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/BuildCraft__fdse__BuildCraft/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Netflix__fdse__ribbon/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/square__fdse__javapoet/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/skavanagh__fdse__KeyBox/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mybatis__fdse__spring/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/linkedin__fdse__rest.li/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mybatis__fdse__mybatis-3/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mybatis__fdse__generator/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/alibaba__fdse__canal/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/alibaba__fdse__druid/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/alibaba__fdse__fastjson/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/j256__fdse__ormlite-android/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/joel-costigliola__fdse__assertj-core/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/skylot__fdse__jadx/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Athou__fdse__commafeed/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/NanoHttpd__fdse__nanohttpd/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jitsi__fdse__jitsi/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jamesdbloom__fdse__mockserver/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ronmamo__fdse__reflections/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ninjaframework__fdse__ninja/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JSQLParser__fdse__JSqlParser/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Netflix__fdse__zuul/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/stanfordnlp__fdse__CoreNLP/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/deathmarine__fdse__Luyten/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/orfjackal__fdse__retrolambda/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/google__fdse__auto/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/eclipse__fdse__vert.x/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/languagetool-org__fdse__languagetool/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-framework/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-data-jpa/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-security/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-boot/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-security-oauth/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/alibaba__fdse__otter/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/square__fdse__wire/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/checkstyle__fdse__checkstyle/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-integration-samples/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-petclinic/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-mvc-showcase/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/dropwizard__fdse__dropwizard/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/AdoptOpenJDK__fdse__jitwatch/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/pentaho__fdse__pentaho-kettle/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/eirslett__fdse__frontend-maven-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/brettwooldridge__fdse__HikariCP/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bitcoinj__fdse__bitcoinj/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/opentripplanner__fdse__OpenTripPlanner/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/javaee-samples__fdse__javaee7-samples/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/galenframework__fdse__galen/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/real-logic__fdse__simple-binary-encoding/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/youtube__fdse__api-samples/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Red5__fdse__red5-server/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/guoguibing__fdse__librec/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/code4craft__fdse__tiny-spring/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/pbreault__fdse__adb-idea/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/HdrHistogram__fdse__HdrHistogram/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/google__fdse__jimfs/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/google__fdse__j2objc/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/dropwizard__fdse__metrics/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-data-examples/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/atomix__fdse__atomix/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/cryptomator__fdse__cryptomator/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/igniterealtime__fdse__Smack/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jOOQ__fdse__jOOL/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/crate__fdse__crate/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/javamelody__fdse__javamelody/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/SonarSource__fdse__sonarqube/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/stagemonitor__fdse__stagemonitor/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-io__fdse__sagan/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/igniterealtime__fdse__Openfire/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rapidoid__fdse__rapidoid/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/square__fdse__okio/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/pinterest__fdse__secor/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/looly__fdse__hutool/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/liyiorg__fdse__weixin-popular/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bytedeco__fdse__javacv/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bytedeco__fdse__javacpp/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/tdebatty__fdse__java-string-similarity/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/cglib__fdse__cglib/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/querydsl__fdse__querydsl/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/google__fdse__closure-compiler/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JCTools__fdse__JCTools/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spotify__fdse__helios/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/pagehelper__fdse__Mybatis-PageHelper/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/google__fdse__truth/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-session/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ethereum__fdse__ethereumj/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spotify__fdse__docker-maven-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/kairosdb__fdse__kairosdb/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/google__fdse__guice/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/CrawlScript__fdse__WebCollector/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/OpenHFT__fdse__Chronicle-Map/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/MyCATApache__fdse__Mycat-Server/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/iluwatar__fdse__java-design-patterns/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/vert-x3__fdse__vertx-examples/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ReactiveX__fdse__RxJava/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/google__fdse__error-prone/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/NLPchina__fdse__elasticsearch-sql/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__storm/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-cloud__fdse__spring-cloud-netflix/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/deeplearning4j__fdse__nd4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/OpenHFT__fdse__Chronicle-Queue/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/NLPchina__fdse__ansj_seg/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/immutables__fdse__immutables/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/twitter__fdse__elephant-bird/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ltsopensource__fdse__light-task-scheduler/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/deeplearning4j__fdse__deeplearning4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/google__fdse__guava/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/real-logic__fdse__aeron/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/h2oai__fdse__h2o-3/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/pac4j__fdse__pac4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/abel533__fdse__Mapper/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ben-manes__fdse__caffeine/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/druid-io__fdse__druid/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Dreampie__fdse__Resty/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/konifar__fdse__android-material-design-icon-generator-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/aNNiMON__fdse__Lightweight-Stream-API/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__kylin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__flink/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/naver__fdse__pinpoint/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/javaparser__fdse__javaparser/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/junit-team__fdse__junit5/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/embulk__fdse__embulk/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/frohoff__fdse__ysoserial/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/citerus__fdse__dddsample-core/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Swagger2Markup__fdse__swagger2markup/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/speedment__fdse__speedment/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/reactive-streams__fdse__reactive-streams-jvm/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/pxb1988__fdse__dex2jar/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hankcs__fdse__HanLP/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/square__fdse__keywhiz/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/square__fdse__moshi/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/coobird__fdse__thumbnailator/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/h2database__fdse__h2database/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/capitalone__fdse__Hygieia/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__groovy/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/google__fdse__google-java-format/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/yahoo__fdse__mysql_perf_analyzer/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/floragunncom__fdse__search-guard/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/b3log__fdse__symphony/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/b3log__fdse__solo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/scouter-project__fdse__scouter/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/zaproxy__fdse__zaproxy/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/linkedin__fdse__pinot/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__ignite/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bwssytems__fdse__ha-bridge/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/eclipse__fdse__che/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/kevin-wayne__fdse__algs4/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/alibaba__fdse__f2etest/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jfoenixadmin__fdse__JFoenix/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ChrisRM__fdse__material-theme-jetbrains/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Raysmond__fdse__SpringBlog/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/lionsoul2014__fdse__ip2region/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/reactor__fdse__reactor-core/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/line__fdse__armeria/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spotify__fdse__apollo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/changmingxie__fdse__tcc-transaction/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/abel533__fdse__MyBatis-Spring-Boot/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JakeWharton__fdse__RxRelay/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Alluxio__fdse__alluxio/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/btraceio__fdse__btrace/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ctripcorp__fdse__apollo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/prestodb__fdse__presto/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/junit-team__fdse__junit4/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mybatis__fdse__spring-boot-starter/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/orbit__fdse__orbit/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/linkedin__fdse__ambry/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/graphql-java__fdse__graphql-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/YiiGuxing__fdse__TranslationPlugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__zeppelin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jhalterman__fdse__failsafe/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Microsoft__fdse__malmo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Grover-c13__fdse__PokeGOAPI-Java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bootique__fdse__bootique/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/web3j__fdse__web3j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/redisson__fdse__redisson/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/gchq__fdse__Gaffer/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/shuzheng__fdse__zheng/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Tencent__fdse__MSEC/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/powermock__fdse__powermock/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/vaadin__fdse__framework/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__geode/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/thingsboard__fdse__thingsboard/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__beam/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JanusGraph__fdse__janusgraph/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/openhab__fdse__openhab1-addons/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JeffLi1993__fdse__springboot-learning-example/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/kiegroup__fdse__drools/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/lettuce-io__fdse__lettuce-core/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/vavr-io__fdse__vavr/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Tencent__fdse__angel/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__incubator-pulsar/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/vespa-engine__fdse__vespa/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/zouzg__fdse__mybatis-generator-gui/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/confluentinc__fdse__ksql/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/shardingjdbc__fdse__sharding-jdbc/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__rocketmq/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Kong__fdse__unirest-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/infinispan__fdse__infinispan/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/plutext__fdse__docx4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ervandew__fdse__eclim/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/eugenp__fdse__REST-With-Spring/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rhuss__fdse__jolokia/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__avro/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/eclipse__fdse__jgit/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/FluentLenium__fdse__FluentLenium/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/cbeust__fdse__testng/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jknack__fdse__handlebars.java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/cloudfoundry__fdse__uaa/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mitreid-connect__fdse__OpenID-Connect-Java-Spring-Server/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/geotools__fdse__geotools/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/eclipse__fdse__egit-github/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Netflix__fdse__astyanax/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/liferay__fdse__liferay-plugins/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/zeroturnaround__fdse__zt-zip/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/resteasy__fdse__Resteasy/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ignatov__fdse__intellij-erlang/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/winder__fdse__Universal-G-Code-Sender/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/openmrs__fdse__openmrs-core/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/AxonFramework__fdse__AxonFramework/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/impetus-opensource__fdse__Kundera/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__ambari/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/eclipse__fdse__paho.mqtt.java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/flyingsaucerproject__fdse__flyingsaucer/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/javalite__fdse__activejdbc/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ocpsoft__fdse__prettytime/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/FasterXML__fdse__jackson-annotations/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/belaban__fdse__JGroups/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/pentaho__fdse__mondrian/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Sable__fdse__soot/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/killme2008__fdse__xmemcached/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/nelenkov__fdse__android-backup-extractor/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/SmartBear__fdse__soapui/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/timmolter__fdse__XChart/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/i2p__fdse__i2p.i2p/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__pdfbox/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/UniversalMediaServer__fdse__UniversalMediaServer/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/pholser__fdse__junit-quickcheck/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/DiUS__fdse__java-faker/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ajanata__fdse__PretendYoureXyzzy/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JetBrains__fdse__intellij-plugins/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__tika/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ktoso__fdse__maven-git-commit-id-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/magefree__fdse__mage/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/codeborne__fdse__selenide/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__maven/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/objectify__fdse__objectify/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/swaldman__fdse__c3p0/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Pi4J__fdse__pi4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/linkedin__fdse__parseq/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/haraldk__fdse__TwelveMonkeys/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/facebook__fdse__swift/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/facebook__fdse__nifty/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/kenglxn__fdse__QRGen/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/facebook__fdse__jcommon/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/intel-hadoop__fdse__HiBench/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/dboissier__fdse__mongo4idea/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/decebals__fdse__pf4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/datastax__fdse__java-driver/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mulesoft__fdse__mule/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/lviggiano__fdse__owner/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/p6spy__fdse__p6spy/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Netflix__fdse__EVCache/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/logstash__fdse__logstash-logback-encoder/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Haehnchen__fdse__idea-php-symfony2-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mapstruct__fdse__mapstruct/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/gwtproject__fdse__gwt/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/openzipkin__fdse__brave/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JabRef__fdse__jabref/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__cloudstack/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/consulo__fdse__consulo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jitsi__fdse__jitsi-videobridge/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/centic9__fdse__jgit-cookbook/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/graphhopper__fdse__jsprit/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bcgit__fdse__bc-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/glyptodon__fdse__guacamole-client/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Netflix__fdse__genie/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bazaarvoice__fdse__jolt/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/SpigotMC__fdse__BungeeCord/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jan-molak__fdse__jenkins-build-monitor-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/shyiko__fdse__mysql-binlog-connector-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/dmlloyd__fdse__openjdk/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-data-mongodb/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-data-rest/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-batch/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-data-redis/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-integration/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-roo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-hateoas/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/relayrides__fdse__pushy/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rackerlabs__fdse__blueflood/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/komoot__fdse__photon/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-guides__fdse__gs-rest-service/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mplushnikov__fdse__lombok-intellij-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/konsoletyper__fdse__teavm/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/SlimeKnights__fdse__TinkersConstruct/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/EsotericSoftware__fdse__reflectasm/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__aurora/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mitre__fdse__HTTP-Proxy-Servlet/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/tdunning__fdse__t-digest/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/HubSpot__fdse__Singularity/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/HotswapProjects__fdse__HotswapAgent/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/itext__fdse__itextpdf/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/plantuml__fdse__plantuml/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/sscarduzio__fdse__elasticsearch-readonlyrest-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/shopizer-ecommerce__fdse__shopizer/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/huanghongxun__fdse__HMCL/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hcoles__fdse__pitest/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/eclipse__fdse__smarthome/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Vazkii__fdse__Botania/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__struts/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/MyCollab__fdse__mycollab/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jbake-org__fdse__jbake/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/takari__fdse__polyglot-maven/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/vladmihalcea__fdse__flexy-pool/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/RoaringBitmap__fdse__RoaringBitmap/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__curator/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ysc__fdse__word/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/fabric8io__fdse__docker-maven-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/cmusphinx__fdse__sphinx4/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Nukkit__fdse__Nukkit/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mimno__fdse__Mallet/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/dcevm__fdse__dcevm/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bytedeco__fdse__javacpp-presets/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jindrapetrik__fdse__jpexs-decompiler/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/foxinmy__fdse__weixin4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/openhab__fdse__openhab2-addons/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/docker-java__fdse__docker-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spotify__fdse__docker-client/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-cloud__fdse__spring-cloud-config/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/libgdx__fdse__ashley/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hsz__fdse__idea-gitignore/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jamesagnew__fdse__hapi-fhir/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jenkinsci__fdse__gitlab-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/lenskit__fdse__lenskit/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/sockeqwe__fdse__fragmentargs/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/KronicDeth__fdse__intellij-elixir/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jfaster__fdse__mango/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/awslabs__fdse__aws-big-data-blog/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ehcache__fdse__ehcache3/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/xerial__fdse__sqlite-jdbc/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/methusalah__fdse__OpenRTS/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/lukehutch__fdse__fast-classpath-scanner/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ReactiveX__fdse__RxNetty/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/SpongePowered__fdse__SpongeAPI/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/GlowstoneMC__fdse__Glowstone/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/SpongePowered__fdse__SpongeForge/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/googlemaps__fdse__google-maps-services-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/davidmoten__fdse__rtree/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/AppliedEnergistics__fdse__Applied-Energistics-2/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mahmoudparsian__fdse__data-algorithms-book/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/abel533__fdse__ECharts/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/fesh0r__fdse__fernflower/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/andsel__fdse__moquette/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/datumbox__fdse__datumbox-framework/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__calcite/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/decebals__fdse__pippo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/real-logic__fdse__agrona/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__drill/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/asciidocfx__fdse__AsciidocFX/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__nifi/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/abel533__fdse__Mybatis-Spring/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/GoogleCloudPlatform__fdse__DataflowJavaSDK/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jdbi__fdse__jdbi/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/zendesk__fdse__maxwell/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/restfb__fdse__restfb/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-restdocs/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/google__fdse__re2j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/confluentinc__fdse__kafka-rest/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/confluentinc__fdse__schema-registry/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/qiujiayu__fdse__AutoLoadCache/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-cloud__fdse__spring-cloud-sleuth/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/psi-probe__fdse__psi-probe/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/yacy__fdse__yacy_search_server/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/blynkkk__fdse__blynk-server/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/AlmasB__fdse__FXGL/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/TakahikoKawasaki__fdse__nv-websocket-client/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/amaembo__fdse__streamex/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/cincheo__fdse__jsweet/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/testcontainers__fdse__testcontainers-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__parquet-mr/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/square__fdse__haha/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/dcendents__fdse__android-maven-gradle-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rubenlagus__fdse__TelegramBots/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mabe02__fdse__lanterna/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rharter__fdse__auto-value-gson/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/paulc4__fdse__microservices-demo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Netflix__fdse__Fenzo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/palantir__fdse__atlasdb/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/zhegexiaohuozi__fdse__SeimiCrawler/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spotify__fdse__heroic/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/eclipse__fdse__eclipse-collections/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/find-sec-bugs__fdse__find-sec-bugs/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/debezium__fdse__debezium/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/LogNet__fdse__grpc-spring-boot-starter/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/aimacode__fdse__aima-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/alibaba__fdse__transmittable-thread-local/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/aol__fdse__cyclops-react/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/lealone__fdse__Lealone/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/linkedin__fdse__WhereHows/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/PebbleTemplates__fdse__pebble/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spotify__fdse__dockerfile-maven/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/AsamK__fdse__signal-cli/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rakam-io__fdse__rakam/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/neo4j-contrib__fdse__neo4j-apoc-procedures/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/linkedin__fdse__kafka-monitor/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__tinkerpop/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/treasure-data__fdse__digdag/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ebean-orm__fdse__ebean/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ramswaroop__fdse__jbot/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/GoogleCloudPlatform__fdse__google-cloud-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Baeldung__fdse__spring-security-oauth/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/graknlabs__fdse__grakn/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Netflix__fdse__hollow/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/zalando__fdse__zalenium/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/527515025__fdse__springBoot/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/kohsuke__fdse__jenkins/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/simon987__fdse__Much-Assembly-Required/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/intuit__fdse__karate/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Sixt__fdse__ja-micro/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/kiegroup__fdse__optaplanner/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/modelmapper__fdse__modelmapper/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/resilience4j__fdse__resilience4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jvm-profiling-tools__fdse__honest-profiler/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/java-json-tools__fdse__json-schema-validator/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Javen205__fdse__IJPay/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/networknt__fdse__light-4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__carbondata/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/amzn__fdse__ion-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ZHENFENG13__fdse__My-Blog/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/j-easy__fdse__easy-rules/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__systemml/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/FlowCI__fdse__flow-platform/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/micrometer-metrics__fdse__micrometer/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/iBase4J__fdse__iBase4J/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/linkedin__fdse__cruise-control/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/gaul__fdse__s3proxy/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/uber__fdse__AthenaX/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/alibaba__fdse__Dragonfly/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/floodlight__fdse__floodlight/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__poi/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/caprica__fdse__vlcj/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jshiell__fdse__checkstyle-idea/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jnr__fdse__jnr-ffi/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/structr__fdse__structr/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/samskivert__fdse__jmustache/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/pgjdbc__fdse__pgjdbc/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hibernate__fdse__hibernate-validator/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/fusesource__fdse__jansi/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rabbitmq__fdse__rabbitmq-java-client/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/killme2008__fdse__aviator/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/atilika__fdse__kuromoji/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/oshi__fdse__oshi/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__opennlp/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/vigna__fdse__fastutil/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ron190__fdse__jsql-injection/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/prometheus__fdse__client_java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ralfstx__fdse__minimal-json/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/kermitt2__fdse__grobid/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__logging-log4j2/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-data-neo4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/OpenHFT__fdse__Java-Thread-Affinity/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/influxdata__fdse__influxdb-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/INRIA__fdse__spoon/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/brmson__fdse__yodaqa/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/my2iu__fdse__Jinq/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/uniVocity__fdse__univocity-parsers/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/andytill__fdse__erlyberly/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/stuxuhai__fdse__HData/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rancher__fdse__cattle/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/prometheus__fdse__jmx_exporter/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/opennetworkinglab__fdse__onos/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bonigarcia__fdse__webdrivermanager/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/umlet__fdse__umlet/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/GoogleCloudPlatform__fdse__java-docs-samples/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/b3log__fdse__latke/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/DataSketches__fdse__sketches-core/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/fengjiachun__fdse__Jupiter/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/streamsets__fdse__datacollector/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/alibaba__fdse__DataX/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/zalando__fdse__intellij-swagger/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JakeWharton__fdse__dex-method-list/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Baeldung__fdse__spring-security-registration/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/wycm__fdse__zhihu-crawler/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/fishercoder1534__fdse__Leetcode/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-cloud-incubator__fdse__spring-cloud-kubernetes/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/allure-framework__fdse__allure2/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/lianggzone__fdse__springboot-action/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/o19s__fdse__elasticsearch-learning-to-rank/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/zstackio__fdse__zstack/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/remkop__fdse__picocli/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-cloud__fdse__spring-cloud-gateway/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/SpringForAll__fdse__spring-boot-starter-swagger/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/FXMisc__fdse__RichTextFX/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hsiafan__fdse__apk-parser/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/igvteam__fdse__igv/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hibernate__fdse__hibernate-ogm/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/alkacon__fdse__opencms-core/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/cwensel__fdse__cascading/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bndtools__fdse__bnd/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/BaseXdb__fdse__basex/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/tcurdt__fdse__jdeb/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mcMMO-Dev__fdse__mcMMO/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apereo__fdse__java-cas-client/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/michel-kraemer__fdse__bson4jackson/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/DSpace__fdse__DSpace/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jsimone__fdse__webapp-runner/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/xwiki__fdse__xwiki-platform/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__wicket/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jpos__fdse__jPOS/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/imagej__fdse__imagej/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/qiniu__fdse__java-sdk/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/dcm4che__fdse__dcm4che/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/lordofthejars__fdse__nosql-unit/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/stoicflame__fdse__enunciate/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jsevellec__fdse__cassandra-unit/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bbossgroups__fdse__bboss/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__tomcat70/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rythmengine__fdse__rythmengine/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mvel__fdse__mvel/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Ardesco__fdse__Selenium-Maven-Template/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__felix/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/nysenate__fdse__OpenLegislation/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__bookkeeper/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hibernate__fdse__hibernate-search/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jbehave__fdse__jbehave-core/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__jackrabbit-oak/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/cschneider__fdse__Karaf-Tutorial/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__bigtop/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mikiobraun__fdse__jblas/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/peter-lawrey__fdse__Java-Thread-Affinity/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/gresrun__fdse__jesque/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__giraph/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JodaOrg__fdse__joda-money/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/lukas-krecan__fdse__JsonUnit/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/robo-code__fdse__robocode/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__commons-io/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jgraph__fdse__jgraphx/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/damianszczepanik__fdse__cucumber-reporting/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hypercube1024__fdse__firefly/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/MoriTanosuke__fdse__glacieruploader/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/roundrop__fdse__facebook4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/SonarSource__fdse__sonar-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/debop__fdse__hibernate-redis/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/tntim96__fdse__JSCover/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/aidancbrady__fdse__Mekanism/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__isis/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jenetics__fdse__jenetics/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/pentaho__fdse__pentaho-platform/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/openpnp__fdse__openpnp/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__tomee/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mybatis__fdse__jpetstore-6/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/pubnub__fdse__java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/togglz__fdse__togglz/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/kongchen__fdse__swagger-maven-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Esri__fdse__spatial-framework-for-hadoop/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/OpenNMS__fdse__opennms/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jonathanlermitage__fdse__tikione-steam-cleaner/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/DigitalPebble__fdse__storm-crawler/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/dayatang__fdse__dddlib/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/timols__fdse__java-gitlab-api/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/wocommunity__fdse__wonder/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bujiio__fdse__buji-pac4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ahmetaa__fdse__zemberek-nlp/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/yegor256__fdse__rultor/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/zeroturnaround__fdse__zt-exec/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/alexxiyang__fdse__shiro-redis/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/uwolfer__fdse__gerrit-intellij-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/carrot2__fdse__elasticsearch-carrot2/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/awslabs__fdse__dynamodb-transactions/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/OpenMods__fdse__OpenBlocks/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jenkinsci__fdse__mesos-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bobbylight__fdse__RSyntaxTextArea/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-data-solr/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-shell/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-security-saml/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/melin__fdse__super-diamond/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ical4j__fdse__ical4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/sendgrid__fdse__sendgrid-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-guides__fdse__gs-spring-boot/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/codelibs__fdse__fess/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rometools__fdse__rome/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/alibaba__fdse__asyncload/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/iipc__fdse__openwayback/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/michel-kraemer__fdse__gradle-download-task/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/indeedeng__fdse__proctor/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/JetBrains__fdse__jediterm/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/cinchapi__fdse__concourse/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/caelum__fdse__vraptor4/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jpush__fdse__jpush-api-java-client/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/cloudfoundry__fdse__cf-java-client/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/MinecraftForge__fdse__ForgeGradle/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/SonarSource__fdse__sonarlint-intellij/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/asciidoctor__fdse__asciidoctorj/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/eclipse__fdse__kura/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/awslabs__fdse__amazon-kinesis-client/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/javers__fdse__javers/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jhunters__fdse__jprotobuf/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jenkinsci__fdse__docker-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/skadistats__fdse__clarity/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/peholmst__fdse__vaadin4spring/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/SKCraft__fdse__Launcher/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mucommander__fdse__mucommander/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/resty-gwt__fdse__resty-gwt/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/citiususc__fdse__hipster/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/cloudfoundry__fdse__java-buildpack-auto-reconfiguration/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hrldcpr__fdse__pcollections/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/oxo42__fdse__stateless4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/TestFX__fdse__TestFX/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/IQSS__fdse__dataverse/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/thelinmichael__fdse__spotify-web-api-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/google__fdse__closure-templates/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ForestryMC__fdse__ForestryMC/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/RuedigerMoeller__fdse__kontraktor/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/nguyenq__fdse__tess4j/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/structurizr__fdse__java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/forcedotcom__fdse__idecore/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/kennycason__fdse__kumo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jmockit__fdse__jmockit1/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/vdenotaris__fdse__spring-boot-security-saml-sample/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/freenet__fdse__fred/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jmrozanec__fdse__cron-utils/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Haehnchen__fdse__idea-php-laravel-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/locationtech__fdse__geogig/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/xSAVIKx__fdse__AndroidScreencast/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Ecwid__fdse__consul-api/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/TheCoder4eu__fdse__BootsFaces-OSP/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/OpenHFT__fdse__Chronicle-Engine/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/graphaware__fdse__neo4j-reco/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/awslabs__fdse__amazon-kinesis-scaling-utils/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-cloud__fdse__spring-cloud-aws/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/OpenHFT__fdse__Zero-Allocation-Hashing/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/vojtechhabarta__fdse__typescript-generator/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-projects__fdse__spring-integration-kafka/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/vert-x3__fdse__vertx-web/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/SoftInstigate__fdse__restheart/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/archimatetool__fdse__archi/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/actframework__fdse__actframework/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Netflix__fdse__spectator/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/digitalfondue__fdse__lavagna/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/yegor256__fdse__takes/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/lucidworks__fdse__spark-solr/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-cloud__fdse__spring-cloud-zookeeper/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/graphhopper__fdse__map-matching/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/danielwegener__fdse__logback-kafka-appender/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/elki-project__fdse__elki/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/SleepyTrousers__fdse__EnderIO/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/vbauer__fdse__jackdaw/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/fizzed__fdse__rocker/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/DSheirer__fdse__sdrtrunk/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/loklak__fdse__loklak_server/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-guides__fdse__gs-spring-boot-docker/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/espertechinc__fdse__esper/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hankcs__fdse__AhoCorasickDoubleArrayTrie/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bbottema__fdse__simple-java-mail/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/apache__fdse__parquet-format/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/OWASP__fdse__java-html-sanitizer/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/uber__fdse__phabricator-jenkins-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/chatty__fdse__chatty/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/ContainerSolutions__fdse__minimesos/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/fabric8io__fdse__kubernetes-client/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/botanio__fdse__sdk/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/aliyun__fdse__aliyun-openapi-java-sdk/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/OpenGamma__fdse__Strata/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/confluentinc__fdse__kafka-connect-jdbc/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Brunel-Visualization__fdse__Brunel/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/bmwcarit__fdse__barefoot/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/glung__fdse__redux-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/vladmihalcea__fdse__high-performance-java-persistence/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/linux-china__fdse__spring-boot-dubbo/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/zalando__fdse__nakadi/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/pwm-project__fdse__pwm/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Backelite__fdse__sonar-swift/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/junit-team__fdse__junit5-samples/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/kaikramer__fdse__keystore-explorer/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-guides__fdse__tut-spring-boot-oauth2/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-cloud-samples__fdse__brewery/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/electronicarts__fdse__ea-async/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/toolbox4minecraft__fdse__amidst/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/chocoteam__fdse__choco-solver/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/palantir__fdse__docker-compose-rule/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/kotcrab__fdse__vis-editor/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/RUB-NDS__fdse__TLS-Attacker/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/jenkinsci__fdse__java-client-api/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Camelcade__fdse__Perl5-IDEA/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Nike-Inc__fdse__wingtips/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/akarnokd__fdse__RxJava2Extensions/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/eventuate-local__fdse__eventuate-local/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/gazbert__fdse__bxbot/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/openscoring__fdse__openscoring/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/dsyer__fdse__spring-boot-thin-launcher/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/shunfei__fdse__indexr/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Sloeber__fdse__arduino-eclipse-plugin/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/yacy__fdse__yacy_grid_mcp/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/neo4j-contrib__fdse__neo4j-graph-algorithms/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/mulesoft-labs__fdse__raml-for-jax-rs/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/flowing__fdse__flowing-retail/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/baidu__fdse__Jprotobuf-rpc-socket/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/java-json-tools__fdse__json-patch/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rsocket__fdse__rsocket-java/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rsksmart__fdse__rskj/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/spring-cloud__fdse__spring-cloud-function/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/MobiVM__fdse__robovm/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/lennartkoopmann__fdse__nzyme/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/YeDaxia__fdse__JApiDocs/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/binarywang__fdse__weixin-java-mp-demo-springboot/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/Devskiller__fdse__jfairy/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/k0kubun__fdse__gitstar-ranking/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/OpenLiberty__fdse__open-liberty/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/rememberber__fdse__WeSync/ PojDGOuput/
-java -jar LibEffort-jar-with-dependencies.jar projects_git/hsiafan__fdse__requests/ PojDGOuput/
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Netflix__fdse__SimianArmy
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/netty__fdse__netty
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/MovingBlocks__fdse__Terasology
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/xetorthio__fdse__jedis
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/grails__fdse__grails-core
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/openzipkin__fdse__zipkin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/liquibase__fdse__liquibase
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Graylog2__fdse__graylog2-server
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/MinecraftForge__fdse__MinecraftForge
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/nutzam__fdse__nutz
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Netflix__fdse__servo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/elastic__fdse__elasticsearch
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spullara__fdse__mustache.java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bigbluebutton__fdse__bigbluebutton
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/square__fdse__okhttp
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/geoserver__fdse__geoserver
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/clojure__fdse__clojure
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Atmosphere__fdse__atmosphere
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jhy__fdse__jsoup
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/brianfrankcooper__fdse__YCSB
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/scribejava__fdse__scribejava
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/cbeust__fdse__jcommander
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/VoltDB__fdse__voltdb
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apereo__fdse__cas
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mongodb__fdse__mongo-java-driver
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/swagger-api__fdse__swagger-core
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__hive
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__hbase
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/alibaba__fdse__dubbo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/gephi__fdse__gephi
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/BroadleafCommerce__fdse__BroadleafCommerce
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rest-assured__fdse__rest-assured
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JodaOrg__fdse__joda-time
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hazelcast__fdse__hazelcast
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hierynomus__fdse__sshj
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jersey__fdse__jersey
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/square__fdse__retrofit
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/eclipse__fdse__jetty.project
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/sk89q__fdse__WorldEdit
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hibernate__fdse__hibernate-orm
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rzwitserloot__fdse__lombok
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/tananaev__fdse__traccar
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/awaitility__fdse__awaitility
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/searchbox-io__fdse__Jest
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__activemq
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/FasterXML__fdse__jackson-core
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/FasterXML__fdse__jackson-databind
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__hadoop
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jOOQ__fdse__jOOQ
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__kafka
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/java-native-access__fdse__jna
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__flume
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JetBrains__fdse__intellij-community
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/thymeleaf__fdse__thymeleaf
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__camel
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/qos-ch__fdse__logback
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__shiro
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hamcrest__fdse__JavaHamcrest
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/yasserg__fdse__crawler4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/tomakehurst__fdse__wiremock
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/azkaban__fdse__azkaban
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spockframework__fdse__spock
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/chewiebug__fdse__GCViewer
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mrniko__fdse__netty-socketio
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/undertow-io__fdse__undertow
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/medcl__fdse__elasticsearch-analysis-ik
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/DozerMapper__fdse__dozer
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/timmolter__fdse__XChange
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__tomcat
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/antlr__fdse__antlr4
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/perwendel__fdse__spark
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/AsyncHttpClient__fdse__async-http-client
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__commons-lang
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/elastic__fdse__elasticsearch-hadoop
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jOOQ__fdse__jOOR
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/aragozin__fdse__jvm-tools
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jacoco__fdse__jacoco
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mockito__fdse__mockito
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jfinal__fdse__jfinal
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Netflix__fdse__eureka
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/oblac__fdse__jodd
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Activiti__fdse__Activiti
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/LMAX-Exchange__fdse__disruptor
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JesusFreke__fdse__smali
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/square__fdse__tape
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/sarxos__fdse__webcam-capture
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/zeromq__fdse__jeromq
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jankotek__fdse__mapdb
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/neo4j__fdse__neo4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/dreamhead__fdse__moco
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/aws__fdse__aws-sdk-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/killbill__fdse__killbill
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Netflix__fdse__Hystrix
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/flyway__fdse__flyway
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jmxtrans__fdse__jmxtrans
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ratpack__fdse__ratpack
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/BuildCraft__fdse__BuildCraft
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Netflix__fdse__ribbon
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/square__fdse__javapoet
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/skavanagh__fdse__KeyBox
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mybatis__fdse__spring
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/linkedin__fdse__rest.li
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mybatis__fdse__mybatis-3
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mybatis__fdse__generator
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/alibaba__fdse__canal
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/alibaba__fdse__druid
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/alibaba__fdse__fastjson
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/j256__fdse__ormlite-android
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/joel-costigliola__fdse__assertj-core
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/skylot__fdse__jadx
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Athou__fdse__commafeed
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/NanoHttpd__fdse__nanohttpd
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jitsi__fdse__jitsi
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jamesdbloom__fdse__mockserver
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ronmamo__fdse__reflections
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ninjaframework__fdse__ninja
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JSQLParser__fdse__JSqlParser
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Netflix__fdse__zuul
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/stanfordnlp__fdse__CoreNLP
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/deathmarine__fdse__Luyten
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/orfjackal__fdse__retrolambda
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/google__fdse__auto
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/eclipse__fdse__vert.x
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/languagetool-org__fdse__languagetool
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-framework
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-data-jpa
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-security
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-boot
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-security-oauth
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/alibaba__fdse__otter
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/square__fdse__wire
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/checkstyle__fdse__checkstyle
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-integration-samples
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-petclinic
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-mvc-showcase
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/dropwizard__fdse__dropwizard
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/AdoptOpenJDK__fdse__jitwatch
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/pentaho__fdse__pentaho-kettle
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/eirslett__fdse__frontend-maven-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/brettwooldridge__fdse__HikariCP
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bitcoinj__fdse__bitcoinj
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/opentripplanner__fdse__OpenTripPlanner
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/javaee-samples__fdse__javaee7-samples
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/galenframework__fdse__galen
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/real-logic__fdse__simple-binary-encoding
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/youtube__fdse__api-samples
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Red5__fdse__red5-server
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/guoguibing__fdse__librec
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/code4craft__fdse__tiny-spring
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/pbreault__fdse__adb-idea
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/HdrHistogram__fdse__HdrHistogram
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/google__fdse__jimfs
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/google__fdse__j2objc
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/dropwizard__fdse__metrics
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-data-examples
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/atomix__fdse__atomix
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/cryptomator__fdse__cryptomator
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/igniterealtime__fdse__Smack
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jOOQ__fdse__jOOL
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/crate__fdse__crate
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/javamelody__fdse__javamelody
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/SonarSource__fdse__sonarqube
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/stagemonitor__fdse__stagemonitor
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-io__fdse__sagan
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/igniterealtime__fdse__Openfire
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rapidoid__fdse__rapidoid
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/square__fdse__okio
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/pinterest__fdse__secor
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/looly__fdse__hutool
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/liyiorg__fdse__weixin-popular
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bytedeco__fdse__javacv
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bytedeco__fdse__javacpp
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/tdebatty__fdse__java-string-similarity
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/cglib__fdse__cglib
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/querydsl__fdse__querydsl
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/google__fdse__closure-compiler
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JCTools__fdse__JCTools
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spotify__fdse__helios
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/pagehelper__fdse__Mybatis-PageHelper
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/google__fdse__truth
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-session
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ethereum__fdse__ethereumj
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spotify__fdse__docker-maven-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/kairosdb__fdse__kairosdb
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/google__fdse__guice
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/CrawlScript__fdse__WebCollector
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/OpenHFT__fdse__Chronicle-Map
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/MyCATApache__fdse__Mycat-Server
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/iluwatar__fdse__java-design-patterns
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/vert-x3__fdse__vertx-examples
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ReactiveX__fdse__RxJava
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/google__fdse__error-prone
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/NLPchina__fdse__elasticsearch-sql
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__storm
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-cloud__fdse__spring-cloud-netflix
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/deeplearning4j__fdse__nd4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/OpenHFT__fdse__Chronicle-Queue
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/NLPchina__fdse__ansj_seg
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/immutables__fdse__immutables
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/twitter__fdse__elephant-bird
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ltsopensource__fdse__light-task-scheduler
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/deeplearning4j__fdse__deeplearning4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/google__fdse__guava
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/real-logic__fdse__aeron
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/h2oai__fdse__h2o-3
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/pac4j__fdse__pac4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/abel533__fdse__Mapper
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ben-manes__fdse__caffeine
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/druid-io__fdse__druid
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Dreampie__fdse__Resty
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/konifar__fdse__android-material-design-icon-generator-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/aNNiMON__fdse__Lightweight-Stream-API
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__kylin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__flink
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/naver__fdse__pinpoint
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/javaparser__fdse__javaparser
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/junit-team__fdse__junit5
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/embulk__fdse__embulk
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/frohoff__fdse__ysoserial
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/citerus__fdse__dddsample-core
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Swagger2Markup__fdse__swagger2markup
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/speedment__fdse__speedment
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/reactive-streams__fdse__reactive-streams-jvm
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/pxb1988__fdse__dex2jar
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hankcs__fdse__HanLP
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/square__fdse__keywhiz
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/square__fdse__moshi
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/coobird__fdse__thumbnailator
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/h2database__fdse__h2database
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/capitalone__fdse__Hygieia
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__groovy
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/google__fdse__google-java-format
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/yahoo__fdse__mysql_perf_analyzer
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/floragunncom__fdse__search-guard
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/b3log__fdse__symphony
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/b3log__fdse__solo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/scouter-project__fdse__scouter
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/zaproxy__fdse__zaproxy
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/linkedin__fdse__pinot
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__ignite
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bwssytems__fdse__ha-bridge
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/eclipse__fdse__che
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/kevin-wayne__fdse__algs4
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/alibaba__fdse__f2etest
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jfoenixadmin__fdse__JFoenix
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ChrisRM__fdse__material-theme-jetbrains
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Raysmond__fdse__SpringBlog
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/lionsoul2014__fdse__ip2region
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/reactor__fdse__reactor-core
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/line__fdse__armeria
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spotify__fdse__apollo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/changmingxie__fdse__tcc-transaction
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/abel533__fdse__MyBatis-Spring-Boot
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JakeWharton__fdse__RxRelay
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Alluxio__fdse__alluxio
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/btraceio__fdse__btrace
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ctripcorp__fdse__apollo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/prestodb__fdse__presto
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/junit-team__fdse__junit4
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mybatis__fdse__spring-boot-starter
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/orbit__fdse__orbit
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/linkedin__fdse__ambry
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/graphql-java__fdse__graphql-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/YiiGuxing__fdse__TranslationPlugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__zeppelin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jhalterman__fdse__failsafe
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Microsoft__fdse__malmo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Grover-c13__fdse__PokeGOAPI-Java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bootique__fdse__bootique
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/web3j__fdse__web3j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/redisson__fdse__redisson
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/gchq__fdse__Gaffer
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/shuzheng__fdse__zheng
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Tencent__fdse__MSEC
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/powermock__fdse__powermock
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/vaadin__fdse__framework
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__geode
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/thingsboard__fdse__thingsboard
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__beam
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JanusGraph__fdse__janusgraph
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/openhab__fdse__openhab1-addons
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JeffLi1993__fdse__springboot-learning-example
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/kiegroup__fdse__drools
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/lettuce-io__fdse__lettuce-core
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/vavr-io__fdse__vavr
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Tencent__fdse__angel
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__incubator-pulsar
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/vespa-engine__fdse__vespa
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/zouzg__fdse__mybatis-generator-gui
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/confluentinc__fdse__ksql
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/shardingjdbc__fdse__sharding-jdbc
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__rocketmq
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Kong__fdse__unirest-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/infinispan__fdse__infinispan
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/plutext__fdse__docx4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ervandew__fdse__eclim
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/eugenp__fdse__REST-With-Spring
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rhuss__fdse__jolokia
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__avro
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/eclipse__fdse__jgit
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/FluentLenium__fdse__FluentLenium
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/cbeust__fdse__testng
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jknack__fdse__handlebars.java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/cloudfoundry__fdse__uaa
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mitreid-connect__fdse__OpenID-Connect-Java-Spring-Server
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/geotools__fdse__geotools
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/eclipse__fdse__egit-github
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Netflix__fdse__astyanax
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/liferay__fdse__liferay-plugins
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/zeroturnaround__fdse__zt-zip
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/resteasy__fdse__Resteasy
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ignatov__fdse__intellij-erlang
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/winder__fdse__Universal-G-Code-Sender
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/openmrs__fdse__openmrs-core
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/AxonFramework__fdse__AxonFramework
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/impetus-opensource__fdse__Kundera
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__ambari
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/eclipse__fdse__paho.mqtt.java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/flyingsaucerproject__fdse__flyingsaucer
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/javalite__fdse__activejdbc
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ocpsoft__fdse__prettytime
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/FasterXML__fdse__jackson-annotations
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/belaban__fdse__JGroups
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/pentaho__fdse__mondrian
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Sable__fdse__soot
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/killme2008__fdse__xmemcached
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/nelenkov__fdse__android-backup-extractor
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/SmartBear__fdse__soapui
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/timmolter__fdse__XChart
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/i2p__fdse__i2p.i2p
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__pdfbox
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/UniversalMediaServer__fdse__UniversalMediaServer
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/pholser__fdse__junit-quickcheck
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/DiUS__fdse__java-faker
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ajanata__fdse__PretendYoureXyzzy
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JetBrains__fdse__intellij-plugins
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__tika
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ktoso__fdse__maven-git-commit-id-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/magefree__fdse__mage
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/codeborne__fdse__selenide
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__maven
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/objectify__fdse__objectify
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/swaldman__fdse__c3p0
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Pi4J__fdse__pi4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/linkedin__fdse__parseq
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/haraldk__fdse__TwelveMonkeys
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/facebook__fdse__swift
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/facebook__fdse__nifty
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/kenglxn__fdse__QRGen
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/facebook__fdse__jcommon
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/intel-hadoop__fdse__HiBench
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/dboissier__fdse__mongo4idea
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/decebals__fdse__pf4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/datastax__fdse__java-driver
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mulesoft__fdse__mule
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/lviggiano__fdse__owner
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/p6spy__fdse__p6spy
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Netflix__fdse__EVCache
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/logstash__fdse__logstash-logback-encoder
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Haehnchen__fdse__idea-php-symfony2-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mapstruct__fdse__mapstruct
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/gwtproject__fdse__gwt
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/openzipkin__fdse__brave
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JabRef__fdse__jabref
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__cloudstack
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/consulo__fdse__consulo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jitsi__fdse__jitsi-videobridge
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/centic9__fdse__jgit-cookbook
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/graphhopper__fdse__jsprit
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bcgit__fdse__bc-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/glyptodon__fdse__guacamole-client
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Netflix__fdse__genie
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bazaarvoice__fdse__jolt
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/SpigotMC__fdse__BungeeCord
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jan-molak__fdse__jenkins-build-monitor-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/shyiko__fdse__mysql-binlog-connector-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/dmlloyd__fdse__openjdk
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-data-mongodb
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-data-rest
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-batch
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-data-redis
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-integration
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-roo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-hateoas
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/relayrides__fdse__pushy
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rackerlabs__fdse__blueflood
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/komoot__fdse__photon
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-guides__fdse__gs-rest-service
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mplushnikov__fdse__lombok-intellij-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/konsoletyper__fdse__teavm
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/SlimeKnights__fdse__TinkersConstruct
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/EsotericSoftware__fdse__reflectasm
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__aurora
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mitre__fdse__HTTP-Proxy-Servlet
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/tdunning__fdse__t-digest
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/HubSpot__fdse__Singularity
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/HotswapProjects__fdse__HotswapAgent
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/itext__fdse__itextpdf
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/plantuml__fdse__plantuml
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/sscarduzio__fdse__elasticsearch-readonlyrest-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/shopizer-ecommerce__fdse__shopizer
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/huanghongxun__fdse__HMCL
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hcoles__fdse__pitest
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/eclipse__fdse__smarthome
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Vazkii__fdse__Botania
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__struts
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/MyCollab__fdse__mycollab
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jbake-org__fdse__jbake
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/takari__fdse__polyglot-maven
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/vladmihalcea__fdse__flexy-pool
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/RoaringBitmap__fdse__RoaringBitmap
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__curator
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ysc__fdse__word
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/fabric8io__fdse__docker-maven-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/cmusphinx__fdse__sphinx4
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Nukkit__fdse__Nukkit
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mimno__fdse__Mallet
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/dcevm__fdse__dcevm
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bytedeco__fdse__javacpp-presets
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jindrapetrik__fdse__jpexs-decompiler
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/foxinmy__fdse__weixin4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/openhab__fdse__openhab2-addons
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/docker-java__fdse__docker-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spotify__fdse__docker-client
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-cloud__fdse__spring-cloud-config
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/libgdx__fdse__ashley
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hsz__fdse__idea-gitignore
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jamesagnew__fdse__hapi-fhir
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jenkinsci__fdse__gitlab-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/lenskit__fdse__lenskit
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/sockeqwe__fdse__fragmentargs
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/KronicDeth__fdse__intellij-elixir
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jfaster__fdse__mango
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/awslabs__fdse__aws-big-data-blog
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ehcache__fdse__ehcache3
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/xerial__fdse__sqlite-jdbc
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/methusalah__fdse__OpenRTS
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/lukehutch__fdse__fast-classpath-scanner
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ReactiveX__fdse__RxNetty
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/SpongePowered__fdse__SpongeAPI
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/GlowstoneMC__fdse__Glowstone
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/SpongePowered__fdse__SpongeForge
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/googlemaps__fdse__google-maps-services-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/davidmoten__fdse__rtree
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/AppliedEnergistics__fdse__Applied-Energistics-2
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mahmoudparsian__fdse__data-algorithms-book
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/abel533__fdse__ECharts
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/fesh0r__fdse__fernflower
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/andsel__fdse__moquette
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/datumbox__fdse__datumbox-framework
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__calcite
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/decebals__fdse__pippo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/real-logic__fdse__agrona
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__drill
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/asciidocfx__fdse__AsciidocFX
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__nifi
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/abel533__fdse__Mybatis-Spring
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/GoogleCloudPlatform__fdse__DataflowJavaSDK
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jdbi__fdse__jdbi
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/zendesk__fdse__maxwell
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/restfb__fdse__restfb
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-restdocs
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/google__fdse__re2j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/confluentinc__fdse__kafka-rest
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/confluentinc__fdse__schema-registry
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/qiujiayu__fdse__AutoLoadCache
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-cloud__fdse__spring-cloud-sleuth
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/psi-probe__fdse__psi-probe
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/yacy__fdse__yacy_search_server
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/blynkkk__fdse__blynk-server
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/AlmasB__fdse__FXGL
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/TakahikoKawasaki__fdse__nv-websocket-client
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/amaembo__fdse__streamex
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/cincheo__fdse__jsweet
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/testcontainers__fdse__testcontainers-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__parquet-mr
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/square__fdse__haha
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/dcendents__fdse__android-maven-gradle-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rubenlagus__fdse__TelegramBots
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mabe02__fdse__lanterna
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rharter__fdse__auto-value-gson
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/paulc4__fdse__microservices-demo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Netflix__fdse__Fenzo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/palantir__fdse__atlasdb
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/zhegexiaohuozi__fdse__SeimiCrawler
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spotify__fdse__heroic
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/eclipse__fdse__eclipse-collections
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/find-sec-bugs__fdse__find-sec-bugs
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/debezium__fdse__debezium
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/LogNet__fdse__grpc-spring-boot-starter
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/aimacode__fdse__aima-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/alibaba__fdse__transmittable-thread-local
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/aol__fdse__cyclops-react
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/lealone__fdse__Lealone
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/linkedin__fdse__WhereHows
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/PebbleTemplates__fdse__pebble
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spotify__fdse__dockerfile-maven
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/AsamK__fdse__signal-cli
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rakam-io__fdse__rakam
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/neo4j-contrib__fdse__neo4j-apoc-procedures
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/linkedin__fdse__kafka-monitor
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__tinkerpop
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/treasure-data__fdse__digdag
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ebean-orm__fdse__ebean
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ramswaroop__fdse__jbot
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/GoogleCloudPlatform__fdse__google-cloud-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Baeldung__fdse__spring-security-oauth
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/graknlabs__fdse__grakn
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Netflix__fdse__hollow
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/zalando__fdse__zalenium
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/527515025__fdse__springBoot
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/kohsuke__fdse__jenkins
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/simon987__fdse__Much-Assembly-Required
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/intuit__fdse__karate
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Sixt__fdse__ja-micro
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/kiegroup__fdse__optaplanner
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/modelmapper__fdse__modelmapper
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/resilience4j__fdse__resilience4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jvm-profiling-tools__fdse__honest-profiler
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/java-json-tools__fdse__json-schema-validator
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Javen205__fdse__IJPay
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/networknt__fdse__light-4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__carbondata
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/amzn__fdse__ion-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ZHENFENG13__fdse__My-Blog
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/j-easy__fdse__easy-rules
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__systemml
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/FlowCI__fdse__flow-platform
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/micrometer-metrics__fdse__micrometer
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/iBase4J__fdse__iBase4J
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/linkedin__fdse__cruise-control
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/gaul__fdse__s3proxy
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/uber__fdse__AthenaX
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/alibaba__fdse__Dragonfly
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/floodlight__fdse__floodlight
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__poi
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/caprica__fdse__vlcj
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jshiell__fdse__checkstyle-idea
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jnr__fdse__jnr-ffi
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/structr__fdse__structr
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/samskivert__fdse__jmustache
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/pgjdbc__fdse__pgjdbc
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hibernate__fdse__hibernate-validator
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/fusesource__fdse__jansi
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rabbitmq__fdse__rabbitmq-java-client
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/killme2008__fdse__aviator
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/atilika__fdse__kuromoji
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/oshi__fdse__oshi
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__opennlp
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/vigna__fdse__fastutil
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ron190__fdse__jsql-injection
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/prometheus__fdse__client_java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ralfstx__fdse__minimal-json
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/kermitt2__fdse__grobid
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__logging-log4j2
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-data-neo4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/OpenHFT__fdse__Java-Thread-Affinity
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/influxdata__fdse__influxdb-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/INRIA__fdse__spoon
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/brmson__fdse__yodaqa
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/my2iu__fdse__Jinq
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/uniVocity__fdse__univocity-parsers
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/andytill__fdse__erlyberly
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/stuxuhai__fdse__HData
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rancher__fdse__cattle
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/prometheus__fdse__jmx_exporter
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/opennetworkinglab__fdse__onos
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bonigarcia__fdse__webdrivermanager
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/umlet__fdse__umlet
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/GoogleCloudPlatform__fdse__java-docs-samples
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/b3log__fdse__latke
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/DataSketches__fdse__sketches-core
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/fengjiachun__fdse__Jupiter
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/streamsets__fdse__datacollector
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/alibaba__fdse__DataX
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/zalando__fdse__intellij-swagger
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JakeWharton__fdse__dex-method-list
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Baeldung__fdse__spring-security-registration
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/wycm__fdse__zhihu-crawler
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/fishercoder1534__fdse__Leetcode
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-cloud-incubator__fdse__spring-cloud-kubernetes
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/allure-framework__fdse__allure2
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/lianggzone__fdse__springboot-action
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/o19s__fdse__elasticsearch-learning-to-rank
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/zstackio__fdse__zstack
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/remkop__fdse__picocli
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-cloud__fdse__spring-cloud-gateway
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/SpringForAll__fdse__spring-boot-starter-swagger
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/FXMisc__fdse__RichTextFX
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hsiafan__fdse__apk-parser
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/igvteam__fdse__igv
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hibernate__fdse__hibernate-ogm
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/alkacon__fdse__opencms-core
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/cwensel__fdse__cascading
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bndtools__fdse__bnd
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/BaseXdb__fdse__basex
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/tcurdt__fdse__jdeb
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mcMMO-Dev__fdse__mcMMO
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apereo__fdse__java-cas-client
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/michel-kraemer__fdse__bson4jackson
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/DSpace__fdse__DSpace
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jsimone__fdse__webapp-runner
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/xwiki__fdse__xwiki-platform
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__wicket
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jpos__fdse__jPOS
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/imagej__fdse__imagej
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/qiniu__fdse__java-sdk
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/dcm4che__fdse__dcm4che
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/lordofthejars__fdse__nosql-unit
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/stoicflame__fdse__enunciate
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jsevellec__fdse__cassandra-unit
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bbossgroups__fdse__bboss
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__tomcat70
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rythmengine__fdse__rythmengine
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mvel__fdse__mvel
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Ardesco__fdse__Selenium-Maven-Template
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__felix
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/nysenate__fdse__OpenLegislation
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__bookkeeper
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hibernate__fdse__hibernate-search
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jbehave__fdse__jbehave-core
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__jackrabbit-oak
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/cschneider__fdse__Karaf-Tutorial
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__bigtop
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mikiobraun__fdse__jblas
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/peter-lawrey__fdse__Java-Thread-Affinity
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/gresrun__fdse__jesque
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__giraph
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JodaOrg__fdse__joda-money
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/lukas-krecan__fdse__JsonUnit
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/robo-code__fdse__robocode
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__commons-io
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jgraph__fdse__jgraphx
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/damianszczepanik__fdse__cucumber-reporting
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hypercube1024__fdse__firefly
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/MoriTanosuke__fdse__glacieruploader
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/roundrop__fdse__facebook4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/SonarSource__fdse__sonar-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/debop__fdse__hibernate-redis
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/tntim96__fdse__JSCover
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/aidancbrady__fdse__Mekanism
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__isis
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jenetics__fdse__jenetics
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/pentaho__fdse__pentaho-platform
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/openpnp__fdse__openpnp
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__tomee
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mybatis__fdse__jpetstore-6
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/pubnub__fdse__java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/togglz__fdse__togglz
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/kongchen__fdse__swagger-maven-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Esri__fdse__spatial-framework-for-hadoop
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/OpenNMS__fdse__opennms
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jonathanlermitage__fdse__tikione-steam-cleaner
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/DigitalPebble__fdse__storm-crawler
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/dayatang__fdse__dddlib
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/timols__fdse__java-gitlab-api
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/wocommunity__fdse__wonder
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bujiio__fdse__buji-pac4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ahmetaa__fdse__zemberek-nlp
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/yegor256__fdse__rultor
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/zeroturnaround__fdse__zt-exec
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/alexxiyang__fdse__shiro-redis
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/uwolfer__fdse__gerrit-intellij-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/carrot2__fdse__elasticsearch-carrot2
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/awslabs__fdse__dynamodb-transactions
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/OpenMods__fdse__OpenBlocks
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jenkinsci__fdse__mesos-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bobbylight__fdse__RSyntaxTextArea
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-data-solr
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-shell
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-security-saml
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/melin__fdse__super-diamond
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ical4j__fdse__ical4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/sendgrid__fdse__sendgrid-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-guides__fdse__gs-spring-boot
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/codelibs__fdse__fess
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rometools__fdse__rome
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/alibaba__fdse__asyncload
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/iipc__fdse__openwayback
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/michel-kraemer__fdse__gradle-download-task
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/indeedeng__fdse__proctor
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/JetBrains__fdse__jediterm
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/cinchapi__fdse__concourse
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/caelum__fdse__vraptor4
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jpush__fdse__jpush-api-java-client
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/cloudfoundry__fdse__cf-java-client
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/MinecraftForge__fdse__ForgeGradle
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/SonarSource__fdse__sonarlint-intellij
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/asciidoctor__fdse__asciidoctorj
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/eclipse__fdse__kura
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/awslabs__fdse__amazon-kinesis-client
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/javers__fdse__javers
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jhunters__fdse__jprotobuf
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jenkinsci__fdse__docker-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/skadistats__fdse__clarity
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/peholmst__fdse__vaadin4spring
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/SKCraft__fdse__Launcher
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mucommander__fdse__mucommander
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/resty-gwt__fdse__resty-gwt
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/citiususc__fdse__hipster
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/cloudfoundry__fdse__java-buildpack-auto-reconfiguration
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hrldcpr__fdse__pcollections
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/oxo42__fdse__stateless4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/TestFX__fdse__TestFX
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/IQSS__fdse__dataverse
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/thelinmichael__fdse__spotify-web-api-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/google__fdse__closure-templates
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ForestryMC__fdse__ForestryMC
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/RuedigerMoeller__fdse__kontraktor
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/nguyenq__fdse__tess4j
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/structurizr__fdse__java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/forcedotcom__fdse__idecore
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/kennycason__fdse__kumo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jmockit__fdse__jmockit1
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/vdenotaris__fdse__spring-boot-security-saml-sample
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/freenet__fdse__fred
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jmrozanec__fdse__cron-utils
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Haehnchen__fdse__idea-php-laravel-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/locationtech__fdse__geogig
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/xSAVIKx__fdse__AndroidScreencast
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Ecwid__fdse__consul-api
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/TheCoder4eu__fdse__BootsFaces-OSP
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/OpenHFT__fdse__Chronicle-Engine
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/graphaware__fdse__neo4j-reco
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/awslabs__fdse__amazon-kinesis-scaling-utils
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-cloud__fdse__spring-cloud-aws
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/OpenHFT__fdse__Zero-Allocation-Hashing
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/vojtechhabarta__fdse__typescript-generator
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-projects__fdse__spring-integration-kafka
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/vert-x3__fdse__vertx-web
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/SoftInstigate__fdse__restheart
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/archimatetool__fdse__archi
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/actframework__fdse__actframework
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Netflix__fdse__spectator
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/digitalfondue__fdse__lavagna
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/yegor256__fdse__takes
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/lucidworks__fdse__spark-solr
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-cloud__fdse__spring-cloud-zookeeper
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/graphhopper__fdse__map-matching
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/danielwegener__fdse__logback-kafka-appender
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/elki-project__fdse__elki
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/SleepyTrousers__fdse__EnderIO
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/vbauer__fdse__jackdaw
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/fizzed__fdse__rocker
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/DSheirer__fdse__sdrtrunk
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/loklak__fdse__loklak_server
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-guides__fdse__gs-spring-boot-docker
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/espertechinc__fdse__esper
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hankcs__fdse__AhoCorasickDoubleArrayTrie
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bbottema__fdse__simple-java-mail
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/apache__fdse__parquet-format
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/OWASP__fdse__java-html-sanitizer
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/uber__fdse__phabricator-jenkins-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/chatty__fdse__chatty
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/ContainerSolutions__fdse__minimesos
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/fabric8io__fdse__kubernetes-client
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/botanio__fdse__sdk
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/aliyun__fdse__aliyun-openapi-java-sdk
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/OpenGamma__fdse__Strata
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/confluentinc__fdse__kafka-connect-jdbc
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Brunel-Visualization__fdse__Brunel
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/bmwcarit__fdse__barefoot
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/glung__fdse__redux-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/vladmihalcea__fdse__high-performance-java-persistence
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/linux-china__fdse__spring-boot-dubbo
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/zalando__fdse__nakadi
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/pwm-project__fdse__pwm
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Backelite__fdse__sonar-swift
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/junit-team__fdse__junit5-samples
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/kaikramer__fdse__keystore-explorer
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-guides__fdse__tut-spring-boot-oauth2
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-cloud-samples__fdse__brewery
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/electronicarts__fdse__ea-async
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/toolbox4minecraft__fdse__amidst
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/chocoteam__fdse__choco-solver
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/palantir__fdse__docker-compose-rule
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/kotcrab__fdse__vis-editor
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/RUB-NDS__fdse__TLS-Attacker
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/jenkinsci__fdse__java-client-api
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Camelcade__fdse__Perl5-IDEA
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Nike-Inc__fdse__wingtips
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/akarnokd__fdse__RxJava2Extensions
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/eventuate-local__fdse__eventuate-local
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/gazbert__fdse__bxbot
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/openscoring__fdse__openscoring
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/dsyer__fdse__spring-boot-thin-launcher
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/shunfei__fdse__indexr
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Sloeber__fdse__arduino-eclipse-plugin
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/yacy__fdse__yacy_grid_mcp
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/neo4j-contrib__fdse__neo4j-graph-algorithms
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/mulesoft-labs__fdse__raml-for-jax-rs
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/flowing__fdse__flowing-retail
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/baidu__fdse__Jprotobuf-rpc-socket
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/java-json-tools__fdse__json-patch
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rsocket__fdse__rsocket-java
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rsksmart__fdse__rskj
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/spring-cloud__fdse__spring-cloud-function
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/MobiVM__fdse__robovm
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/lennartkoopmann__fdse__nzyme
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/YeDaxia__fdse__JApiDocs
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/binarywang__fdse__weixin-java-mp-demo-springboot
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/Devskiller__fdse__jfairy
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/k0kubun__fdse__gitstar-ranking
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/OpenLiberty__fdse__open-liberty
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/rememberber__fdse__WeSync
+java -jar LibEffort-jar-with-dependencies.jar poj_DG_data path_config.properties ../projects_git/hsiafan__fdse__requests

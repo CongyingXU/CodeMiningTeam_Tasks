@@ -10,6 +10,8 @@ Created on 2019/12/27 10:46
 """
 
 import json
+from CommonFunction import File_processing
+from CommonFunction import JSONFIle_processing
 
 
 poj_list = []
@@ -23,19 +25,43 @@ def read_pojs():
 def generate_batch_files():
     f = open('generateDG.sh','a')
 
-    out_path = '/home/hadoop/dfs/data/ThirdPartyLibs/Source/projects_DG/poj_DG_data/'
-    config_path = '/home/hadoop/dfs/data/ThirdPartyLibs/Source/projects_DG/path_config.properties'
+    out_path = 'poj_DG_data'
+    config_path = 'path_config.properties'
     poj_path = ''
 
 
     for poj in poj_list:
-        poj_path = 'projects_git/'+poj +'/'
-        cmd_str = 'java -jar /home/hadoop/dfs/data/ThirdPartyLibs/Source/projects_DG/LibEffort-jar-with-dependencies.jar ' + poj_path +' '+ config_path +' ' + out_path + '\n'
+        poj_path = '../projects_git/'+poj +''
+        cmd_str = 'java -jar LibEffort-jar-with-dependencies.jar ' + out_path +' '+ config_path +' ' + poj_path + '\n'
         f.write(cmd_str)
+    print('mm')
+
+
+def check_pojname():
+    ServerPojList = File_processing.read_TXTfile('ServerPojList.txt').replace('\n',' ').split(' ')
+    ServerPojList = [ ele.strip('\n') for ele in ServerPojList if ele != '']
+
+    print(ServerPojList)
+
+
+    poj_list =  JSONFIle_processing.read('projects.json')
+    print(poj_list)
+    count = 0
+
+    for ele in poj_list:
+        if ele in ServerPojList:
+            print(ele)
+            count +=1
+
+    print('count ',count)
+
+check_pojname()
 
 
 
+# if __name__ == '__main__':
+#     read_pojs()
+#     generate_batch_files()
 
-if __name__ == '__main__':
-    read_pojs()
-    generate_batch_files()
+
+
