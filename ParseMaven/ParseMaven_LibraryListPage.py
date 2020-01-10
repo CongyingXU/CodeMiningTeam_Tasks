@@ -12,9 +12,13 @@ sample :
 
 from bs4 import BeautifulSoup
 
-def read():
-    with open('LibraryListPage_test.html','r') as f:
-    # with open('ArtifactsListPage_test.html', 'r') as f:
+# def read():
+#     with open('LibraryListPage_test.html','r') as f:
+#     # with open('ArtifactsListPage_test.html', 'r') as f:
+#         return f.read()
+
+def read(html_path):
+    with open(html_path,'r') as f:
         return f.read()
 
 def bs4_paraser(html):
@@ -25,12 +29,16 @@ def bs4_paraser(html):
     time = ''
 
     soup = BeautifulSoup(html, 'html.parser')
-    header = soup.find_all('header', limit=1)
-    library = header[0].find('h1').string
-    data_dict['library/artifact'] = library
-    data_dict['version/artifacts_info'] = []
+    try:
+        header = soup.find_all('header', limit=1)
+        library = header[0].find('h1').string
+        data_dict['library/artifact'] = library
+        data_dict['version/artifacts_info'] = []
+        pre = soup.find_all('pre', attrs={'id': 'contents'}, limit=1)[0]
 
-    pre = soup.find_all('pre', attrs={'id': 'contents'}, limit=1)[0]
+    except:
+        data_dict['version/artifacts_info'] = []
+        pre = soup.find_all('pre', limit=1)[0]
     a_  = pre.find_all('a')
     # print(a_)
     # print(pre.get_text().split('\n'))
@@ -51,11 +59,12 @@ def bs4_paraser(html):
 
 
 
-def main():
-    html = read()
+def main(html_path):
+    html = read(html_path)
     data_dict = bs4_paraser(html)
-    print(data_dict)
+    return data_dict
 
 if __name__ == '__main__':
-    main()
+    html_path = 'LibraryListPage_test.html'
+    print( main(html_path) )
 

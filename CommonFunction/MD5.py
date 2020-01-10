@@ -18,5 +18,11 @@ def md5sum(file_path):
         _hash = md5obj.hexdigest()
     return str(_hash)
 
+def MakeMD5byString(str_content):
+    md5obj = hashlib.md5()
+    md5obj.update(str_content.encode('utf-8'))
+    _hash = md5obj.hexdigest()
+    return str(_hash)
+
 
 # print(md5sum('c:/Users/Congy/Downloads/junit-4.8.1.jar'))
