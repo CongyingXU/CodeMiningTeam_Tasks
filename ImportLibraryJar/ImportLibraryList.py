@@ -64,7 +64,9 @@ class CrawledLibraryList:
 CrawledLibList_obj = CrawledLibraryList()
 Meta_path = CrawledLibList_obj.LocalRepositoryPath + "data/meta.json"
 lib_all_vN_path = CrawledLibList_obj.LocalRepositoryPath + "data/lib_all_" + CrawledLibList_obj.Version + ".json"
+LogPath = Config.PATH_IMPORTING_LIB_LIST_LOG
 
+FinishedImportedLib_list = []
 
 
 
@@ -126,7 +128,18 @@ def write_L1_liballvN():
 
 # move to folder level 2: ../GA_md5(6)/metadata.xml__fdse__vN
 def move_L2_matadataFiles():
+    global FinishedUntarFilesList
+    with open(LogPath, 'r+') as f:
+        content = f.read()
+        FinishedImportedLib_list = content.split('\n')
+
+
     for GA in CrawledLibList_obj.LibraryList:
+        for GA in FinishedImportedLib_list:
+            if GA in FinishedUntarFilesList:
+                # print("Pass : " + filename)
+                continue
+
         print(GA)
         GA_folder_name = CrawledLibList_obj.LibInfo[GA]["GA_folder_name"]
         Crawled_GA_floder_path = CrawledLibList_obj.CrawledLibraryListPath + GA_folder_name
@@ -139,6 +152,12 @@ def move_L2_matadataFiles():
             source = Crawled_GA_floder_path + '/' + filename
             File_processing.copyFile(source,target + filename+'__fdse__'+CrawledLibList_obj.Version)
             # print(source, target + filename+'__fdse__'+CrawledLibList_obj.Version)
+
+        # register
+        FinishedImportedLib_list.append(GA)
+        with open(LogPath, 'a+') as f:
+            f.write(GA + '\n')
+        f.close()
 
 def main():
     # step1: append meta.json and lib_all_vN.json

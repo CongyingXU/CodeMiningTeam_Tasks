@@ -34,7 +34,7 @@ def getZIPfileslist():
 
 def UntarCopyDelete_crawledFiles():
     global FinishedUntarFilesList
-    with open(LogPath,'r') as f:
+    with open(LogPath,'r+') as f:
         content = f.read()
         FinishedUntarFilesList = content.split('\n')
 

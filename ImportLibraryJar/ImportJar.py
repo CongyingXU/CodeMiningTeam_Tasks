@@ -35,6 +35,8 @@ repo_page_version_name = Config.REPO_PAGE_VERSION_HTML
 file_all_vN_content_template = Config.TEMPLATE_FILE_ALL_VN_JSON
 file_all_vN_name = Config.FILE_ALL_VN_JSON
 
+maven_repo_url_part = Config.URL_MAVEN_REPO_PART
+
 
 
 
@@ -54,7 +56,7 @@ def getLiblistAndInfo():
     LibInfo = lib_all_vN
 
 def getImportedGAList():
-    with open(Imported_Jar_log_path,'r') as f:
+    with open(Imported_Jar_log_path,'r+') as f:
         content = f.read()
         Imported_GA_List = content.split('\n')
     return Imported_GA_List
@@ -102,8 +104,9 @@ def write_L2_version_all_vN(lib_folder_name,Crawled_GA_lib_path,Processed_GA_pat
     for filename in filelist:
         filename_path = Processed_GA_path + filename
         crawl_time = File_processing.getFileCreatedTime(filename_path)  # crawl time
-        url = File_processing.read_TXTfile(repo_url_path)
-        item = {filename: {Version: {"url": url ,"crawl_time": crawl_time, "absolute_file_name": filename + "__fdse__" +Version}}}
+        url_part = File_processing.read_TXTfile(repo_url_path)
+        url_whole = maven_repo_url_part + url_part
+        item = {filename: {Version: {"url": url_whole ,"crawl_time": crawl_time, "absolute_file_name": filename + "__fdse__" +Version}}}
         version_all_vN_content["files"].update(item)
 
     # 3 from downloaded LibList : files
@@ -120,6 +123,7 @@ def write_L2_version_all_vN(lib_folder_name,Crawled_GA_lib_path,Processed_GA_pat
         metadata_xml_path = Crawled_liblis_path +lib_folder_name + '/' + maven_metadata_xml
         lastUpdated_time = getLastupdateTime(metadata_xml_path)
         if lastUpdated_time !='' :
+            lastUpdated_time += "__fdse__" + Source
             version_all_vN_content["lastUpdated"].append(lastUpdated_time)
             print (Processed_GA_path)
             print (version_all_vN_content)
@@ -148,12 +152,12 @@ def make_L2_Versiondir(Processed_GA_path,target_path):
             repo_version_pagetime_dict[ele[0].strip('/')] = ele[1]
 
         # step 3 : files level: write and move files
-        write_L3_file_all_vN(Processed_GAV_path,target_GAV_folder_path,Processed_GA_path,repo_version_pagetime_dict)
+        write_L3_file_all_vN(Processed_GAV_path,target_GAV_folder_path,Processed_GA_path,repo_version_pagetime_dict,foldername)
         move_L3_JarHtmlFiles(Processed_GAV_path,target_GAV_folder_path)
         print (target_GAV_folder_path)
 
 # write level 3: ../GA_md5(6)/0.3-3/file_all_v1.json
-def write_L3_file_all_vN(Processed_GAV_path,target_GAV_folder_path,Processed_GA_path,repo_version_pagetime_dict):
+def write_L3_file_all_vN(Processed_GAV_path,target_GAV_folder_path,Processed_GA_path,repo_version_pagetime_dict,GA_version):
     file_all_vN_content = file_all_vN_content_template
 
     filelist = File_processing.walk_L1_FileNames(Processed_GAV_path)
@@ -162,9 +166,10 @@ def write_L3_file_all_vN(Processed_GAV_path,target_GAV_folder_path,Processed_GA_
         if filename.endswith(".html"):
             filename_path = Processed_GAV_path + filename
             crawl_time = File_processing.getFileCreatedTime(filename_path)  # crawl time
-            url = File_processing.read_TXTfile(repo_url_path)
+            url_part = File_processing.read_TXTfile(repo_url_path)
+            url_whole = maven_repo_url_part + url_part + GA_version
             item = {filename: {
-                Version: {"url": url, "crawl_time": crawl_time, "absolute_file_name": filename + "__fdse__" + Version}}}
+                Version: {"url": url_whole, "crawl_time": crawl_time, "absolute_file_name": filename + "__fdse__" + Version}}}
         else:
             page_time = repo_version_pagetime_dict[filename]
             filename_path = Processed_GAV_path + filename

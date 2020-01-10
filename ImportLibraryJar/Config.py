@@ -24,11 +24,19 @@ CRAWLED_Jar_PATH = "F:/Downloads/Downloads_Jar/CrawledJars_v1_191213/"
 # path of pre-precessed crawled Jar.zip
 PROCESSED_CRAWLEDJar_PATH  = "F:/Processed_Downloads_Jars/CrawledJars_v1_191213/"
 
+
+
+
+###################################################
+# fixed path
 # path of log
+PATH_IMPORTING_LIB_LIST_LOG = "TemporaryData/" + VERSION + "ImportingLibList.log"
 PATH_PROCESSING_CRAWLED_JAR_LOG = "TemporaryData/" + VERSION + "ProcessingCrawledJar.log"
 PATH_IMPORTING_JAR_LOG = "TemporaryData/" + VERSION + "ImportingProcessedJar.log"
 PATH_LIBRARY_LIST = "TemporaryData/" + VERSION + "LibList.json"
 PATH_LIB_INFO_PATH = "TemporaryData/" + VERSION + "LibInfo.json"
+
+
 
 
 
@@ -50,3 +58,9 @@ FILE_ALL_VN_JSON = "file_all_" + VERSION + ".json"
 # data structure template
 TEMPLATE_VERSION_ALL_VN_JSON = { "files":{} , "lastUpdated":[] }
 TEMPLATE_FILE_ALL_VN_JSON = { "files":{} }
+
+
+###################################################
+# varibles
+# url
+URL_MAVEN_REPO_PART = "https://repo1.maven.org/maven2/"
