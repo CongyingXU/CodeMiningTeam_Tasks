@@ -27,6 +27,9 @@ class collectDependency:
     def collect_dependecy(self):
 
         for poj in self.pojlist:
+            print(poj)
+            if poj.endswith(".DS_Store"):
+                continue
             poj_DGinfo = JSONFIle_processing.read(poj)
             for item in poj_DGinfo:
                 groupId = item['groupId']
