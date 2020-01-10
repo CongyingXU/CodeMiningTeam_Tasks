@@ -135,7 +135,7 @@ def move_L2_matadataFiles():
 
 
     for GA in CrawledLibList_obj.LibraryList:
-        if GA in FinishedUntarFilesList:
+        if GA in FinishedImportedLib_list:
             # print("Pass : " + filename)
             continue
 
