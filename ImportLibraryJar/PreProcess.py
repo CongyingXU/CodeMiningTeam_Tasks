@@ -44,7 +44,7 @@ def UntarCopyDelete_crawledFiles():
             continue
 
         # Untar
-        # print("Untar : "+ filename)
+        print(TarFilesList.index(filename), len(TarFilesList),"Untar : "+ filename)
         filepath = CrawledJarsPath + filename
         File_processing.untarFile(filepath,CrawledJarsPath)
 
@@ -79,8 +79,8 @@ def UntarCopyDelete_crawledFiles():
 
 
 def main():
-    getZIPfileslist()
-    UntarCopyDelete_crawledFiles()
+        getZIPfileslist()
+        UntarCopyDelete_crawledFiles()
 
 if __name__ == '__main__':
     main()
