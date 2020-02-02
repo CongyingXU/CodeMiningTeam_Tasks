@@ -79,7 +79,6 @@ def UntarCopyDelete_crawledFiles():
 
 
 def main():
-    while True:
         getZIPfileslist()
         UntarCopyDelete_crawledFiles()
 
