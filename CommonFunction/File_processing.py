@@ -125,8 +125,8 @@ def untarFile(fname, dirs):
         try:
             tar.extract(name, path=dirs)
         except Exception as e:
-            # print(e)
-            pass
+            print(e)
+            # pass
 
     tar.close()
 

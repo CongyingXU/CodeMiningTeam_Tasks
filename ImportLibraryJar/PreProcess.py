@@ -11,15 +11,23 @@ founctions:
 from ImportLibraryJar import Config
 from CommonFunction import File_processing
 import os
-
+import json
 
 
 CrawledJarsPath = Config.CRAWLED_Jar_PATH
 ProcessedCrawledJarPath =  Config.PROCESSED_CRAWLEDJar_PATH
 LogPath = Config.PATH_PROCESSING_CRAWLED_JAR_LOG
+LibVersionpath = Config.PATH_LIB_VERSION
 
 TarFilesList = []
 FinishedUntarFilesList = []
+Lib_Version_data = []
+
+def init():
+    global Lib_Version_data,LibVersionpath
+    with open(LibVersionpath, 'r') as f:
+        Lib_Version_data = json.loads(f.read())
+
 
 def getZIPfileslist():
     global ZipFilesList
@@ -31,6 +39,27 @@ def getZIPfileslist():
             end_num = task_num.split('-')[1]
             if start_num != end_num:
                 TarFilesList.append(filename)
+
+def getSuccessfulCrawledGAlist(log_path):
+    with open(log_path,'r') as f:
+        log_content = f.read()
+
+    log_lines = log_content.split('\n')
+    successful_GA_num = []
+    for log_line in log_lines:
+        if len(log_line) == 0:
+            continue
+        if len( log_line.split("__fdse__") ) == 1:
+            successful_GA_num.append( int(log_line) )
+    # print(successful_GA_num)
+    successful_GA = []
+    for num_ele in successful_GA_num:
+        GA_ = Lib_Version_data[num_ele]["lib"]
+        # print(num_ele,GA_)
+        successful_GA.append(GA_)
+
+    return successful_GA
+
 
 def UntarCopyDelete_crawledFiles():
     global FinishedUntarFilesList
@@ -50,13 +79,29 @@ def UntarCopyDelete_crawledFiles():
 
         # Copy
         source_folder_parent_path = CrawledJarsPath + "home/fdse/wangying/crawled_data/lib/"
+        source_folder_log_path = CrawledJarsPath + "home/fdse/wangying/crawled_data/log.txt"
+        # for XCY mac debug
+        # source_folder_parent_path = "/Users/congyingxu/Downloads/" + "home/fdse/wangying/crawled_data/lib/"
+        # source_folder_log_path = "/Users/congyingxu/Downloads/" + "home/fdse/wangying/crawled_data/log.txt"
+        successful_crawled_GAs = getSuccessfulCrawledGAlist(source_folder_log_path)
         source_folder_list = File_processing.walk_L1_Folders(source_folder_parent_path)
         target = ProcessedCrawledJarPath
+
         for source_folder in source_folder_list:
+            # print(successful_crawled_GAs)
+            # print(source_folder)
+            # print(source_folder_list)
+            if source_folder not in successful_crawled_GAs:
+                print("Unsuccessful Crawled GA: ", source_folder)
+                continue
+
             source_folder_path = source_folder_parent_path + source_folder +'/'
             target_path = target + source_folder +'/'
+
+            # copy result
+            copy_result = File_processing.copyFolder(source_folder_path, target_path)
             # unsuccessful copy?
-            if File_processing.copyFolder(source_folder_path, target_path) == -1:
+            if copy_result == -1:
                 # whether the target_path existing?
                 if os.path.exists(target_path):
                     # new one > the old
@@ -79,6 +124,7 @@ def UntarCopyDelete_crawledFiles():
 
 
 def main():
+        init()
         getZIPfileslist()
         UntarCopyDelete_crawledFiles()
 

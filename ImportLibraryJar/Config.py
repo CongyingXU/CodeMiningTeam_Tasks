@@ -17,12 +17,18 @@ LIB_RANGE_IS_ALL = True
 ###################################################
 # path
 # path of local Jar repo stored in Server
-LOCAL_REPOSITORY_PATH = "F:/Jar/"
-# path of crawled LibList and Jars
-CRAWLED_LIBRARY_LIST_PATH = "F:/Downloads/Downloads_LibList/v1_191015_rangeALL/"
-CRAWLED_Jar_PATH = "F:/Downloads/Downloads_Jar/CrawledJars_v1_191213/"
+# # LOCAL_REPOSITORY_PATH = "F:/Jar/"
+# # path of crawled LibList and Jars
+# CRAWLED_LIBRARY_LIST_PATH = "F:/Downloads/Downloads_LibList/v1_191015_rangeALL/"
+# CRAWLED_Jar_PATH = "F:/Downloads/Downloads_Jar/CrawledJars_v1_191213/"
+# # path of pre-precessed crawled Jar.zip
+# PROCESSED_CRAWLEDJar_PATH  = "F:/Processed_Downloads_Jars/CrawledJars_v1_191213/"
+
+LOCAL_REPOSITORY_PATH = "/Volumes/My Passport/Jar/"
+CRAWLED_LIBRARY_LIST_PATH = "/Volumes/My Passport/Downloads/Downloads_LibList/v1_191015_rangeALL/"
+CRAWLED_Jar_PATH = "/Volumes/My Passport/Downloads/Downloads_Jar/CrawledJars_v1_191213/"
 # path of pre-precessed crawled Jar.zip
-PROCESSED_CRAWLEDJar_PATH  = "F:/Processed_Downloads_Jars/CrawledJars_v1_191213/"
+PROCESSED_CRAWLEDJar_PATH  = "/Volumes/My Passport/Processed_Downloads_Jars/CrawledJars_v1_191213/"
 
 
 
@@ -35,6 +41,7 @@ PATH_PROCESSING_CRAWLED_JAR_LOG = "TemporaryData/" + VERSION + "ProcessingCrawle
 PATH_IMPORTING_JAR_LOG = "TemporaryData/" + VERSION + "ImportingProcessedJar.log"
 PATH_LIBRARY_LIST = "TemporaryData/" + VERSION + "LibList.json"
 PATH_LIB_INFO_PATH = "TemporaryData/" + VERSION + "LibInfo.json"
+PATH_LIB_VERSION = "TemporaryData/lib_versions.json"
 
 
 
