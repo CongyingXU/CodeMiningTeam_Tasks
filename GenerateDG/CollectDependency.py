@@ -9,6 +9,11 @@ Created on 2020-01-06 15:36
 
 from CommonFunction import File_processing,JSONFIle_processing
 
+
+GAV_Num = {}
+GA_Num = {}
+
+
 class collectDependency:
 
     pojlist = []
@@ -48,7 +53,20 @@ class collectDependency:
                         self.DG_data[GA].append(version)
                 else:
                     self.DG_data[GA] = [version]
-            print(self.DG_data)
+
+
+                GAV = groupId + '__fdse__' + artifactId + '__fdse__' + version
+                if GAV in GAV_Num.keys():
+                    GAV_Num[ GAV ] = GAV_Num[ GAV ]+1
+                else:
+                    GAV_Num[GAV] = 1
+
+                if GA in GA_Num.keys():
+                    GA_Num[ GA ] = GA_Num[ GA ]+1
+                else:
+                    GA_Num[GA] = 1
+
+            # print(self.DG_data)
 
     def write(self):
         JSONFIle_processing.write(self.DG_data ,self.json_path)
@@ -64,3 +82,13 @@ if __name__ == '__main__':
     DG_Data_path = 'poj_DG_data/data/dependency/raw'
     result_json_path = 'dependency.json'
     collectDependency(DG_Data_path,result_json_path).main()
+
+    # print(GA_Num)
+    sorted_GA_num = sorted(GA_Num.items(), key=lambda item:item[1], reverse=True)
+
+    print(sorted_GA_num[1000])
+
+    JSONFIle_processing.write(GA_Num, "GA_Num.json")
+    JSONFIle_processing.write(sorted_GA_num, "Sorted_GA_Num.json")
+
+

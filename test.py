@@ -30,7 +30,7 @@ def loop_Server():
     count = 0
     while True:
 
-        cmd = "python /c/Users/Congy/PycharmProjects/AliServers_Crawler/Client_Main.py CongyingXu_win"
+        cmd = "python C:\\Users\\Congy\\PycharmProjects\\CodeMiningTeam_Tasks\\Client_Main.py CongyingXu_win"
         os.system(cmd)
         print("Count: ",count)
 
