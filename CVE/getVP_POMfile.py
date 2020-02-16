@@ -103,6 +103,7 @@ def getGitHtml():
 
             response = requests.get(git_url)
             html = response.text
+            print("response",response.status_code)
             soup = BeautifulSoup(html, 'html.parser')
 
             getPOMfile(soup,git_url,VP)
