@@ -25,13 +25,13 @@ def read_pojs():
 def generate_batch_files():
     f = open('generateDG.sh','a')
 
-    out_path = 'poj_DG_data'
+    out_path = 'poj_DG_data0216'
     config_path = 'path_config.properties'
     poj_path = ''
 
 
     for poj in poj_list:
-        poj_path = '../projects_git/'+poj +''
+        poj_path = '../projects_2_5/'+poj +''
         cmd_str = 'java -jar LibEffort-jar-with-dependencies.jar ' + out_path +' '+ config_path +' ' + poj_path + '\n'
         f.write(cmd_str)
     print('mm')
@@ -55,13 +55,13 @@ def check_pojname():
 
     print('count ',count)
 
-check_pojname()
+# check_pojname()
 
 
 
-# if __name__ == '__main__':
-#     read_pojs()
-#     generate_batch_files()
+if __name__ == '__main__':
+    read_pojs()
+    generate_batch_files()
 
 
 

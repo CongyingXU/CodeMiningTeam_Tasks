@@ -70,14 +70,15 @@ def getPOMfile(soup,git_url,VP):
                     else:
                         pass
                 else: # 文件夹
-                    sub_git_url = "https://github.com" + part_url
-                    sub_response = requests.get(sub_git_url)
-                    sub_html = sub_response.text
-                    sub_soup = BeautifulSoup(sub_html, 'html.parser')
-                    # print(sub_response.text)
-                    print(sub_response.status_code)
-
-                    getPOMfile(sub_soup, sub_git_url,VP)
+                    pass
+                    # sub_git_url = "https://github.com" + part_url
+                    # sub_response = requests.get(sub_git_url)
+                    # sub_html = sub_response.text
+                    # sub_soup = BeautifulSoup(sub_html, 'html.parser')
+                    # # print(sub_response.text)
+                    # print(sub_response.status_code)
+                    #
+                    # getPOMfile(sub_soup, sub_git_url,VP)
 
             # lastUpdated = soup.find_all('lastUpdated', limit=1)[0]
             # lastUpdated_time = lastUpdated.get_text()
