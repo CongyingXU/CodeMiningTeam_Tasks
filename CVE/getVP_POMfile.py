@@ -6,6 +6,9 @@ Created on 2020-02-15 23:27
 @author: congyingxu
 """
 
+import sys
+sys.path.append('../')  # 新加入的
+
 from CVE import mappingVPGitRepo
 import requests
 from bs4 import BeautifulSoup
