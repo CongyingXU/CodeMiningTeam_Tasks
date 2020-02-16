@@ -89,7 +89,7 @@ def getPOMfile(soup,git_url,VP):
 def getGitHtml():
     global VP_GIT_POM_DATA
 
-    for VP in list(VP_GIT_REPO_DATA.keys())[:5000]:
+    for VP in list(VP_GIT_REPO_DATA.keys())[5000:]:
         print(VP)
 
         if os.path.exists(VP_GIT_POM_DATA_file):
