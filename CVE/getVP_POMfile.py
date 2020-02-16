@@ -22,7 +22,7 @@ VP_GIT_POM_DATA_file  = "Local_Data/VP_Git_POMFile.json"
 
 def getPOMfile(soup,git_url,VP):
         global pomfile_count
-        # print(git_url)
+        print(git_url)
 
         table_list = soup.find_all('table', attrs={'class': 'files js-navigation-container js-active-navigation-container'})
         if len( table_list) >0:
@@ -48,7 +48,9 @@ def getPOMfile(soup,git_url,VP):
                     if file_name.lower() == "pom.xml":
                         sub_git_url = "https://github.com" + part_url
                         sub_response = requests.get(sub_git_url)
+                        print(sub_response.status_code)
                         sub_html = sub_response.text
+
 
                         pom_filee_name = str(pomfile_count) + "__fdse__" + VP + ".html"
                         with open("POM_htmlfiles/" + pom_filee_name , 'w') as f:
@@ -69,6 +71,8 @@ def getPOMfile(soup,git_url,VP):
                     sub_response = requests.get(sub_git_url)
                     sub_html = sub_response.text
                     sub_soup = BeautifulSoup(sub_html, 'html.parser')
+                    # print(sub_response.text)
+                    print(sub_response.status_code)
 
                     getPOMfile(sub_soup, sub_git_url,VP)
 
