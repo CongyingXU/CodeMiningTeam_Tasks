@@ -42,6 +42,9 @@ def getPOMfile(soup,git_url,VP):
                         continue
                 except:
                     pass
+                if a == None:
+                    print("None A!'")
+                    continue
                 part_url = a["href"]
                 # print(part_url)
                 file_name =  part_url.split("/")[-1]
@@ -86,7 +89,7 @@ def getPOMfile(soup,git_url,VP):
 def getGitHtml():
     global VP_GIT_POM_DATA
 
-    for VP in list(VP_GIT_REPO_DATA.keys())[165*0:165*1]:
+    for VP in list(VP_GIT_REPO_DATA.keys())[:5000]:
         print(VP)
 
         if os.path.exists(VP_GIT_POM_DATA_file):
