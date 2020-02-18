@@ -43,6 +43,11 @@ def walk_L1_FileNames(rootdir):
 
         return filenames
 
+def walk_L1_FoldersAndFilenames(rootdir):
+    for parent, dirnames, filenames in os.walk(rootdir):  # 三个参数：分别返回1.父目录 2.所有文件夹名字（不含路径） 3.所有文件名字
+
+        return dirnames + filenames
+
 
 
 def creatFileFolder(path):

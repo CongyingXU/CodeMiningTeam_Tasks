@@ -18,8 +18,12 @@ poj_list = []
 cmd_list = []
 def read_pojs():
     global poj_list
-    with open('projects.json','r') as f:
-        poj_list = json.loads(f.read())
+    # with open('projects.json','r') as f:
+    #     poj_list = json.loads(f.read())
+
+    with open('projs0217buchong.txt','r') as f:
+        content = f.read()
+        poj_list = content.strip("\n").split("\n")
 
 
 def generate_batch_files():

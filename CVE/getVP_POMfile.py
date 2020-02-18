@@ -58,7 +58,7 @@ def getPOMfile(soup,git_url,VP):
                         sub_html = sub_response.text
 
 
-                        pom_filee_name = str(pomfile_count) + "__fdse__" + VP + ".html"
+                        pom_filee_name = str(pomfile_count) + "__fdse__" + VP.replace('/','-') + ".html"
                         with open("POM_htmlfiles/" + pom_filee_name , 'w') as f:
                             f.write( sub_html )
 
