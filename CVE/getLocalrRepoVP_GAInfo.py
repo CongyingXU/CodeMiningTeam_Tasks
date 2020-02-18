@@ -27,7 +27,9 @@ def getVP_list():
 
 
 def findPOM(path):
+    print("path: ",path)
     filesOrfolder_lists = File_processing.walk_L1_FoldersAndFilenames(path)
+    print("filesOrfolder_lists: ",filesOrfolder_lists)
 
     for file_name in filesOrfolder_lists:
         if file_name.find('.') > -1:  # 文件
