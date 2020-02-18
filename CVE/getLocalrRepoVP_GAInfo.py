@@ -5,6 +5,8 @@ Created on 2020-02-18 16:05
 
 @author: congyingxu
 """
+import sys
+sys.path.append('../')  # 新加入的
 
 from CommonFunction import File_processing
 from bs4 import BeautifulSoup
@@ -20,6 +22,7 @@ def getVP_list():
     global LocalRepo_VP_list
     folder_list = File_processing.walk_L1_Folders(CVE_LocalVPRepo_path)
     LocalRepo_VP_list  = folder_list
+    print("len foldr_list: ",len(folder_list))
 
 
 
@@ -97,6 +100,7 @@ def main():
     getVP_list()
 
     for VP in LocalRepo_VP_list:
+        print("VP: ",VP)
         VP_Repo_path = CVE_LocalVPRepo_path + VP + '/'
         findPOM(VP_Repo_path)
 
