@@ -8,6 +8,7 @@ Created on 2020-02-18 16:05
 
 from CommonFunction import File_processing
 from bs4 import BeautifulSoup
+import json
 
 
 CVE_LocalVPRepo_path = "/home/hadoop/dfs/data/Workspace/CVE_VP_Repositories/"
@@ -85,6 +86,10 @@ def parseGAInfo(pom_full_path):
     print(LocalRepoVP_POMGA_Data)
 
 
+def write():
+    with open("LocalRepoVP_POMGA.json",'w') as f:
+        f.write( json.dumps(LocalRepoVP_POMGA_Data) )
+
 # parseGAInfo("pom.xml")
 
 
@@ -94,5 +99,7 @@ def main():
     for VP in LocalRepo_VP_list:
         VP_Repo_path = CVE_LocalVPRepo_path + VP + '/'
         findPOM(VP_Repo_path)
+
+    write()
 
 main()
