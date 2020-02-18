@@ -28,21 +28,22 @@ def getVP_list():
 
 def findPOM(path):
     print("path: ",path)
-    filesOrfolder_lists = File_processing.walk_L1_FoldersAndFilenames(path)
-    print("filesOrfolder_lists: ",filesOrfolder_lists)
-    if len(filesOrfolder_lists) > 0:
 
-        for file_name in filesOrfolder_lists:
-            if file_name.find('.') > -1:  # 文件
-                if file_name.lower() == "pom.xml":
-                    file_full_path  = path + file_name
-                    parseGAInfo(file_full_path)
+    file_list = File_processing.walk_L1_FileNames(path)
+    for file_name in file_list:
+        if file_name.find('.') > -1:  # 文件
+            if file_name.lower() == "pom.xml":
+                file_full_path  = path + file_name
+                parseGAInfo(file_full_path)
 
-                else:
-                    pass
-            else:  # 文件夹
-                folder_full_path = path + file_name + '/'
-                findPOM(folder_full_path)
+            else:
+                pass
+
+    # 文件夹
+    folder_list = File_processing.walk_L1_Folders(path)
+    for folder_name in folder_list:
+        folder_full_path = path + folder_name + '/'
+        findPOM(folder_full_path)
 
 
 
