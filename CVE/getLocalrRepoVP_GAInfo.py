@@ -48,6 +48,7 @@ def findPOM(path):
 
 
 def parseGAInfo(pom_full_path):
+    # print(pom_full_path)
     with open(pom_full_path,'r') as f:
         xml = f.read()
 
@@ -90,7 +91,7 @@ def parseGAInfo(pom_full_path):
     else:
         LocalRepoVP_POMGA_Data[VP_name] = [item]
 
-    print(LocalRepoVP_POMGA_Data)
+    # print(LocalRepoVP_POMGA_Data)
 
 
 def write():
@@ -108,6 +109,7 @@ def main():
         VP_Repo_path = CVE_LocalVPRepo_path + VP + '/'
         findPOM(VP_Repo_path)
 
+    print("write!")
     write()
 
 main()
