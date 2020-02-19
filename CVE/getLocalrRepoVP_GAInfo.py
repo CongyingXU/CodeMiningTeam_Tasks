@@ -95,7 +95,7 @@ def parseGAInfo(pom_full_path):
 
 
 def write():
-    with open("LocalRepoVP_POMGA.json",'w') as f:
+    with open("LocalRepoVP_POMGA_iteration.json",'w') as f:
         f.write( json.dumps(LocalRepoVP_POMGA_Data) )
 
 # parseGAInfo("pom.xml")
@@ -109,7 +109,7 @@ def main():
         VP_Repo_path = CVE_LocalVPRepo_path + VP + '/'
         findPOM(VP_Repo_path)
 
-    print("write!")
-    write()
+        print("write!")
+        write()
 
 main()

@@ -15,6 +15,7 @@ file_list = []
 CVE_VPV_Data = {}
 
 
+fields = set()
 def getFileList():
     global file_list
     file_list = File_processing.walk_L1_FileNames(CVE_Dataset_path)
@@ -26,9 +27,12 @@ def readFile(path):
     return file_data
 
 def collectVulberableCPE(cpe_match):
+    global fields
+
     VulberableCPE_set = set()
     # print(VulberableCPE_set)
     for match_ele in cpe_match:
+        fields.update(  set( match_ele.keys() ) )
         vulnerable = match_ele["vulnerable"]
         if not vulnerable:
             continue
@@ -39,7 +43,26 @@ def collectVulberableCPE(cpe_match):
         else:
             # 版本号暂时不拿
             cpe23Uri = match_ele["cpe23Uri"]
-            cpe_ID = cpe23Uri.split(":")[3] + "__fdse__" + cpe23Uri.split(":")[4]
+
+            Version_Num = cpe23Uri.split(":")[5]
+            if Version_Num == '*' or Version_Num == '-':
+                Version_Num = "NA"
+
+            Version_InFo = "Version_Num:" + Version_Num
+
+            #   是否会有其他子弹的可能？
+            if Version_Num == "NA" and "versionStartIncluding" in match_ele.keys():
+                Version_Num = match_ele["versionStartIncluding"]
+                Version_InFo = "versionStartIncluding:" + Version_Num
+                if Version_Num == "NA" and "versionEndExcluding" in match_ele.keys():
+                Version_Num = match_ele["versionEndExcluding"]
+                Version_InFo += ":versionEndExcluding:" + Version_Num
+
+            elif Version_Num == "NA" and "versionEndExcluding" in match_ele.keys():
+                Version_Num = match_ele["versionEndExcluding"]
+                Version_InFo = "versionEndExcluding:" + Version_Num
+
+            cpe_ID = cpe23Uri.split(":")[3] + "__fdse__" + cpe23Uri.split(":")[4] + "__fdse__" + Version_InFo
             VulberableCPE_set.add(cpe_ID)
             # print(match_ele)
         # break
@@ -99,3 +122,4 @@ def main():
 
 main()
 print("CVE length:", len(CVE_VPV_Data.keys()))
+print("fields: ",fields)
