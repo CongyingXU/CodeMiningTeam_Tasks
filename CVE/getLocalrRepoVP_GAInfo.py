@@ -29,8 +29,8 @@ def getVP_list():
 def findPOM(path):
     # /home/hadoop/dfs/data/Workspace/CVE_VP_Repositories/V__fdse__P/
     print("path: ",path)
-    # 控制层数,2
-    if len( path.split('/') ) > 5 + 2 :
+    # 控制层数,5
+    if len( path.split('/') ) > 5 + 5 :
         return
 
 
