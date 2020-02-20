@@ -27,7 +27,13 @@ def getVP_list():
 
 
 def findPOM(path):
+    # /home/hadoop/dfs/data/Workspace/CVE_VP_Repositories/V__fdse__P/
     print("path: ",path)
+    # 控制层数,2
+    if len( path.split('/') ) > 5 + 2 :
+        return
+
+
 
     file_list = File_processing.walk_L1_FileNames(path)
     for file_name in file_list:
@@ -102,14 +108,46 @@ def write():
 
 
 def main():
+    global LocalRepoVP_POMGA_Data
     getVP_list()
+    with open("LocalRepoVP_POMGA_iteration.json",'r') as f:
+        LocalRepoVP_POMGA_Data = json.loads( f.read() )
 
     for VP in LocalRepo_VP_list:
-        print("VP: ",VP)
+
+        if VP in LocalRepoVP_POMGA_Data.keys():
+            print("Pass VP: ", VP)
+            continue
+        print("VP: ", VP)
         VP_Repo_path = CVE_LocalVPRepo_path + VP + '/'
         findPOM(VP_Repo_path)
 
         print("write!")
         write()
+
+
+
+def readresult():
+    global LocalRepoVP_POMGA_Data
+    with open("/Users/congyingxu/Downloads/LocalRepoVP_POMGA_iteration.json",'r') as f:
+        LocalRepoVP_POMGA_Data = json.loads( f.read() )
+    print("len:", len( LocalRepoVP_POMGA_Data.keys() ))
+
+    with open("Local_Data/CPE_VP_LocalRepo.json",'r') as f:
+        content = json.loads( f.read() )
+
+    for VP in content.keys():
+        if VP not in LocalRepoVP_POMGA_Data.keys():
+            print(VP)
+
+def collect_result():
+    pass
+
+def collectresult_main():
+    pass
+
+
+# readresult()
+
 
 main()

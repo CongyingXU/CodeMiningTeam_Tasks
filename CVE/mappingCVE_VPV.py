@@ -50,17 +50,29 @@ def collectVulberableCPE(cpe_match):
 
             Version_InFo = "Version_Num:" + Version_Num
 
+            Version_Num = "NA"
             #   是否会有其他子弹的可能？
-            if Version_Num == "NA" and "versionStartIncluding" in match_ele.keys():
+            if "versionStartIncluding" in match_ele.keys():
                 Version_Num = match_ele["versionStartIncluding"]
-                Version_InFo = "versionStartIncluding:" + Version_Num
-                if Version_Num == "NA" and "versionEndExcluding" in match_ele.keys():
+            Version_InFo += "||versionStartIncluding:" + Version_Num
+            Version_Num = "NA"
+            #   是否会有其他子弹的可能？
+            if "versionEndIncluding" in match_ele.keys():
+                Version_Num = match_ele["versionEndIncluding"]
+            Version_InFo += "||versionEndIncluding:" + Version_Num
+            Version_Num = "NA"
+            #   是否会有其他子弹的可能？
+            if "versionStartExcluding" in match_ele.keys():
+                Version_Num = match_ele["versionStartExcluding"]
+            Version_InFo += "||versionStartExcluding:" + Version_Num
+            Version_Num = "NA"
+            #   是否会有其他子弹的可能？
+            if "versionEndExcluding" in match_ele.keys():
                 Version_Num = match_ele["versionEndExcluding"]
-                Version_InFo += ":versionEndExcluding:" + Version_Num
+            Version_InFo += "||versionEndExcluding:" + Version_Num
 
-            elif Version_Num == "NA" and "versionEndExcluding" in match_ele.keys():
-                Version_Num = match_ele["versionEndExcluding"]
-                Version_InFo = "versionEndExcluding:" + Version_Num
+
+
 
             cpe_ID = cpe23Uri.split(":")[3] + "__fdse__" + cpe23Uri.split(":")[4] + "__fdse__" + Version_InFo
             VulberableCPE_set.add(cpe_ID)
