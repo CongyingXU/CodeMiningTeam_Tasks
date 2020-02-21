@@ -5,12 +5,14 @@ Created on 2020-02-21 10:25
 
 @author: congyingxu
 """
-from CommonFunction import JSONFIle_processing, File_processing
+# from CommonFunction import JSONFIle_processing, File_processing
 
 
-import sys
+import sys,os
 sys.path.append('../')  # 新加入的
 
+
+import json
 # file+path
 
 
@@ -23,7 +25,9 @@ count_less = 0
 
 def read():
     global ele_list
-    ele_list = JSONFIle_processing.read(file_path)
+    with open(file_path,'r') as f:
+        ele_list = json.loads( f.read() )
+    # ele_list = JSONFIle_processing.read(file_path)
 
 def compare():
     global count_less
@@ -35,7 +39,8 @@ def compare():
 
             full_path = jar_path + groupId + '__fdse__' + artifactId + '/' + version +'/'
 
-            if File_processing.pathExist(full_path):
+
+            if os.path.exists(full_path):
                 continue
             else:
                 count_less += 1
