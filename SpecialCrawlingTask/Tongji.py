@@ -29,6 +29,7 @@ kaifeng_todo = []
 
 Task_todo_list =  []
 Existing_todo_list = []
+Informal_GAV_List = []
 
 def read():
     global wangying_todo_gradle,wangying_todo_maven, kaifeng_todo
@@ -38,7 +39,7 @@ def read():
 
 
 def compare():
-    global  wangying_todo_gradle,wangying_todo_maven, kaifeng_todo, Task_todo_list
+    global  wangying_todo_gradle,wangying_todo_maven, kaifeng_todo, Task_todo_list, Informal_GAV_List
 
 
 
@@ -86,15 +87,16 @@ def compare():
                 Existing_todo_list.append(ele)
         except:
             count_informl += 1
-
+            Informal_GAV_List.append( ele )
             continue
 
-    print(count_informl)
+    print("count_informl:", count_informl)
 
     print("Existing_Todo_GAV_List: ",count_less)
 
     JSONFIle_processing.write(Task_todo_list,'Local_Data/Original_All_Todo_GAV_List.json')
     JSONFIle_processing.write(Existing_todo_list,"Local_Data/Existing_Todo_GAV_List.json")
+    JSONFIle_processing.write(Existing_todo_list, "Local_Data/Informal_GAV_List.json")
 
 
 def main_Serve():
