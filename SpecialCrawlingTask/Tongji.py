@@ -25,19 +25,20 @@ wangying_todo_maven_path = "Local_Data/wangying_FSE_Todo_GAV_List_maven.json"
 
 wangying_todo_gradle = []
 wangying_todo_maven = []
+kaifeng_todo = []
 
 Task_todo_list =  []
 Existing_todo_list = []
 
 def read():
-    global wangying_todo_gradle,wangying_todo_maven, kaifeng_tofo
+    global wangying_todo_gradle,wangying_todo_maven, kaifeng_todo
     wangying_todo_gradle = JSONFIle_processing.read( wangying_todo_gradle_path )
     wangying_todo_maven = JSONFIle_processing.read( wangying_todo_maven_path )
-    kaifeng_tofo = JSONFIle_processing.read(kaifeng_tofo_path)
+    kaifeng_todo = JSONFIle_processing.read(kaifeng_tofo_path)
 
 
 def compare():
-    global  wangying_todo_gradle,wangying_todo_maven, kaifeng_tofo, Task_todo_list
+    global  wangying_todo_gradle,wangying_todo_maven, kaifeng_todo, Task_todo_list
 
 
     # huizong todo
@@ -47,7 +48,7 @@ def compare():
     for ele in wangying_todo_maven:
         if ele not in Task_todo_list:
             Task_todo_list.append( ele )
-    for ele in kaifeng_tofo:
+    for ele in kaifeng_todo:
         if ele not in Task_todo_list:
             Task_todo_list.append( ele )
 
