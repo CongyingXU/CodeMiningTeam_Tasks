@@ -162,8 +162,14 @@ def getFolderSize(folderpath):
             size += os.path.getsize(os.path.join(root, f))
     return size
 
+def pathExist(path):
+    return os.path.exists(path) # True/False
+
+def makedirs_moreLevels(path): # 创建多级目录
+    return os.makedirs(path)
 
 
-if __name__ == '__main__':
-    walk_FileDir('e:/libs')
-    # creatFileFolder('e:/Jars-MD5/AAA/')
+
+# if __name__ == '__main__':
+#     walk_FileDir('e:/libs')
+#     # creatFileFolder('e:/Jars-MD5/AAA/')

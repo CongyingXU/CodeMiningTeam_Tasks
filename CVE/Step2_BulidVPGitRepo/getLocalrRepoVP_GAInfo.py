@@ -136,18 +136,47 @@ def readresult():
     with open("Local_Data/CPE_VP_LocalRepo.json",'r') as f:
         content = json.loads( f.read() )
 
-    for VP in content.keys():
-        if VP not in LocalRepoVP_POMGA_Data.keys():
-            print(VP)
+    # for VP in content.keys():
+    #     if VP not in LocalRepoVP_POMGA_Data.keys():
+    #         print(VP)
 
 def collect_result():
-    pass
+    CVE_GAInfo = {}
+    GA_list = set()
+    for VP in LocalRepoVP_POMGA_Data.keys():
+        for ele in LocalRepoVP_POMGA_Data[VP]:
+            G = ele["groupId"]
+            A = ele["artifactId"]
+            pom_path = ele["POM_path"]
+
+            GA = G +'__fdse__' + A
+            if GA in CVE_GAInfo.keys():
+                if len(pom_path) < len( CVE_GAInfo[GA]["POM_path"] ):
+                    CVE_GAInfo[GA] = {"VendorProduct": VP, "POM_path": pom_path}
+                    # print("Duplicate GA: ", GA)
+                    # print(pom_path)
+                    pass
+                else:
+                    continue
+            else:
+                CVE_GAInfo[GA] = {"VendorProduct": VP, "POM_path": pom_path}
+
+    write_collect_result(CVE_GAInfo)
+
+def write_collect_result(CVE_GAInfo):
+    with open("Local_Data/CVE_GAInfo.json",'w') as f:
+        f.write( json.dumps(CVE_GAInfo, indent=4) )
+    print("len CVE GA:", len(  CVE_GAInfo.keys() ))
+
 
 def collectresult_main():
+    readresult()
+    collect_result()
+
     pass
 
 
-# readresult()
+collectresult_main()
 
 
-main()
+# main()
