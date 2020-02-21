@@ -5,12 +5,12 @@ Created on 2020-02-21 10:25
 
 @author: congyingxu
 """
-# from CommonFunction import JSONFIle_processing, File_processing
+
 
 
 import sys,os
 sys.path.append('../')  # 新加入的
-
+from CommonFunction import JSONFIle_processing, File_processing
 
 import json
 # file+path
@@ -31,13 +31,20 @@ def read():
 
 def compare():
     global count_less
+
+    GA_folder_list = File_processing.walk_L1_Folders(jar_path)
+    GA_folder_map = {}
+    for folder in GA_folder_list:
+        GA = folder.split("__fdse__")[0] +'__fdse__'+ folder.split("__fdse__")[1]
+        GA_folder_map[GA]= folder
+
     for ele in ele_list:
         try:
             groupId = ele["groupId"]
             artifactId = ele["artifactId"]
             version = ele["version"]
 
-            full_path = jar_path + groupId + '__fdse__' + artifactId + '/' + version +'/'
+            full_path = jar_path + GA_folder_map[groupId + '__fdse__' + artifactId] + '/' + version +'/'
 
 
             if os.path.exists(full_path):
