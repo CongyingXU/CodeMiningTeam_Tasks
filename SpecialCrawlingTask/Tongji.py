@@ -17,8 +17,9 @@ import json
 
 
 jar_path = "/home/hadoop/dfs/data/Workspace/CongyingXU/Passport/Processed_Downloads_Jars/CrawledGAVs_0218/"
-file_path = "/home/hadoop/dfs/data/Workspace/projects_DG/harmo_gav.json"
+# file_path = "/home/hadoop/dfs/data/Workspace/projects_DG/harmo_gav.json"
 # file_path = "/Users/congyingxu/Desktop/harmo_gav.json"
+file_path = '/home/hadoop/dfs/data/Workspace/CongyingXU/Todo_GAV_List.json'
 
 task_file_path = 'Local_Data/gav_all_mt_1000_ic.json'
 task_list = []
@@ -39,6 +40,8 @@ def read():
 
 def compare():
     global count_less,Task_todo_list
+
+    Jars_num = len( File_processing.walk_FileDir(jar_path) )
 
     GA_folder_list = File_processing.walk_L1_Folders(jar_path)
     GA_folder_map = {}
@@ -65,7 +68,7 @@ def compare():
             continue
 
     print(count_less)
-    JSONFIle_processing.write(Task_todo_list,'Todo_GAV_List.json')
+    # JSONFIle_processing.write(Task_todo_list,'Todo_GAV_List.json')
 
 
 
