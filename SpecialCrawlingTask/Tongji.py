@@ -52,6 +52,7 @@ def compare():
         if ele not in Task_todo_list:
             Task_todo_list.append( ele )
 
+    print("length: task todo", len( Task_todo_list ))
 
     # get need todo
     existing_Jars_full_list = len( File_processing.walk_FileDir(jar_path) )
