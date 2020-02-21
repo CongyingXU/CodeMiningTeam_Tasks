@@ -35,7 +35,7 @@ def read():
     with open(file_path,'r') as f:
         ele_list = json.loads( f.read() )
     # ele_list = JSONFIle_processing.read(file_path)
-    task_list = JSONFIle_processing.read(task_file_path)
+    # task_list = JSONFIle_processing.read(task_file_path)
 
 def compare():
     global count_less,Task_todo_list
