@@ -92,7 +92,7 @@ def compare():
 
 
 def main_Serve():
-    # read()
+    read()
     compare()
 
 if __name__ == '__main__':
