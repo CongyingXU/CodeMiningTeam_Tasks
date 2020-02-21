@@ -19,7 +19,7 @@ import json
 jar_path = "/home/hadoop/dfs/data/Workspace/CongyingXU/Passport/Processed_Downloads_Jars/CrawledGAVs_0218/"
 # file_path = "/home/hadoop/dfs/data/Workspace/projects_DG/harmo_gav.json"
 # file_path = "/Users/congyingxu/Desktop/harmo_gav.json"
-file_path = '/home/hadoop/dfs/data/Workspace/CongyingXU/Todo_GAV_List.json'
+file_path = '/home/hadoop/dfs/data/Workspace/CongyingXU/gav_all_mt_1000_ic.json'
 
 task_file_path = 'Local_Data/gav_all_mt_1000_ic.json'
 task_list = []
