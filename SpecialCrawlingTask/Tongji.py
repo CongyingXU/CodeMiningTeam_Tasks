@@ -54,7 +54,7 @@ def compare():
     for ele in kaifeng_todo:
         if ele not in Task_todo_list:
             Task_todo_list.append( ele )
-    print("length: wangying_todo_maven todo", len(kaifeng_todo))
+    print("length: kaifeng_todo", len(kaifeng_todo))
     print("length: Original_All_Todo_GAV", len( Task_todo_list ))
 
     # get need
@@ -86,7 +86,7 @@ def compare():
         except:
             continue
 
-    print("Existing_Todo_GAV_List",count_less)
+    print("Existing_Todo_GAV_List: ",count_less)
 
     JSONFIle_processing.write(Task_todo_list,'Local_Data/Original_All_Todo_GAV_List.json')
     JSONFIle_processing.write(Existing_todo_list,"Local_Data/Existing_Todo_GAV_List.json")
