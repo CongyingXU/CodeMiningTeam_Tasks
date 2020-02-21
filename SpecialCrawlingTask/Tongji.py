@@ -7,8 +7,9 @@ Created on 2020-02-21 10:25
 """
 from CommonFunction import JSONFIle_processing, File_processing
 
+
 import sys
-sys.path.append("../")
+sys.path.append('../')  # 新加入的
 
 # file+path
 
@@ -42,6 +43,13 @@ def compare():
             continue
 
     print(count_less)
+
+def main_Serve():
+    read()
+    compare()
+
+def main_taskFile():
+    pass
 
 if __name__ == '__main__':
     read()
