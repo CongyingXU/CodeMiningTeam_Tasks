@@ -90,8 +90,7 @@ def compare():
             Informal_GAV_List.append( ele )
             continue
 
-    print("count_informl:", count_informl)
-
+    print("count_informl: ", count_informl)
     print("Existing_Todo_GAV_List: ",count_less)
 
     JSONFIle_processing.write(Task_todo_list,'Local_Data/Original_All_Todo_GAV_List.json')
