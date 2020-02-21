@@ -42,6 +42,7 @@ def compare():
     global count_less,Task_todo_list
 
     Jars_num = len( File_processing.walk_FileDir(jar_path) )
+    print("Jars_num: ", Jars_num)
 
     GA_folder_list = File_processing.walk_L1_Folders(jar_path)
     GA_folder_map = {}
