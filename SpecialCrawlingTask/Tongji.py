@@ -41,20 +41,22 @@ def compare():
     global  wangying_todo_gradle,wangying_todo_maven, kaifeng_todo, Task_todo_list
 
 
-    # huizong todo
+
+    # huizong
     for ele in wangying_todo_gradle:
         if ele not in Task_todo_list:
             Task_todo_list.append( ele )
+    print("length: wangying_todo_gradle todo", len(wangying_todo_gradle))
     for ele in wangying_todo_maven:
         if ele not in Task_todo_list:
             Task_todo_list.append( ele )
+    print("length: wangying_todo_maven todo", len(wangying_todo_maven))
     for ele in kaifeng_todo:
         if ele not in Task_todo_list:
             Task_todo_list.append( ele )
-
     print("length: task todo", len( Task_todo_list ))
 
-    # get need todo
+    # get need
     existing_Jars_full_list = len( File_processing.walk_FileDir(jar_path) )
     print("Jars_num: ", existing_Jars_full_list)
 
