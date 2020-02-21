@@ -69,6 +69,7 @@ def compare():
 
 
     count_less = 0
+    count_informl = 0
 
     for ele in Task_todo_list:
         try:
@@ -84,7 +85,11 @@ def compare():
                 count_less += 1
                 Existing_todo_list.append(ele)
         except:
+            count_informl += 1
+
             continue
+
+    print(count_informl)
 
     print("Existing_Todo_GAV_List: ",count_less)
 
