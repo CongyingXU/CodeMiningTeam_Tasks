@@ -16,7 +16,7 @@ import json
 # file+path
 
 
-jar_path = "home/hadoop/dfs/data/Workspace/CongyingXU/Passport/Processed_Downloads_Jars/CrawledGAVs_0218/"
+jar_path = "/home/hadoop/dfs/data/Workspace/CongyingXU/Passport/Processed_Downloads_Jars/CrawledGAVs_0218/"
 file_path = "/home/hadoop/dfs/data/Workspace/projects_DG/harmo_gav.json"
 ele_list = []
 
