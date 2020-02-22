@@ -46,7 +46,9 @@ def compare():
     # print(kaifeng_todo)
 
     aLLtodo = []
-    aLLtodo.extend( wangying_todo_gradle ).extend( wangying_todo_maven ).extend( kaifeng_todo )
+    aLLtodo.extend( wangying_todo_gradle )
+    aLLtodo.extend( wangying_todo_maven )
+    aLLtodo.extend( kaifeng_todo )
     # huizong
     for ele in aLLtodo:
         try:
