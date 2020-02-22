@@ -55,10 +55,11 @@ def compare():
             groupId = ele["groupId"]
             artifactId = ele["artifactId"]
             version = ele["version"]
-            ele = {"groupId":groupId,"artifactId":artifactId,"version":version}
+            # ele = {"groupId":groupId,"artifactId":artifactId,"version":version}
+            new_ele = {"groupId":groupId,"artifactId":artifactId,"version":version}
 
-            if ele not in Task_todo_list:
-                Task_todo_list.append(ele)
+            if new_ele not in Task_todo_list:
+                Task_todo_list.append(new_ele)
         except:
             continue
 
