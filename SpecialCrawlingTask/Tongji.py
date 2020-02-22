@@ -41,7 +41,9 @@ def read():
 def compare():
     global  wangying_todo_gradle,wangying_todo_maven, kaifeng_todo, Task_todo_list, Informal_GAV_List
 
-
+    print(wangying_todo_gradle)
+    print(wangying_todo_maven)
+    print(kaifeng_todo)
 
     # huizong
     for ele in wangying_todo_gradle.extend( wangying_todo_maven ).extend( kaifeng_todo ):
