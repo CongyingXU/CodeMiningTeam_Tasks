@@ -45,8 +45,10 @@ def compare():
     print(wangying_todo_maven)
     print(kaifeng_todo)
 
+    aLLtodo = []
+    aLLtodo.extend( wangying_todo_gradle ).extend( wangying_todo_maven ).extend( kaifeng_todo )
     # huizong
-    for ele in wangying_todo_gradle.extend( wangying_todo_maven ).extend( kaifeng_todo ):
+    for ele in aLLtodo:
         try:
             groupId = ele["groupId"]
             artifactId = ele["artifactId"]
