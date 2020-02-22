@@ -17,26 +17,25 @@ ga_all_mt_1000_ic_path = "Local_Data/ga_all_mt_1000_ic.json"
 lib_versions_path = "Local_Data/lib_versions.json"
 Todo_GAV_List_path = "Local_Data/Todo_GAV_List__fdse__from_ga_all_mt_1000_ic.json"
 # 之前已爬取的GAVinfo
-Original_All_Todo_GAV_List_path = "Local_Data/Original_All_Todo_GAV_List.json"
+Original_AllValid_Todo_GAV_path = "Local_Data/Original_AllValid_Todo_GAV.json"
 
 gav_all_mt_1000_ic = []
 ga_all_mt_1000_ic = []
 lib_versions = []
 
 
-Original_All_Todo_GAV_List = []
+Original_AllValid_Todo_GAV = []
 Todo_GAV_List = []
 
 def read():
-    global ga_all_mt_1000_ic, gav_all_mt_1000_ic, Todo_GAV_List, lib_versions, Original_All_Todo_GAV_List
-    ga_all_mt_1000_ic = JSONFIle_processing.read(ga_all_mt_1000_ic_path)
+    global ga_all_mt_1000_ic, gav_all_mt_1000_ic, Todo_GAV_List, lib_versions, Original_AllValid_Todo_GAV
     gav_all_mt_1000_ic = JSONFIle_processing.read(gav_all_mt_1000_ic_path)
     lib_versions = JSONFIle_processing.read(lib_versions_path)
-    Original_All_Todo_GAV_List = JSONFIle_processing.read(Original_All_Todo_GAV_List_path)
+    Original_AllValid_Todo_GAV = JSONFIle_processing.read(Original_AllValid_Todo_GAV_path)
 
 
 def collectData():
-    global ga_all_mt_1000_ic, gav_all_mt_1000_ic, Todo_GAV_List, lib_versions, Original_All_Todo_GAV_List
+    global ga_all_mt_1000_ic, gav_all_mt_1000_ic, Todo_GAV_List, lib_versions, Original_AllValid_Todo_GAV
 
     ## ga_all_mt_1000_ic
     ga_all_mt_1000_ic = set()
@@ -47,7 +46,11 @@ def collectData():
             GA = groupId + "__fdse__" + artifactId
             ga_all_mt_1000_ic.add(GA)
         except:
-            continue
+            print("ele not in gav_all_mt_1000_ic: ", ele)
+            # continue
+            break
+
+    # write()
 
     ## Todo_GAV_List
     for ele in lib_versions:
@@ -62,19 +65,26 @@ def collectData():
                 todo_item["artifactId"] = GA.split("__fdse__")[1]
                 todo_item["version"] = version
 
-                if todo_item in Original_All_Todo_GAV_List:
-                    print("todo_item In Original_All_Todo_GAV_List: ",todo_item)
+
+                if todo_item in Original_AllValid_Todo_GAV:
+                    print("todo_item In Original_AllValid_Todo_GAV: ",todo_item)
                     continue
                 else:
                     Todo_GAV_List.append(todo_item)
-                    print("Todo_GAV_List", Todo_GAV_List)
+            print("Todo_GAV_List", Todo_GAV_List)
+
         else:
             print("GA not in ga_all_mt_1000_ic", GA )
+            continue
+            # break
 
 
 def write():
-    global ga_all_mt_1000_ic, gav_all_mt_1000_ic, Todo_GAV_List
-    global ga_all_mt_1000_ic, gav_all_mt_1000_ic, Todo_GAV_List, lib_versions, Original_All_Todo_GAV_List
+    global ga_all_mt_1000_ic, gav_all_mt_1000_ic, Todo_GAV_List, lib_versions, Original_AllValid_Todo_GAV
+
+    ga_all_mt_1000_ic = list( ga_all_mt_1000_ic )
+    JSONFIle_processing.write(Todo_GAV_List,Todo_GAV_List_path)
+    ga_all_mt_1000_ic = JSONFIle_processing.write(ga_all_mt_1000_ic, ga_all_mt_1000_ic_path)
 
 
 if __name__ == '__main__':

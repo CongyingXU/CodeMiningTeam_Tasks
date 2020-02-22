@@ -89,10 +89,13 @@ def compare():
             version = ele["version"]
 
             full_path = jar_path + GA_folder_map[groupId + '__fdse__' + artifactId] + '/' + version +'/'
-
+            print( ele )
             if os.path.exists(full_path):
+                print("Existing full_path: ", full_path)
                 continue
+
             else:
+                print("not Existing full_path: ", full_path)
                 count_less += 1
                 Existing_todo_list.append(ele)
         except:
@@ -105,7 +108,7 @@ def compare():
 
     JSONFIle_processing.write(Task_todo_list,'Local_Data/Original_AllValid_Todo_GAV.json')
     JSONFIle_processing.write(Existing_todo_list,"Local_Data/Existing_Todo_GAV_List.json")
-    JSONFIle_processing.write(Existing_todo_list, "Local_Data/Informal_GAV_List.json")
+    JSONFIle_processing.write(Informal_GAV_List, "Local_Data/Informal_GAV_List.json")
 
 
 def main_Serve():
