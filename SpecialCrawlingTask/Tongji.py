@@ -83,13 +83,13 @@ def compare():
     count_informl = 0
 
     for ele in Task_todo_list:
+        print(ele)
         try:
             groupId = ele["groupId"]
             artifactId = ele["artifactId"]
             version = ele["version"]
 
             full_path = jar_path + GA_folder_map[groupId + '__fdse__' + artifactId] + '/' + version +'/'
-            print( ele )
             if os.path.exists(full_path):
                 print("Existing full_path: ", full_path)
                 continue
