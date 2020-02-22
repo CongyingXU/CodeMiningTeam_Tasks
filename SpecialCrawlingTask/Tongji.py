@@ -81,6 +81,7 @@ def compare():
 
     count_less = 0
     count_informl = 0
+    print("Task_todo_list 11111",Task_todo_list)
 
     for ele in Task_todo_list:
         print(ele)
@@ -105,6 +106,7 @@ def compare():
 
     print("count_informl: ", count_informl)
     print("Existing_Todo_GAV_List: ",count_less)
+    print("Task_todo_list 22222", Task_todo_list)
 
     JSONFIle_processing.write(Task_todo_list,'Local_Data/Original_AllValid_Todo_GAV.json')
     JSONFIle_processing.write(Existing_todo_list,"Local_Data/Existing_Todo_GAV_List.json")
