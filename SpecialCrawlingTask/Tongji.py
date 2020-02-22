@@ -44,19 +44,22 @@ def compare():
 
 
     # huizong
-    for ele in wangying_todo_gradle:
-        if ele not in Task_todo_list:
-            Task_todo_list.append( ele )
+    for ele in wangying_todo_gradle.extend( wangying_todo_maven ).extend( kaifeng_todo ):
+        try:
+            groupId = ele["groupId"]
+            artifactId = ele["artifactId"]
+            version = ele["version"]
+            ele = {"groupId":groupId,"artifactId":artifactId,"version":version}
+
+            if ele not in Task_todo_list:
+                Task_todo_list.append(ele)
+        except:
+            continue
+
     print("length: wangying_todo_gradle todo", len(wangying_todo_gradle))
-    for ele in wangying_todo_maven:
-        if ele not in Task_todo_list:
-            Task_todo_list.append( ele )
     print("length: wangying_todo_maven todo", len(wangying_todo_maven))
-    for ele in kaifeng_todo:
-        if ele not in Task_todo_list:
-            Task_todo_list.append( ele )
     print("length: kaifeng_todo", len(kaifeng_todo))
-    print("length: Original_All_Todo_GAV", len( Task_todo_list ))
+    print("length: Original_AllValid_Todo_GAV", len( Task_todo_list ))
 
     # get need
     existing_Jars_full_list = len( File_processing.walk_FileDir(jar_path) )
@@ -93,7 +96,7 @@ def compare():
     print("count_informl: ", count_informl)
     print("Existing_Todo_GAV_List: ",count_less)
 
-    JSONFIle_processing.write(Task_todo_list,'Local_Data/Original_All_Todo_GAV_List.json')
+    JSONFIle_processing.write(Task_todo_list,'Local_Data/Original_AllValid_Todo_GAV.json')
     JSONFIle_processing.write(Existing_todo_list,"Local_Data/Existing_Todo_GAV_List.json")
     JSONFIle_processing.write(Existing_todo_list, "Local_Data/Informal_GAV_List.json")
 
