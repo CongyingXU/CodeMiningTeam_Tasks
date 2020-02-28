@@ -9,6 +9,7 @@ Created on 2020-02-28 10:06
 """
 import sys
 sys.path.append('../')
+sys.path.append('../../')
 
 import semver
 from CommonFunction import File_processing, JSONFIle_processing
