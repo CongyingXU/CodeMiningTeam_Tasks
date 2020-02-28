@@ -62,6 +62,7 @@ def get_nearst_version(ga,v,original_ver_list):
     for index in range( len(original_ver_list) ):
         if jarExisting(ga, original_ver_list[index]):
             result_version = original_ver_list[index]
+            break
 
     if result_version != '' and index< len(original_ver_list)-1:
         for ver in original_ver_list[index+1:]:
