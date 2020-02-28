@@ -18,7 +18,8 @@ from CVE.Step3_ApplyCVEData import compareVersions
 candidate_safe_gav_path = "Wangying_FSEData/candidate_safe_gav_for_githubissue.json"
 candidate_safe_gav = JSONFIle_processing.read( candidate_safe_gav_path )
 
-jar_repo_path = "/Users/congyingxu/Downloads/CrawledGAVs_0218/"
+# jar_repo_path = "/Users/congyingxu/Downloads/CrawledGAVs_0218/"
+jar_repo_path = "/home/hadoop/dfs/data/Workspace/CongyingXU/Passport/Processed_Downloads_Jars/CrawledGAVs_0218/"
 gav_pair = {}
 map_GAV_GAVmd5 = {}
 
