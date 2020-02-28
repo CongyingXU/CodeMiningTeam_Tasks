@@ -7,6 +7,8 @@ Created on 2020-02-28 10:06
 
 生成vulner GAV + nearest safe GAV, 且jar包可寻
 """
+import sys
+sys.path.append('../')
 
 import semver
 from CommonFunction import File_processing, JSONFIle_processing
