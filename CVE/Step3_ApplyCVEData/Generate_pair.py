@@ -95,7 +95,8 @@ def jarExisting(GA,version):
         if GA not in not_existing_ga_v.keys():
             not_existing_ga_v[GA] = [version]
         else:
-            not_existing_ga_v[GA].append(version)
+            if version not in not_existing_ga_v[GA]:
+                not_existing_ga_v[GA].append(version)
         # print("jar not Existing, ", jar_path)
         return False
 
