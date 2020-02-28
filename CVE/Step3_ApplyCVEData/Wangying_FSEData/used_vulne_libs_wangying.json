@@ -1,0 +1,1787 @@
+{
+    "hsqldb__fdse__hsqldb": [
+        "1.8.0.7"
+    ],
+    "org.dom4j__fdse__dom4j": [
+        "2.0.2"
+    ],
+    "org.jasig.cas.client__fdse__cas-client-core": [
+        "3.2.2"
+    ],
+    "org.springframework.batch__fdse__spring-batch-infrastructure": [
+        "3.0.7.RELEASE"
+    ],
+    "org.apache.httpcomponents__fdse__httpclient": [
+        "4.3.4",
+        "4.3.1",
+        "4.2.6",
+        "4.1",
+        "4.2",
+        "4.1.3",
+        "4.2.1",
+        "4.2.5",
+        "4.3.3",
+        "4.3",
+        "4.0.1",
+        "4.1.2"
+    ],
+    "com.mchange__fdse__c3p0": [
+        "0.9.5.2",
+        "0.9.5.3",
+        "0.9.5-pre5"
+    ],
+    "org.apache.wicket__fdse__wicket-util": [
+        "6.23.0"
+    ],
+    "xerces__fdse__xercesImpl": [
+        "2.11.0",
+        "2.7.1",
+        "2.9.1",
+        "2.8.0"
+    ],
+    "com.nimbusds__fdse__nimbus-jose-jwt": [
+        "4.12",
+        "4.41.2",
+        "4.35",
+        "4.13.1",
+        "4.23",
+        "5.4",
+        "5.9",
+        "4.39.2",
+        "7.3"
+    ],
+    "org.apache.cayenne__fdse__cayenne-server": [
+        "3.1M3"
+    ],
+    "org.apache.santuario__fdse__xmlsec": [
+        "2.1.0",
+        "1.4.5",
+        "1.5.2",
+        "1.5.1"
+    ],
+    "org.apache.ignite__fdse__ignite-spring": [
+        "1.6.0",
+        "1.5.0.final"
+    ],
+    "org.apache.hbase__fdse__hbase": [
+        "0.94.1"
+    ],
+    "org.apache.logging.log4j__fdse__log4j-api": [
+        "2.6.1",
+        "2.0",
+        "2.7",
+        "2.6.2",
+        "2.8",
+        "2.3",
+        "2.5",
+        "2.4.1"
+    ],
+    "org.bouncycastle__fdse__bcprov-debug-jdk15on": [
+        "1.59"
+    ],
+    "com.fasterxml.jackson.core__fdse__jackson-databind": [
+        "2.7.4",
+        "2.9.1",
+        "2.9.7",
+        "2.9.2",
+        "2.4.3",
+        "2.1.3",
+        "2.10.0.pr3",
+        "2.7.9.3",
+        "2.8.0",
+        "2.9.10.2",
+        "2.6.7.3",
+        "2.5.3",
+        "2.8.5",
+        "2.7.9",
+        "2.5.2",
+        "2.8.7",
+        "2.6.3",
+        "2.9.9.2",
+        "2.8.11.4",
+        "2.7.5",
+        "2.4.1",
+        "2.5.0",
+        "2.8.8.1",
+        "2.6.6",
+        "2.4.1.3",
+        "2.5.1",
+        "2.6.7",
+        "2.9.10",
+        "2.2.2",
+        "2.9.10.1",
+        "2.6.5",
+        "2.2.3",
+        "2.0.1",
+        "2.3.1",
+        "2.9.3",
+        "2.8.11.1",
+        "2.2.1",
+        "2.6.1",
+        "2.8.9",
+        "2.9.0",
+        "2.6.7.1",
+        "2.9.5",
+        "2.4.4",
+        "2.3.0",
+        "2.1.1",
+        "2.8.11.2",
+        "2.8.11",
+        "2.3.3",
+        "2.9.9.3",
+        "2.10.0.pr1",
+        "2.9.4",
+        "2.8.10",
+        "2.4.2",
+        "2.9.8",
+        "2.7.1",
+        "2.8.1",
+        "2.6.2",
+        "2.8.8",
+        "2.9.9",
+        "2.9.6"
+    ],
+    "com.typesafe.akka__fdse__akka-http_2.11": [
+        "10.1.3"
+    ],
+    "com.sparkjava__fdse__spark-core": [
+        "1.1.1"
+    ],
+    "org.apache.hadoop__fdse__hadoop-yarn-server-nodemanager": [
+        "2.7.3",
+        "2.5.1"
+    ],
+    "org.apache.directory.server__fdse__apacheds-all": [
+        "1.5.7",
+        "2.0.0-M20",
+        "2.0.0-M15"
+    ],
+    "org.apache.kafka__fdse__kafka_2.12": [
+        "1.1.1",
+        "2.1.0"
+    ],
+    "com.ning__fdse__async-http-client": [
+        "1.8.12",
+        "1.8.3"
+    ],
+    "org.apache.xmlrpc__fdse__xmlrpc-common": [
+        "3.1.3"
+    ],
+    "com.github.kevinsawicki__fdse__http-request": [
+        "6.0"
+    ],
+    "io.undertow__fdse__undertow-core": [
+        "2.0.19.Final",
+        "1.4.20.Final",
+        "2.0.0.Alpha1",
+        "1.3.18.Final",
+        "1.4.27.Final"
+    ],
+    "org.opensaml__fdse__opensaml": [
+        "2.5.1-1",
+        "1.1",
+        "2.6.4"
+    ],
+    "org.apache.axis__fdse__axis": [
+        "1.4"
+    ],
+    "org.apache.spark__fdse__spark-core_2.10": [
+        "2.2.0",
+        "1.4.0",
+        "2.1.2",
+        "2.0.0",
+        "1.3.0",
+        "1.6.0",
+        "1.6.1",
+        "2.2.3",
+        "1.4.1",
+        "2.0.2",
+        "1.6.2",
+        "1.6.3",
+        "2.1.0"
+    ],
+    "com.typesafe.akka__fdse__akka-http_2.12": [
+        "10.1.0-RC1"
+    ],
+    "org.apache.hive__fdse__hive-jdbc": [
+        "1.1.1",
+        "0.12.0",
+        "0.14.0",
+        "1.2.1",
+        "2.3.2"
+    ],
+    "org.glassfish.main.extras__fdse__glassfish-embedded-all": [
+        "3.1.2"
+    ],
+    "org.ops4j.pax.runner__fdse__pax-runner-no-jcl": [
+        "1.7.6",
+        "1.8.6"
+    ],
+    "io.undertow__fdse__undertow-servlet": [
+        "1.4.27.Final",
+        "1.4.0.Final",
+        "2.0.0.Alpha1",
+        "1.4.26.Final",
+        "2.0.16.Final"
+    ],
+    "org.apache.directory.api__fdse__api-ldap-client-api": [
+        "1.0.0"
+    ],
+    "io.netty__fdse__netty-codec-http": [
+        "4.1.33.Final",
+        "4.1.31.Final",
+        "4.1.11.Final",
+        "4.1.21.Final",
+        "4.1.5.Final",
+        "4.1.43.Final",
+        "4.1.42.Final",
+        "4.1.17.Final",
+        "4.1.18.Final",
+        "4.1.30.Final",
+        "4.0.33.Final",
+        "4.0.56.Final"
+    ],
+    "org.eclipse.jetty__fdse__jetty-http": [
+        "8.1.7.v20120910",
+        "9.2.25.v20180606",
+        "8.1.10.v20130312",
+        "9.3.21.v20170918",
+        "9.2.10.v20150310",
+        "9.4.11.v20180605",
+        "9.3.8.v20160314",
+        "9.4.12.v20180830",
+        "9.3.28.v20191105",
+        "9.3.27.v20190418",
+        "9.2.26.v20180806"
+    ],
+    "com.puppycrawl.tools__fdse__checkstyle": [
+        "8.19",
+        "8.18",
+        "8.9"
+    ],
+    "org.apache.commons__fdse__commons-email": [
+        "1.3.3",
+        "1.4"
+    ],
+    "org.jsoup__fdse__jsoup": [
+        "1.7.3",
+        "1.6.3",
+        "1.8.2",
+        "1.7.2"
+    ],
+    "org.apache.tika__fdse__tika-core": [
+        "1.18",
+        "1.20",
+        "1.4"
+    ],
+    "org.apache.zookeeper__fdse__zookeeper": [
+        "3.4.13",
+        "3.4.7",
+        "3.4.12",
+        "3.3.5",
+        "3.4.10",
+        "3.5.0-alpha",
+        "3.3.2",
+        "3.4.8",
+        "3.4.5",
+        "3.5.3-beta",
+        "3.4.11",
+        "3.4.6"
+    ],
+    "io.vertx__fdse__vertx-web": [
+        "3.3.2",
+        "3.4.1"
+    ],
+    "com.hazelcast__fdse__hazelcast": [
+        "3.8",
+        "3.9.4",
+        "3.7.4"
+    ],
+    "com.github.tomakehurst__fdse__wiremock": [
+        "2.6.0",
+        "2.11.0",
+        "2.8.0",
+        "2.5.1",
+        "2.15.0",
+        "2.14.0",
+        "2.1.6"
+    ],
+    "com.unboundid__fdse__unboundid-ldapsdk": [
+        "3.2.0",
+        "4.0.3",
+        "4.0.4",
+        "3.2.1"
+    ],
+    "com.thoughtworks.xstream__fdse__xstream": [
+        "1.4.7",
+        "1.3.1",
+        "1.4.9",
+        "1.4.10",
+        "1.4.3",
+        "1.4.5",
+        "1.4.8"
+    ],
+    "org.fusesource.mqtt-client__fdse__mqtt-client": [
+        "1.15",
+        "1.10",
+        "1.14"
+    ],
+    "commons-email__fdse__commons-email": [
+        "20030310.165926"
+    ],
+    "org.apache.xmlrpc__fdse__xmlrpc-server": [
+        "3.1.3"
+    ],
+    "dom4j__fdse__dom4j": [
+        "1.6.1"
+    ],
+    "org.apache.camel__fdse__camel-http": [
+        "2.12.0"
+    ],
+    "org.apache.lucene__fdse__lucene-queryparser": [
+        "7.0.0",
+        "5.1.0",
+        "5.3.1",
+        "4.0.0",
+        "4.10.2",
+        "4.10.4",
+        "6.3.0",
+        "4.2.1",
+        "7.0.1",
+        "6.5.1",
+        "5.5.0",
+        "4.7.1",
+        "6.0.0",
+        "3.5.0"
+    ],
+    "org.owasp.antisamy__fdse__antisamy": [
+        "1.5.7"
+    ],
+    "org.glassfish.web__fdse__javax.servlet.jsp.jstl": [
+        "1.2.2"
+    ],
+    "org.mindrot__fdse__jbcrypt": [
+        "0.3m"
+    ],
+    "org.apache.kafka__fdse__connect-runtime": [
+        "2.3.0"
+    ],
+    "org.apache.ignite__fdse__ignite-core": [
+        "1.6.0",
+        "1.5.0.final"
+    ],
+    "org.kohsuke__fdse__libpam4j": [
+        "1.8"
+    ],
+    "org.eclipse.jetty__fdse__jetty-server": [
+        "9.0.2.v20130417",
+        "9.2.9.v20150224",
+        "9.2.25.v20180606",
+        "9.3.21.v20170918",
+        "9.2.16.v20160414",
+        "9.2.10.v20150310",
+        "9.4.11.v20180605",
+        "9.4.23.v20191118",
+        "8.2.0.v20160908",
+        "9.4.10.v20180503",
+        "9.3.11.v20160721",
+        "9.2.13.v20150730",
+        "9.3.13.v20161014",
+        "8.1.21.v20160908",
+        "9.4.6.v20170531",
+        "7.2.2.v20101205",
+        "7.2.0.v20101020",
+        "9.4.8.v20171121",
+        "9.3.1.v20150714",
+        "9.2.11.v20150529",
+        "9.4.5.v20170502",
+        "9.3.25.v20180904",
+        "7.4.0.v20110414",
+        "9.0.7.v20131107",
+        "9.4.1.v20170120",
+        "8.1.7.v20120910",
+        "9.4.14.v20181114",
+        "9.2.2.v20140723",
+        "9.2.28.v20190418",
+        "9.3.24.v20180605",
+        "9.4.4.v20170414",
+        "9.3.8.v20160314",
+        "9.4.12.v20180830",
+        "8.1.8.v20121106",
+        "8.1.16.v20140903",
+        "8.1.19.v20160209",
+        "9.4.22.v20191022",
+        "9.4.3.v20170317",
+        "8.1.10.v20130312",
+        "9.3.22.v20171030",
+        "9.4.21.v20190926",
+        "9.3.20.v20170531",
+        "9.3.28.v20191105",
+        "9.3.27.v20190418",
+        "9.2.26.v20180806",
+        "9.4.7.v20170914"
+    ],
+    "org.apache.hive__fdse__hive-metastore": [
+        "1.1.0",
+        "1.2.1",
+        "1.0.0",
+        "1.0.1"
+    ],
+    "org.apache.hive__fdse__hive-cli": [
+        "1.0.0"
+    ],
+    "org.apache.xmlgraphics__fdse__fop": [
+        "1.1",
+        "1.0",
+        "2.1"
+    ],
+    "org.apache.hive__fdse__hive-service": [
+        "1.1.1",
+        "1.1.0",
+        "1.2.1",
+        "2.0.0",
+        "1.0.1"
+    ],
+    "org.apache.activemq__fdse__activemq-broker": [
+        "5.9.0",
+        "5.10.0"
+    ],
+    "org.postgresql__fdse__postgresql": [
+        "9.4.1208.jre7",
+        "42.2.1",
+        "9.4.1212",
+        "9.4.1212.jre7",
+        "42.1.4",
+        "42.2.2",
+        "9.4.1210.jre7",
+        "42.1.1.jre7",
+        "9.4-1206-jdbc41",
+        "9.4-1203-jdbc42",
+        "42.0.0",
+        "9.3-1102-jdbc41",
+        "42.2.4",
+        "42.1.1",
+        "9.3-1102-jdbc4",
+        "9.4-1201-jdbc41",
+        "9.4.1208",
+        "9.4.1211",
+        "42.2.1.jre7",
+        "9.2-1003-jdbc4",
+        "9.4-1200-jdbc41"
+    ],
+    "xalan__fdse__xalan": [
+        "2.6.0",
+        "2.7.1",
+        "2.7.0"
+    ],
+    "org.apache.xmlrpc__fdse__xmlrpc-client": [
+        "3.1.3"
+    ],
+    "org.bouncycastle__fdse__bcpg-jdk15on": [
+        "1.59"
+    ],
+    "org.apache.kafka__fdse__kafka-clients": [
+        "0.11.0.1",
+        "0.10.0.0",
+        "0.10.2.1",
+        "0.10.1.0",
+        "0.11.0.0",
+        "0.10.2.0",
+        "0.10.0.1"
+    ],
+    "org.apache.pdfbox__fdse__pdfbox": [
+        "1.8.9",
+        "1.8.16",
+        "1.8.10",
+        "1.8.1"
+    ],
+    "org.codehaus.jackson__fdse__jackson-mapper-asl": [
+        "1.5.0",
+        "1.9.3",
+        "1.9.2",
+        "1.8.5",
+        "1.8.8",
+        "1.9.4",
+        "1.9.13",
+        "1.9.11",
+        "1.9.12",
+        "1.9.5",
+        "1.6.2"
+    ],
+    "com.jcraft__fdse__jsch": [
+        "0.1.51"
+    ],
+    "com.microsoft.azure.sdk.iot__fdse__iot-device-client": [
+        "1.3.32"
+    ],
+    "com.sun.faces__fdse__jsf-api": [
+        "2.0.3-b05"
+    ],
+    "org.apache.taglibs__fdse__taglibs-standard-impl": [
+        "1.2.1"
+    ],
+    "com.typesafe.akka__fdse__akka-remote_2.11": [
+        "2.3.11"
+    ],
+    "org.mortbay.jetty__fdse__jetty": [
+        "6.1.26",
+        "6.1H.22",
+        "6.1.7",
+        "6.1.4"
+    ],
+    "org.apache.jackrabbit__fdse__jackrabbit-webdav": [
+        "1.5.2"
+    ],
+    "org.apache.commons__fdse__commons-compress": [
+        "1.18",
+        "1.9",
+        "1.7",
+        "1.14",
+        "1.16.1",
+        "1.10",
+        "1.2",
+        "1.8",
+        "1.17",
+        "1.15"
+    ],
+    "org.apache.kafka__fdse__kafka_2.10": [
+        "0.9.0.1"
+    ],
+    "org.springframework.security__fdse__spring-security-web": [
+        "4.2.3.RELEASE",
+        "4.1.0.RELEASE",
+        "4.0.2.RELEASE",
+        "5.0.0.RELEASE"
+    ],
+    "org.codehaus.woodstox__fdse__woodstox-core-asl": [
+        "4.1.4",
+        "4.0.7",
+        "4.1.2"
+    ],
+    "io.vertx__fdse__vertx-core": [
+        "3.4.1",
+        "3.5.0",
+        "3.0.0"
+    ],
+    "org.apache.tomcat__fdse__tomcat-catalina": [
+        "8.0.1",
+        "9.0.14",
+        "7.0.91",
+        "8.5.9",
+        "7.0.99",
+        "8.5.50",
+        "7.0.84",
+        "8.5.24",
+        "8.5.20",
+        "8.5.33",
+        "7.0.8",
+        "8.5.46",
+        "8.5.16",
+        "7.0.37"
+    ],
+    "io.netty__fdse__netty": [
+        "3.9.6.Final",
+        "3.3.1.Final",
+        "3.6.3.Final",
+        "3.6.2.Final",
+        "3.9.4.Final"
+    ],
+    "org.hibernate__fdse__hibernate-validator": [
+        "5.2.5.Final",
+        "4.3.1.Final",
+        "5.4.1.Final",
+        "5.3.2.Final",
+        "5.2.2.Final",
+        "5.3.6.Final",
+        "5.2.1.Final",
+        "5.4.2.Final",
+        "5.0.3.Final",
+        "4.1.0.Final",
+        "5.2.3.Final",
+        "5.3.4.Final",
+        "5.4.3.Final",
+        "5.0.1.Final",
+        "5.2.4.Final",
+        "4.3.0.Final",
+        "5.3.0.Final",
+        "4.2.0.Final"
+    ],
+    "org.apache.axis2__fdse__axis2-kernel": [
+        "1.5"
+    ],
+    "org.jboss.weld__fdse__weld-core": [
+        "1.0.1-SP4",
+        "1.1.33.Final"
+    ],
+    "org.jboss.netty__fdse__netty": [
+        "3.2.2.Final",
+        "3.2.10.Final"
+    ],
+    "org.jasypt__fdse__jasypt": [
+        "1.9.0",
+        "1.8"
+    ],
+    "org.simpleframework__fdse__simple-xml": [
+        "2.7",
+        "2.7.1"
+    ],
+    "org.bouncycastle__fdse__bcprov-jdk16": [
+        "1.46"
+    ],
+    "org.apache.derby__fdse__derby": [
+        "10.4.1.3",
+        "10.9.1.0",
+        "10.5.3.0_1",
+        "10.8.2.2",
+        "10.10.1.1",
+        "10.1.2.1",
+        "10.11.1.1",
+        "10.8.1.2",
+        "10.10.2.0"
+    ],
+    "org.springframework__fdse__spring": [
+        "2.5"
+    ],
+    "org.slf4j__fdse__slf4j-ext": [
+        "1.7.25",
+        "1.7.9",
+        "1.7.14"
+    ],
+    "org.keycloak__fdse__keycloak-spring-security-adapter": [
+        "4.4.0.Final"
+    ],
+    "org.springframework__fdse__spring-webflux": [
+        "5.2.1.RELEASE",
+        "5.1.9.RELEASE",
+        "5.0.12.RELEASE",
+        "5.0.8.RELEASE",
+        "5.1.4.RELEASE",
+        "5.1.0.RELEASE",
+        "5.2.2.RELEASE",
+        "5.0.1.RELEASE",
+        "5.1.5.RELEASE"
+    ],
+    "cn.hutool__fdse__hutool-core": [
+        "4.0.10"
+    ],
+    "org.springframework__fdse__spring-web": [
+        "4.3.0.RELEASE",
+        "5.0.12.RELEASE",
+        "3.2.16.RELEASE",
+        "4.0.3.RELEASE",
+        "4.3.3.RELEASE",
+        "4.3.7.RELEASE",
+        "5.2.2.RELEASE",
+        "4.3.2.RELEASE",
+        "4.3.19.RELEASE",
+        "5.0.4.RELEASE",
+        "3.2.14.RELEASE",
+        "4.0.5.RELEASE",
+        "4.1.4.RELEASE",
+        "4.1.1.RELEASE",
+        "4.3.12.RELEASE",
+        "5.1.4.RELEASE",
+        "5.0.14.RELEASE",
+        "5.1.5.RELEASE",
+        "5.1.6.RELEASE",
+        "5.1.3.RELEASE",
+        "3.0.6.RELEASE",
+        "5.1.9.RELEASE",
+        "5.0.7.RELEASE",
+        "5.0.8.RELEASE",
+        "4.1.2.RELEASE",
+        "5.0.2.RELEASE",
+        "4.3.9.RELEASE",
+        "2.5.6.SEC03",
+        "3.2.11.RELEASE",
+        "3.2.3.RELEASE",
+        "4.2.0.RELEASE",
+        "3.2.12.RELEASE",
+        "5.1.1.RELEASE",
+        "4.1.9.RELEASE",
+        "4.2.5.RELEASE",
+        "5.0.6.RELEASE",
+        "3.1.4.RELEASE",
+        "3.1.2.RELEASE",
+        "5.2.0.RELEASE",
+        "3.0.7.RELEASE",
+        "4.3.13.RELEASE",
+        "4.3.18.RELEASE",
+        "3.0.5.RELEASE",
+        "4.3.4.RELEASE"
+    ],
+    "com.github.httl__fdse__httl": [
+        "1.0.11"
+    ],
+    "org.apache.thrift__fdse__libthrift": [
+        "0.9.3-1",
+        "0.9.2",
+        "0.8.0",
+        "0.9.1",
+        "0.10.0",
+        "0.11.0",
+        "0.9.3",
+        "0.9.0"
+    ],
+    "javax.servlet__fdse__jstl": [
+        "1.1.2",
+        "1.2",
+        "1.1.0",
+        "1.0.5"
+    ],
+    "com.squareup.okhttp3__fdse__okhttp": [
+        "3.9.0",
+        "3.4.1",
+        "3.10.0",
+        "3.3.1",
+        "3.7.0",
+        "3.8.1",
+        "3.9.1",
+        "3.6.0",
+        "3.11.0",
+        "3.12.0",
+        "3.5.0"
+    ],
+    "com.sun.faces__fdse__jsf-impl": [
+        "2.1.10"
+    ],
+    "axis__fdse__axis": [
+        "1.4"
+    ],
+    "org.apache.tomcat__fdse__tomcat-el-api": [
+        "7.0.8"
+    ],
+    "org.codehaus.castor__fdse__castor-xml": [
+        "1.3.1"
+    ],
+    "org.apache.camel__fdse__camel-core": [
+        "2.12.0",
+        "2.19.1",
+        "2.18.2",
+        "2.22.0"
+    ],
+    "org.infinispan__fdse__infinispan-client-hotrod": [
+        "9.0.0.Final",
+        "7.2.2.Final"
+    ],
+    "com.adobe.xmp__fdse__xmpcore": [
+        "5.1.2"
+    ],
+    "org.eclipse.jetty__fdse__jetty-client": [
+        "9.4.4.v20170414",
+        "9.4.5.v20170502",
+        "9.3.11.v20160721",
+        "9.3.8.v20160314",
+        "9.4.7.v20170914"
+    ],
+    "tomcat__fdse__jasper-compiler": [
+        "5.5.12",
+        "5.5.15"
+    ],
+    "org.bouncycastle__fdse__bcmail-jdk15on": [
+        "1.59"
+    ],
+    "org.codehaus.plexus__fdse__plexus-utils": [
+        "3.0.15",
+        "1.5.6",
+        "1.2",
+        "2.0.5",
+        "3.0.10",
+        "1.5.5",
+        "1.5.15",
+        "1.5.8"
+    ],
+    "org.springframework__fdse__spring-messaging": [
+        "4.3.9.RELEASE",
+        "4.3.7.RELEASE"
+    ],
+    "org.springframework__fdse__spring-oxm": [
+        "3.0.5.RELEASE"
+    ],
+    "org.apache.hive__fdse__hive-common": [
+        "1.1.1",
+        "2.1.0",
+        "0.12.0",
+        "0.10.0"
+    ],
+    "org.eclipse.paho__fdse__org.eclipse.paho.client.mqttv3": [
+        "1.2.0"
+    ],
+    "org.bouncycastle__fdse__bcpkix-jdk15on": [
+        "1.58",
+        "1.52",
+        "1.50",
+        "1.57",
+        "1.56",
+        "1.49",
+        "1.54",
+        "1.59"
+    ],
+    "org.apache.cxf__fdse__cxf-rt-frontend-jaxrs": [
+        "3.1.18",
+        "3.1.11",
+        "3.2.0",
+        "3.1.5",
+        "3.1.2"
+    ],
+    "org.apache.struts__fdse__struts2-core": [
+        "2.2.1",
+        "2.1.8.1"
+    ],
+    "commons-httpclient__fdse__commons-httpclient": [
+        "3.0.1",
+        "3.0",
+        "3.1"
+    ],
+    "org.apache.hive.hcatalog__fdse__hive-hcatalog-core": [
+        "1.1.1",
+        "1.1.0",
+        "1.2.1",
+        "1.0.1",
+        "1.0.0"
+    ],
+    "org.apache.cxf__fdse__cxf-api": [
+        "2.6.2"
+    ],
+    "org.codehaus.groovy__fdse__groovy": [
+        "2.4.3",
+        "2.4.5",
+        "2.4.4",
+        "2.1.5",
+        "1.8.9",
+        "2.3.9"
+    ],
+    "org.springframework.data__fdse__spring-data-jpa": [
+        "1.11.7.RELEASE",
+        "1.11.8.RELEASE",
+        "1.0.3.RELEASE",
+        "2.1.5.RELEASE",
+        "2.0.14.RELEASE"
+    ],
+    "org.apache.directory.api__fdse__api-ldap-model": [
+        "1.0.1",
+        "1.0.0-M33"
+    ],
+    "org.apache.wicket__fdse__wicket-core": [
+        "7.6.0"
+    ],
+    "org.apache.tapestry__fdse__tapestry-ioc": [
+        "5.4.3"
+    ],
+    "org.apache.kafka__fdse__kafka_2.11": [
+        "1.1.1",
+        "0.10.0.0",
+        "0.11.0.2",
+        "0.10.1.0",
+        "2.0.1",
+        "2.0.0",
+        "0.10.2.0",
+        "0.11.0.3",
+        "1.0.0",
+        "0.10.2.1",
+        "1.1.0",
+        "0.9.0.1",
+        "0.11.0.0",
+        "1.0.2",
+        "0.10.1.1"
+    ],
+    "com.rabbitmq__fdse__amqp-client": [
+        "3.5.6",
+        "5.1.2",
+        "5.1.1",
+        "4.11.3",
+        "4.8.0",
+        "3.3.5",
+        "4.0.0",
+        "4.2.0"
+    ],
+    "org.codehaus.groovy__fdse__groovy-all": [
+        "2.1.9",
+        "2.4.5",
+        "2.3.6",
+        "2.4.4",
+        "2.3.9",
+        "2.4.7",
+        "2.4.3",
+        "2.4.6",
+        "1.8.6",
+        "2.3.10",
+        "2.1.8",
+        "2.2.1"
+    ],
+    "net.bull.javamelody__fdse__javamelody-core": [
+        "1.65.0"
+    ],
+    "org.igniterealtime.smack__fdse__smack-core": [
+        "4.0.5",
+        "4.1.1",
+        "4.0.6"
+    ],
+    "org.apache.cxf__fdse__cxf-rt-transports-http": [
+        "3.1.18",
+        "3.2.8",
+        "3.1.5",
+        "2.7.7",
+        "2.2.10",
+        "2.6.2",
+        "3.3.0",
+        "3.1.2"
+    ],
+    "org.hibernate.validator__fdse__hibernate-validator": [
+        "6.0.7.Final",
+        "6.0.14.Final",
+        "6.0.17.Final",
+        "6.0.2.Final",
+        "6.1.0.Alpha4",
+        "6.0.16.Final",
+        "6.0.13.Final"
+    ],
+    "org.apache.ant__fdse__ant": [
+        "1.8.2",
+        "1.7.0",
+        "1.8.3",
+        "1.8.1"
+    ],
+    "com.squareup.retrofit2__fdse__retrofit": [
+        "2.4.0",
+        "2.1.0"
+    ],
+    "org.apache.activemq__fdse__activemq-all": [
+        "5.9.0"
+    ],
+    "org.eclipse.jetty__fdse__jetty-security": [
+        "8.1.16.v20140903",
+        "9.3.8.v20160314",
+        "9.2.14.v20151106",
+        "9.2.25.v20180606",
+        "9.3.28.v20191105",
+        "9.3.27.v20190418",
+        "8.1.10.v20130312"
+    ],
+    "org.apache.mina__fdse__mina-core": [
+        "2.0.4",
+        "2.0.9",
+        "2.0.17",
+        "2.0.16",
+        "2.0.19"
+    ],
+    "org.bouncycastle__fdse__bcprov-jdk15": [
+        "1.46"
+    ],
+    "org.fusesource.jansi__fdse__jansi": [
+        "1.6"
+    ],
+    "org.elasticsearch__fdse__elasticsearch": [
+        "6.2.4",
+        "6.3.1",
+        "7.1.0",
+        "5.3.0",
+        "6.0.0",
+        "7.3.0",
+        "7.2.0",
+        "6.4.2",
+        "5.4.3",
+        "5.0.0",
+        "1.1.1",
+        "5.6.16",
+        "5.6.8",
+        "5.1.2",
+        "5.1.1",
+        "0.90.1",
+        "5.5.0",
+        "5.6.12",
+        "6.4.3"
+    ],
+    "org.cryptacular__fdse__cryptacular": [
+        "1.1.0",
+        "1.2.3",
+        "1.2.1"
+    ],
+    "commons-fileupload__fdse__commons-fileupload": [
+        "1.3.1",
+        "1.1.1",
+        "1.2.1",
+        "1.3",
+        "1.3.2",
+        "1.2.2"
+    ],
+    "com.google.gwt__fdse__gwt-user": [
+        "2.0.4"
+    ],
+    "org.springframework__fdse__spring-webmvc": [
+        "5.2.1.RELEASE",
+        "4.3.8.RELEASE",
+        "5.0.12.RELEASE",
+        "4.2.6.RELEASE",
+        "3.2.16.RELEASE",
+        "4.0.3.RELEASE",
+        "4.3.3.RELEASE",
+        "4.3.7.RELEASE",
+        "5.2.2.RELEASE",
+        "5.0.4.RELEASE",
+        "4.1.3.RELEASE",
+        "4.0.5.RELEASE",
+        "4.1.4.RELEASE",
+        "4.2.8.RELEASE",
+        "3.1.1.RELEASE",
+        "5.1.4.RELEASE",
+        "4.3.10.RELEASE",
+        "5.0.14.RELEASE",
+        "4.1.0.RELEASE",
+        "3.0.6.RELEASE",
+        "5.1.9.RELEASE",
+        "5.0.8.RELEASE",
+        "5.0.13.RELEASE",
+        "4.1.2.RELEASE",
+        "2.5.6.SEC03",
+        "2.5.6",
+        "4.3.9.RELEASE",
+        "4.2.0.RELEASE",
+        "3.2.12.RELEASE",
+        "5.1.1.RELEASE",
+        "4.1.9.RELEASE",
+        "4.2.5.RELEASE",
+        "5.0.6.RELEASE",
+        "3.1.4.RELEASE",
+        "3.1.2.RELEASE",
+        "3.2.18.RELEASE",
+        "4.3.13.RELEASE",
+        "4.1.7.RELEASE",
+        "5.1.3.RELEASE",
+        "4.3.18.RELEASE",
+        "3.0.5.RELEASE"
+    ],
+    "org.apache.activemq__fdse__activemq-client": [
+        "5.15.7",
+        "5.9.0",
+        "5.15.6",
+        "5.12.0",
+        "5.14.5",
+        "5.15.8",
+        "5.15.2"
+    ],
+    "org.apache.xmlgraphics__fdse__batik-dom": [
+        "1.8",
+        "1.9.1",
+        "1.7"
+    ],
+    "org.igniterealtime.smack__fdse__smack-tcp": [
+        "4.0.5",
+        "4.1.1",
+        "4.0.6"
+    ],
+    "net.sf.dozer__fdse__dozer": [
+        "5.3.2"
+    ],
+    "org.apache.orc__fdse__orc-core": [
+        "1.4.3",
+        "1.3.3"
+    ],
+    "taglibs__fdse__standard": [
+        "1.1.2"
+    ],
+    "org.apache.tomcat.embed__fdse__tomcat-embed-core": [
+        "8.5.13",
+        "8.5.15",
+        "8.5.16",
+        "8.5.0",
+        "8.0.28",
+        "8.5.38",
+        "8.0.30",
+        "8.5.37",
+        "9.0.26"
+    ],
+    "org.bouncycastle__fdse__bcprov-jdk15on": [
+        "1.52",
+        "1.58",
+        "1.50",
+        "1.56",
+        "1.49",
+        "1.54",
+        "1.51",
+        "1.59",
+        "1.63",
+        "1.48"
+    ],
+    "org.jboss.resteasy__fdse__resteasy-jaxrs": [
+        "2.3.5.Final",
+        "3.0.24.Final",
+        "3.0.13.Final",
+        "3.1.4.Final",
+        "3.0.12.Final",
+        "3.0.14.Final"
+    ],
+    "org.apache.activemq__fdse__activemq-core": [
+        "5.7.0",
+        "5.5.0"
+    ],
+    "mysql__fdse__mysql-connector-java": [
+        "5.1.29",
+        "5.1.28",
+        "8.0.12",
+        "5.1.15",
+        "5.1.6",
+        "6.0.6",
+        "5.1.13",
+        "8.0.11",
+        "5.1.37",
+        "5.1.8",
+        "5.1.31",
+        "5.1.16",
+        "5.1.27",
+        "5.1.44",
+        "5.1.17",
+        "5.1.30",
+        "5.1.39",
+        "8.0.7-dmr",
+        "5.1.26",
+        "8.0.13",
+        "5.1.33",
+        "5.1.35",
+        "5.0.8",
+        "5.1.34",
+        "5.1.18",
+        "5.1.36",
+        "5.1.42",
+        "5.1.46",
+        "5.1.47",
+        "5.1.45",
+        "6.0.5",
+        "5.1.19",
+        "5.1.48",
+        "5.1.9",
+        "5.1.38",
+        "5.0.5",
+        "8.0.15",
+        "5.1.25",
+        "8.0.14",
+        "5.1.40"
+    ],
+    "com.hubspot.jinjava__fdse__jinjava": [
+        "2.4.0",
+        "2.1.0"
+    ],
+    "com.caucho__fdse__resin": [
+        "3.0.9"
+    ],
+    "com.itextpdf__fdse__itextpdf": [
+        "5.5.11",
+        "5.5.6",
+        "5.3.0"
+    ],
+    "org.jboss.spec.javax.faces__fdse__jboss-jsf-api_2.2_spec": [
+        "2.2.5"
+    ],
+    "org.apache.directory.server__fdse__apacheds-service": [
+        "2.0.0-M15"
+    ],
+    "io.netty__fdse__netty-all": [
+        "4.0.31.Final",
+        "4.0.23.Final",
+        "4.0.30.Final",
+        "4.0.29.Final",
+        "4.0.27.Final",
+        "4.0.33.Final",
+        "4.0.20.Final",
+        "4.0.24.Final",
+        "4.0.25.Final"
+    ],
+    "org.bouncycastle__fdse__bcprov-jdk14": [
+        "1.51"
+    ],
+    "org.apache.openejb__fdse__openejb-core": [
+        "3.1.4"
+    ],
+    "org.apache.karaf.shell__fdse__org.apache.karaf.shell.console": [
+        "2.3.3",
+        "2.2.5",
+        "2.3.0"
+    ],
+    "org.apache.struts__fdse__struts-core": [
+        "1.3.9",
+        "1.3.10"
+    ],
+    "io.spray__fdse__spray-json_2.12": [
+        "1.3.4"
+    ],
+    "org.apache.cxf__fdse__cxf-core": [
+        "3.1.18",
+        "3.3.1"
+    ],
+    "org.springframework.boot__fdse__spring-boot-starter-websocket": [
+        "1.5.1.RELEASE",
+        "1.5.16.RELEASE"
+    ],
+    "org.mortbay.jetty__fdse__jetty-util": [
+        "6.1.26"
+    ],
+    "org.apache.solr__fdse__solr-cell": [
+        "7.3.1"
+    ],
+    "org.jvnet.hudson.main__fdse__hudson-core": [
+        "2.2.1"
+    ],
+    "ch.qos.logback__fdse__logback-core": [
+        "1.1.8",
+        "1.0.13",
+        "0.9.6",
+        "1.1.3",
+        "0.9.29",
+        "0.9.20",
+        "1.1.2",
+        "1.1.7"
+    ],
+    "org.springframework.cloud__fdse__spring-cloud-config-server": [
+        "2.1.1.RELEASE"
+    ],
+    "jetty__fdse__jetty": [
+        "4.2.12"
+    ],
+    "com.fasterxml.jackson.dataformat__fdse__jackson-dataformat-xml": [
+        "2.4.2",
+        "2.4.4",
+        "2.5.1"
+    ],
+    "org.apache.sling__fdse__org.apache.sling.api": [
+        "2.2.0"
+    ],
+    "org.eclipse.jetty__fdse__jetty-util": [
+        "7.4.0.v20110414",
+        "9.4.14.v20181114",
+        "9.2.25.v20180606",
+        "9.3.24.v20180605",
+        "9.2.16.v20160414",
+        "9.4.7.RC0",
+        "9.4.11.v20180605",
+        "9.3.8.v20160314",
+        "9.4.12.v20180830",
+        "8.2.0.v20160908",
+        "9.2.10.v20150310",
+        "9.4.10.v20180503",
+        "9.3.21.v20170918",
+        "9.4.6.v20170531",
+        "9.4.8.v20171121",
+        "8.1.10.v20130312",
+        "9.3.28.v20191105",
+        "9.3.27.v20190418",
+        "9.4.7.v20170914"
+    ],
+    "org.owasp.esapi__fdse__esapi": [
+        "2.1.0"
+    ],
+    "org.infinispan__fdse__infinispan-core": [
+        "8.2.2.Final",
+        "7.2.2.Final",
+        "9.1.0.Final",
+        "9.0.0.Final",
+        "6.0.2.Final"
+    ],
+    "org.springframework.data__fdse__spring-data-commons": [
+        "2.0.6.RELEASE"
+    ],
+    "org.apache.hadoop__fdse__hadoop-mapreduce-client-core": [
+        "2.7.3",
+        "2.4.0",
+        "2.6.5",
+        "2.3.0",
+        "2.5.1",
+        "2.7.1",
+        "2.7.0"
+    ],
+    "org.apache.lucene__fdse__lucene-core": [
+        "5.1.0",
+        "3.4.0",
+        "5.3.1",
+        "5.5.4",
+        "4.0.0",
+        "4.10.2",
+        "4.7.1",
+        "5.5.5",
+        "2.9.3",
+        "3.5.0",
+        "3.6.2",
+        "3.0.2",
+        "6.3.0",
+        "4.2.1",
+        "5.5.0",
+        "3.6.0",
+        "6.0.0"
+    ],
+    "com.h2database__fdse__h2": [
+        "1.3.174",
+        "1.3.176",
+        "1.3.172",
+        "1.2.132",
+        "1.3.166",
+        "1.4.187",
+        "1.4.194",
+        "1.2.133",
+        "1.3.170",
+        "1.4.191",
+        "1.4.189",
+        "1.1.119",
+        "1.4.178",
+        "1.4.196",
+        "1.4.192",
+        "1.3.171",
+        "1.3.168",
+        "1.3.152",
+        "1.4.190",
+        "1.4.195",
+        "1.4.185",
+        "1.2.131",
+        "1.3.167",
+        "1.3.173",
+        "1.4.186",
+        "1.4.184",
+        "1.4.193",
+        "1.4.182",
+        "1.4.197",
+        "1.3.165"
+    ],
+    "org.apache.cxf__fdse__cxf-rt-core": [
+        "2.6.2",
+        "2.2.10"
+    ],
+    "org.apache.storm__fdse__storm-core": [
+        "1.1.1",
+        "0.9.2-incubating",
+        "1.0.6",
+        "1.2.3",
+        "2.0.0",
+        "1.0.1"
+    ],
+    "org.apache.hbase__fdse__hbase-client": [
+        "0.96.1.1-hadoop2",
+        "1.0.0",
+        "0.98.4-hadoop2"
+    ],
+    "org.directwebremoting__fdse__dwr": [
+        "2.0.10"
+    ],
+    "c3p0__fdse__c3p0": [
+        "0.9.1.2",
+        "0.9.1"
+    ],
+    "ch.qos.logback__fdse__logback-classic": [
+        "1.0.9",
+        "1.1.8",
+        "1.0.7",
+        "1.0.4",
+        "1.0.0",
+        "1.1.3",
+        "1.1.11",
+        "1.1.7",
+        "1.1.1",
+        "1.1.5",
+        "1.0.13",
+        "0.9.28",
+        "0.9.30",
+        "0.9.6",
+        "0.9.29",
+        "0.9.20",
+        "1.1.2",
+        "1.0.11"
+    ],
+    "org.springframework.amqp__fdse__spring-rabbit": [
+        "1.7.5.RELEASE",
+        "1.7.3.RELEASE"
+    ],
+    "org.apache.tapestry__fdse__tapestry-core": [
+        "5.4.3"
+    ],
+    "org.apache.hadoop__fdse__hadoop-yarn-common": [
+        "2.3.0",
+        "2.5.1"
+    ],
+    "io.netty__fdse__netty-handler": [
+        "4.0.48.Final",
+        "4.0.56.Final"
+    ],
+    "pmd__fdse__pmd": [
+        "4.3"
+    ],
+    "org.bouncycastle__fdse__bctsp-jdk14": [
+        "1.46"
+    ],
+    "org.apache.cassandra__fdse__cassandra-all": [
+        "2.1.3",
+        "3.11.0",
+        "3.9"
+    ],
+    "org.asynchttpclient__fdse__async-http-client": [
+        "2.0.32",
+        "2.0.24",
+        "2.0.16"
+    ],
+    "org.apache.poi__fdse__poi-ooxml": [
+        "3.16",
+        "3.14",
+        "4.0.1",
+        "3.15",
+        "3.17",
+        "4.0.0"
+    ],
+    "com.ibm.icu__fdse__icu4j": [
+        "62.1",
+        "63.1"
+    ],
+    "org.apache.logging.log4j__fdse__log4j-core": [
+        "2.6.1",
+        "2.0",
+        "2.7",
+        "2.8",
+        "2.1",
+        "2.3",
+        "2.5",
+        "2.4.1",
+        "2.6.2",
+        "2.0.1"
+    ],
+    "org.apache.hadoop__fdse__hadoop-core": [
+        "1.0.4",
+        "1.1.0"
+    ],
+    "org.springframework.security__fdse__spring-security-core": [
+        "4.2.11.RELEASE",
+        "5.0.7.RELEASE",
+        "4.0.2.RELEASE",
+        "3.2.7.RELEASE",
+        "4.2.6.RELEASE",
+        "5.1.2.RELEASE",
+        "5.1.3.RELEASE",
+        "4.2.3.RELEASE",
+        "4.2.7.RELEASE"
+    ],
+    "org.apache.ws.security__fdse__wss4j": [
+        "1.6.16",
+        "1.6.8"
+    ],
+    "commons-beanutils__fdse__commons-beanutils-core": [
+        "1.8.3",
+        "1.8.0"
+    ],
+    "jstl__fdse__jstl": [
+        "1.1.2",
+        "1.2"
+    ],
+    "org.apache.opennlp__fdse__opennlp-tools": [
+        "1.7.0"
+    ],
+    "org.springframework__fdse__spring-beans": [
+        "3.0.5.RELEASE",
+        "2.5.6"
+    ],
+    "org.apache.directory.api__fdse__api-all": [
+        "1.0.0-M28"
+    ],
+    "org.apache.solr__fdse__solr-core": [
+        "6.3.0",
+        "3.6.0",
+        "5.5.4",
+        "6.6.6",
+        "7.3.1",
+        "7.5.0",
+        "5.5.5"
+    ],
+    "org.ops4j.pax.url__fdse__pax-url-aether": [
+        "1.6.0"
+    ],
+    "org.zeroturnaround__fdse__zt-zip": [
+        "1.7"
+    ],
+    "com.google.guava__fdse__guava": [
+        "23.6-jre",
+        "16.0.1",
+        "24.0-jre",
+        "23.6.1-jre",
+        "23.1-jre",
+        "23.2-jre",
+        "13.0.1",
+        "23.0-android",
+        "18.0",
+        "19.0",
+        "20.0",
+        "13.0-final",
+        "24.1-jre",
+        "12.0",
+        "23.6-android",
+        "11.0.1",
+        "14.0",
+        "21.0",
+        "12.0.1",
+        "17.0",
+        "23.0",
+        "11.0.2",
+        "14.0.1",
+        "22.0",
+        "15.0",
+        "19.0-rc2"
+    ],
+    "org.apache.openejb__fdse__arquillian-tomee-embedded": [
+        "1.7.1"
+    ],
+    "org.apache.uima__fdse__uimaj-core": [
+        "2.6.0",
+        "2.3.1"
+    ],
+    "org.apache.geode__fdse__geode-core": [
+        "1.2.0",
+        "1.1.0"
+    ],
+    "bouncycastle__fdse__bcprov-jdk14": [
+        "138"
+    ],
+    "tomcat__fdse__jasper-runtime": [
+        "5.5.12",
+        "5.5.15"
+    ],
+    "org.apache.tomcat__fdse__catalina": [
+        "6.0.43",
+        "6.0.29"
+    ],
+    "com.alibaba__fdse__fastjson": [
+        "1.2.11",
+        "1.2.7",
+        "1.2.6",
+        "1.1.46.sec01",
+        "1.1.46"
+    ],
+    "org.jgroups__fdse__jgroups": [
+        "3.6.9.Final"
+    ],
+    "org.apache.qpid__fdse__proton-j": [
+        "0.13.1"
+    ],
+    "org.scala-lang__fdse__scala-compiler": [
+        "2.9.0-1",
+        "2.10.6",
+        "2.10.5",
+        "2.11.0",
+        "2.11.8"
+    ],
+    "org.apache.tomcat__fdse__tomcat-coyote": [
+        "8.5.9",
+        "7.0.84",
+        "7.0.37"
+    ],
+    "org.apache.poi__fdse__poi": [
+        "3.15",
+        "3.16",
+        "3.14",
+        "3.9"
+    ],
+    "org.apache.hadoop__fdse__hadoop-hdfs": [
+        "2.5.0",
+        "2.7.4",
+        "2.7.2",
+        "2.9.1",
+        "3.1.0",
+        "3.0.0",
+        "2.7.3",
+        "2.6.5",
+        "3.0.3",
+        "2.4.0",
+        "2.9.0",
+        "2.3.0",
+        "2.7.1",
+        "2.6.0",
+        "2.7.7",
+        "2.8.1",
+        "3.1.1"
+    ],
+    "org.apache.hive__fdse__hive-contrib": [
+        "1.2.1"
+    ],
+    "com.fasterxml.jackson.datatype__fdse__jackson-datatype-jsr310": [
+        "2.7.4",
+        "2.9.1",
+        "2.4.4",
+        "2.5.1",
+        "2.8.11",
+        "2.6.5",
+        "2.8.1",
+        "2.9.6",
+        "2.3.1"
+    ],
+    "org.apache.hive__fdse__hive-serde": [
+        "1.1.1",
+        "1.0.1"
+    ],
+    "net.lingala.zip4j__fdse__zip4j": [
+        "1.3.2",
+        "1.2.3"
+    ],
+    "org.eclipse.jetty.aggregate__fdse__jetty-all": [
+        "9.2.7.v20150116",
+        "8.1.22.v20160922"
+    ],
+    "org.apache.jmeter__fdse__ApacheJMeter_core": [
+        "2.10"
+    ],
+    "org.springframework.security.oauth__fdse__spring-security-oauth2": [
+        "2.3.5.RELEASE",
+        "2.0.16.RELEASE",
+        "2.2.0.RELEASE",
+        "2.0.2.RELEASE",
+        "2.1.0.RELEASE",
+        "2.3.3.RELEASE",
+        "2.0.9.RELEASE"
+    ],
+    "org.apache.spark__fdse__spark-core_2.11": [
+        "2.2.0",
+        "2.4.0",
+        "2.1.1",
+        "2.3.2",
+        "2.4.4",
+        "2.3.0",
+        "2.0.0",
+        "2.1.2",
+        "2.3.3",
+        "2.3.4",
+        "2.2.3",
+        "2.0.2",
+        "1.6.3",
+        "2.1.0",
+        "2.2.1"
+    ],
+    "net.sourceforge.htmlunit__fdse__htmlunit": [
+        "2.36.0",
+        "2.9",
+        "2.35.0",
+        "2.28",
+        "2.27",
+        "2.7",
+        "2.22",
+        "2.18",
+        "2.33",
+        "2.8",
+        "2.15",
+        "2.31",
+        "2.20",
+        "2.4"
+    ],
+    "com.github.jsimone__fdse__webapp-runner": [
+        "7.0.34.0"
+    ],
+    "org.springframework.security__fdse__spring-security-config": [
+        "4.0.2.RELEASE",
+        "3.2.7.RELEASE",
+        "4.2.6.RELEASE",
+        "4.1.0.RELEASE",
+        "4.2.8.RELEASE",
+        "4.2.7.RELEASE"
+    ],
+    "org.springframework.ldap__fdse__spring-ldap-core": [
+        "2.3.1.RELEASE"
+    ],
+    "org.apache.hive__fdse__hive-exec": [
+        "1.2.1",
+        "0.14.0",
+        "1.0.0",
+        "3.0.0",
+        "1.0.1",
+        "1.1.0",
+        "0.8.0",
+        "0.11.0",
+        "2.0.1",
+        "1.2.2",
+        "1.1.1",
+        "2.2.0",
+        "2.1.1",
+        "0.12.0",
+        "2.3.2",
+        "2.0.0",
+        "2.3.3",
+        "0.13.0",
+        "0.10.0",
+        "2.1.0"
+    ],
+    "org.apache.hadoop__fdse__hadoop-common": [
+        "2.7.4",
+        "2.7.2",
+        "2.9.1",
+        "3.1.0",
+        "2.5.1",
+        "3.0.0",
+        "2.9.2",
+        "2.7.3",
+        "2.8.4",
+        "2.6.5",
+        "2.8.3",
+        "3.0.3",
+        "2.7.0",
+        "2.8.0",
+        "2.2.0",
+        "2.9.0",
+        "2.4.0",
+        "2.3.0",
+        "2.8.5",
+        "2.7.1",
+        "2.6.0",
+        "2.7.7",
+        "2.8.1",
+        "2.6.3",
+        "2.7.5",
+        "2.4.1",
+        "2.6.4"
+    ],
+    "commons-collections__fdse__commons-collections": [
+        "3.2",
+        "3.2.1"
+    ],
+    "org.apache.hive.hcatalog__fdse__hive-hcatalog-streaming": [
+        "1.1.1",
+        "1.2.1",
+        "1.0.0"
+    ],
+    "org.apache.tika__fdse__tika-parsers": [
+        "1.18",
+        "1.20",
+        "1.4"
+    ],
+    "com.typesafe.akka__fdse__akka-actor_2.11": [
+        "2.4.1",
+        "2.4.2"
+    ],
+    "org.springframework__fdse__spring-core": [
+        "4.3.11.RELEASE",
+        "3.1.3.RELEASE",
+        "4.0.3.RELEASE",
+        "3.2.3.RELEASE",
+        "5.0.2.RELEASE",
+        "4.3.7.RELEASE",
+        "4.3.2.RELEASE",
+        "4.2.5.RELEASE",
+        "5.0.4.RELEASE",
+        "4.1.3.RELEASE",
+        "4.1.4.RELEASE",
+        "4.3.14.RELEASE",
+        "3.1.4.RELEASE",
+        "3.1.2.RELEASE",
+        "4.3.10.RELEASE",
+        "3.0.7.RELEASE",
+        "4.3.13.RELEASE",
+        "3.0.5.RELEASE",
+        "4.3.4.RELEASE",
+        "3.0.6.RELEASE"
+    ],
+    "org.pac4j__fdse__pac4j-core": [
+        "2.2.0"
+    ],
+    "xerces__fdse__xerces": [
+        "2.4.0"
+    ],
+    "commons-beanutils__fdse__commons-beanutils": [
+        "1.7.0",
+        "1.8.2",
+        "1.8.3",
+        "1.9.2",
+        "1.9.3"
+    ],
+    "org.apache.derby__fdse__derbynet": [
+        "10.13.1.1",
+        "10.11.1.1",
+        "10.12.1.1"
+    ]
+}

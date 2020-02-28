@@ -52,10 +52,10 @@ def write():
     with open('Local_Data/Format_GAList_Num_mt_1500.json', 'w') as f:
         f.write(json.dumps(GA_list_Num, indent=4))
 
-    # with open('Data/Format_GAList_InCentralRepo.json', 'w') as f:
+    # with open('Wangying_FSEData/Format_GAList_InCentralRepo.json', 'w') as f:
     #     f.write(json.dumps(GA_list_InCentralRepo, indent=4))
     #
-    # with open('Data/Format_GAList_NotInCentralRepo.json', 'w') as f:
+    # with open('Wangying_FSEData/Format_GAList_NotInCentralRepo.json', 'w') as f:
     #     f.write(json.dumps(GA_list_NotInCentralRepo, indent=4))
     pass
 

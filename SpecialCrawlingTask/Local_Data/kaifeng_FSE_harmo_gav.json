@@ -6292,13 +6292,6 @@
         "version": "0.5.0"
     },
     {
-        "groupId": "com.google.errorprone",
-        "module": "hbase-hadoop-compat",
-        "artifactId": "javac",
-        "type": "jar",
-        "version": "${javac.version}"
-    },
-    {
         "groupId": "junit",
         "module": "hbase-hadoop-compat",
         "artifactId": "junit",
@@ -14665,34 +14658,6 @@
         "version": "2.12.2-dov-1.0"
     },
     {
-        "groupId": "org.springframework",
-        "module": "src/community/taskmanager/core/bin",
-        "artifactId": "spring-context-support",
-        "type": "jar",
-        "version": "${spring.version}"
-    },
-    {
-        "groupId": "org.hibernate",
-        "module": "src/community/taskmanager/core/bin",
-        "artifactId": "hibernate-core",
-        "type": "jar",
-        "version": "${hibernate-version}"
-    },
-    {
-        "groupId": "org.springframework",
-        "module": "src/community/taskmanager/core/bin",
-        "artifactId": "spring-orm",
-        "type": "jar",
-        "version": "${spring.version}"
-    },
-    {
-        "groupId": "org.slf4j",
-        "module": "src/community/taskmanager/core/bin",
-        "artifactId": "jcl-over-slf4j",
-        "type": "jar",
-        "version": "${slf4j.version}"
-    },
-    {
         "groupId": "com.amazonaws",
         "module": "src/community/taskmanager/s3",
         "artifactId": "aws-java-sdk-s3",
@@ -17350,13 +17315,6 @@
         "version": "1.22"
     },
     {
-        "groupId": "com.fasterxml.jackson.module",
-        "module": "presto-main",
-        "artifactId": "jackson-module-afterburner",
-        "type": "jar",
-        "version": "${dep.jackson.version}"
-    },
-    {
         "groupId": "com.facebook.presto",
         "module": "presto-main",
         "artifactId": "presto-matching",
@@ -18057,13 +18015,6 @@
         "version": "8.3.0"
     },
     {
-        "groupId": "org.slf4j",
-        "module": "community/mahout-mr",
-        "artifactId": "slf4j-jcl",
-        "type": "jar",
-        "version": "${slf4j.version}"
-    },
-    {
         "groupId": "org.apache.mahout",
         "module": "community/mahout-mr",
         "artifactId": "mahout-hdfs",
@@ -18084,20 +18035,6 @@
         "artifactId": "core_${scala.compat.version}",
         "type": "jar",
         "version": "14.1"
-    },
-    {
-        "groupId": "org.slf4j",
-        "module": "community/mahout-mr",
-        "artifactId": "slf4j-log4j12",
-        "type": "jar",
-        "version": "${slf4j.version}"
-    },
-    {
-        "groupId": "org.slf4j",
-        "module": "community/mahout-mr",
-        "artifactId": "slf4j-api",
-        "type": "jar",
-        "version": "${slf4j.version}"
     },
     {
         "groupId": "org.apache.solr",
@@ -18140,13 +18077,6 @@
         "artifactId": "lucene-core",
         "type": "jar",
         "version": "5.5.2"
-    },
-    {
-        "groupId": "org.apache.hadoop",
-        "module": "community/mahout-mr/mr",
-        "artifactId": "hadoop-client",
-        "type": "jar",
-        "version": "${hadoop.version}"
     },
     {
         "groupId": "org.apache.lucene",
@@ -28340,13 +28270,6 @@
         "version": "2.2.11"
     },
     {
-        "groupId": "org.apache.hbase",
-        "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
-        "artifactId": "hbase-common",
-        "type": "jar",
-        "version": "${hbase.version}"
-    },
-    {
         "groupId": "org.apache.hadoop",
         "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
         "artifactId": "hadoop-yarn-server-timelineservice-hbase-client",
@@ -28356,87 +28279,9 @@
     {
         "groupId": "org.apache.hadoop",
         "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
-        "artifactId": "hadoop-common",
-        "type": "jar",
-        "version": "${hbase-compatible-hadoop.version}"
-    },
-    {
-        "groupId": "org.apache.hadoop",
-        "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
         "artifactId": "hadoop-yarn-server-applicationhistoryservice",
         "type": "jar",
         "version": "3.3.0"
-    },
-    {
-        "groupId": "com.google.guava",
-        "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
-        "artifactId": "guava",
-        "type": "jar",
-        "version": "${hbase-compatible-guava.version}"
-    },
-    {
-        "groupId": "org.apache.hbase",
-        "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
-        "artifactId": "hbase-server",
-        "type": "jar",
-        "version": "${hbase.version}"
-    },
-    {
-        "groupId": "org.apache.hbase",
-        "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
-        "classifier": "tests",
-        "artifactId": "hbase-server",
-        "type": "jar",
-        "version": "${hbase.version}"
-    },
-    {
-        "groupId": "org.apache.hadoop",
-        "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
-        "artifactId": "hadoop-hdfs",
-        "type": "jar",
-        "version": "${hbase-compatible-hadoop.version}"
-    },
-    {
-        "groupId": "org.apache.hadoop",
-        "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
-        "artifactId": "hadoop-hdfs",
-        "type": "test-jar",
-        "version": "${hbase-compatible-hadoop.version}"
-    },
-    {
-        "groupId": "org.apache.hbase",
-        "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
-        "artifactId": "hbase-testing-util",
-        "type": "jar",
-        "version": "${hbase.version}"
-    },
-    {
-        "groupId": "org.apache.hbase",
-        "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
-        "artifactId": "hbase-client",
-        "type": "jar",
-        "version": "${hbase.version}"
-    },
-    {
-        "groupId": "org.apache.hadoop",
-        "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
-        "artifactId": "hadoop-common",
-        "type": "test-jar",
-        "version": "${hbase-compatible-hadoop.version}"
-    },
-    {
-        "groupId": "org.apache.hadoop",
-        "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
-        "artifactId": "hadoop-auth",
-        "type": "jar",
-        "version": "${hbase-compatible-hadoop.version}"
-    },
-    {
-        "groupId": "org.apache.hadoop",
-        "module": "hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase-tests",
-        "artifactId": "hadoop-hdfs-client",
-        "type": "jar",
-        "version": "${hbase-compatible-hadoop.version}"
     },
     {
         "groupId": "org.jmockit",
@@ -29592,27 +29437,6 @@
         "artifactId": "languagetool-ga-dicts",
         "type": "jar",
         "version": "0.02"
-    },
-    {
-        "groupId": "org.languagetool",
-        "module": "languagetool-language-modules/sr",
-        "artifactId": "languagetool-core",
-        "type": "test-jar",
-        "version": "${languagetool.version}"
-    },
-    {
-        "groupId": "junit",
-        "module": "languagetool-language-modules/sr",
-        "artifactId": "junit",
-        "type": "jar",
-        "version": "${junit.version}"
-    },
-    {
-        "groupId": "org.languagetool",
-        "module": "languagetool-language-modules/sr",
-        "artifactId": "languagetool-core",
-        "type": "jar",
-        "version": "${languagetool.version}"
     },
     {
         "groupId": "com.github.lucene-gosen",
@@ -35154,13 +34978,6 @@
         "version": "1.19.1"
     },
     {
-        "groupId": "org.apache.derby",
-        "module": "assemblies/core/lib",
-        "artifactId": "derby",
-        "type": "jar",
-        "version": "${derby.version}"
-    },
-    {
         "groupId": "org.pentaho.reporting.engine",
         "module": "assemblies/core/lib",
         "artifactId": "classic-extensions-mondrian",
@@ -35663,13 +35480,6 @@
         "artifactId": "kettle-gpload-plugin",
         "type": "zip",
         "version": "9.1.0.0"
-    },
-    {
-        "groupId": "org.osgi",
-        "module": "assemblies/lib",
-        "artifactId": "org.osgi.core",
-        "type": "jar",
-        "version": "${osgi.core.version}"
     },
     {
         "groupId": "org.pentaho",
@@ -36353,20 +36163,6 @@
         "version": "9.0.4.0"
     },
     {
-        "groupId": "org.apache.activemq",
-        "module": "plugins/streaming/impls/mqtt",
-        "artifactId": "activemq-kahadb-store",
-        "type": "jar",
-        "version": "${activemq.version}"
-    },
-    {
-        "groupId": "org.apache.activemq",
-        "module": "plugins/streaming/impls/mqtt",
-        "artifactId": "activemq-mqtt",
-        "type": "jar",
-        "version": "${activemq.version}"
-    },
-    {
         "groupId": "org.pentaho.di.plugins",
         "module": "plugins/dummy/assemblies/plugin",
         "artifactId": "kettle-dummy-plugin-core",
@@ -36449,13 +36245,6 @@
         "artifactId": "connections-ui",
         "type": "jar",
         "version": "9.1.0.0"
-    },
-    {
-        "groupId": "org.apache.commons",
-        "module": "plugins/gpload/core",
-        "artifactId": "commons-vfs2",
-        "type": "jar",
-        "version": "${commons-vfs2.version}"
     },
     {
         "groupId": "org.jacoco",
@@ -37594,13 +37383,6 @@
         "version": "0.94.25"
     },
     {
-        "groupId": "org.apache.hadoop",
-        "module": "titan-hbase-parent/titan-hbase-098",
-        "artifactId": "hadoop-core",
-        "type": "jar",
-        "version": "${hadoop.version}"
-    },
-    {
         "groupId": "com.thinkaurelius.titan",
         "module": "titan-hbase-parent/titan-hbase",
         "artifactId": "titan-hbase-10",
@@ -37738,13 +37520,6 @@
         "artifactId": "titan-core",
         "type": "jar",
         "version": "0.9.0"
-    },
-    {
-        "groupId": "org.apache.tinkerpop",
-        "module": "titan-rexster",
-        "artifactId": "rexster-core",
-        "type": "jar",
-        "version": "${tinkerpop.version}"
     },
     {
         "groupId": "org.codehaus.jackson",
@@ -40602,20 +40377,6 @@
         "version": "2.5.6"
     },
     {
-        "groupId": "org.terracotta",
-        "module": "system-tests",
-        "artifactId": "terracotta-toolkit-runtime",
-        "type": "jar",
-        "version": "${terracotta.core.version}"
-    },
-    {
-        "groupId": "org.terracotta.test",
-        "module": "system-tests",
-        "artifactId": "container-test-framework",
-        "type": "jar",
-        "version": "${container-test-framework.version}"
-    },
-    {
         "groupId": "org.apache.derby",
         "module": "quartz-plugins",
         "artifactId": "derby",
@@ -41057,13 +40818,6 @@
         "version": "2.0.0"
     },
     {
-        "groupId": "com.navercorp.pinpoint",
-        "module": "quickstart/collector",
-        "artifactId": "pinpoint-collector",
-        "type": "war",
-        "version": "${maven.pinpoint.version}"
-    },
-    {
         "groupId": "javax.servlet.jsp.jstl",
         "module": "quickstart/testapp",
         "artifactId": "jstl-api",
@@ -41097,13 +40851,6 @@
         "artifactId": "standard",
         "type": "jar",
         "version": "1.1.2"
-    },
-    {
-        "groupId": "com.navercorp.pinpoint",
-        "module": "quickstart/web",
-        "artifactId": "pinpoint-web",
-        "type": "war",
-        "version": "${maven.pinpoint.version}"
     },
     {
         "groupId": "org.openclover",
@@ -44379,25 +44126,11 @@
         "version": "7.9.0"
     },
     {
-        "groupId": "org.apache.tomcat",
-        "module": "core/che-core-db",
-        "artifactId": "tomcat-dbcp",
-        "type": "jar",
-        "version": "${org.apache.tomcat.version}"
-    },
-    {
         "groupId": "org.eclipse.che.core",
         "module": "core/che-core-db-vendor-postgresql",
         "artifactId": "che-core-db",
         "type": "jar",
         "version": "7.9.0"
-    },
-    {
-        "groupId": "org.apache.tomcat",
-        "module": "core/che-core-metrics-core",
-        "artifactId": "tomcat-catalina",
-        "type": "jar",
-        "version": "${org.apache.tomcat.version}"
     },
     {
         "groupId": "org.eclipse.che.core",
@@ -44426,13 +44159,6 @@
         "artifactId": "che-core-tracing-core",
         "type": "jar",
         "version": "7.9.0"
-    },
-    {
-        "groupId": "com.google.code.findbugs",
-        "module": "infrastructures/kubernetes",
-        "artifactId": "jsr305",
-        "type": "jar",
-        "version": "${version.jsr305.plugin}"
     },
     {
         "groupId": "org.eclipse.che.multiuser",
@@ -52839,13 +52565,6 @@
         "version": "0.16.1-RC1"
     },
     {
-        "groupId": "org.codehaus.sonar-plugins.java",
-        "module": "tests/performance/tools",
-        "artifactId": "sonar-jacoco-listeners",
-        "type": "jar",
-        "version": "${sonar-jacoco-listeners.version}"
-    },
-    {
         "groupId": "org.eclipse.persistence",
         "module": "tests/performance/tools",
         "artifactId": "org.eclipse.persistence.moxy",
@@ -57047,13 +56766,6 @@
         "version": "0.2"
     },
     {
-        "groupId": "${project.groupId}",
-        "module": "maven-core/src/test/resources-project-builder/foo/sub",
-        "artifactId": "archetype-proxy",
-        "type": "war",
-        "version": "${project.version}"
-    },
-    {
         "groupId": "org.codehaus.cargo",
         "module": "maven-core/src/test/resources-project-builder/foo/sub",
         "artifactId": "cargo-core-api-util",
@@ -57080,13 +56792,6 @@
         "artifactId": "cargo-core-api-module",
         "type": "jar",
         "version": "0.9"
-    },
-    {
-        "groupId": "${project.groupId}",
-        "module": "maven-core/src/test/resources-project-builder/foo/sub",
-        "artifactId": "archetype-repository",
-        "type": "war",
-        "version": "${project.version}"
     },
     {
         "groupId": "org.codehaus.cargo",
@@ -58905,13 +58610,6 @@
         "version": "4.3.26.RELEASE"
     },
     {
-        "groupId": "xerces",
-        "module": "trash/activemq-optional",
-        "artifactId": "xercesImpl",
-        "type": "jar",
-        "version": "${xerces-version}"
-    },
-    {
         "groupId": "org.seleniumhq.selenium",
         "module": "trash/activemq-optional",
         "artifactId": "selenium-java",
@@ -58919,32 +58617,11 @@
         "version": "2.25.0"
     },
     {
-        "groupId": "org.eclipse.jetty",
-        "module": "trash/activemq-optional",
-        "artifactId": "jetty-websocket",
-        "type": "jar",
-        "version": "${jetty-version}"
-    },
-    {
-        "groupId": "org.eclipse.jetty",
-        "module": "trash/activemq-optional",
-        "artifactId": "jetty-webapp",
-        "type": "jar",
-        "version": "${jetty-version}"
-    },
-    {
         "groupId": "org.seleniumhq.selenium",
         "module": "trash/activemq-optional",
         "artifactId": "selenium-chrome-driver",
         "type": "jar",
         "version": "2.25.0"
-    },
-    {
-        "groupId": "net.sf.saxon",
-        "module": "trash/activemq-optional",
-        "artifactId": "Saxon-HE",
-        "type": "jar",
-        "version": "${saxon-version}"
     },
     {
         "groupId": "org.seleniumhq.selenium",
@@ -59809,13 +59486,6 @@
         "version": "2.6.2"
     },
     {
-        "groupId": "org.slf4j",
-        "module": "assembly/src/release/examples/openwire/java",
-        "artifactId": "slf4j-nop",
-        "type": "jar",
-        "version": "${slf4j-version}"
-    },
-    {
         "groupId": "org.apache.activemq",
         "module": "assembly/src/release/examples/openwire/java",
         "artifactId": "activemq-client",
@@ -59828,27 +59498,6 @@
         "artifactId": "geronimo-jms_1.1_spec",
         "type": "jar",
         "version": "1.1"
-    },
-    {
-        "groupId": "org.fusesource.stompjms",
-        "module": "assembly/src/release/examples/stomp/java",
-        "artifactId": "stompjms-client",
-        "type": "jar",
-        "version": "${stompjms-version}"
-    },
-    {
-        "groupId": "org.apache.qpid",
-        "module": "assembly/src/release/examples/amqp/java",
-        "artifactId": "qpid-jms-client",
-        "type": "jar",
-        "version": "${qpid-jms-version}"
-    },
-    {
-        "groupId": "org.fusesource.mqtt-client",
-        "module": "assembly/src/release/examples/mqtt/java",
-        "artifactId": "mqtt-client",
-        "type": "jar",
-        "version": "${mqtt-client-version}"
     },
     {
         "groupId": "org.apache.servicemix.bundles",

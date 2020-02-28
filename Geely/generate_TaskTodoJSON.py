@@ -17,7 +17,7 @@ task_content = { "Task_Todo":[]}
 GA_list = []
 def read():
     global GA_list
-    with open('Data/Format_GAList_Num.json','r') as f:
+    with open('Wangying_FSEData/Format_GAList_Num.json','r') as f:
         GA_list = json.loads( f.read() )
 
 def generateFile():
@@ -32,7 +32,7 @@ def generateFile():
                     ele) + "__fdse__" + str(ele + 2)
                 task_content["Task_Todo"].append(task_item)
 
-    with open("Data/Todo_CMDorTask.json",'w') as f:
+    with open("Wangying_FSEData/Todo_CMDorTask.json",'w') as f:
         f.write( json.dumps( task_content,indent=4 ) )
 read()
 generateFile()

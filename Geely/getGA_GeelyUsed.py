@@ -20,9 +20,9 @@ lib_versions = []
 
 def read():
     global Original_GAV_list,lib_versions
-    with open('Data/GAV_list.json','r') as f:
+    with open('Wangying_FSEData/GAV_list.json','r') as f:
         Original_GAV_list = json.loads( f.read() )
-    with open('Data/lib_versions.json','r') as f:
+    with open('Wangying_FSEData/lib_versions.json','r') as f:
         lib_versions = json.loads( f.read() )
 
 
@@ -68,19 +68,19 @@ def collect_data():
 
 def write():
 
-    with open('Data/Format_GAVList.json','w') as f:
+    with open('Wangying_FSEData/Format_GAVList.json','w') as f:
         f.write( json.dumps( GAV_list,indent=4 ) )
 
-    with open('Data/Format_GAList.json','w') as f:
+    with open('Wangying_FSEData/Format_GAList.json','w') as f:
         f.write( json.dumps( GA_list,indent=4 ) )
 
-    with open('Data/Format_GAList_Num.json','w') as f:
+    with open('Wangying_FSEData/Format_GAList_Num.json','w') as f:
         f.write( json.dumps( GA_list_Num,indent=4 ) )
 
-    with open('Data/Format_GAList_InCentralRepo.json','w') as f:
+    with open('Wangying_FSEData/Format_GAList_InCentralRepo.json','w') as f:
         f.write( json.dumps( GA_list_InCentralRepo,indent=4 ) )
 
-    with open('Data/Format_GAList_NotInCentralRepo.json','w') as f:
+    with open('Wangying_FSEData/Format_GAList_NotInCentralRepo.json','w') as f:
         f.write( json.dumps( GA_list_NotInCentralRepo,indent=4 ) )
 
 if __name__ == '__main__':

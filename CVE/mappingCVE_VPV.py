@@ -167,7 +167,7 @@ def reorganizeData():
             VP = ele.split("__fdse__")[0] + "__fdse__" + ele.split("__fdse__")[1]
             version_str = ele.split("__fdse__")[2]
 
-            # Data one
+            # Wangying_FSEData one
             if CVE_ID in temp.keys():
                 if VP in temp[CVE_ID].keys():
                     if getVersion(version_str) in temp[CVE_ID][VP]:
@@ -180,7 +180,7 @@ def reorganizeData():
                 temp[CVE_ID] = { VP : [ getVersion(version_str) ] }
 
 
-            # Data  two
+            # Wangying_FSEData  two
             if VP in VPV_CVE_Data.keys():
                 if version_str in VPV_CVE_Data[VP].keys():
                     VPV_CVE_Data[VP][version_str].append( CVE_ID )

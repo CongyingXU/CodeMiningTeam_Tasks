@@ -7,11 +7,12 @@ Created on 2020-02-20 11:01
 """
 from CommonFunction import JSONFIle_processing, File_processing
 
-dependency_data_path = 'total/'
+dependency_data_path = 'total_with_path/'
 dependency_data_file_list = []
 
 Pojs_dependency_data = {}
 GA_dependency_data = {}
+Pojs_GAV_Path = {}
 
 
 def getFileList():
@@ -21,6 +22,7 @@ def getFileList():
 
 
 def collectDependency(file_name):
+    global Pojs_GAV_Path
     file_path = dependency_data_path + file_name
     dependency_content = JSONFIle_processing.read(file_path)
     # poj = file_name.split('__fdse__')[0] + '__fdse__' + file_name.split('__fdse__')[1].split('_')[0]
@@ -33,6 +35,18 @@ def collectDependency(file_name):
         groupId = ele["groupId"]
         artifactId = ele["artifactId"]
         version = ele["version"]
+        path = ele["path"]
+
+        # Pojs_GAV_path data
+        GAV_str = groupId + '__fdse__' + artifactId + version
+        if poj not in Pojs_GAV_Path.keys():
+            Pojs_GAV_Path[poj] = {}
+        if GAV_str not in Pojs_GAV_Path[poj].keys():
+            Pojs_GAV_Path[poj][GAV_str] = [path]
+        else:
+            print("1111111111")
+            Pojs_GAV_Path[poj][GAV_str].append(path)
+
 
         Pojs_dependency_data[poj].append( ele )
 
@@ -50,6 +64,7 @@ def collectDependency(file_name):
 def write():
     JSONFIle_processing.write(GA_dependency_data,"GAV_PojsDependency_data.json")
     JSONFIle_processing.write(Pojs_dependency_data,"Pojs_GAVDependency_data.json")
+    JSONFIle_processing.write(Pojs_GAV_Path, "Pojs_GAV_Path.json")
 
 
 def main():
