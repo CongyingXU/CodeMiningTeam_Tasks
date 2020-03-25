@@ -70,9 +70,9 @@ def collectData():
                     All_related_CVE.extend(GAV_CVE_Buggymethod_wangying[GAV_str].keys())
                 elif GAV_str in UsedGAV_CVE_mapping_Congying.keys():
                     if poj_module not in All_AffectedPojModule_UsedVulnerGAV_RelatedCVE[poj].keys():
-                        All_AffectedPojModule_UsedVulnerGAV_RelatedCVE[poj][poj_module] = {GAV_str: [ele.split("CVE-")[1] for ele in UsedGAV_CVE_mapping_Congying[GAV_str]]}
+                        All_AffectedPojModule_UsedVulnerGAV_RelatedCVE[poj][poj_module] = {GAV_str: [ele.split("CVE_FSE-")[1] for ele in UsedGAV_CVE_mapping_Congying[GAV_str]]}
                     else:
-                        All_AffectedPojModule_UsedVulnerGAV_RelatedCVE[poj][poj_module][GAV_str] = [ele.split("CVE-")[1] for ele in UsedGAV_CVE_mapping_Congying[GAV_str]]
+                        All_AffectedPojModule_UsedVulnerGAV_RelatedCVE[poj][poj_module][GAV_str] = [ele.split("CVE_FSE-")[1] for ele in UsedGAV_CVE_mapping_Congying[GAV_str]]
                     All_related_CVE.extend(UsedGAV_CVE_mapping_Congying[GAV_str])
                 else:
                     print(GAV_str,"BU YING DANG!!!")

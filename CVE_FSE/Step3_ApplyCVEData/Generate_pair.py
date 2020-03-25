@@ -13,7 +13,7 @@ sys.path.append('../../')
 
 import semver
 from CommonFunction import File_processing, JSONFIle_processing
-from CVE.Step3_ApplyCVEData import compareVersions
+from CVE_FSE.Step3_ApplyCVEData import compareVersions
 
 candidate_safe_gav_path = "Wangying_FSEData/candidate_safe_gav_for_githubissue.json"
 candidate_safe_gav = JSONFIle_processing.read( candidate_safe_gav_path )

@@ -7,7 +7,7 @@ Created on 2020-02-25 23:27
 """
 
 from CommonFunction import JSONFIle_processing
-from CVE.Step3_ApplyCVEData import compareVersions
+from CVE_FSE.Step3_ApplyCVEData import compareVersions
 import semver
 
 All_used_vule_ga_path = "Wangying_FSEData/vulnerable_lib_for_githubissue.json"

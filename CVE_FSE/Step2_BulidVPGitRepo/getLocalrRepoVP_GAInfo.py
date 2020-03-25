@@ -166,7 +166,7 @@ def collect_result():
 def write_collect_result(CVE_GAInfo):
     with open("Local_Data/CVE_GAInfo.json",'w') as f:
         f.write( json.dumps(CVE_GAInfo, indent=4) )
-    print("len CVE GA:", len(  CVE_GAInfo.keys() ))
+    print("len CVE_FSE GA:", len(  CVE_GAInfo.keys() ))
 
 
 def collectresult_main():

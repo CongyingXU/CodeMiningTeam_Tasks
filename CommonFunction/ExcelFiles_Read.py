@@ -28,6 +28,7 @@ def readExcel_byFullpath(Fullpath):
     # print(sheet1.cell(1,0).value)#获取表格里的内容，三种方式
     # print(sheet1.cell_value(1,0))
     # print(sheet1.row(1)[0].value)
+    return wb
 
 if __name__ == '__main__':
     readExcel_byFullpath('/c/Users/Congy/PycharmProjects/CodeMiningTeam_Tasks/LibDetecRec_RiskDB/Top100--libraries.xlsx')

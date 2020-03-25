@@ -17,7 +17,7 @@ task_content = { "Task_Todo":[]}
 GA_list = []
 def read():
     global GA_list
-    with open('Wangying_FSEData/Format_GAList_Num.json','r') as f:
+    with open('Data/Format_GAList_Num.json','r') as f:
         GA_list = json.loads( f.read() )
 
 def generateFile():
@@ -25,14 +25,14 @@ def generateFile():
     global GA_list
     for ele in GA_list:
         ele = int(ele)
-        if ele < 4500:
+        if ele < 0:
             continue
         else:
                 task_item = "/home/fdse/wangying/crawled_data/__fdse__/home/fdse/wangying/CrawlLibraries/data/" + "__fdse__" + str(
-                    ele) + "__fdse__" + str(ele + 2)
+                    ele) + "__fdse__" + str(ele + 1)
                 task_content["Task_Todo"].append(task_item)
 
-    with open("Wangying_FSEData/Todo_CMDorTask.json",'w') as f:
+    with open("Data/Todo_CMDorTask_geely0303.json",'w') as f:
         f.write( json.dumps( task_content,indent=4 ) )
 read()
 generateFile()

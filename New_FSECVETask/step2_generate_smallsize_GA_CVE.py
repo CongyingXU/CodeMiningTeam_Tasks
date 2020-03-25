@@ -4,7 +4,7 @@
 Created on 2020-02-26 13:18  
 
 @author: congyingxu
-通过 GAV-CVE-buggymethod + used_vulne_libs_wangying,数据删掉共有
+通过 GAV-CVE_FSE-buggymethod + used_vulne_libs_wangying,数据删掉共有
 
 vp count:  335
 cve count:  1014

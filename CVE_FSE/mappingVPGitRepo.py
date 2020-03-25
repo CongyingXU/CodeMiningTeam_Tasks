@@ -8,7 +8,7 @@ Created on 2020-02-06 17:41
 used to map VP to Git repo url
 """
 
-from CVE import processingCPEDictionary
+from CVE_FSE import processingCPEDictionary
 import json
 
 

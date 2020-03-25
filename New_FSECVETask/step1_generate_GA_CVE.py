@@ -101,7 +101,7 @@ def generateCVE_GAData():
                 GAs = VP_GAs[VP]
                 for GA in GAs:
                     if GA in D1_CVE_GAv[CVE].keys():
-                        print("AAAAAAAAlert! GA in D1_CVE_GAv[CVE].keys()")
+                        print("AAAAAAAAlert! GA in D1_CVE_GAv[CVE_FSE].keys()")
                     else:
                         D1_CVE_GAv[CVE][GA] = CVE_VulnerableVPv[CVE][VP]
         # 清空为0的cve

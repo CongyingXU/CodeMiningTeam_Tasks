@@ -7,19 +7,19 @@ Created on 2020-02-20 11:48
 """
 
 from CommonFunction import JSONFIle_processing
-from CVE.Step3_ApplyCVEData import compareVersions
+from CVE_FSE.Step3_ApplyCVEData import compareVersions
 
 # pojs dependency_data, GA 为 key
 Pojs_GA_dependency_data_path = '/Users/congyingxu/Downloads/CodeMiningTeam_Tasks/GenerateDG/Dependency_Data/GAV_PojsDependency_data.json'
 Pojs_GA_dependency_data = {}
 
-CVE_GAInfo_data_path = "/Users/congyingxu/Downloads/CodeMiningTeam_Tasks/CVE/Local_Data/CVE_GAInfo.json"
+CVE_GAInfo_data_path = "/Users/congyingxu/Downloads/CodeMiningTeam_Tasks/CVE_FSE/Local_Data/CVE_GAInfo.json"
 CVE_GAInfo_data = {}
 
-LocalRepoVP_CVE_Data_path = "/Users/congyingxu/Downloads/CodeMiningTeam_Tasks/CVE/Local_Data/LocalRepoVP_CVE.json"
+LocalRepoVP_CVE_Data_path = "/Users/congyingxu/Downloads/CodeMiningTeam_Tasks/CVE_FSE/Local_Data/LocalRepoVP_CVE.json"
 LocalRepoVP_CVE_Data ={}
 
-VPV_CVE_Data_path = "/Users/congyingxu/Downloads/CodeMiningTeam_Tasks/CVE/Local_Data/VulnerableVP_CVE.json"
+VPV_CVE_Data_path = "/Users/congyingxu/Downloads/CodeMiningTeam_Tasks/CVE_FSE/Local_Data/VulnerableVP_CVE.json"
 VPV_CVE_Data = {}
 
 Vulnerable_Pojs_GAV_dependency_data = {}

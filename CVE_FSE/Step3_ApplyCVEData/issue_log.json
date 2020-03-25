@@ -1,0 +1,21 @@
+[
+    "apache__fdse__struts",
+    "apache__fdse__pdfbox",
+    "apache__fdse__isis",
+    "apache__fdse__kylin",
+    "apache__fdse__flume",
+    "apache__fdse__zeppelin",
+    "apache__fdse__maven",
+    "apache__fdse__giraph",
+    "apache__fdse__carbondata",
+    "apache__fdse__wicket",
+    "apache__fdse__felix",
+    "apache__fdse__systemml",
+    "apache__fdse__storm",
+    "apache__fdse__nifi",
+    "apache__fdse__camel",
+    "apache__fdse__tomcat",
+    "apache__fdse__opennlp",
+    "apache__fdse__activemq",
+    "apache__fdse__flink"
+]

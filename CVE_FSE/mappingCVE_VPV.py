@@ -8,7 +8,7 @@ Created on 2020-02-17 21:31
 from CommonFunction import File_processing, JSONFIle_processing
 import json
 
-CVE_Dataset_path = "/Users/congyingxu/Documents/FDSE_lab/CodeMiningTeam/CongyingXU/CVE/Dataset/"
+CVE_Dataset_path = "/Users/congyingxu/Documents/FDSE_lab/CodeMiningTeam/CongyingXU/CVE_FSE/Dataset/"
 CVE_VPV_Data_path = "Local_Data/CVE_VulnerableVP.json"
 VPV_CVE_Data_path = "Local_Data/VulnerableVP_CVE.json"
 
@@ -219,5 +219,5 @@ def main():
     write()
 
 main()
-print("CVE length:", len(CVE_VPV_Data.keys()))
+print("CVE_FSE length:", len(CVE_VPV_Data.keys()))
 print("fields: ",fields)

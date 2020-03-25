@@ -7,6 +7,7 @@ Created on 2019/12/2 16:47
 
 """
 import math
+
 print('hello world')
 
 # n = 1
@@ -23,20 +24,39 @@ print('hello world')
 #         n+=1
 
 
-import os
-import time
+# import os
+# import time
+#
+# def loop_Server():
+#     count = 0
+#     while True:
+#
+#         cmd = "python C:\\Users\\Congy\\PycharmProjects\\CodeMiningTeam_Tasks\\Client_Main.py CongyingXu_win"
+#         os.system(cmd)
+#         print("Count: ",count)
+#
+#         sleep_time = 60*60 * 3 #3h
+#         time.sleep(sleep_time)
+#         count+=1
+#
+#
+# loop_Server()
 
-def loop_Server():
-    count = 0
-    while True:
-
-        cmd = "python C:\\Users\\Congy\\PycharmProjects\\CodeMiningTeam_Tasks\\Client_Main.py CongyingXu_win"
-        os.system(cmd)
-        print("Count: ",count)
-
-        sleep_time = 60*60 * 3 #3h
-        time.sleep(sleep_time)
-        count+=1
 
 
-loop_Server()
+import logging,time
+
+def foo(s):
+    return 10 / int(s)
+def bar(s):
+    return foo(s)*2
+def main():
+    try:
+        bar('0')
+    except Exception as e:
+        logging.exception(e)
+        # print(e)
+main()
+print('最后执行了……')
+time.sleep(5)
+
