@@ -18,7 +18,7 @@ import random
 import requests
 from bs4 import BeautifulSoup
 from CommonFunction import JSONFIle_processing
-from fake_useragent import UserAgent
+# from fake_useragent import UserAgent
 # import selenium
 # from CommonFunction import SeleniumCrawlerFirefox
 
