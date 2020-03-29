@@ -23,6 +23,10 @@ wangying_todo_gradle_path = "Local_Data/wangying_FSE_Todo_GAV_List_gradle.json"
 wangying_todo_maven_path = "Local_Data/wangying_FSE_Todo_GAV_List_maven.json"
 
 
+lib_version = JSONFIle_processing.read("Local_Data/lib_versions.json")
+Maven_GroupIDs_path = "Local_Data/Maven_GroupIDs,json"
+Maven_GroupIDs = []
+
 wangying_todo_gradle = []
 wangying_todo_maven = []
 kaifeng_todo = []
@@ -117,5 +121,19 @@ def main_Serve():
     read()
     compare()
 
+# if __name__ == '__main__':
+#     main_Serve()
+
+
+def tongjiGroupIDNumber():
+    global Maven_GroupIDs
+    for ele in lib_version:
+        A_info = ele['lib'].split("__fdse__")[0]
+        Maven_GroupIDs.append(A_info)
+
+    JSONFIle_processing.write( list(set(Maven_GroupIDs)), Maven_GroupIDs_path )
+    print("len Maven_GroupIDs", len(list(set(Maven_GroupIDs))))
+    print("len Maven_GA", len(lib_version))
+
 if __name__ == '__main__':
-    main_Serve()
+    tongjiGroupIDNumber()

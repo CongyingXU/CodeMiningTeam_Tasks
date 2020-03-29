@@ -5,10 +5,18 @@ Created on 2020-03-25 18:04
 
 @author: congyingxu
 """
+import sys
+sys.path.append('../')  # 新加入的
 
+
+import time
+import random
 import requests
 from bs4 import BeautifulSoup
-from CommonFunction import JSONFIle_processing
+from CommonFunction import JSONFIle_processing,SeleniumCrawlerFirefox
+from fake_useragent import UserAgent
+
+print(0)
 
 
 headers = {
@@ -19,11 +27,10 @@ headers = {
 }
 cookies={'__jsluid':'8d3f4c75f437ca82cdfad85c0f4f7c25'}
 
-url = "https://snyk.io/vuln/%s"
 
+url = "https://snyk.io/vuln/%s"
 root_dir = "/Users/congyingxu/Downloads/"
 # root_dir = "/Volumes/My Passport/"
-
 
 page_store_dir = root_dir + "CVE/CrawledSnykHtmls/MavenItemPages/"
 snyk_maven_item_list_path = root_dir + "CVE/CrawledSnykHtmls/SnykMavenItemLists.json"
@@ -36,14 +43,45 @@ Snyk_vuln_lib_data = {}
 def getItempage(url):
     print("getPage", url)
 
-    reponse = requests.get(url, headers=headers, cookies=cookies)
-    # print( reponse.status_code )
+    # way 1
+    try:
+        reponse = requests.get(url , timeout=10, headers={"User-Agent":str(UserAgent(path = '/Users/congyingxu/Documents/fake_useragent_0.1.11.json').random)}, cookies=cookies)
+        # print( reponse.status_code )
+    except requests.exceptions.ReadTimeout:
+        print("requests.exceptions.ReadTimeout")
+        for i in range(10):
+            print(i)
+            time.sleep(1)
+        print("requests.exceptions.ReadTimeout. sleep over")
+        reponse = requests.get(url, timeout=10, headers={
+            "User-Agent": str(UserAgent(path='/Users/congyingxu/Documents/fake_useragent_0.1.11.json').random)},
+                               cookies=cookies)
+
     if reponse.status_code == 200:
-        html = reponse.text
+        html = reponse.text.encode("utf-8", "ignore")
     else:
         print("Sth wrong with crawler!")
         html = 'Error'
 
+
+    # way 2
+    # browser.get(url)
+    # browser.implicitly_wait(3)
+
+    # way 3
+    # global browser
+    # try:
+    #     browser.get(url)
+    #     pageSource = browser.page_source
+    #     # 打印页面源码
+    #     html = pageSource.encode("gbk", "ignore")
+    # except:
+    #     html = 'Error'
+    # browser.close()
+    # browser.quit()
+
+    # way 4
+    # html, title = SeleniumCrawlerFirefox.getHtmlFromUrl(url)
 
     return html
 
@@ -82,11 +120,12 @@ def extractItemInfo(html):
     # print( len( soup.find_all('div',attrs={"class":"card card--markdown"}) ))
     div = soup.find_all('div',attrs={"class":"card card--markdown"})[0]
     # print( len( div.find_all('ul' ) ))
-    ul = div.find_all('ul' )[-1]
+
+    ul = div.find_all('ul' )[-1]  # https://snyk.io/vuln/SNYK-JAVA-ORGAPACHESYNCOPE-32139
     # for ul in  div.find_all('ul'):
     for li in ul.find_all('li'):
             # print(li.text)
-            if 'GitHub Commit' in li.text:
+            if 'Commit' in li.text:
                 a = li.find_all('a')[0]
                 # print(a["href"])
                 ItemInfo["GithubCommit"].append(a["href"])
@@ -116,35 +155,40 @@ def readSnykitemList():
 
 def wirtehtml(html,file_name):
     with open(page_store_dir + file_name +'.html','w') as f:
-        f.write( str(html) )
+        f.write( str(html, encoding = "utf-8") )
 
 
 
 def main():
     global Snyk_dtem_data,Snyk_vuln_lib_data
+    print("main")
+
     snyk_maven_item_list = readSnykitemList()
     Snyk_dtem_data  =JSONFIle_processing.read(Snyk_dtem_data_path)
     Snyk_vuln_lib_data = JSONFIle_processing.read(Snyk_vuln_lib_data_path)
 
     for Snykitem in snyk_maven_item_list:
+        # time.sleep( random.random()*10 )
         if Snykitem in Snyk_dtem_data.keys():
             continue
 
+        # get html
         # url = 'https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-480332'
         # html = getItempage(url)
         html = getItempage( url % Snykitem )
         if html == 'Error':
             break
 
+        # write html
         wirtehtml(html,Snykitem)
-        ItemInfo = extractItemInfo(html)
-        Snyk_dtem_data[Snykitem] = ItemInfo
-
-
-        # break
+        # ItemInfo = extractItemInfo(html)
+        # Snyk_dtem_data[Snykitem] = ItemInfo
+        Snyk_dtem_data[Snykitem] = 'crawled'
 
         JSONFIle_processing.write(Snyk_dtem_data,Snyk_dtem_data_path)
-        JSONFIle_processing.write(Snyk_vuln_lib_data,Snyk_vuln_lib_data_path)
+        # JSONFIle_processing.write(Snyk_vuln_lib_data,Snyk_vuln_lib_data_path)
+
+        # break
 
 if __name__ == '__main__':
     main()

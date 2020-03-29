@@ -5,7 +5,10 @@ Created on 2020-03-25 16:51
 
 @author: congyingxu
 """
+import sys
+sys.path.append('../')  # 新加入的
 
+import time
 import requests
 from bs4 import BeautifulSoup
 from CommonFunction import JSONFIle_processing
@@ -19,9 +22,13 @@ headers = {
 }
 cookies={'__jsluid':'8d3f4c75f437ca82cdfad85c0f4f7c25'}
 
-url = "https://snyk.io/vuln/page/%s?type=maven"
-page_store_dir = "/Volumes/My Passport/CVE/CrawledSnykHtmls/MavenListPages/"
-snyk_maven_item_list_path = "/Volumes/My Passport/CVE/CrawledSnykHtmls/SnykMavenItemLists.json"
+root_dir = "/Users/congyingxu/Downloads/"
+# root_dir = "/Volumes/My Passport/"
+
+
+url = "https://snyk.io/vuln/page/%s?type=any"
+page_store_dir = root_dir + "CVE/CrawledSnykHtmls/MavenListPages/"
+snyk_maven_item_list_path = root_dir + "CVE/CrawledSnykHtmls/SnykMavenItemLists.json"
 
 
 snyk_maven_item_list = []
@@ -30,7 +37,17 @@ snyk_maven_item_list = []
 def getPage(url):
     print( "getPage",url )
 
-    reponse = requests.get(url, headers=headers, cookies=cookies)
+
+    # way 1
+    try:
+        reponse = requests.get(url, headers=headers, cookies=cookies)
+        # print( reponse.status_code )
+    except requests.exceptions.ReadTimeout:
+        print("requests.exceptions.ReadTimeout")
+        for i in range(10):
+            print(i)
+            time.sleep(1)
+        reponse = requests.get(url, headers=headers, cookies=cookies)
 
     # print( reponse.status_code )
     if reponse.status_code == 200:
@@ -72,7 +89,7 @@ def main():
     snyk_maven_item_list = set(JSONFIle_processing.read(snyk_maven_item_list_path))
 
 
-    for pageindex in range(1,117):
+    for pageindex in range(1,174):
         html = getPage( url % pageindex )
         wirtehtml(html,str(pageindex))
         extractSnykIDs(html)
@@ -81,4 +98,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    for i in range(10):
+        main()
