@@ -17,9 +17,10 @@ import time
 import random
 import requests
 from bs4 import BeautifulSoup
-from CommonFunction import JSONFIle_processing,SeleniumCrawlerFirefox
+from CommonFunction import JSONFIle_processing
 from fake_useragent import UserAgent
-import selenium
+# import selenium
+# from CommonFunction import SeleniumCrawlerFirefox
 
 headers = {
  'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -32,8 +33,9 @@ cookies={'__jsluid':'8d3f4c75f437ca82cdfad85c0f4f7c25'}
 
 
 url = 'https://www.cvedetails.com/cve/%s'
-root_dir = "/Users/congyingxu/Downloads/"
+# root_dir = "/Users/congyingxu/Downloads/"
 # root_dir = "/Volumes/My Passport/"
+root_dir = "/home/hadoop/dfs/data/Workspace/CongyingXU/"
 
 
 page_store_dir = root_dir + "CVE/CrawledCVEdetailsHtmls/Pages/"
@@ -48,9 +50,10 @@ CVEDetails_CVEID_list = []
 def getCVEdetailsItem(url):
     print("getPage", url)
     # way 1
-    reponse = requests.get(url, headers={
-        "User-Agent": str(UserAgent(path='/Users/congyingxu/Documents/fake_useragent_0.1.11.json').random)},
-                           cookies=cookies)
+    # reponse = requests.get(url, headers={
+    #     "User-Agent": str(UserAgent(path='/Users/congyingxu/Documents/fake_useragent_0.1.11.json').random)},
+    #                        cookies=cookies)
+    reponse = requests.get(url)
 
     print(reponse.status_code)
     if reponse.status_code == 200:
