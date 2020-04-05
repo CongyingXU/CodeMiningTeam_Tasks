@@ -13,7 +13,7 @@ import time
 import random
 import requests
 from bs4 import BeautifulSoup
-from CommonFunction import JSONFIle_processing,SeleniumCrawlerFirefox
+from CommonFunction import JSONFIle_processing
 from fake_useragent import UserAgent
 
 print(0)
@@ -53,13 +53,26 @@ def getItempage(url):
             print(i)
             time.sleep(1)
         print("requests.exceptions.ReadTimeout. sleep over")
-        reponse = requests.get(url, timeout=10, headers={
-            "User-Agent": str(UserAgent(path='/Users/congyingxu/Documents/fake_useragent_0.1.11.json').random)},
-                               cookies=cookies)
+
+        try:
+            reponse = requests.get(url, timeout=10, headers={
+                "User-Agent": str(UserAgent(path='/Users/congyingxu/Documents/fake_useragent_0.1.11.json').random)},
+                                   cookies=cookies)
+        except requests.exceptions.ReadTimeout:
+            print("requests.exceptions.ReadTimeout")
+            for i in range(60):
+                print(i)
+                time.sleep(1)
+            print("requests.exceptions.ReadTimeout. sleep over")
+
+            reponse = requests.get(url, timeout=10, headers={
+                "User-Agent": str(UserAgent(path='/Users/congyingxu/Documents/fake_useragent_0.1.11.json').random)},
+                                   cookies=cookies)
 
     if reponse.status_code == 200:
         html = reponse.text.encode("utf-8", "ignore")
     else:
+        print(reponse.status_code)
         print("Sth wrong with crawler!")
         html = 'Error'
 
@@ -154,6 +167,7 @@ def readSnykitemList():
     return snyk_maven_item_list
 
 def wirtehtml(html,file_name):
+    file_name = file_name.replace(':','__')
     with open(page_store_dir + file_name +'.html','w') as f:
         f.write( str(html, encoding = "utf-8") )
 
@@ -185,10 +199,14 @@ def main():
         # Snyk_dtem_data[Snykitem] = ItemInfo
         Snyk_dtem_data[Snykitem] = 'crawled'
 
-        JSONFIle_processing.write(Snyk_dtem_data,Snyk_dtem_data_path)
+        if Snykitem[-1] == '1':
+            print('write')
+            JSONFIle_processing.write(Snyk_dtem_data,Snyk_dtem_data_path)
         # JSONFIle_processing.write(Snyk_vuln_lib_data,Snyk_vuln_lib_data_path)
 
         # break
+    JSONFIle_processing.write(Snyk_dtem_data, Snyk_dtem_data_path)
+
 
 if __name__ == '__main__':
     main()

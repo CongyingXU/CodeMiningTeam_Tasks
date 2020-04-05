@@ -4,14 +4,76 @@
 Created on 2020-03-27 01:21  
 
 @author: congyingxu
+
+
+swift 2
+os 2800
+csharp 360
+php 1100
+go 540
+objectivec 720
+ruby 680
+cpp 640
+python 920
+javascript 1880
+java 1700
+总数和：11342
+并集数据量：11221
+
+
+
+len(sid_list) 11221
+------------------------- url:https://api.sourceclear.com/artifacts/components/6799
+401
+sssssssid sid-6799
+------------------------- url:https://api.sourceclear.com/artifacts/components/20709
+401
+sssssssid sid-20709
+------------------------- url:https://api.sourceclear.com/artifacts/components/1796
+401
+sssssssid sid-1796
+------------------------- url:https://api.sourceclear.com/artifacts/components/12316
+401
+sssssssid sid-12316
+------------------------- url:https://api.sourceclear.com/artifacts/components/7540
+401
+sssssssid sid-7540
+------------------------- url:https://api.sourceclear.com/artifacts/components/5638
+401
+sssssssid sid-5638
+------------------------- url:https://api.sourceclear.com/artifacts/components/16661
+401
+sssssssid sid-16661
+------------------------- url:https://api.sourceclear.com/artifacts/components/13708
+401
+sssssssid sid-13708
+------------------------- url:https://api.sourceclear.com/artifacts/components/7294
+401
+sssssssid sid-7294
+------------------------- url:https://api.sourceclear.com/artifacts/components/5446
+401
+sssssssid sid-5446
+------------------------- url:https://api.sourceclear.com/artifacts/components/7334
+401
+sssssssid sid-7334
+------------------------- url:https://api.sourceclear.com/artifacts/components/5505
+401
+sssssssid sid-5505
+------------------------- url:https://api.sourceclear.com/artifacts/components/13251
+401
+sssssssid sid-13251
+failure_count 13
 """
 
 import sys
 sys.path.append('../')  # 新加入的
+from CommonFunction import JSONFIle_processing
+
+
 
 import json
 import os
-
+import random
 import requests
 
 from selenium import webdriver
@@ -23,13 +85,20 @@ from selenium.webdriver.support import expected_conditions as EC
 
 import CrawlUtil
 import FileUtil
-
+import UserAgents
 
 class SeleniumCrawler:
 
     def __init__(self):
         # self.driver_path = r'C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe'
         self.driver_path =  '/Users/congyingxu/Documents/chromedriver'
+        self.CrawledVearCodeHtmls_dir = '/Users/congyingxu/Downloads/CVE/CrawledVearCodeHtmls/'
+        self.LanguageVulnerList_dir = '/Users/congyingxu/Downloads/CVE/CrawledVearCodeHtmls/LanguageVulnerList/'
+        self.VearCodeItems_dir = '/Users/congyingxu/Downloads/CVE/CrawledVearCodeHtmls/VearCodeItems/'
+        self.VearCodeArtifact_dir = '/Users/congyingxu/Downloads/CVE/CrawledVearCodeHtmls/VearCodeArtifacts/'
+        # language = "os"  # csharp php go swift objectivec ruby cpp python javascript java
+        self.language_list = ['swift', 'os', 'csharp', 'php', 'go', 'objectivec', 'ruby', 'cpp', 'python', 'javascript',
+                         'java']
 
     def crawl(self):
         # 初始化一个driver，并且指定chromedriver的路径
@@ -38,9 +107,10 @@ class SeleniumCrawler:
         # elements = self.browser.find_elements_by_css_selector("[class=\"grid pt--\"]")
         total_num = 0
 
-        language  = "all" # python javascript
-        # self.browser.get('https://sca.analysiscenter.veracode.com/vulnerability-database/search#query=type:vulnerability%20language:' + language)
-        self.browser.get('https://sca.analysiscenter.veracode.com/vulnerability-database/search#query=type:vulnerability')
+        #       
+        language  = "os"  # csharp php go swift objectivec ruby cpp python javascript
+        self.browser.get('https://sca.analysiscenter.veracode.com/vulnerability-database/search#query=type:vulnerability%20language:' + language)
+        # self.browser.get('https://sca.analysiscenter.veracode.com/vulnerability-database/search#query=type:vulnerability')
         elements = self.browser.find_elements_by_css_selector(".grid.pt--")
         curr_num = len(elements)
         # print(curr_num)
@@ -125,37 +195,94 @@ class SeleniumCrawler:
         #     print(name)
         # print(total)
 
-    def request_detail_json(self):
-        detail_dir = "../datas/vulnerability/detail/"
-        components_url = "https://api.sourceclear.com/artifacts/components/"
+    def extract_sid_list(self):
 
-        files = os.listdir(detail_dir)
-        for file in files:
-            if file.endswith(".html"):
-                sid = file[:-5].replace("sid-", "")
-                output_file = detail_dir + "affected_lib/" + sid + ".json"
+
+        # 读取语言漏洞的列表信息，提取sid
+        sid_list = []
+        sid_url_list = []
+        for language in self.language_list:
+            input_file = self.LanguageVulnerList_dir + language + '.html'
+            java_vuls = FileUtil.read_file_string(input_file)
+            soup = BeautifulSoup(java_vuls, "lxml")
+            elements = soup.find_all(class_='grid pt--')
+            print(language, len(elements))
+            pre_part_sid_url = "https://sca.analysiscenter.veracode.com"
+            for e in elements:
+                link_element = e.find(class_='link--no-underline')
+                url = pre_part_sid_url + link_element["href"]
+                sid_url_list.append(url)
+
+                sid = url.split('/')[-2]
+                sid_list.append(sid)
+                # name = url.replace("/summary", "")
+                # name = name[name.rfind("/") + 1:]
+            # break
+        print(len(sid_list), len(sid_url_list))
+        sid_list = list(set(sid_list))
+        sid_url_list = list(set(sid_url_list))
+        print(len(sid_list), len(sid_url_list))
+        JSONFIle_processing.write(sid_list, self.CrawledVearCodeHtmls_dir + 'vearcode_sid_list.json')
+        JSONFIle_processing.write(sid_url_list, self.CrawledVearCodeHtmls_dir + 'veracode_sid_url_list.json')
+
+
+    def request_detail_json(self):
+
+        #根据sid list，请求相关的json数据
+        sid_list = JSONFIle_processing.read(self.CrawledVearCodeHtmls_dir + 'vearcode_sid_list.json')
+        print("len(sid_list)",len(sid_list))
+        sid_list  =list( set( sid_list ) )
+        print("len(sid_list)", len(sid_list))
+        components_url = "https://api.sourceclear.com/artifacts/components/"
+        failure_count = 0
+
+        for sid in sid_list:
+
+                output_file = self.VearCodeItems_dir + sid + ".json"
                 if os.path.exists(output_file):
                     continue
-                response = CrawlUtil.request_url(components_url + sid)
+                # 参考博客 https://segmentfault.com/q/1010000008473868
+                url = components_url + sid[4:]
+                response = CrawlUtil.session_get_url(url)
+                # print(response.status_code)
+                # print( response.text)
                 if response.status_code == requests.codes.ok:
                     # print(response.text)
                     FileUtil.write_json(output_file, json.loads(response.text))
                 else:
+                    failure_count +=1
+                    print( response.status_code )
+                    # print(response.text)
                     print("sssssssid " + sid)
+        print("failure_count",failure_count)
 
-    def crawl_safe_version(self):
-        lib_vulne = FileUtil.read_json("../datas/vulnerability/detail/lib_vulne.json")
-        print(len(lib_vulne))
+    def request_Artifact_json(self):
 
-        count = 0
-        for lib in lib_vulne:
-            count += len(lib_vulne[lib])
-        print(count)
+        # 根据sid list，请求相关的json数据
+        components_url = "https://api.sourceclear.com/catalog/components/"
+
+        for sid in range(1,100000):
+
+            output_file = self.VearCodeArtifact_dir + str(sid) + ".json"
+            if os.path.exists(output_file):
+                continue
+            # 参考博客 https://segmentfault.com/q/1010000008473868
+            url = components_url + str(sid)
+            response = CrawlUtil.session_get_url(url)
+            # print(response.status_code)
+            # print( response.text)
+            if response.status_code == requests.codes.ok:
+                # print(response.text)
+                FileUtil.write_json(output_file, json.loads(response.text))
+            else:
+                print(response.status_code)
+                # print(response.text)
+                print("sssssssid " + str(sid))
 
 
 if __name__ == "__main__":
     sc = SeleniumCrawler()
-    sc.crawl()
-    sc.crawl_detail()
-    sc.request_detail_json()
-    # sc.crawl_safe_version()
+    # sc.crawl() # 对应语言，根据链接，浏览器爬取list信息
+    # sc.extract_sid_list() # 抽取list信息
+    # sc.request_detail_json() # 爬取对应sid的信息
+    sc.request_Artifact_json() # 爬取artifact的信息

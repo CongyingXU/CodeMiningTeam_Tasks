@@ -20,6 +20,35 @@ def request_url(url):
     print('------------------------- url:' + url)
     headers = {'User-Agent': random.choice(UserAgents.agents)}
     url_content = requests.get(url, headers=headers, verify=False)
+    # requests.
+    return url_content
+
+
+def session_get_url(url):
+    # 参考博客 https://segmentfault.com/q/1010000008473868
+    print('------------------------- url:' + url)
+    session = requests.Session()
+    session.headers = {
+        'User-Agent': random.choice(UserAgents.agents),
+        'Host': 'api.sourceclear.com',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Connection': 'keep-alive',
+        'Cookie': 'sp_collector=430868eb-0555-41b2-b1a1-2f81d74b93f5',
+        'Upgrade-Insecure-Requests': '1'
+    }
+
+
+    try :
+        url_content = session.get(url,timeout=10)
+    except:
+        print("requests.exceptions.ReadTimeout")
+        for i in range(10):
+            print(i)
+            time.sleep(1)
+        print("requests.exceptions.ReadTimeout. sleep over")
+        url_content = session.get(url, timeout=10)
     return url_content
 
 
