@@ -37,7 +37,7 @@ cookies={'__jsluid':'8d3f4c75f437ca82cdfad85c0f4f7c25'}
 root_url  = "https://nvd.nist.gov/vuln/detail/%s/cpes?expandCpeRanges=true"
 
 html_dir = "/home/hadoop/dfs/data/Workspace/CongyingXU/CVE/DataSet-NVD/NVDCpeRange/htmls/"
-NVD_CVEID_list_path = "/Users/congyingxu/Downloads/CVE/MetaData/NVD_CVEID_list.json"
+NVD_CVEID_list_path = "/home/hadoop/dfs/data/Workspace/CongyingXU/CVE/MetaData/NVD_CVEID_list.json"
 
 # html_dir = "/Users/congyingxu/Downloads/CVE/DataSet-NVD/NVDCpeRange/htmls/"
 # items_dir = "/Users/congyingxu/Downloads/CVE/DataSet-NVD/NVDCpeRange/items/"
