@@ -41,7 +41,7 @@ NVD_CVEID_list_path = "/home/hadoop/dfs/data/Workspace/CongyingXU/CVE/MetaData/N
 
 # html_dir = "/Users/congyingxu/Downloads/CVE/DataSet-NVD/NVDCpeRange/htmls/"
 # items_dir = "/Users/congyingxu/Downloads/CVE/DataSet-NVD/NVDCpeRange/items/"
-NVD_CVEID_list_path = "/Users/congyingxu/Downloads/CVE/MetaData/NVD_CVEID_list.json"
+# NVD_CVEID_list_path = "/Users/congyingxu/Downloads/CVE/MetaData/NVD_CVEID_list.json"
 
 
 NVD_CVEID_list = JSONFIle_processing.read(NVD_CVEID_list_path)
