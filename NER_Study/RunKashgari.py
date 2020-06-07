@@ -45,9 +45,10 @@ def TrainBi_LSTM():
     model.evaluate(KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y)
     # Model data will save to `saved_ner_model` folder
     model.save('saved_ner_model')
-    print('start to load')
-    loaded_model = kashgari.utils.load_model('saved_ner_model')
-    loaded_model.predict(KashgariUsgaeInstance.test_x[:10])
+    print('TrainedModels/start to load')
+    loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model')
+    res = loaded_model.predict(KashgariUsgaeInstance.test_x[:10])
+    print(res)
 
 
 def TrainBERTEmbedding():
@@ -67,10 +68,15 @@ def TrainBERTEmbedding():
     model.evaluate(KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y)
 
     # Model data will save to  `saved_ner_model` folder
-    model.save('TrainedModels/')
+    model.save('TrainedModels/saved_ner_model_Chinese_BERT0607')
+
+    loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Chinese_BERT0607')
+    res = loaded_model.predict(KashgariUsgaeInstance.test_x[:10])
+    print(res)
 
 
 
 if __name__ == '__main__':
     ImportCorpus()
-    TrainBi_LSTM()
+    # TrainBi_LSTM()
+    TrainBERTEmbedding()
