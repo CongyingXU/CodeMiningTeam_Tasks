@@ -10,13 +10,16 @@ Created on 2020-04-04 12:27
 
 from CommonFunction import JSONFIle_processing, File_processing
 from bs4 import BeautifulSoup
-
+from CVE_HW import CONFIG
+import urllib
 
 class CVEDictionary:
 
     def __init__(self):
-        self.CVE_dataset_file_path = "/Users/congyingxu/Downloads/CVE/DataSet-CVE_MITRE/allitems.xml"
-        self.CVEItems_dir = "/Users/congyingxu/Downloads/CVE/DataSet-CVE_MITRE/CVEItems/"
+        # self.CVE_dataset_file_path = "/Users/congyingxu/Downloads/CVE/DataSet-CVE_MITRE/allitems.xml"
+        # self.CVEItems_dir = "/Users/congyingxu/Downloads/CVE/DataSet-CVE_MITRE/CVEItems/"
+        self.CVE_dataset_file_path = CONFIG.CVE_dataset_file_path
+        self.CVEItems_dir = CONFIG.CVEItems_dir
 
         self.CVE_dataset = '' # xml
         self.CVE_dataset_soup = ''
@@ -72,7 +75,8 @@ class CVEDictionary:
                 url = ref["url"]
             except KeyError:
                 continue
-            full_url = src + "__fdse__" + url
+            full_url = src + "__fdse__" + url.replace('&amp;','&')
+            full_url = urllib.parse.unquote(urllib.parse.unquote(full_url))
             CVEID_Info[CVEID]['refs'].append(full_url.replace('&amp;','&'))
 
         # CVEID_Info[CVEID]['refs'] = {phase.text: phase["date"]}

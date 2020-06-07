@@ -67,6 +67,7 @@ failure_count 13
 
 import sys
 sys.path.append('../')  # 新加入的
+sys.path.append('../../')  # 新加入的
 from CommonFunction import JSONFIle_processing
 
 
@@ -82,6 +83,7 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
+from CVE_HW import CONFIG
 
 import CrawlUtil
 import FileUtil
@@ -91,11 +93,11 @@ class SeleniumCrawler:
 
     def __init__(self):
         # self.driver_path = r'C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe'
-        self.driver_path =  '/Users/congyingxu/Documents/chromedriver'
-        self.CrawledVearCodeHtmls_dir = '/Users/congyingxu/Downloads/CVE/CrawledVearCodeHtmls/'
-        self.LanguageVulnerList_dir = '/Users/congyingxu/Downloads/CVE/CrawledVearCodeHtmls/LanguageVulnerList/'
-        self.VearCodeItems_dir = '/Users/congyingxu/Downloads/CVE/CrawledVearCodeHtmls/VearCodeItems/'
-        self.VearCodeArtifact_dir = '/Users/congyingxu/Downloads/CVE/CrawledVearCodeHtmls/VearCodeArtifacts/'
+        self.driver_path =  CONFIG.ChromeDriver_path
+        self.CrawledVearCodeHtmls_dir = CONFIG.VearCodeCrawledVearCodeHtmls_dir
+        self.LanguageVulnerList_dir = CONFIG.VearCodeLanguageVulnerList_dir
+        self.VearCodeItems_dir = CONFIG.VearCodeItems_dir
+        self.VearCodeArtifact_dir = CONFIG.VearCodeArtifact_dir
         # language = "os"  # csharp php go swift objectivec ruby cpp python javascript java
         self.language_list = ['swift', 'os', 'csharp', 'php', 'go', 'objectivec', 'ruby', 'cpp', 'python', 'javascript',
                          'java']
@@ -256,15 +258,18 @@ class SeleniumCrawler:
                     print("sssssssid " + sid)
         print("failure_count",failure_count)
 
-    def request_Artifact_json(self):
+    def request_Artifact_json(self,start_index):
 
         # 根据sid list，请求相关的json数据
         components_url = "https://api.sourceclear.com/catalog/components/"
 
-        for sid in range(1,100000):
+        Vearcode_404List_path = 'Vearcode_404List.json'
+        Vearcode_404List = JSONFIle_processing.read(Vearcode_404List_path)
+
+        for sid in range(start_index,10000 * 100):
 
             output_file = self.VearCodeArtifact_dir + str(sid) + ".json"
-            if os.path.exists(output_file):
+            if os.path.exists(output_file) or sid in Vearcode_404List:
                 continue
             # 参考博客 https://segmentfault.com/q/1010000008473868
             url = components_url + str(sid)
@@ -278,6 +283,12 @@ class SeleniumCrawler:
                 print(response.status_code)
                 # print(response.text)
                 print("sssssssid " + str(sid))
+                if str( response.status_code ) == '404':
+                    print('write')
+                    Vearcode_404List = JSONFIle_processing.read(Vearcode_404List_path) # 因为多进程并发，所以保证写之前，读取更新一下！
+                    Vearcode_404List.append(sid)
+                    JSONFIle_processing.write(Vearcode_404List,Vearcode_404List_path)
+
 
 
 if __name__ == "__main__":
@@ -285,4 +296,4 @@ if __name__ == "__main__":
     # sc.crawl() # 对应语言，根据链接，浏览器爬取list信息
     # sc.extract_sid_list() # 抽取list信息
     # sc.request_detail_json() # 爬取对应sid的信息
-    sc.request_Artifact_json() # 爬取artifact的信息
+    sc.request_Artifact_json( int(sys.argv[1]) ) # 爬取artifact的信息

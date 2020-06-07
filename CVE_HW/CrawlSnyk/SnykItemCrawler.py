@@ -15,6 +15,7 @@ import requests
 from bs4 import BeautifulSoup
 from CommonFunction import JSONFIle_processing
 from fake_useragent import UserAgent
+from CVE_HW import CONFIG
 
 print(0)
 
@@ -29,13 +30,11 @@ cookies={'__jsluid':'8d3f4c75f437ca82cdfad85c0f4f7c25'}
 
 
 url = "https://snyk.io/vuln/%s"
-root_dir = "/Users/congyingxu/Downloads/"
-# root_dir = "/Volumes/My Passport/"
 
-page_store_dir = root_dir + "CVE/CrawledSnykHtmls/MavenItemPages/"
-snyk_maven_item_list_path = root_dir + "CVE/CrawledSnykHtmls/SnykMavenItemLists.json"
-Snyk_dtem_data_path = root_dir + "CVE/CrawledSnykHtmls/SnykMavenItemInfo.json"
-Snyk_vuln_lib_data_path = root_dir + "CVE/CrawledSnykHtmls/Snyk_vuln_lib.json"
+page_store_dir = CONFIG.Snyk_page_store_dir
+snyk_maven_item_list_path = CONFIG.Snyk_Snky_item_list_path
+Snyk_dtem_data_path = CONFIG.Snyk_item_data_path
+Snyk_vuln_lib_data_path = CONFIG.Snyk_vuln_lib_data_path
 
 Snyk_dtem_data = {}
 Snyk_vuln_lib_data = {}

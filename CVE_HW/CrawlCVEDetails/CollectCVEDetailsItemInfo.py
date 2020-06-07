@@ -39,17 +39,20 @@ Metasploit Modules
 
 from CommonFunction import JSONFIle_processing, File_processing
 from bs4 import BeautifulSoup
+from CVE_HW import CONFIG
+import os
 
 
-CVEDetails_pages_dir = "/Users/congyingxu/Downloads/CVE/CrawledCVEdetailsHtmls/Pages/"
-CVEDetailsItems_dir = "/Users/congyingxu/Downloads/CVE/CrawledCVEdetailsHtmls/CVEDetailsItems/"
-
-CVEDetails_CVEID_list = []
-CVEDetails_CVEID_list_path = "/Users/congyingxu/Downloads/CVE/MetaData/CVEDetails_CVEID_list.json"
+CVEDetails_pages_dir = CONFIG.CVEDetails_pages_dir
+CVEDetailsItems_dir = CONFIG.CVEdetialsItems_dir
 
 
-CVE_CVEID_list_path = "/Users/congyingxu/Downloads/CVE/MetaData/CVE_CVEID_list.json"
-CVE_CVEID_list = JSONFIle_processing.read(CVE_CVEID_list_path)
+CVEDetails_CVEID_list_path = CONFIG.CVEDetails_CVEID_list_path
+CVEDetails_CVEID_list = JSONFIle_processing.read(CVEDetails_CVEID_list_path)
+
+
+CVE_CVEID_list_path = CONFIG.CVE_CVEID_list_dir
+CVE_CVEID_list =  JSONFIle_processing.read(CVE_CVEID_list_path)
 
 
 log_item_info = False
@@ -64,6 +67,11 @@ def extractItem(CVEID):
     if "Unknown CVE ID" in html:
         # print("Unknown CVE ID",CVEID)
         return
+    # 已存在
+    # item_path = CVEDetailsItems_dir + CVEID + '.json'
+    # if os.path.exists(item_path):
+    #     CVEDetails_CVEID_list.append(CVEID)
+    #     return
 
 
 
@@ -300,7 +308,6 @@ def extractItem(CVEID):
     # print()
     # print(item_info)
 
-    CVEDetails_CVEID_list.append(CVEID)
     item_path = CVEDetailsItems_dir + CVEID +'.json'
     JSONFIle_processing.write(json_content=item_info,path=item_path)
 
@@ -317,7 +324,7 @@ def main():
         # extractItem("CVE-2004-1864")
         # break
 
-    JSONFIle_processing.write(CVEDetails_CVEID_list,CVEDetails_CVEID_list_path)
+    JSONFIle_processing.write(list(set(CVEDetails_CVEID_list)),CVEDetails_CVEID_list_path)
 
 if __name__ == '__main__':
     main()

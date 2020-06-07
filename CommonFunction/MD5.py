@@ -25,4 +25,4 @@ def MakeMD5byString(str_content):
     return str(_hash)
 
 
-# print(md5sum('c:/Users/Congy/Downloads/junit-4.8.1.jar'))
+print(MakeMD5byString('com.typesafe__fdse__config'))

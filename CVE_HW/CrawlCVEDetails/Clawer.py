@@ -17,10 +17,12 @@ import time
 import random
 import requests
 from bs4 import BeautifulSoup
-from CommonFunction import JSONFIle_processing
+from CommonFunction import JSONFIle_processing, File_processing
 # from fake_useragent import UserAgent
 # import selenium
-# from CommonFunction import SeleniumCrawlerFirefox
+from CommonFunction import SeleniumCrawlerChrome
+from CVE_HW import CONFIG
+from CVE_HW.CrawlCVEDetails import CollectCVEDetailsItemInfo
 
 headers = {
  'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -35,8 +37,9 @@ cookies={'__jsluid':'8d3f4c75f437ca82cdfad85c0f4f7c25'}
 url = 'https://www.cvedetails.com/cve/%s'
 # root_dir = "/Users/congyingxu/Downloads/"
 # root_dir = "/Volumes/My Passport/"
-root_dir = "/home/hadoop/dfs/data/Workspace/CongyingXU/"
+# root_dir = "/home/hadoop/dfs/data/Workspace/CongyingXU/"
 
+root_dir = CONFIG.root_dir
 
 page_store_dir = root_dir + "CVE/CrawledCVEdetailsHtmls/Pages/"
 CVE_CVEID_list_path = root_dir + 'CVE/MetaData/CVE_CVEID_list.json'
@@ -72,6 +75,7 @@ def writePage(html,filename):
 
     with open(page_store_dir + filename + 'atCVEDetails.html', 'w') as f:
         f.write(str(html, encoding = "utf-8")  )
+    # print((page_store_dir + filename + 'atCVEDetails.html'))
 
 
 
@@ -113,6 +117,50 @@ def main():
 
 
 
+
+def BuChongCrawler():
+    # 由于有些页面爬取有问题，现检测出来，重新爬取一下
+    # CVE-2000-0775 ： http://www.securityfocus.com/templates/archive.pike?list=1&msg=399a01c01122$0d7f2310$0201a8c0@aviram
+
+    # check: ro re-crawl cve list
+    for filename in sorted( File_processing.walk_L1_FileNames( CONFIG.CVEdetialsItems_dir ) ):
+        if filename.startswith('.'):
+            continue
+        # print(filename)
+        cve = filename.split('.json')[0]
+        # cve = 'CVE-2000-0775'
+        # filename = cve + '.json'
+        ItemPath = CONFIG.CVEdetialsItems_dir + filename
+        Item_data = JSONFIle_processing.read(ItemPath)
+
+        if Item_data['References'] == None:
+            continue
+        else:
+            # CVEdetialsItem.Reference = [ele.split(' ')[0] for ele in Item_data['References']]
+            for ele in Item_data['References']:
+                # ele =
+                if '[email\xa0protected]' in ele: # CVE-2017-0553 email\xa0protected] 'https://lists.fedoraproject.org/archives/list/[email\xa0protected]/message/KIHASXRQO2YTQPKVP4VGIB2XHPANG6YX/',
+                    # print(ele)
+                    # 补爬
+                    # html, title = getCVEdetailsItem(url % cve)
+                    # html, title = SeleniumCrawlerFirefox.getHtmlFromUrl(url % cve) # 太慢了
+                    html, title = SeleniumCrawlerChrome.getHtmlFromUrl(url % cve)
+                    if html == 'Error':
+                        break
+                    # 保存html
+                    # 该cveid不存在
+                    if title == 'CVE security vulnerability database. Security vulnerabilities, exploits, references and more':
+                        continue
+                    elif title == 'www.cvedetails.com':  # 访问不成功
+                        break
+                    else:
+                        print(filename)
+                        writePage(html, cve)
+                        CollectCVEDetailsItemInfo.extractItem(cve)
+                        break
+
+
 if __name__ == '__main__':
-    main()
+    # main()
+    BuChongCrawler()
 

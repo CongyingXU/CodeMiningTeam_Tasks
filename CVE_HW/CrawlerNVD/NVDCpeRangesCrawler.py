@@ -17,11 +17,10 @@ import random
 import os
 from CVE_HW.CrawlVearcode import UserAgents
 from CommonFunction import JSONFIle_processing
-
 from bs4 import BeautifulSoup
 from CommonFunction import SeleniumCrawlerChrome
 from fake_useragent import UserAgent
-
+from CVE_HW import CONFIG
 
 
 
@@ -39,9 +38,9 @@ root_url  = "https://nvd.nist.gov/vuln/detail/%s/cpes?expandCpeRanges=true"
 # html_dir = "/home/hadoop/dfs/data/Workspace/CongyingXU/CVE/DataSet-NVD/NVDCpeRange/htmls/"
 # NVD_CVEID_list_path = "/home/hadoop/dfs/data/Workspace/CongyingXU/CVE/MetaData/NVD_CVEID_list.json"
 
-html_dir = "/Users/congyingxu/Downloads/CVE/DataSet-NVD/NVDCpeRange/htmls/"
-items_dir = "/Users/congyingxu/Downloads/CVE/DataSet-NVD/NVDCpeRange/items/"
-NVD_CVEID_list_path = "/Users/congyingxu/Downloads/CVE/MetaData/NVD_CVEID_list.json"
+html_dir = CONFIG.NVDCperange_html_dir
+items_dir = CONFIG.NVDCperange_items_dir
+NVD_CVEID_list_path = CONFIG.NVD_CVEID_list_path
 
 
 NVD_CVEID_list = JSONFIle_processing.read(NVD_CVEID_list_path)
@@ -125,14 +124,15 @@ def extractHtml(html):
 
 def main():
     count  = 0
-    for CVEID in NVD_CVEID_list[90000:]:
+    for CVEID in NVD_CVEID_list[109500:]:
+        print(CVEID, count,'done')
         count += 1
         full_url = root_url % CVEID
         file_path = html_dir + CVEID + '.html'
         if os.path.exists(file_path):
                 continue
 
-        print(CVEID,count)
+        print(CVEID, count)
         html = crawlerNVDCpeRanges(full_url, CVEID)
         if html == 'Error':
             break
@@ -140,4 +140,5 @@ def main():
             wirtehtml(html=html, file_path=file_path)
 
 if __name__ == '__main__':
+    print('start')
     main()

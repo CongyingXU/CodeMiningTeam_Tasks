@@ -5,29 +5,7 @@ Created on 2020-04-02 14:41
 
 @author: congyingxu
 
-用于解析并收集所有SID的模块信息
-
-Meta-Module：
-
-Title
-Affected package & Vesion
-Overview
-Details ：PoC by snyk有代码信息，json不太好存
-Types of attacks
-Affected environments
-How to prevent
-Remediation
-Reference
-Patch: from Reference Github commit / other forms?
-
-CVSS Score & Vector
-
-Credit ? is the same as CVE's contibutor
-CVE
-CWE
-SNYK-ID
-Disclosed Date
-Published Data
+用于收集Vearcode 平台漏洞item数据，以及提取出CVE相关数据
 """
 
 

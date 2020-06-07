@@ -32,7 +32,7 @@ class ChromeBrowser:
     options = ''
 
     def __init__(self):
-        self.setprofile()
+        # self.setprofile()
         self.setOptions()
         self.creatbrowser()
         self.setTomeout()

@@ -44,7 +44,7 @@ def session_get_url(url):
         url_content = session.get(url,timeout=10)
     except:
         print("requests.exceptions.ReadTimeout")
-        for i in range(10):
+        for i in range(130):
             print(i)
             time.sleep(1)
         print("requests.exceptions.ReadTimeout. sleep over")
