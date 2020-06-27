@@ -61,12 +61,12 @@ def TrainBERTEmbedding():
     model.save('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
 
     loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
-    res = loaded_model.predict(KashgariUsgaeInstance.test_x[:10])
-    print(KashgariUsgaeInstance.test_x[:10])
+    res = loaded_model.predict(KashgariUsgaeInstance.test_x[:100])
+    print(KashgariUsgaeInstance.test_x[:100])
     print(res)
 
 
 
 if __name__ == '__main__':
     ImportCorpus()
-    # TrainBERTEmbedding()
+    TrainBERTEmbedding()
