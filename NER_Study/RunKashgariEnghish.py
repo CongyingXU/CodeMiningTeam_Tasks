@@ -71,14 +71,16 @@ def EvaluateModel():
     loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
 
     x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_train.txt')
-    print('sqli_train', loaded_model.evaluate(x_data, y_data) )
+    print( len(x_data), 'sqli_train\n', loaded_model.evaluate(x_data, y_data) )
     x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/xss_train.txt')
-    print('xss_train', loaded_model.evaluate(x_data, y_data))
+    print(len(x_data), 'xss_train\n', loaded_model.evaluate(x_data, y_data))
     x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/gainpre_test.txt')
-    print('gainpre_test', loaded_model.evaluate(x_data, y_data))
+    print(len(x_data), 'gainpre_test\n', loaded_model.evaluate(x_data, y_data))
     x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/csrf_train.txt')
-    print('csrf_train', loaded_model.evaluate(x_data, y_data))
-    # print(res)
+    print(len(x_data), 'sqli_train\n', loaded_model.evaluate(x_data, y_data))
+    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/bypass_train.txt')
+    print(len(x_data), 'bypass_train\n', loaded_model.evaluate(x_data, y_data))
+
 
 
 
