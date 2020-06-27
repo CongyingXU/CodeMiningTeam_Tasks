@@ -79,4 +79,5 @@ def EvaluateModel():
 
 if __name__ == '__main__':
     ImportCorpus()
-    TrainBERTEmbedding()
+    # TrainBERTEmbedding()
+    EvaluateModel()
