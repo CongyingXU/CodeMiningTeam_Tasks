@@ -69,10 +69,15 @@ def TrainBERTEmbedding():
 
 def EvaluateModel():
     loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
-    print('sqli_train', loaded_model.evaluate('Dataset/ner_data/sqli_train.txt') )
-    print('xss_train', loaded_model.evaluate('Dataset/ner_data/xss_train.txt'))
-    print('gainpre_test', loaded_model.evaluate('Dataset/ner_data/gainpre_test.txt'))
-    print('csrf_train', loaded_model.evaluate('Dataset/ner_data/csrf_train.txt'))
+
+    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_train.txt')
+    print('sqli_train', loaded_model.evaluate(x_data, y_data) )
+    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/xss_train.txt')
+    print('xss_train', loaded_model.evaluate(x_data, y_data))
+    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/gainpre_test.txt')
+    print('gainpre_test', loaded_model.evaluate(x_data, y_data))
+    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/csrf_train.txt')
+    print('csrf_train', loaded_model.evaluate(x_data, y_data))
     # print(res)
 
 
