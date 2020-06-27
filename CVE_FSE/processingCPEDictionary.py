@@ -10,7 +10,6 @@ from bs4 import BeautifulSoup
 import json
 
 dictionary_file_path = "Local_Data/official-cpe-dictionary_v2.3.xml"
-# dictionary_file_path = "Local_Data/test.xml"
 cpe_reference_data_file_path = "Local_Data/CPE_references.json"
 cpe_VPListdata_file_path = "Local_Data/CPE_VP.json"
 
@@ -88,16 +87,13 @@ class ProcessCPEDictionnary:
                 self.CPE_REFERENCE_DATA["VP_references"][VP_ele][reference_type_ele] = list( self.CPE_REFERENCE_DATA["VP_references"][VP_ele][reference_type_ele])
 
 
-
-
-
-
     def write(self):
         with open(self.CPE_REFERENCE_DATA_FILE_PATH,'w') as f:
             f.write( json.dumps(self.CPE_REFERENCE_DATA, indent = 4) )
 
         with open(self.CPE_VP_DATA_FILE_PATH, 'w') as f:
             f.write(json.dumps( list(self.CPE_PEODUCT_SET) , indent=4))
+            print("(20200612) CPE product len:", len(self.CPE_PEODUCT_SET))
 
 
 

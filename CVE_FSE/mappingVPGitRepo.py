@@ -60,6 +60,7 @@ class VPGitMap:
     def write(self):
         with open(self.VP_GITREPO_MAP_FILE_PATH,'w') as f:
             f.write( json.dumps(self.VP_GIT_REPO_DATA, indent = 4) )
+            print("(20200612) CPE VPwithGitRepo len:", len(self.VP_GIT_REPO_DATA.keys()))
 
 
     def main(self):

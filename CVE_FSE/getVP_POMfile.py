@@ -118,9 +118,6 @@ def getGitHtml():
 
 
 
-
-
-
 def write():
     # print(VP_GIT_POM_DATA)
     with open(VP_GIT_POM_DATA_file,"w") as f:
