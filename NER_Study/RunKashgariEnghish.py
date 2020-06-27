@@ -61,9 +61,19 @@ def TrainBERTEmbedding():
     model.save('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
 
     loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
+    loaded_model.evaluate()
     res = loaded_model.predict(KashgariUsgaeInstance.test_x[:100])
     print(KashgariUsgaeInstance.test_x[:100])
     print(res)
+
+
+def EvaluateModel():
+    loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
+    print('sqli_train', loaded_model.evaluate('Dataset/ner_data/sqli_train.txt') )
+    print('xss_train', loaded_model.evaluate('Dataset/ner_data/xss_train.txt'))
+    print('gainpre_test', loaded_model.evaluate('Dataset/ner_data/gainpre_test.txt'))
+    print('csrf_train', loaded_model.evaluate('Dataset/ner_data/csrf_train.txt'))
+    # print(res)
 
 
 
