@@ -51,7 +51,7 @@ def TrainBERTEmbedding():
               KashgariUsgaeInstance.train_y,
               x_validate=KashgariUsgaeInstance.valid_x,
               y_validate=KashgariUsgaeInstance.valid_y,
-              epochs=20,
+              epochs=10,
               batch_size=512)
 
     # Evaluate the model
