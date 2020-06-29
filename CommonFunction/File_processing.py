@@ -142,8 +142,9 @@ def read_TXTfile(path):
         return content
 
 def write_TXTfile(path,content):
-    with open(path,'r') as f :
-        f.write(str(content, encoding = "utf-8"))
+    with open(path,'w') as f :
+        # f.write(str(content, encoding = "utf-8"))
+        f.write(content)
 
 # https://blog.csdn.net/Areigninhell/article/details/86519077
 def getFileSize(filepath):
