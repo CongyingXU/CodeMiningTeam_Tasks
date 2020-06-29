@@ -94,6 +94,7 @@ def FitModel(): # 迁移学习
 
     loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
 
+    loaded_model.compile_model()
     loaded_model.fit(train_x, train_y,
               x_validate=valid_x,
               y_validate=valid_y)
