@@ -99,6 +99,7 @@ def FitModel(): # 迁移学习
               y_validate=valid_y)
 
     # Evaluate the model
+    print(len(test_x), 'sqli_test_tl')
     loaded_model.evaluate(test_x, test_y)
 
     # Model data will save to  `saved_ner_model` folder
