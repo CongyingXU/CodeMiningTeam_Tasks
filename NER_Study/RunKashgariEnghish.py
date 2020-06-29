@@ -36,7 +36,7 @@ def ImportCorpus():
     print(f"validate data count: {len(KashgariUsgaeInstance.valid_x)}")
     print(f"test data count: {len(KashgariUsgaeInstance.test_x)}")
 
-    print(KashgariUsgaeInstance.train_x[:10], KashgariUsgaeInstance.train_y[:10])
+    # print(KashgariUsgaeInstance.train_x[:10], KashgariUsgaeInstance.train_y[:10])
 
 
 
@@ -72,19 +72,46 @@ def EvaluateModel():
 
     x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_train.txt')
     print( len(x_data), 'sqli_train\n', loaded_model.evaluate(x_data, y_data) )
-    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/xss_train.txt')
-    print(len(x_data), 'xss_train\n', loaded_model.evaluate(x_data, y_data))
-    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/gainpre_test.txt')
-    print(len(x_data), 'gainpre_test\n', loaded_model.evaluate(x_data, y_data))
-    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/csrf_train.txt')
-    print(len(x_data), 'sqli_train\n', loaded_model.evaluate(x_data, y_data))
-    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/bypass_train.txt')
-    print(len(x_data), 'bypass_train\n', loaded_model.evaluate(x_data, y_data))
+    # x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/xss_train.txt')
+    # print(len(x_data), 'xss_train\n', loaded_model.evaluate(x_data, y_data))
+    # x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/gainpre_test.txt')
+    # print(len(x_data), 'gainpre_test\n', loaded_model.evaluate(x_data, y_data))
+    # x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/csrf_train.txt')
+    # print(len(x_data), 'sqli_train\n', loaded_model.evaluate(x_data, y_data))
+    # x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/bypass_train.txt')
+    # print(len(x_data), 'bypass_train\n', loaded_model.evaluate(x_data, y_data))
 
+
+def FitModel(): # 迁移学习
+
+    # data
+    train_x, train_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_train.txt')
+    test_x, test_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_test.txt')
+
+    bert_embed = BERTEmbedding('TrainedModels/saved_ner_model_Enghilsh_BERT0627',
+                               task=kashgari.LABELING,
+                               sequence_length=100)
+    model = BiLSTM_CRF_Model(bert_embed)
+    model.fit(train_x, train_y,
+              x_validate=KashgariUsgaeInstance.valid_x,
+              y_validate=KashgariUsgaeInstance.valid_y,)
+    # Evaluate the model
+    model.evaluate(test_x, test_y)
+
+    # Model data will save to  `saved_ner_model` folder
+    model.save('TrainedModels/saved_ner_model_Enghilsh_BERT0629_transqli')
+
+
+def main():
+    ImportCorpus()
+    EvaluateModel()
+    FitModel()
+    EvaluateModel()
 
 
 
 if __name__ == '__main__':
-    ImportCorpus()
+    # ImportCorpus()
     # TrainBERTEmbedding()
-    EvaluateModel()
+    # EvaluateModel()
+    main()
