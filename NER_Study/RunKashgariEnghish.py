@@ -70,8 +70,11 @@ def TrainBERTEmbedding():
 def EvaluateModel():
     loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
 
-    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_train.txt')
-    print( len(x_data), 'sqli_train\n', loaded_model.evaluate(x_data, y_data) )
+    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_test.txt')
+    print(len(x_data), 'sqli_test\n', loaded_model.evaluate(x_data, y_data))
+
+    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_test_tl.txt')
+    print( len(x_data), 'sqli_test_tl\n', loaded_model.evaluate(x_data, y_data) )
     # x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/xss_train.txt')
     # print(len(x_data), 'xss_train\n', loaded_model.evaluate(x_data, y_data))
     # x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/gainpre_test.txt')
@@ -85,28 +88,27 @@ def EvaluateModel():
 def FitModel(): # 迁移学习
 
     # data
-    train_x, train_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_train.txt')
-    test_x, test_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_test.txt')
+    train_x, train_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_train_tl.txt')
+    valid_x, valid_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_valid_tl.txt')
+    test_x, test_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_test_tl.txt')
 
-    bert_embed = BERTEmbedding('TrainedModels/saved_ner_model_Enghilsh_BERT0627',
-                               task=kashgari.LABELING,
-                               sequence_length=100)
-    model = BiLSTM_CRF_Model(bert_embed)
-    model.fit(train_x, train_y,
-              x_validate=KashgariUsgaeInstance.valid_x,
-              y_validate=KashgariUsgaeInstance.valid_y,)
+    loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
+
+    loaded_model.fit(train_x, train_y,
+              x_validate=valid_x,
+              y_validate=valid_y)
+
     # Evaluate the model
-    model.evaluate(test_x, test_y)
+    loaded_model.evaluate(test_x, test_y)
 
     # Model data will save to  `saved_ner_model` folder
-    model.save('TrainedModels/saved_ner_model_Enghilsh_BERT0629_transqli')
+    loaded_model.save('TrainedModels/saved_ner_model_Enghilsh_BERT0629_transqli')
 
 
 def main():
-    ImportCorpus()
+    # ImportCorpus()
     EvaluateModel()
     FitModel()
-    EvaluateModel()
 
 
 
