@@ -70,11 +70,17 @@ def TrainBERTEmbedding():
 def EvaluateModel():
     loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
 
+    print(len(KashgariUsgaeInstance.test_x), 'memc_test\n')
+    loaded_model.evaluate(KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y)
+
     x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_test.txt')
-    print(len(x_data), 'sqli_test\n', loaded_model.evaluate(x_data, y_data))
+    print(len(x_data), 'sqli_test\n')
+    loaded_model.evaluate(x_data, y_data)
 
     x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_test_tl.txt')
-    print( len(x_data), 'sqli_test_tl\n', loaded_model.evaluate(x_data, y_data) )
+    print( len(x_data), 'sqli_test_tl\n')
+    loaded_model.evaluate(x_data, y_data)
+
     # x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/xss_train.txt')
     # print(len(x_data), 'xss_train\n', loaded_model.evaluate(x_data, y_data))
     # x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/gainpre_test.txt')
@@ -91,6 +97,9 @@ def FitModel(): # 迁移学习
     train_x, train_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_train_tl.txt')
     valid_x, valid_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_valid_tl.txt')
     test_x, test_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_test_tl.txt')
+    print(f"train data count: {len(train_x)}")
+    print(f"validate data count: {len(valid_x)}")
+    print(f"test data count: {len(test_x)}")
 
     loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
 
@@ -103,12 +112,15 @@ def FitModel(): # 迁移学习
     print(len(test_x), 'sqli_test_tl')
     loaded_model.evaluate(test_x, test_y)
 
+    print(len(KashgariUsgaeInstance.test_x), 'memc_test\n')
+    loaded_model.evaluate(KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y)
+
     # Model data will save to  `saved_ner_model` folder
     loaded_model.save('TrainedModels/saved_ner_model_Enghilsh_BERT0629_transqli')
 
 
 def main():
-    # ImportCorpus()
+    ImportCorpus()
     EvaluateModel()
     FitModel()
 
