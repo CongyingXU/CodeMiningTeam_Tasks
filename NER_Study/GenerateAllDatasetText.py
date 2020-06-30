@@ -53,10 +53,27 @@ def main():
             all_test_list.extend( cate_dataset[int(len_cate_dataset *6/7) : ] )
             print(len(all_train_list), len(all_valid_list), len(all_test_list))
 
+            #write categ
+            cate_train = ''
+            cate_valid = ''
+            cate_test = ''
+
+            for ele in cate_dataset[:int(len_cate_dataset *5/7)]:
+                cate_train += ele + '\n\n'
+            for ele in cate_dataset[int(len_cate_dataset *5/7) : int(len_cate_dataset *6/7)]:
+                cate_valid += ele + '\n\n'
+            for ele in cate_dataset[int(len_cate_dataset *6/7) : ]:
+                cate_test += ele + '\n\n'
+
+            File_processing.write_TXTfile(folder + 'integrated_dataset/' +categ_name + '_train.txt', cate_train)
+            File_processing.write_TXTfile(folder + 'integrated_dataset/' +categ_name + '_valid.txt', cate_valid)
+            File_processing.write_TXTfile(folder + 'integrated_dataset/' +categ_name + '_test.txt', cate_test)
+
+
         completed_categ.append(categ_name)
 
 
-    # write
+    # write all
     # org txt
     for ele in all_train_list:
         all_train += ele + '\n\n'
@@ -65,9 +82,9 @@ def main():
     for ele in all_test_list:
         all_test += ele + '\n\n'
 
-    File_processing.write_TXTfile(folder + 'all_train.txt',all_train)
-    File_processing.write_TXTfile(folder + 'all_valid.txt', all_valid)
-    File_processing.write_TXTfile(folder + 'all_test.txt',all_test)
+    File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_train.txt',all_train)
+    File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_valid.txt', all_valid)
+    File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_test.txt',all_test)
 
 if __name__ == '__main__':
     main()

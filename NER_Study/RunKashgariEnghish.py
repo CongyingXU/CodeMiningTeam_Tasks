@@ -78,27 +78,15 @@ def TrainBERTEmbedding():
 
 
 def EvaluateModel():
-    loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
+    test_dataset_folder = 'Dataset/ner_data/integrated_dataset/'
+    cate_list = ['fileinc', 'httprs', 'dos', 'sqli', 'infor', 'gainpre', 'overflow', 'bypass', 'dirtra', 'csrf', 'xss', 'execution']
+    loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0629')
 
-    print(len(KashgariUsgaeInstance.test_x), 'memc_test\n')
-    loaded_model.evaluate(KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y)
+    for cate in cate_list:
+        x_data, y_data = corpus.DataReader.read_conll_format_file( test_dataset_folder + cate +'_test.txt')
+        print(len(x_data), cate, ' \n')
+        loaded_model.evaluate(x_data, y_data)
 
-    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_test.txt')
-    print(len(x_data), 'sqli_test\n')
-    loaded_model.evaluate(x_data, y_data)
-
-    x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_test_tl.txt')
-    print( len(x_data), 'sqli_test_tl\n')
-    loaded_model.evaluate(x_data, y_data)
-
-    # x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/xss_train.txt')
-    # print(len(x_data), 'xss_train\n', loaded_model.evaluate(x_data, y_data))
-    # x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/gainpre_test.txt')
-    # print(len(x_data), 'gainpre_test\n', loaded_model.evaluate(x_data, y_data))
-    # x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/csrf_train.txt')
-    # print(len(x_data), 'sqli_train\n', loaded_model.evaluate(x_data, y_data))
-    # x_data, y_data = corpus.DataReader.read_conll_format_file('Dataset/ner_data/bypass_train.txt')
-    # print(len(x_data), 'bypass_train\n', loaded_model.evaluate(x_data, y_data))
 
 
 def FitModel(): # 迁移学习
@@ -130,18 +118,12 @@ def FitModel(): # 迁移学习
 
 
 def main():
-    #
     # ImportCorpus()
-    # EvaluateModel()
+    EvaluateModel()
     # FitModel()
 
-    ImportCorpus()
-    TrainBERTEmbedding()
-
-
-
-if __name__ == '__main__':
     # ImportCorpus()
     # TrainBERTEmbedding()
-    # EvaluateModel()
+
+if __name__ == '__main__':
     main()
