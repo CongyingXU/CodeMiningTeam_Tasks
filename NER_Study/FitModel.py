@@ -92,7 +92,7 @@ def EvaluateModel():
 def FitModel(): # 迁移学习
     cate_list = [ 'memc','fileinc', 'httprs', 'dos', 'sqli', 'infor', 'gainpre', 'overflow', 'bypass', 'dirtra', 'csrf',
                  'xss', 'execution']
-    dataset_folder = 'Dataset/ner_data/integrated_dataset/'
+    dataset_folder = 'Dataset/ner_data/'
     # data
     for cate_name in cate_list[1:]: # 除去 memc
 

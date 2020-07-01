@@ -35,11 +35,11 @@ def ImportCorpus():
 
     #all
     KashgariUsgaeInstance.train_x, KashgariUsgaeInstance.train_y = corpus.DataReader.read_conll_format_file(
-        'Dataset/ner_data/all_train.txt')
+        'Dataset/ner_data/integrated_dataset/all_train.txt')
     KashgariUsgaeInstance.valid_x, KashgariUsgaeInstance.valid_y = corpus.DataReader.read_conll_format_file(
-        'Dataset/ner_data/all_valid.txt')
+        'Dataset/ner_data/integrated_dataset/all_valid.txt')
     KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y = corpus.DataReader.read_conll_format_file(
-        'Dataset/ner_data/all_test.txt')
+        'Dataset/ner_data/integrated_dataset/all_test.txt')
 
     print(f"train data count: {len(KashgariUsgaeInstance.train_x)}")
     print(f"validate data count: {len(KashgariUsgaeInstance.valid_x)}")
