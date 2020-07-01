@@ -110,7 +110,7 @@ def FitModel(): # 迁移学习
         model = BiLSTM_CRF_Model(bert_embed)
         model.fit(train_x,
                   train_y,
-                  # epochs=5,
+                  epochs=1,
                   batch_size=512)
 
         print('No memc', len(test_x), cate_name)
@@ -121,26 +121,26 @@ def FitModel(): # 迁移学习
 
 
 
-        train_x, train_y = corpus.DataReader.read_conll_format_file(dataset_folder + cate_name + '_train.txt')
-        # valid_x, valid_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_valid_tl.txt')
-        test_x, test_y = corpus.DataReader.read_conll_format_file(dataset_folder + cate_name + '_test.txt')
-        print(f"train data count: {len(train_x)}")
-        print(f"test data count: {len(test_x)}")
-
-        loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
-
-        loaded_model.compile_model()
-        loaded_model.fit(train_x, train_y)
-
-        # Evaluate the model
-        print('memc_based',len(test_x), cate_name)
-        loaded_model.evaluate(test_x, test_y)
-
-        # print(len(KashgariUsgaeInstance.test_x), 'memc_test\n')
-        # loaded_model.evaluate(KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y)
-
-        # Model data will save to  `saved_ner_model` folder
-        # loaded_model.save('TrainedModels/saved_ner_model_Enghilsh_BERT0629_transqli')
+        # train_x, train_y = corpus.DataReader.read_conll_format_file(dataset_folder + cate_name + '_train.txt')
+        # # valid_x, valid_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_valid_tl.txt')
+        # test_x, test_y = corpus.DataReader.read_conll_format_file(dataset_folder + cate_name + '_test.txt')
+        # print(f"train data count: {len(train_x)}")
+        # print(f"test data count: {len(test_x)}")
+        #
+        # loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
+        #
+        # loaded_model.compile_model()
+        # loaded_model.fit(train_x, train_y)
+        #
+        # # Evaluate the model
+        # print('memc_based',len(test_x), cate_name)
+        # loaded_model.evaluate(test_x, test_y)
+        #
+        # # print(len(KashgariUsgaeInstance.test_x), 'memc_test\n')
+        # # loaded_model.evaluate(KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y)
+        #
+        # # Model data will save to  `saved_ner_model` folder
+        # # loaded_model.save('TrainedModels/saved_ner_model_Enghilsh_BERT0629_transqli')
 
 
 
