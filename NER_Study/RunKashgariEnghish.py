@@ -29,17 +29,17 @@ KashgariUsgaeInstance = KashgariUsgae()
 
 def ImportCorpus():
     #memc
-    # KashgariUsgaeInstance.train_x, KashgariUsgaeInstance.train_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/memc_train.txt')
-    # KashgariUsgaeInstance.valid_x, KashgariUsgaeInstance.valid_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/memc_valid.txt')
-    # KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y  = corpus.DataReader.read_conll_format_file('Dataset/ner_data/memc_test.txt')
+    KashgariUsgaeInstance.train_x, KashgariUsgaeInstance.train_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/memc_train.txt')
+    KashgariUsgaeInstance.valid_x, KashgariUsgaeInstance.valid_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/memc_valid.txt')
+    KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y  = corpus.DataReader.read_conll_format_file('Dataset/ner_data/memc_test.txt')
 
     #all
-    KashgariUsgaeInstance.train_x, KashgariUsgaeInstance.train_y = corpus.DataReader.read_conll_format_file(
-        'Dataset/ner_data/all_train.txt')
-    KashgariUsgaeInstance.valid_x, KashgariUsgaeInstance.valid_y = corpus.DataReader.read_conll_format_file(
-        'Dataset/ner_data/all_valid.txt')
-    KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y = corpus.DataReader.read_conll_format_file(
-        'Dataset/ner_data/all_test.txt')
+    # KashgariUsgaeInstance.train_x, KashgariUsgaeInstance.train_y = corpus.DataReader.read_conll_format_file(
+    #     'Dataset/ner_data/all_train.txt')
+    # KashgariUsgaeInstance.valid_x, KashgariUsgaeInstance.valid_y = corpus.DataReader.read_conll_format_file(
+    #     'Dataset/ner_data/all_valid.txt')
+    # KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y = corpus.DataReader.read_conll_format_file(
+    #     'Dataset/ner_data/all_test.txt')
 
     print(f"train data count: {len(KashgariUsgaeInstance.train_x)}")
     print(f"validate data count: {len(KashgariUsgaeInstance.valid_x)}")
@@ -90,40 +90,38 @@ def EvaluateModel():
 
 
 def FitModel(): # 迁移学习
-
+    tl_cate_list = [ 'fileinc', 'httprs', 'dos', 'sqli', 'infor', 'gainpre', 'overflow', 'bypass', 'dirtra', 'csrf',
+                 'xss', 'execution']
+    dataset_folder = 'Dataset/ner_data/'
     # data
-    train_x, train_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_train_tl.txt')
-    valid_x, valid_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_valid_tl.txt')
-    test_x, test_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_test_tl.txt')
-    print(f"train data count: {len(train_x)}")
-    print(f"validate data count: {len(valid_x)}")
-    print(f"test data count: {len(test_x)}")
+    for cate_name in tl_cate_list:
 
-    loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
+        train_x, train_y = corpus.DataReader.read_conll_format_file(dataset_folder + cate_name + '_train.txt')
+        # valid_x, valid_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_valid_tl.txt')
+        test_x, test_y = corpus.DataReader.read_conll_format_file(dataset_folder + cate_name + '_test.txt')
+        print(f"train data count: {len(train_x)}")
+        print(f"test data count: {len(test_x)}")
 
-    loaded_model.compile_model()
-    loaded_model.fit(train_x, train_y,
-              x_validate=valid_x,
-              y_validate=valid_y)
+        loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
 
-    # Evaluate the model
-    print(len(test_x), 'sqli_test_tl')
-    loaded_model.evaluate(test_x, test_y)
+        loaded_model.compile_model()
+        loaded_model.fit(train_x, train_y)
 
-    print(len(KashgariUsgaeInstance.test_x), 'memc_test\n')
-    loaded_model.evaluate(KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y)
+        # Evaluate the model
+        print(len(test_x), 'cate_name')
+        loaded_model.evaluate(test_x, test_y)
 
-    # Model data will save to  `saved_ner_model` folder
-    loaded_model.save('TrainedModels/saved_ner_model_Enghilsh_BERT0629_transqli')
+        # print(len(KashgariUsgaeInstance.test_x), 'memc_test\n')
+        # loaded_model.evaluate(KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y)
+
+        # Model data will save to  `saved_ner_model` folder
+        # loaded_model.save('TrainedModels/saved_ner_model_Enghilsh_BERT0629_transqli')
+
 
 
 def main():
-    # ImportCorpus()
-    EvaluateModel()
-    # FitModel()
+    FitModel()
 
-    # ImportCorpus()
-    # TrainBERTEmbedding()
 
 if __name__ == '__main__':
     main()
