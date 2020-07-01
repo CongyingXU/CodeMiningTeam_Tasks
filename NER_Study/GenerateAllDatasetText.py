@@ -21,10 +21,16 @@ def main():
     global all_test, all_train, all_valid, folder
 
     # read
-    all_train_list = File_processing.read_TXTfile(folder + 'memc_train.txt').split('\n\n')
-    all_valid_list = File_processing.read_TXTfile(folder + 'memc_valid.txt').split('\n\n')
-    all_test_list = File_processing.read_TXTfile(folder + 'memc_test.txt').split('\n\n')
-    print(len(all_train_list),len(all_valid_list),len(all_test_list))
+    # read memc
+    # all_train_list = File_processing.read_TXTfile(folder + 'memc_train.txt').split('\n\n')
+    # all_valid_list = File_processing.read_TXTfile(folder + 'memc_valid.txt').split('\n\n')
+    # all_test_list = File_processing.read_TXTfile(folder + 'memc_test.txt').split('\n\n')
+    # print(len(all_train_list),len(all_valid_list),len(all_test_list))
+
+    all_train_list = []
+    all_valid_list = []
+    all_test_list = []
+    print(len(all_train_list), len(all_valid_list), len(all_test_list))
 
     completed_categ = []
     file_names = File_processing.walk_L1_FileNames(folder)
