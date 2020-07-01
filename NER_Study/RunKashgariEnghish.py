@@ -84,7 +84,7 @@ def TrainBERTEmbedding():
 def EvaluateModel():
     test_dataset_folder = 'Dataset/ner_data/'
     cate_list = ['memc','fileinc', 'httprs', 'dos', 'sqli', 'infor', 'gainpre', 'overflow', 'bypass', 'dirtra', 'csrf', 'xss', 'execution']
-    loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0629')
+    loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0627')
 
     for cate in cate_list:
         x_data, y_data = corpus.DataReader.read_conll_format_file( test_dataset_folder + cate +'_test.txt')
