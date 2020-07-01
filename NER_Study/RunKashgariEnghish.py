@@ -4,6 +4,10 @@
 Created on 2020-06-27 09:08  
 
 @author: congyingxu
+
+accauracy path
+sklearn/metrics/classification.py
+def accuracy_score(y_true, y_pred, normalize=True, sample_weight=None):
 """
 
 
@@ -78,7 +82,7 @@ def TrainBERTEmbedding():
 
 
 def EvaluateModel():
-    test_dataset_folder = 'Dataset/ner_data/integrated_dataset/'
+    test_dataset_folder = 'Dataset/ner_data/'
     cate_list = ['memc','fileinc', 'httprs', 'dos', 'sqli', 'infor', 'gainpre', 'overflow', 'bypass', 'dirtra', 'csrf', 'xss', 'execution']
     loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0629')
 
@@ -151,7 +155,8 @@ def FitModel(): # 迁移学习
 
 
 def main():
-    FitModel()
+    # FitModel()
+    EvaluateModel()
 
 
 if __name__ == '__main__':
