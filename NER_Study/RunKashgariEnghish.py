@@ -110,12 +110,12 @@ def FitModel(): # 迁移学习
         model = BiLSTM_CRF_Model(bert_embed)
         model.fit(train_x,
                   train_y,
-                  epochs=5,
+                  # epochs=5,
                   batch_size=512)
 
         print('No memc', len(test_x), cate_name)
         # Evaluate the model
-        model.evaluate(KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y)
+        model.evaluate(test_x, test_y)
         # # Model data will save to  `saved_ner_model` folder
         # model.save('TrainedModels/saved_ner_model_Enghilsh_BERT0629')
 
