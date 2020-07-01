@@ -133,7 +133,7 @@ def FitModel(): # 迁移学习
         model = BiLSTM_CRF_Model(bert_embed)
         model.fit(KashgariUsgaeInstance.train_x,
                   KashgariUsgaeInstance.train_y,
-                  epochs=10,
+                  epochs=5,
                   batch_size=512)
 
         print('No memc',len(test_x), cate_name)
