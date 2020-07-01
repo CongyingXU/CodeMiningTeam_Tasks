@@ -22,15 +22,15 @@ def main():
 
     # read
     # read memc
-    # all_train_list = File_processing.read_TXTfile(folder + 'memc_train.txt').split('\n\n')
-    # all_valid_list = File_processing.read_TXTfile(folder + 'memc_valid.txt').split('\n\n')
-    # all_test_list = File_processing.read_TXTfile(folder + 'memc_test.txt').split('\n\n')
-    # print(len(all_train_list),len(all_valid_list),len(all_test_list))
+    all_train_list = File_processing.read_TXTfile(folder + 'memc_train.txt').split('\n\n')
+    all_valid_list = File_processing.read_TXTfile(folder + 'memc_valid.txt').split('\n\n')
+    all_test_list = File_processing.read_TXTfile(folder + 'memc_test.txt').split('\n\n')
+    print(len(all_train_list),len(all_valid_list),len(all_test_list))
 
-    all_train_list = []
-    all_valid_list = []
-    all_test_list = []
-    print(len(all_train_list), len(all_valid_list), len(all_test_list))
+    # all_train_list = []
+    # all_valid_list = []
+    # all_test_list = []
+    # print(len(all_train_list), len(all_valid_list), len(all_test_list))
 
     completed_categ = []
     file_names = File_processing.walk_L1_FileNames(folder)
@@ -54,9 +54,9 @@ def main():
             # print(test_dataset_list)
 
             # extent dataset list
-            all_train_list.extend( cate_dataset[:int(len_cate_dataset *5/7)] )
-            all_valid_list.extend( cate_dataset[int(len_cate_dataset *5/7) : int(len_cate_dataset *6/7)] )
-            all_test_list.extend( cate_dataset[int(len_cate_dataset *6/7) : ] )
+            all_train_list.extend( cate_dataset[:int(len_cate_dataset *1/3)] )
+            all_valid_list.extend( cate_dataset[int(len_cate_dataset *1/3) : int(len_cate_dataset *2/3)] )
+            all_test_list.extend( cate_dataset[int(len_cate_dataset *2/3) : ] )
             print(len(all_train_list), len(all_valid_list), len(all_test_list))
 
             #write categ
@@ -64,11 +64,11 @@ def main():
             cate_valid = ''
             cate_test = ''
 
-            for ele in cate_dataset[:int(len_cate_dataset *5/7)]:
+            for ele in cate_dataset[:int(len_cate_dataset *1/3)]:
                 cate_train += ele + '\n\n'
-            for ele in cate_dataset[int(len_cate_dataset *5/7) : int(len_cate_dataset *6/7)]:
+            for ele in cate_dataset[int(len_cate_dataset *1/3) : int(len_cate_dataset *2/3)]:
                 cate_valid += ele + '\n\n'
-            for ele in cate_dataset[int(len_cate_dataset *6/7) : ]:
+            for ele in cate_dataset[int(len_cate_dataset *2/3) : ]:
                 cate_test += ele + '\n\n'
 
             File_processing.write_TXTfile(folder + 'integrated_dataset/' +categ_name + '_train.txt', cate_train)
