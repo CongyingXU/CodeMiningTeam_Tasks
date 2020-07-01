@@ -108,7 +108,7 @@ def FitModel(): # 迁移学习
         loaded_model.fit(train_x, train_y)
 
         # Evaluate the model
-        print('memc_based',len(test_x), 'cate_name')
+        print('memc_based',len(test_x), cate_name)
         loaded_model.evaluate(test_x, test_y)
 
         # print(len(KashgariUsgaeInstance.test_x), 'memc_test\n')
@@ -118,8 +118,8 @@ def FitModel(): # 迁移学习
         # loaded_model.save('TrainedModels/saved_ner_model_Enghilsh_BERT0629_transqli')
 
 
-    # 尝试，直接从bert 迁移学习
-    for cate_name in cate_list[1:]: # 除去 memc
+        # # 尝试，直接从bert 迁移学习
+        # for cate_name in cate_list[1:]: # 除去 memc
         print("----------tanining BERT Model----------")
         bert_embed = BERTEmbedding('BERT/multilingual_L-12_H-768_A-12/', task=kashgari.LABELING, sequence_length=100)
         # embedding = BERTEmbedding("bert-base-chinese", 200)
@@ -136,7 +136,7 @@ def FitModel(): # 迁移学习
                   epochs=10,
                   batch_size=512)
 
-        print('No memc',len(test_x), 'cate_name')
+        print('No memc',len(test_x), cate_name)
         # Evaluate the model
         model.evaluate(KashgariUsgaeInstance.test_x, KashgariUsgaeInstance.test_y)
         # # Model data will save to  `saved_ner_model` folder
