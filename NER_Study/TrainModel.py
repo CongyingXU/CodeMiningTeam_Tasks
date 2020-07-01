@@ -76,11 +76,20 @@ def TrainBERTEmbedding():
     # print(KashgariUsgaeInstance.test_x[:100])
     # print(res)
 
+def EvaluateModel():
+    test_dataset_folder = 'Dataset/ner_data/integrated_dataset/'
+    cate_list = ['memc','fileinc', 'httprs', 'dos', 'sqli', 'infor', 'gainpre', 'overflow', 'bypass', 'dirtra', 'csrf', 'xss', 'execution']
+    loaded_model = kashgari.utils.load_model('TrainedModels/saved_ner_model_Enghilsh_BERT0701')
 
+    for cate in cate_list:
+        x_data, y_data = corpus.DataReader.read_conll_format_file( test_dataset_folder + cate +'_test.txt')
+        print(len(x_data), cate, ' \n')
+        loaded_model.evaluate(x_data, y_data)
 
 def main():
     ImportCorpus()
     TrainBERTEmbedding()
+    EvaluateModel()
 
 
 if __name__ == '__main__':
