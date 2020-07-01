@@ -102,7 +102,7 @@ def FitModel(): # 迁移学习
         # embedding = BERTEmbedding("bert-base-chinese", 200)
 
         train_x, train_y = corpus.DataReader.read_conll_format_file(dataset_folder + cate_name + '_train.txt')
-        # valid_x, valid_y = corpus.DataReader.read_conll_format_file('Dataset/ner_data/sqli_valid_tl.txt')
+        valid_x, valid_y = corpus.DataReader.read_conll_format_file(dataset_folder + cate_name + '_valid.txt')
         test_x, test_y = corpus.DataReader.read_conll_format_file(dataset_folder + cate_name + '_test.txt')
         print(f"train data count: {len(train_x)}")
         print(f"test data count: {len(test_x)}")
@@ -110,6 +110,8 @@ def FitModel(): # 迁移学习
         model = BiLSTM_CRF_Model(bert_embed)
         model.fit(train_x,
                   train_y,
+                  x_validate=valid_x,
+                  y_validate=valid_y,
                   epochs=1,
                   batch_size=512)
 
