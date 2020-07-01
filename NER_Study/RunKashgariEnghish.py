@@ -92,9 +92,9 @@ def EvaluateModel():
 def FitModel(): # 迁移学习
     cate_list = [ 'memc','fileinc', 'httprs', 'dos', 'sqli', 'infor', 'gainpre', 'overflow', 'bypass', 'dirtra', 'csrf',
                  'xss', 'execution']
-    dataset_folder = 'Dataset/ner_data/'
+    dataset_folder = 'Dataset/ner_data/integrated_dataset/'
     # data
-    for cate_name in cate_list[0:]: # 除去 memc
+    for cate_name in cate_list[1:]: # 除去 memc
         # # 尝试，直接从bert 迁移学习
         # for cate_name in cate_list[1:]: # 除去 memc
         print("----------tanining BERT Model----------")
