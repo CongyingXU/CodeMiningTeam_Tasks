@@ -94,7 +94,7 @@ def FitModel(): # 迁移学习
                  'xss', 'execution']
     dataset_folder = 'Dataset/ner_data/'
     # data
-    for cate_name in cate_list[1:]: # 除去 memc
+    for cate_name in cate_list[0:]: # 除去 memc
         # # 尝试，直接从bert 迁移学习
         # for cate_name in cate_list[1:]: # 除去 memc
         print("----------tanining BERT Model----------")
