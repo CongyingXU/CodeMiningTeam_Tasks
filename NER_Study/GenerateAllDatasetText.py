@@ -54,9 +54,9 @@ def main():
             # print(test_dataset_list)
 
             # extent dataset list
-            all_train_list.extend( cate_dataset[:int(len_cate_dataset *1/3)] )
-            all_valid_list.extend( cate_dataset[int(len_cate_dataset *1/3) : int(len_cate_dataset *2/3)] )
-            all_test_list.extend( cate_dataset[int(len_cate_dataset *2/3) : ] )
+            all_train_list.extend( cate_dataset[:int(len_cate_dataset *1/2)] )
+            # all_valid_list.extend( cate_dataset[int(len_cate_dataset *1/3) : int(len_cate_dataset *2/3)] )
+            all_test_list.extend( cate_dataset[int(len_cate_dataset *1/2) : ] )
             print(len(all_train_list), len(all_valid_list), len(all_test_list))
 
             #write categ
@@ -64,11 +64,11 @@ def main():
             cate_valid = ''
             cate_test = ''
 
-            for ele in cate_dataset[:int(len_cate_dataset *1/3)]:
+            for ele in cate_dataset[:int(len_cate_dataset *1/2)]:
                 cate_train += ele + '\n\n'
-            for ele in cate_dataset[int(len_cate_dataset *1/3) : int(len_cate_dataset *2/3)]:
-                cate_valid += ele + '\n\n'
-            for ele in cate_dataset[int(len_cate_dataset *2/3) : ]:
+            # for ele in cate_dataset[int(len_cate_dataset *1/3) : int(len_cate_dataset *2/3)]:
+            #     cate_valid += ele + '\n\n'
+            for ele in cate_dataset[int(len_cate_dataset *1/2) : ]:
                 cate_test += ele + '\n\n'
 
             File_processing.write_TXTfile(folder + 'integrated_dataset/' +categ_name + '_train.txt', cate_train)
