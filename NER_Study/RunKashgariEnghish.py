@@ -10,6 +10,10 @@ sklearn/metrics/classification.py
 def accuracy_score(y_true, y_pred, normalize=True, sample_weight=None):
 """
 
+import sys
+current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parent_dir = os.path.dirname(current_dir)
+sys.path.insert(0, parent_dir)
 
 
 
