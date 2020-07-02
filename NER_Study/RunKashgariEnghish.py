@@ -32,7 +32,7 @@ KashgariUsgaeInstance = KashgariUsgae()
 
 
 dataset_folder = 'Dataset/ner_data/integrated_dataset/'
-model_path = 'TrainedModels/saved_ner_model_Enghilsh_BERT0702_1'
+model_path = 'TrainedModels/saved_ner_model_Enghilsh_BERT0702_1_40epochs'
 
 def ImportCorpus():
     #memc
@@ -68,7 +68,7 @@ def TrainBERTEmbedding():
               KashgariUsgaeInstance.train_y,
               x_validate=KashgariUsgaeInstance.valid_x,
               y_validate=KashgariUsgaeInstance.valid_y,
-              epochs=10,
+              epochs=40,
               batch_size=512)
 
     # Evaluate the model
