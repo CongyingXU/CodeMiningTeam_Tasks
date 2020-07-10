@@ -68,15 +68,16 @@ def download():
     for year in range(2002,2021):
         # download
         print(year)
+        full_nvd_data_url = nvd_data_url + "nvdcve-1.1-" + str(year) + ".json.gz"
         print('downloading')
         register_path = dataset_path + 'NVD/' + 'nvd.json'
-        urllib.request.urlretrieve(cve_data_url, register_path)
+        urllib.request.urlretrieve(full_nvd_data_url, register_path)
         #check hash
         print('hashing')
         register_file_hash = MD5.md5sum_for_bigfile(register_path)
         lastest_year_hash = nvd_md5_data['latest_hash'][str(year)]
         file_path = dataset_path + 'NVD/' + "nvdcve-1.1-" + str(
-            year) + "__fdse__" + local_time + "__fdse__" + register_file_hash[:6] + ".json.gz"  # 存储的name
+            year) + "__fdse__" + local_time + "__fdse__" + register_file_hash[:6] + ".json."  # 存储的name
         if lastest_year_hash == register_file_hash : #未变
             nvd_md5_data['file_list'][str(year)].append(file_path)
         else: #变了
