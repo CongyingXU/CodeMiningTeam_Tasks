@@ -55,6 +55,7 @@ def download():
     else:  # 变了
         nvd_md5_data['file_list']['2020'].append(file_path)
         nvd_md5_data['diff_file_list']['2020'].append(file_path)
+        cve_md5_data['latest_hash']['2020'] = lastest_year_hash
 
     # rename file
     dstFile = file_path
@@ -81,6 +82,7 @@ def download():
         else: #变了
             nvd_md5_data['file_list'][str(year)].append(file_path)
             nvd_md5_data['diff_file_list'][str(year)].append(file_path)
+            nvd_md5_data['latest_hash'][str(year)] = lastest_year_hash
 
         # rename file
         dstFile = file_path
