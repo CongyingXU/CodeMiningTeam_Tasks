@@ -96,8 +96,8 @@ def download():
 
 def main():
     while 1:
-        time.sleep(60 *60 * 6)
         download()
+        time.sleep(60 * 60 * 6)
         # break
 
 if __name__ == '__main__':
