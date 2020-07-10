@@ -55,7 +55,7 @@ def download():
     else:  # 变了
         nvd_md5_data['file_list']['2020'].append(file_path)
         nvd_md5_data['diff_file_list']['2020'].append(file_path)
-        cve_md5_data['latest_hash']['2020'] = lastest_year_hash
+        cve_md5_data['latest_hash']['2020'] = register_file_hash
 
     # rename file
     dstFile = file_path
@@ -83,7 +83,7 @@ def download():
         else: #变了
             nvd_md5_data['file_list'][str(year)].append(file_path)
             nvd_md5_data['diff_file_list'][str(year)].append(file_path)
-            nvd_md5_data['latest_hash'][str(year)] = lastest_year_hash
+            nvd_md5_data['latest_hash'][str(year)] = register_file_hash
 
         # rename file
         dstFile = file_path
@@ -101,6 +101,6 @@ def main():
         # break
 
 if __name__ == '__main__':
-    # url = 'https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2015.json.gz'
-    # urllib.request.urlretrieve(url, 'nvdcve-1.1-2015.json')
-    main()
+    url = 'https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2015.json.gz'
+    urllib.request.urlretrieve(url, 'nvdcve-1.1-2015.json.gz')
+    # main()
