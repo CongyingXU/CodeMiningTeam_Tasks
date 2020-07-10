@@ -96,7 +96,7 @@ def download():
 
 def main():
     while 1:
-        time.sleep(60 * 1)
+        time.sleep(60 *60 * 6)
         download()
         # break
 
