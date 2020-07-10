@@ -53,8 +53,8 @@ def download():
     if lastest_year_hash == register_file_hash:  # 未变
         nvd_md5_data['file_list']['2020'].append(file_path)
     else:  # 变了
-        nvd_md5_data['file_list']['2020'].append(file_path)
-        nvd_md5_data['diff_file_list']['2020'].append(file_path)
+        cve_md5_data['file_list']['2020'].append(file_path)
+        cve_md5_data['diff_file_list']['2020'].append(file_path)
         cve_md5_data['latest_hash']['2020'] = register_file_hash
 
     # rename file
