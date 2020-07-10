@@ -51,16 +51,16 @@ def download():
     lastest_year_hash = cve_md5_data['latest_hash']['2020']
     file_path = dataset_path + 'CVE/' + "allitems" + "__fdse__" + local_time + "__fdse__" + register_file_hash[:6] + ".xml"
     if lastest_year_hash == register_file_hash:  # 未变
-        nvd_md5_data['file_list']['2020'].append(file_path)
+        cve_md5_data['file_list']['2020'].append(file_path)
     else:  # 变了
         cve_md5_data['file_list']['2020'].append(file_path)
         cve_md5_data['diff_file_list']['2020'].append(file_path)
         cve_md5_data['latest_hash']['2020'] = register_file_hash
 
-    # rename file
-    dstFile = file_path
-    srcFile = register_path
-    File_processing.renameFile(srcFile, dstFile)
+        # rename file
+        dstFile = file_path
+        srcFile = register_path
+        File_processing.renameFile(srcFile, dstFile)
 
 
     # NVD
@@ -85,10 +85,10 @@ def download():
             nvd_md5_data['diff_file_list'][str(year)].append(file_path)
             nvd_md5_data['latest_hash'][str(year)] = register_file_hash
 
-        # rename file
-        dstFile = file_path
-        srcFile = register_path
-        File_processing.renameFile(srcFile, dstFile)
+            # rename file
+            dstFile = file_path
+            srcFile = register_path
+            File_processing.renameFile(srcFile, dstFile)
 
     JSONFIle_processing.write(cve_md5_data, dataset_path + 'CVE/' + 'MD5.json')
     JSONFIle_processing.write(nvd_md5_data, dataset_path + 'NVD/' + 'MD5.json')
