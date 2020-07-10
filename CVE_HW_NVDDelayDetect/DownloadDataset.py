@@ -46,7 +46,7 @@ def download():
     urllib.request.urlretrieve(cve_data_url, register_path)
     # check hash
     print('hashing')
-    register_file_hash = ''
+    # register_file_hash = ''
     register_file_hash = MD5.md5sum_for_bigfile(register_path)
     lastest_year_hash = cve_md5_data['latest_hash']['2020']
     file_path = dataset_path + 'CVE/' + "allitems" + "__fdse__" + local_time + "__fdse__" + register_file_hash[:6] + ".xml"
@@ -101,6 +101,6 @@ def main():
         # break
 
 if __name__ == '__main__':
-    url = 'https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2015.json.gz'
-    urllib.request.urlretrieve(url, 'nvdcve-1.1-2015.json.gz')
-    # main()
+    # url = 'https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2015.json.gz'
+    # urllib.request.urlretrieve(url, 'nvdcve-1.1-2015.json.gz')
+    main()
