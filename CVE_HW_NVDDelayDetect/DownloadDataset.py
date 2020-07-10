@@ -77,7 +77,7 @@ def download():
         register_file_hash = MD5.md5sum_for_bigfile(register_path)
         lastest_year_hash = nvd_md5_data['latest_hash'][str(year)]
         file_path = dataset_path + 'NVD/' + "nvdcve-1.1-" + str(
-            year) + "__fdse__" + local_time + "__fdse__" + register_file_hash[:6] + ".json."  # 存储的name
+            year) + "__fdse__" + local_time + "__fdse__" + register_file_hash[:6] + ".json.gz"  # 存储的name
         if lastest_year_hash == register_file_hash : #未变
             nvd_md5_data['file_list'][str(year)].append(file_path)
         else: #变了
@@ -93,8 +93,14 @@ def download():
     JSONFIle_processing.write(cve_md5_data, dataset_path + 'CVE/' + 'MD5.json')
     JSONFIle_processing.write(nvd_md5_data, dataset_path + 'NVD/' + 'MD5.json')
 
-if __name__ == '__main__':
+
+def main():
     while 1:
-        time.sleep( 60 * 1)
+        time.sleep(60 * 1)
         download()
         # break
+
+if __name__ == '__main__':
+    # url = 'https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2015.json.gz'
+    # urllib.request.urlretrieve(url, 'nvdcve-1.1-2015.json')
+    main()
