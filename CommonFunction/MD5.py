@@ -18,6 +18,17 @@ def md5sum(file_path):
         _hash = md5obj.hexdigest()
     return str(_hash)
 
+def md5sum_for_bigfile(file_path):
+    md5obj = hashlib.md5()
+    with open(file_path, 'rb') as f:
+        while True:
+            data = f.read(2024)
+            if not data:
+                break
+            md5obj.update(data)  # update添加时会进行计算
+    _hash = md5obj.hexdigest()
+    return str(_hash)
+
 def MakeMD5byString(str_content):
     md5obj = hashlib.md5()
     md5obj.update(str_content.encode('utf-8'))
@@ -25,4 +36,4 @@ def MakeMD5byString(str_content):
     return str(_hash)
 
 
-print(MakeMD5byString('com.typesafe__fdse__config'))
+# print(MakeMD5byString('com.typesafe__fdse__config'))

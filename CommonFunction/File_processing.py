@@ -173,7 +173,17 @@ def pathExist(path):
 def makedirs_moreLevels(path): # 创建多级目录
     return os.makedirs(path)
 
-
+def renameFile(srcFile, dstFile):
+    # srcFile = './actwork/linkFile/allExtLinks - 副本.txt'
+    # dstFile = './actwork/linkFile/allExtLinks - copy.txt'
+    try:
+        os.rename(srcFile, dstFile)
+    except Exception as e:
+        print(e)
+        print('rename file fail\r\n')
+        return -1
+    print('rename file success\r\n')
+    return 1
 
 # if __name__ == '__main__':
 #     walk_FileDir('e:/libs')
