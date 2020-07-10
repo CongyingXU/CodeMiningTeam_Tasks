@@ -49,7 +49,7 @@ def download():
     register_file_hash = ''
     register_file_hash = MD5.md5sum_for_bigfile(register_path)
     lastest_year_hash = cve_md5_data['latest_hash']['2020']
-    file_path = dataset_path + "allitems" + "__fdse__" + local_time + "__fdse__" + register_file_hash[:6] + ".xml"
+    file_path = dataset_path + 'CVE/' + "allitems" + "__fdse__" + local_time + "__fdse__" + register_file_hash[:6] + ".xml"
     if lastest_year_hash == register_file_hash:  # 未变
         nvd_md5_data['file_list']['2020'].append(file_path)
     else:  # 变了
@@ -74,7 +74,7 @@ def download():
         print('hashing')
         register_file_hash = MD5.md5sum_for_bigfile(register_path)
         lastest_year_hash = nvd_md5_data['latest_hash'][str(year)]
-        file_path = dataset_path + "nvdcve-1.1-" + str(
+        file_path = dataset_path + 'NVD/' + "nvdcve-1.1-" + str(
             year) + "__fdse__" + local_time + "__fdse__" + register_file_hash[:6] + ".json.gz"  # 存储的name
         if lastest_year_hash == register_file_hash : #未变
             nvd_md5_data['file_list'][str(year)].append(file_path)
