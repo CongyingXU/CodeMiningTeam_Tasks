@@ -24,7 +24,7 @@ sys.path.append('../')
 
 # modify
 loaded_ner_model = ''
-trained_model_path = ''
+trained_model_path = '/home/hadoop/dfs/data/Workspace/CongyingXU/CodeMiningTeam_Tasks/NER_Study/TrainedModels/saved_ner_model_Enghilsh_BERT0710_2_40epochs/'
 
 
 
