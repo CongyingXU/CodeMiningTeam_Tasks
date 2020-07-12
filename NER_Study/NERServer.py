@@ -50,7 +50,6 @@ class PostHandler(BaseHTTPRequestHandler):
         self.wfile.write( bytes(json.dumps( result_data ), encoding = "utf8"  ))
 
 
-
 def init():
    global loaded_ner_model, trained_model_path
    loaded_ner_model = kashgari.utils.load_model(trained_model_path)
