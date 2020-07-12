@@ -63,9 +63,12 @@ def NERFromRaw(input_massage):
 
 # 将输入内容 分句/词
 def tokenize_word(message):
-    token_list = list( nltk.word_tokenize(message) )
+    sent_list = nltk.sent_tokenize(message)
+    token_list = []
+    for sent in sent_list:
+        token_list.append(list( nltk.word_tokenize(sent)) )
     print(token_list)
-    return [token_list]
+    return token_list
 
 
 def NERFromTokenList(input_token_list):
