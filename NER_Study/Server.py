@@ -18,6 +18,7 @@ from http.server import HTTPServer
 import sys
 import json,sqlite3
 import kashgari
+import nltk
 
 sys.path.append('../')
 
