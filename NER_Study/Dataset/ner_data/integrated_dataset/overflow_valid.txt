@@ -1,2814 +1,1565 @@
-Subject O
-: O
-Re O
-: O
-CVE O
-Request O
-: O
-FFmpeg SN
-2.1 SV
-multiple O
-problems O
-BEGIN O
-PGP O
-SIGNED O
-MESSAGE O
-Hash O
-: O
-SHA1 O
-Id O
-like O
-to O
-request O
-CVE O
-( O
-s O
-) O
-for O
-FFmpeg O
-2.1 O
-, O
-for O
-the O
-changes O
-below O
-: O
-We O
-ve O
-looked O
-at O
-these O
-17 O
-commits O
-and O
-did O
-not O
-find O
-any O
-situations O
-in O
-which O
-there O
-was O
-a O
-shared O
-root O
-cause O
-, O
-or O
-a O
-conceptually O
-similar O
-type O
-of O
-error O
-within O
-the O
-different O
-pieces O
-of O
-code O
-. O
-
-avfilter/vf_fps O
-: O
-make O
-sure O
-the O
-fifo O
-is O
-not O
-empty O
-before O
-using O
-it O
-fixes O
-double O
-free O
-in O
-the O
-fps O
-filter O
-Use O
-CVE-2013-7021 O
-. O
-
-avcodec/pngdsp O
-: O
-fix O
-( O
-un O
-) O
-signed O
-type O
-in O
-end O
-comparison O
-Fixes O
-out O
-of O
-array O
-writes O
-in O
-png O
-decoding O
-Found_by O
-: O
-ami_stuff O
-Use O
-CVE-2013-7014 O
-. O
-
-Fixes O
-out O
-of O
-array O
-( O
-on O
-heap O
-) O
-writes O
-in O
-rpza O
-decoding O
-Use O
-CVE-2013-7009 O
-. O
-
-avcodec/jpeg2000dec O
-: O
-fix O
-context O
-consistency O
-with O
-too O
-large O
-lowres O
-Fixes O
-out O
-of O
-array O
-accesses O
-in O
-jpeg2000 O
-decoding O
-Use O
-CVE-2013-7019 O
-. O
-
-Fixes O
-out O
-of O
-array O
-write O
-in O
-jpeg2000 O
-decoding O
-Found-by O
-: O
-ami_stuff O
-Use O
-CVE-2013-7012 O
-. O
-
-We O
-do O
-not O
-group O
-issues O
-based O
-on O
-impact O
-. O
-
-avcodec/dsputil O
-: O
-fix O
-signedness O
-in O
-sizeof O
-( O
-) O
-comparisons O
-leading O
-to O
-integer O
-overflow O
-and O
-out O
-of O
-array O
-accesses O
-Use O
-CVE-2013-7010 O
-. O
-
-Fix O
-order O
-of O
-align O
-and O
-pixel O
-size O
-multiplication O
-. O
-
-out O
-of O
-array O
-write O
-( O
-on O
-heap O
-) O
-in O
-case O
-of O
-realloc O
-failure O
-Use O
-CVE-2013-7023 O
-. O
-
-Fixes O
-out O
-of O
-array O
-accesses O
-in O
-g2m4 O
-Found-by O
-: O
-ami_stuff O
-Use O
-CVE-2013-7013 O
-. O
-
-fixes O
-a O
-deadlock O
-in O
-h264 O
-decoding O
-Use O
-CVE-2013-7008 O
-. O
-
-jpeg2000 O
-: O
-check O
-log2_cblk O
-dimensions O
-Fixes O
-out O
-of O
-array O
-access O
-Found-by O
-: O
-Piotr O
-Bandurski O
-< O
-ami_stuff O
-@ O
-... O
-pl O
-Use O
-CVE-2013-7018 O
-. O
-
-fix O
-dereferencing O
-invalid O
-pointers O
-in O
-jpeg2000 O
-decoding O
-Found-by O
-: O
-Laurent O
-Butti O
-< O
-laurentb O
-@ O
-... O
-il.com O
-Use O
-CVE-2013-7017 O
-. O
-
-Check O
-cdx/y O
-values O
-more O
-carefully O
-Fixes O
-out O
-of O
-array O
-accesses O
-in O
-jpeg2000 O
-decoding O
-Found-by O
-: O
-Piotr O
-Bandurski O
-< O
-ami_stuff O
-@ O
-... O
-pl O
-Use O
-CVE-2013-7016 O
-. O
-
-Subject O
-: O
-Re O
-: O
-CVE O
-Request O
-: O
-FFmpeg SN
-2.1 SV
-multiple O
-problems O
-
-Multiple O
-heap-based O
-buffer O
-overflows O
-in O
-the O
-urftopdf O
-filter O
-in O
-cups-filters SN
-1.0.25 SV
-before SV
-1.0.47 SV
-allow O
-remote O
-attackers O
-to O
-execute O
-arbitrary O
-code O
-via O
-a O
-large O
-( O
-1 O
-) O
-page O
-or O
-( O
-2 O
-) O
-line O
-in O
-a O
-URF O
-file O
-. O
-
-Buffer O
-overflow O
-in O
-the O
-web-application O
-interface O
-on O
-Cisco O
-9900 O
-IP O
-phones O
-allows O
-remote O
-attackers O
-to O
-cause O
-a O
-denial O
-of O
-service O
-( O
-webapp O
-interface O
-outage O
-) O
-via O
-long O
-values O
-in O
-unspecified O
-fields O
-, O
-aka O
-Bug O
-ID O
-CSCuh10343 O
-. O
-
-The O
-virtio_net_load O
-function O
-in O
-hw/net/virtio-net.c O
-in O
-QEMU SN
-1.5.0 SV
-through SV
-1.7.x SV
-before SV
-1.7.2 SV
-allows O
-remote O
-attackers O
-to O
-cause O
-a O
-denial O
-of O
-service O
-or O
-possibly O
-execute O
-arbitrary O
-code O
-via O
-vectors O
-in O
-which O
-the O
-value O
-of O
-curr_queues O
-is O
-greater O
-than O
-max_queues O
-, O
-which O
-triggers O
-an O
-out-of-bounds O
-write O
-. O
-
-Buffer O
-overflow O
-in O
-Adobe SN
-Reader SN
-and SN
-Acrobat SN
-9.x SV
-before SV
-9.5.5 SV
-, O
-10.x SV
-before SV
-10.1.7 SV
-, O
-and SV
-11.x SV
-before SV
-11.0.03 SV
-allows O
-attackers O
-to O
-execute O
-arbitrary O
-code O
-via O
-unspecified O
-vectors O
-, O
-a O
-different O
-vulnerability O
-than O
-CVE-2013-2733 O
-. O
-
-Adobe SN
-Flash SN
-Player SN
-before SV
-10.3.183.75 SV
-and SV
-11.x SV
-before SV
-11.7.700.169 SV
-on O
-Windows O
-and O
-Mac O
-OS O
-X O
-, O
-before SV
-10.3.183.75 SV
-and SV
-11.x SV
-before SV
-11.2.202.280 SV
-on O
-Linux O
-, O
-before SV
-11.1.111.50 SV
-on O
-Android SN
-2.x SV
-and SV
-3.x SV
-, O
-and O
-before SV
-11.1.115.54 SV
-on O
-Android SN
-4.x SV
-; O
-Adobe SN
-AIR SN
-before SV
-3.7.0.1530 SV
-; O
-and O
-Adobe SN
-AIR SN
-SDK SN
-& O
-Compiler SN
-before SV
-3.7.0.1530 SV
-allow O
-attackers O
-to O
-execute O
-arbitrary O
-code O
-or O
-cause O
-a O
-denial O
-of O
-service O
-( O
-memory O
-corruption O
-) O
-via O
-unspecified O
-vectors O
-, O
-a O
-different O
-vulnerability O
-than O
-CVE-2013-1380 O
-. O
-
-The O
-IP O
-stack O
-in O
-Cisco O
-Intrusion O
-Prevention O
-System O
-( O
-IPS O
-) O
-in O
-ASA SN
-5500-X SN
-IPS-SSP SN
-software O
-and O
-hardware O
-modules O
-before SV
-7.1 SV
-( O
-5 SV
-) O
-E4 SV
-, O
-IPS SN
-4500 SN
-sensors SN
-before SV
-7.1 SV
-( O
-6 SV
-) O
-E4 SV
-, O
-and O
-IPS SN
-4300 SN
-sensors SN
-before SV
-7.1 SV
-( O
-5 SV
-) O
-E4 SV
-allows O
-remote O
-attackers O
-to O
-cause O
-a O
-denial O
-of O
-service O
-( O
-MainApp O
-process O
-hang O
-) O
-via O
-malformed O
-IPv4 O
-packets O
-, O
-aka O
-Bug O
-ID O
-CSCtx18596 O
-. O
-
-WebKit O
-, O
-as O
-used O
-in O
-Apple SN
-Safari SN
-before SV
-6.0 SV
-, O
-allows O
-remote O
-attackers O
-to O
-execute O
-arbitrary O
-code O
-or O
-cause O
-a O
-denial O
-of O
-service O
-( O
-memory O
-corruption O
-and O
-application O
-crash O
-) O
-via O
-a O
-crafted O
-web O
-site O
-, O
-a O
-different O
-vulnerability O
-than O
-other O
-WebKit O
-CVEs O
-listed O
-in O
-APPLE-SA-2012-07-25-1 O
-. O
-
-Google SN
-Chrome SN
-before SV
-21.0.1180.89 SV
-does O
-not O
-properly O
-load O
-URLs O
-, O
-which O
-allows O
-remote O
-attackers O
-to O
-cause O
-a O
-denial O
-of O
-service O
-or O
-possibly O
-have O
-unspecified O
-other O
-impact O
-via O
-vectors O
-that O
-trigger O
-a O
-stale O
-buffer O
-. O
-
-Integer O
-underflow O
-in O
-the O
-exif_entry_get_value O
-function O
-in O
-exif-entry.c O
-in O
-the O
-EXIF SN
-Tag SN
-Parsing SN
-Library SN
-( O
-aka SN
-libexif SN
-) O
-0.6.20 SV
-might O
-allow O
-remote O
-attackers O
-to O
-execute O
-arbitrary O
-code O
-via O
-vectors O
-involving O
-a O
-crafted O
-buffer-size O
-parameter O
-during O
-the O
-formatting O
-of O
-an O
-EXIF O
-tag O
-, O
-leading O
-to O
-a O
-heap-based O
-buffer O
-overflow O
-. O
-
-Heap-based O
-buffer O
-overflow O
-in O
-the O
-avfilter_filter_samples O
-function O
-in O
-libavfilter/avfilter.c O
-in O
-FFmpeg SN
-before SV
-0.9.1 SV
-allows O
-remote O
-attackers O
-to O
-cause O
-a O
-denial O
-of O
-service O
-( O
-application O
-crash O
-) O
-via O
-a O
-crafted O
-media O
-file O
-. O
-
-Simple O
-case O
-of O
-index O
-becoming O
-bigger O
-than O
-array O
-without O
-checks O
-6d8e6fe9dbc365f50521cf0c4a5ffee97c970cb5 O
-CODEC_ID_SOL_DPCM O
-: O
-Fix O
-used O
-write O
-buffer O
-. O
-
-Simple O
-case O
-of O
-amount O
-written O
-and O
-check O
-mismatching O
-1f99939a6361e2e6d6788494dd7c682b051c6c34 O
-j2kdec O
-: O
-Fix O
-integer O
-overflow O
-leading O
-to O
-a O
-segfault O
-The O
-check O
-missed O
-negative O
-values O
-, O
-j2k O
-is O
-marked O
-as O
-experimental O
-though O
-so O
-depending O
-on O
-the O
-user O
-app O
-this O
-may O
-require O
-the O
-user O
-to O
-enable O
-it O
-. O
-
-Wrong O
-pointer O
-being O
-used O
-to O
-write O
-after O
-recent O
-audio O
-API O
-change O
-. O
-
-Subject O
-: O
-Re O
-: O
-CVE O
-Requests O
-for O
-FFmpeg SN
-0.9.1 SV
-HEAP O
-buffer O
-overflows O
-( O
-10 O
-) O
-: O
-( O
-write O
-) O
-ae21776207e8a2bbe268e7c9e203f7599dd87ddb O
-lavfi O
-: O
-add O
-missing O
-check O
-in O
-avfilter_filter_samples O
-( O
-) O
-Simple O
-case O
-of O
-missing O
-check O
-, O
-there O
-wasnt O
-much O
-using O
-the O
-audio O
-filters O
-so O
-this O
-probably O
-is O
-not O
-practically O
-exploitable O
-5257743aee0c3982f0079e6553aabc6aa39401d2 O
-ws_snd1 O
-: O
-Fix O
-wrong O
-samples O
-count O
-and O
-crash O
-. O
-
-3eedf9f716733b3b4c5205726d2c1ca52b3d3d78 O
-j2kdec O
-: O
-Check O
-curtileno O
-for O
-validity O
-Simple O
-missing O
-check O
-for O
-index O
-and O
-array O
-size O
-. O
-
-Things O
-that O
-didnt O
-fit O
-in O
-above O
-( O
-2 O
-) O
-: O
-18bcfc912e48bf77a5202a0e24a3b884b9b2ff2c O
-shorten O
-: O
-Fix O
-invalid O
-free O
-( O
-) O
-Adding O
-a O
-offset O
-after O
-realloc O
-( O
-) O
-but O
-not O
-undoing O
-that O
-before O
-a O
-possible O
-2nd O
-realloc O
-( O
-) O
-6fcf2bb8af0e7d6bb179e71e67e5fab8ef0d2ec2 O
-vorbis O
-: O
-Fix O
-last O
-quarter O
-of O
-CVE-2011-3893 O
-This O
-fixes O
-a O
-apparently O
-forgoten O
-case O
-in O
-the O
-original O
-patchset O
-from O
-google O
-Ive O
-reproduced O
-this O
-by O
-setting O
-multiplier O
-to O
-the O
-maximal O
-value O
-that O
-it O
-could O
-reach O
-So O
-for O
-all O
-the O
-interesting O
-vulns O
-: O
-HEAP O
-buffer O
-overflows O
-( O
-10 O
-) O
-: O
-( O
-write O
-) O
-HEAP+possible O
-STACK O
-buffer O
-overflow O
-( O
-1 O
-) O
-: O
-( O
-write O
-) O
-Things O
-that O
-didnt O
-fit O
-in O
-above O
-( O
-4 O
-) O
-: O
-( O
-just O
-the O
-first O
-two O
-) O
-that O
-15 O
-CVE O
-, O
-the O
-rest O
-like O
-Steve O
-said O
-do O
-not O
-quality O
-for O
-CVEs O
-. O
-
-j2k O
-is O
-marked O
-as O
-experimental O
-though O
-so O
-depending O
-on O
-the O
-user O
-app O
-this O
-may O
-require O
-the O
-user O
-to O
-enable O
-it O
-. O
-
-7fff64e00d886fde11d61958888c82b461cf99b9 O
-h264 O
-: O
-check O
-chroma_format_idc O
-range O
-. O
-
-memset O
-of O
-the O
-full O
-size O
-in O
-a O
-reduced O
-size O
-buffer O
-, O
-this O
-requires O
-the O
-user O
-to O
-enable O
-lowres O
-HEAP+possible O
-STACK O
-buffer O
-overflow O
-( O
-1 O
-) O
-: O
-( O
-write O
-) O
-282bb02839b1ce73963c8e3ee46804f1ade8b12a O
-j2kdec O
-: O
-Fix O
-crash O
-in O
-get_qcx O
-Simple O
-missing O
-check O
-for O
-index O
-and O
-array O
-size O
-. O
-
-21270cffaeab2f67a613907516b2b0cd6c9eacf4 O
-h263dec O
-: O
-Fix O
-regression O
-crash O
-with O
-lowres O
-. O
-
-608708009f69ba4cecebf05120c696167494c897 O
-adpcm O
-: O
-Fix O
-crash O
-Allocation O
-for O
-X O
-channels O
-, O
-write O
-for O
-2 O
-, O
-this O
-adds O
-a O
-X O
-! O
-=2 O
-check O
-9af6abdc17deb95c9b1f1d9242ba49b8b5e0b016 O
-atrac3 O
-: O
-Fix O
-crash O
-in O
-tonal O
-component O
-decoding O
-. O
-
-Date O
-: O
-Wed O
-, O
-01 O
-Feb O
-2012 O
-14:56:19 O
--0700 O
-From O
-: O
-Kurt O
-Seifried O
-< O
-kseifried O
-@ O
-... O
-hat.com O
-To O
-: O
-oss-security O
-@ O
-... O
-ts.openwall.com O
-CC O
-: O
-Steven O
-M. O
-Christey O
-< O
-coley O
-@ O
-... O
-us.mitre.org O
-
-Steve O
-, O
-ok O
-if O
-I O
-go O
-ahead O
-with O
-these O
-13 O
-
-v_off O
-becoming O
-negative O
-and O
-writes O
-based O
-on O
-this O
-overwriting O
-various O
-fields O
-of O
-the O
-struct O
-which O
-valgrind O
-didnt O
-detect O
-. O
-
-Kurt O
-Seifried O
-Red O
-Hat O
-Security O
-Response O
-Team O
-( O
-SRT O
-) O
-
-944f5b2779e4aa63f7624df6cd4de832a53db81b O
-aacsbr O
-: O
-Fix O
-memory O
-corruption O
-. O
-
-Subject O
-: O
-Re O
-: O
-CVE O
-Requests O
-for O
-FFmpeg SN
-0.9.1 SV
-
-- O
-3eedf9f716733b3b4c5205726d2c1ca52b3d3d78 O
-j2kdec O
-: O
-Check O
-curtileno O
-for O
-validity O
-Simple O
-missing O
-check O
-for O
-index O
-and O
-array O
-size O
-. O
-
-CVE-2012-0851 O
-FFmpeg O
-7fff64e00d886fde11d61958888c82b461cf99b9 O
-h264 O
-: O
-check O
-chroma_format_idc O
-range O
-. O
-
-Please O
-use O
-CVE-2012-0855 O
-for O
-this O
-issue O
-. O
-
-Please O
-use O
-CVE-2012-0854 O
-for O
-this O
-issue O
-. O
-
-Please O
-use O
-CVE-2012-0850 O
-for O
-this O
-issue O
-. O
-
-Simple O
-case O
-of O
-index O
-becoming O
-bigger O
-than O
-array O
-without O
-checks O
-Please O
-use O
-CVE-2012-0853 O
-for O
-this O
-issue O
-. O
-
-CVE-2012-0857 O
-FFmpeg O
-282bb02839b1ce73963c8e3ee46804f1ade8b12a O
-j2kdec O
-: O
-Fix O
-crash O
-in O
-get_qcx O
-CVE-2012-0858 O
-FFmpeg O
-18bcfc912e48bf77a5202a0e24a3b884b9b2ff2c O
-shorten O
-: O
-Fix O
-invalid O
-free O
-( O
-) O
-CVE-2012-0859 O
-FFmpeg O
-6fcf2bb8af0e7d6bb179e71e67e5fab8ef0d2ec2 O
-vorbis O
-: O
-Fix O
-last O
-quarter O
-of O
-CVE-2011-3893 O
-- O
-Kurt O
-Seifried O
-Red O
-Hat O
-Security O
-Response O
-Team O
-( O
-SRT O
-) O
-BEGIN O
-PGP O
-SIGNATURE O
-Version O
-: O
-GnuPG O
-v1.4.12 O
-( O
-GNU/Linux O
-) O
-
-memset O
-of O
-the O
-full O
-size O
-in O
-a O
-reduced O
-size O
-buffer O
-, O
-this O
-requires O
-the O
-user O
-to O
-enable O
-lowres O
-Please O
-use O
-CVE-2012-0856 O
-for O
-this O
-issue O
-. O
-
-- O
-21270cffaeab2f67a613907516b2b0cd6c9eacf4 O
-h263dec O
-: O
-Fix O
-regression O
-crash O
-with O
-lowres O
-. O
-
-- O
-1f99939a6361e2e6d6788494dd7c682b051c6c34 O
-j2kdec O
-: O
-Fix O
-integer O
-overflow O
-leading O
-to O
-a O
-segfault O
-The O
-check O
-missed O
-negative O
-values O
-, O
-j2k O
-is O
-marked O
-as O
-experimental O
-though O
-so O
-depending O
-on O
-the O
-user O
-app O
-this O
-may O
-require O
-the O
-user O
-to O
-enable O
-it O
-. O
-
-- O
-9af6abdc17deb95c9b1f1d9242ba49b8b5e0b016 O
-atrac3 O
-: O
-Fix O
-crash O
-in O
-tonal O
-component O
-decoding O
-. O
-
-Simple O
-case O
-of O
-amount O
-written O
-and O
-check O
-mismatching O
-Please O
-use O
-CVE-2012-0848 O
-for O
-this O
-issue O
-. O
-
-- O
-6d8e6fe9dbc365f50521cf0c4a5ffee97c970cb5 O
-CODEC_ID_SOL_DPCM O
-: O
-Fix O
-used O
-write O
-buffer O
-. O
-
-- O
-7fff64e00d886fde11d61958888c82b461cf99b9 O
-h264 O
-: O
-check O
-chroma_format_idc O
-range O
-. O
-
-HEAP+possible O
-STACK O
-buffer O
-overflow O
-: O
-( O
-write O
-) O
-282bb02839b1ce73963c8e3ee46804f1ade8b12a O
-j2kdec O
-: O
-Fix O
-crash O
-in O
-get_qcx O
-Simple O
-missing O
-check O
-for O
-index O
-and O
-array O
-size O
-. O
-
-CVE-2012-0855 O
-FFmpeg O
-3eedf9f716733b3b4c5205726d2c1ca52b3d3d78 O
-j2kdec O
-: O
-Check O
-curtileno O
-for O
-validity O
-CVE-2012-0856 O
-FFmpeg O
-21270cffaeab2f67a613907516b2b0cd6c9eacf4 O
-h263dec O
-: O
-Fix O
-regression O
-crash O
-with O
-lowres O
-. O
-
-Comment O
-: O
-Using O
-GnuPG O
-with O
-Mozilla O
-- O
-iQIcBAEBAgAGBQJPOsn3AAoJEBYNRVNeJnmT6YAP/iDb5h+Y2iElAWr60VeBW6SF O
-72VToE6XRg0lc9cS/3p7CnGLZ4ZljFtBG1DRZezL9iJCk7PMNlS+Ho/Z2mPMT2+I O
-qGaGWIxgK6/yUbTfmb91VGc99HGUhu/67As17c1S0CMnK2NTFP5frVSAQi+NPczI O
-XLuCzOURh76yjk7dSthlAaxZWTCxr0cM9jY6Ep6UeMXJEM9DW/QQ/pfqkm68tsvO O
-3QKFUfUNEQ5qJeO1Vhv/oViAaDD074fh4gnGuu3k3aZn3s2JKgfpHH+2n3kpILlH O
-N24ltckK0x8jv8BK+Pf6VaN7vXONdQO1yC6iKdCrub7z+WZlOgsCqNZ2+MyKcUqN O
-s5QnZ6EOAEna5apT1PTXqogEbg1WL0DEcZTvpk6Pc2A9jL/AP2sq3I6TFxW+6YQH O
-LTDoR2oll6Xuq+maCgGKINsd0OYx4b+uGyn2sZCG0n2vyo24XzGWUWu+YLFS8VG6 O
-oBGAdlgn0li8fxF8/WAPQv7L9FVIBj7hOLn5wooK8Cl7FLOUdEM352NtXdMY2ob0 O
-7+o/rwtlGVSGdNAIyLzlpLdToripnSjGd1d3HjpY3f/6jxDKmb7lx74LNFERUYv4 O
-bfE8GuMW0CesoupYKpx8n4Sa4PHS7vUswgY1/XdwFX8W824bme8oL+fghhfbYR8Z O
-rEEjxZqDo+kqShDxsJ0d O
-=1476 O
-END O
-PGP O
-SIGNATURE O
-
-Subject O
-: O
-Re O
-: O
-CVE O
-Requests O
-for O
-FFmpeg SN
-0.9.1 SV
-BEGIN O
-PGP O
-SIGNED O
-MESSAGE O
-Hash O
-: O
-SHA1 O
-Sorry O
-for O
-the O
-delay O
-in O
-getting O
-these O
-done O
-. O
-
-- O
-6fcf2bb8af0e7d6bb179e71e67e5fab8ef0d2ec2 O
-vorbis O
-: O
-Fix O
-last O
-quarter O
-of O
-CVE-2011-3893 O
-This O
-fixes O
-a O
-apparently O
-forgoten O
-case O
-in O
-the O
-original O
-patchset O
-from O
-google O
-Ive O
-reproduced O
-this O
-by O
-setting O
-multiplier O
-to O
-the O
-maximal O
-value O
-that O
-it O
-could O
-reach O
-Please O
-use O
-CVE-2012-0859 O
-for O
-this O
-issue O
-. O
-
-Please O
-use O
-CVE-2012-0849 O
-for O
-this O
-issue O
-. O
-
-Summary O
-: O
-CVE-2012-0847 O
-FFmpeg O
-ae21776207e8a2bbe268e7c9e203f7599dd87ddb O
-lavfi O
-: O
-add O
-missing O
-check O
-in O
-avfilter_filter_samples O
-( O
-) O
-CVE-2012-0848 O
-FFmpeg O
-5257743aee0c3982f0079e6553aabc6aa39401d2 O
-ws_snd1 O
-: O
-Fix O
-wrong O
-samples O
-count O
-and O
-crash O
-. O
-
-CVE-2012-0852 O
-FFmpeg O
-608708009f69ba4cecebf05120c696167494c897 O
-adpcm O
-: O
-Fix O
-crash O
-CVE-2012-0853 O
-FFmpeg O
-9af6abdc17deb95c9b1f1d9242ba49b8b5e0b016 O
-atrac3 O
-: O
-Fix O
-crash O
-in O
-tonal O
-component O
-decoding O
-. O
-
-HEAP O
-buffer O
-overflows O
-: O
-( O
-write O
-) O
-ae21776207e8a2bbe268e7c9e203f7599dd87ddb O
-lavfi O
-: O
-add O
-missing O
-check O
-in O
-avfilter_filter_samples O
-( O
-) O
-Simple O
-case O
-of O
-missing O
-check O
-, O
-there O
-wasnt O
-much O
-using O
-the O
-audio O
-filters O
-so O
-this O
-probably O
-is O
-not O
-practically O
-exploitable O
-Please O
-use O
-CVE-2012-0847 O
-for O
-this O
-issue O
-. O
-
-Please O
-use O
-CVE-2012-0851 O
-for O
-this O
-issue O
-. O
-
-Please O
-use O
-CVE-2012-0857 O
-for O
-this O
-issue O
-. O
-
-- O
-944f5b2779e4aa63f7624df6cd4de832a53db81b O
-aacsbr O
-: O
-Fix O
-memory O
-corruption O
-. O
-
-- O
-608708009f69ba4cecebf05120c696167494c897 O
-adpcm O
-: O
-Fix O
-crash O
-Allocation O
-for O
-X O
-channels O
-, O
-write O
-for O
-2 O
-, O
-this O
-adds O
-a O
-X O
-! O
-=2 O
-check O
-Please O
-use O
-CVE-2012-0852 O
-for O
-this O
-issue O
-. O
-
-Things O
-that O
-didnt O
-fit O
-in O
-above O
-: O
-18bcfc912e48bf77a5202a0e24a3b884b9b2ff2c O
-shorten O
-: O
-Fix O
-invalid O
-free O
-( O
-) O
-Adding O
-a O
-offset O
-after O
-realloc O
-( O
-) O
-but O
-not O
-undoing O
-that O
-before O
-a O
-possible O
-2nd O
-realloc O
-( O
-) O
-Please O
-use O
-CVE-2012-0858 O
-for O
-this O
-issue O
-. O
-
-Date O
-: O
-Tue O
-, O
-14 O
-Feb O
-2012 O
-13:54:18 O
--0700 O
-From O
-: O
-Kurt O
-Seifried O
-< O
-kseifried O
-@ O
-... O
-hat.com O
-To O
-: O
-oss-security O
-@ O
-... O
-ts.openwall.com O
-CC O
-: O
-Michael O
-Niedermayer O
-< O
-michaelni O
-@ O
-... O
-.at O
-> O
-, O
-Kurt O
-Seifried O
-< O
-kseifrie O
-@ O
-... O
-hat.com O
-
-- O
-5257743aee0c3982f0079e6553aabc6aa39401d2 O
-ws_snd1 O
-: O
-Fix O
-wrong O
-samples O
-count O
-and O
-crash O
-. O
-
-CVE-2012-0854 O
-FFmpeg O
-6d8e6fe9dbc365f50521cf0c4a5ffee97c970cb5 O
-CODEC_ID_SOL_DPCM O
-: O
-Fix O
-used O
-write O
-buffer O
-. O
-
-CVE-2012-0849 O
-FFmpeg O
-1f99939a6361e2e6d6788494dd7c682b051c6c34 O
-j2kdec O
-: O
-Fix O
-integer O
-overflow O
-leading O
-to O
-a O
-segfault O
-CVE-2012-0850 O
-FFmpeg O
-944f5b2779e4aa63f7624df6cd4de832a53db81b O
-aacsbr O
-: O
-Fix O
-memory O
-corruption O
-. O
-
-Stack-based O
-buffer O
-overflow O
-in O
-the O
-suhosin_encrypt_single_cookie O
-function O
-in O
-the O
-transparent O
-cookie-encryption O
-feature O
-in O
-the O
-Suhosin SN
-extension SN
-before SV
-0.9.33 SV
-for O
-PHP O
-, O
-when O
-suhosin.cookie.encrypt O
-and O
-suhosin.multiheader O
-are O
-enabled O
-, O
-might O
-allow O
-remote O
-attackers O
-to O
-execute O
-arbitrary O
-code O
-via O
-a O
-long O
-string O
-that O
-is O
-used O
-in O
-a O
-Set-Cookie O
-HTTP O
-header O
-. O
-
-Insecure O
-temporary O
-file O
-in O
-as31 O
-assembler O
-Cheers O
-, O
-Moritz O
-
-Suhosin O
-extension O
-transparent O
-cookie O
-encryption O
-buffer O
-overflow O
-2 O
-. O
-
-Date O
-: O
-Tue O
-, O
-24 O
-Jan O
-2012 O
-18:28:19 O
-+0100 O
-From O
-: O
-Moritz O
-Muehlenhoff O
-< O
-jmm O
-@ O
-... O
-ian.org O
-To O
-: O
-oss-security O
-@ O
-... O
-ts.openwall.com O
-
-Subject O
-: O
-CVE O
-requests O
-: O
-Suhosin O
-extension O
-as31 O
-Please O
-please O
-assign O
-two O
-CVE O
-IDs O
-: O
-1 O
-. O
-
-Subject O
-: O
-CVE O
-requests O
-: O
-Suhosin O
-extension O
-as31 O
-
-Insecure O
-temporary O
-file O
-in O
-as31 O
-assembler O
-Cheers O
-, O
-Moritz O
-Please O
-use O
-CVE-2012-0808 O
-for O
-this O
-issue O
-. O
-
-Kurt O
-Seifried O
-Red O
-Hat O
-Security O
-Response O
-Team O
-kseifried O
-@ O
-... O
-hat.com O
-
-Suhosin O
-extension O
-transparent O
-cookie O
-encryption O
-buffer O
-overflow O
-Please O
-use O
-CVE-2012-0807 O
-for O
-this O
-issue O
-. O
-
-Subject O
-: O
-Re O
-: O
-CVE O
-requests O
-: O
-Suhosin O
-extension O
-as31 O
-
-Date O
-: O
-Tue O
-, O
-24 O
-Jan O
-2012 O
-13:43:09 O
--0700 O
-From O
-: O
-Kurt O
-Seifried O
-< O
-kseifried O
-@ O
-... O
-hat.com O
-To O
-: O
-oss-security O
-@ O
-... O
-ts.openwall.com O
-CC O
-: O
-Moritz O
-Muehlenhoff O
-< O
-jmm O
-@ O
-... O
-ian.org O
-
-WebKit O
-, O
-as O
-used O
-in O
-Apple SN
-iOS SN
-before SV
-5.1 SV
-and O
-iTunes SN
-before SV
-10.6 SV
-, O
-allows O
-remote O
-attackers O
-to O
-execute O
-arbitrary O
-code O
-or O
-cause O
-a O
-denial O
-of O
-service O
-( O
-memory O
-corruption O
-and O
-application O
-crash O
-) O
-via O
-a O
-crafted O
-web O
-site O
-, O
-a O
-different O
-vulnerability O
-than O
-other O
-WebKit O
-CVEs O
-listed O
-in O
-APPLE-SA-2012-03-07-1 O
-and O
-APPLE-SA-2012-03-07-2 O
-. O
-
-NOTE O
-: O
-it O
-was O
-originally O
-reported O
-that O
-the O
-affected O
-product O
-is O
-HP O
-Diagnostics O
-Server O
-, O
-but O
-HP O
-states O
-that O
-the O
-vulnerable O
-product O
-is O
-actually O
-HP O
-LoadRunner O
-. O
-
-Stack-based O
-buffer O
-overflow O
-in O
-magentservice.exe O
-in O
-the O
-server O
-in O
-HP SN
-LoadRunner SN
-11.00 SV
-before SV
-patch SV
-4 SV
-allows O
-remote O
-attackers O
-to O
-execute O
-arbitrary O
-code O
-via O
-a O
-crafted O
-size O
-value O
-in O
-a O
-packet O
-. O
-
-Buffer O
-overflow O
-in O
-an O
-ActiveX O
-control O
-in O
-Advantech/BroadWin SN
-WebAccess SN
-before SV
-7.0 SV
-might O
-allow O
-remote O
-attackers O
-to O
-execute O
-arbitrary O
-code O
-via O
-a O
-long O
-string O
-value O
-in O
-unspecified O
-parameters O
-. O
-
-Buffer O
-overflow O
-in O
-ChaSen SN
-2.4.x SV
-allows O
-remote O
-attackers O
-to O
-execute O
-arbitrary O
-code O
-via O
-a O
-crafted O
-string O
-. O
-
-Stack-based O
-buffer O
-overflow O
-in O
-the O
-CSoundFile O
-: O
-:ReadS3M O
-function O
-in O
-src/load_s3m.cpp O
-in O
-libmodplug SN
-before SV
-0.8.8.4 SV
-allows O
-remote O
-attackers O
-to O
-cause O
-a O
-denial O
-of O
-service O
-and O
-possibly O
-execute O
-arbitrary O
-code O
-via O
-a O
-crafted O
-S3M O
-file O
-with O
-an O
-invalid O
-offset O
-. O
-
-4 O
-) O
-An O
-off-by-one O
-error O
-within O
-the O
-CSoundFile O
-: O
-:ReadDSM O
-( O
-) O
-function O
-( O
-src/load_dms.cpp O
-) O
-can O
-be O
-exploited O
-to O
-cause O
-a O
-memory O
-corruption O
-by O
-tricking O
-a O
-user O
-into O
-opening O
-a O
-specially O
-crafted O
-DSM O
-file O
-. O
-
-3 O
-) O
-An O
-off-by-one O
-error O
-within O
-the O
-CSoundFile O
-: O
-:ReadAMS O
-( O
-) O
-function O
-( O
-src/load_ams.cpp O
-) O
-can O
-be O
-exploited O
-to O
-cause O
-a O
-stack O
-corruption O
-by O
-tricking O
-a O
-user O
-into O
-opening O
-a O
-specially O
-crafted O
-AMS O
-file O
-. O
-
-Marie O
-von O
-Ebner-Eschenbach O
-
-Vincent O
-Danen O
-2011-08-04 O
-16:42:51 O
-EDT O
-A O
-number O
-of O
-vulnerabilities O
-were O
-reported O
-in O
-libmodplug O
-, O
-which O
-can O
-be O
-exploited O
-to O
-cause O
-a O
-DoS O
-or O
-possibly O
-compromise O
-an O
-application O
-using O
-the O
-library O
-: O
-1 O
-) O
-An O
-integer O
-overflow O
-error O
-exists O
-within O
-the O
-CSoundFile O
-: O
-:ReadWav O
-( O
-) O
-function O
-( O
-src/load_wav.cpp O
-) O
-when O
-processing O
-certain O
-WAV O
-files O
-. O
-
-Upstream O
-patches O
-are O
-available O
-to O
-correct O
-the O
-flaws O
-While O
-older O
-gstreamer-plugins O
-contains O
-an O
-embedded O
-copy O
-of O
-libmodplug O
-, O
-it O
-is O
-not O
-yet O
-known O
-to O
-what O
-extent O
-it O
-is O
-affected O
-by O
-these O
-flaws O
-. O
-
-2 O
-) O
-Boundary O
-errors O
-within O
-the O
-CSoundFile O
-: O
-:ReadS3M O
-( O
-) O
-function O
-( O
-src/load_s3m.cpp O
-) O
-when O
-processing O
-S3M O
-files O
-can O
-be O
-exploited O
-to O
-cause O
-stack-based O
-buffer O
-overflows O
-by O
-tricking O
-a O
-user O
-into O
-opening O
-a O
-specially O
-crafted O
-S3M O
-file O
-. O
-
-This O
-can O
-be O
-exploited O
-to O
-cause O
-a O
-heap-based O
-buffer O
-overflow O
-by O
-tricking O
-a O
-user O
-into O
-opening O
-a O
-specially O
-crafted O
-WAV O
-file O
-. O
-
-Hi O
-ppl O
-, O
-from O
-RH O
-bugzilla O
-: O
-The O
-2nd O
-issue O
-seems O
-to O
-be O
-CVE-2011-1574 O
-other O
-seem O
-to O
-be O
-untracked O
-. O
-
-5 O
-) O
-An O
-off-by-one O
-error O
-within O
-the O
-CSoundFile O
-: O
-:ReadAMS2 O
-( O
-) O
-function O
-( O
-src/load_ams.cpp O
-) O
-can O
-be O
-exploited O
-to O
-cause O
-a O
-memory O
-corruption O
-by O
-tricking O
-a O
-user O
-into O
-opening O
-a O
-specially O
-crafted O
-AMS O
-file O
-. O
-
-Thomas O
-Biege O
-< O
-thomas O
-@ O
-... O
-e.de O
-> O
-, O
-SUSE O
-LINUX O
-, O
-Security O
-Support O
-& O
-Auditing O
-SUSE O
-LINUX O
-GmbH O
-, O
-GF O
-: O
-Jeff O
-Hawn O
-, O
-Jennifer O
-Guild O
-, O
-Felix O
-Imend O
-xc3 O
-x83 O
-xc2 O
-xb6rffer O
-, O
-HRB O
-21284 O
-( O
-AG O
-N O
-xc3 O
-x83 O
-xc2 O
-xbcrnberg O
-Wer O
-aufhoert O
-besser O
-werden O
-zu O
-wollen O
-, O
-hoert O
-auf O
-gut O
-zu O
-sein O
-. O
-
-Date O
-: O
-Wed O
-, O
-10 O
-Aug O
-2011 O
-10:27:18 O
-+0200 O
-From O
-: O
-Thomas O
-Biege O
-< O
-thomas O
-@ O
-... O
-e.de O
-To O
-: O
-oss-security O
-@ O
-... O
-ts.openwall.com O
-
-Subject O
-: O
-CVE O
-request O
-: O
-libmodplug SN
-: O
-multiple O
-vulnerabilities O
-reported O
-in O
-< SV
-= SV
-0.8.8.3 SV
-
-CVE-2011-2912 O
-3 O
-) O
-An O
-off-by-one O
-error O
-within O
-the O
-CSoundFile O
-: O
-:ReadAMS O
-( O
-) O
-function O
-( O
-src/load_ams.cpp O
-) O
-can O
-be O
-exploited O
-to O
-cause O
-a O
-stack O
-corruption O
-by O
-tricking O
-a O
-user O
-into O
-opening O
-a O
-specially O
-crafted O
-AMS O
-file O
-. O
+Buffer O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+overflow O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+in O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+the O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+web-application O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+interface O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+on O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+Cisco O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+9900 O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+IP O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+phones O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+allows O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+remote O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+attackers O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+to O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+cause O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+a O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+denial O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+of O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+service O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+( O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+webapp O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+interface O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+outage O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+) O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+via O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+long O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+values O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+in O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+unspecified O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+fields O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+, O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+aka O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+Bug O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+ID O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+CSCuh10343 O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+. O O CVE-2013-5532 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5532
+
+The O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+virtio_net_load O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+function O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+in O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+hw/net/virtio-net.c O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+in O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+QEMU SN pair_0 CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+1.5.0 SV pair_0 CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+through SV pair_0 CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+1.7.x SV pair_0 CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+before SV pair_0 CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+1.7.2 SV pair_0 CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+allows O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+remote O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+attackers O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+to O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+cause O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+a O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+denial O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+of O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+service O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+or O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+possibly O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+execute O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+arbitrary O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+code O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+via O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+vectors O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+in O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+which O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+the O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+value O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+of O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+curr_queues O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+is O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+greater O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+than O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+max_queues O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+, O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+which O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+triggers O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+an O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+out-of-bounds O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+write O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+. O O CVE-2013-4150 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4150
+
+Cisco O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+Intrusion O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+Prevention O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+System O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+( O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+IPS O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+) O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+on O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+IPS SN pair_0 CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+NME SN pair_0 CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+devices SN pair_0 CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+before SV pair_0 CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+7.0 SV pair_0 CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+( O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+9 SV pair_0 CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+) O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+E4 SV pair_0 CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+allows O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+remote O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+attackers O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+to O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+cause O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+a O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+denial O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+of O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+service O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+( O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+device O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+reload O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+) O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+via O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+malformed O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+IPv4 O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+packets O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+that O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+trigger O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+incorrect O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+memory O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+allocation O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+, O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+aka O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+Bug O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+ID O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+CSCua61977 O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+. O O CVE-2013-3410 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3410
+
+The O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+DSA_InsertItem O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+function O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+in O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Comctl32.dll O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+in O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+the O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Windows O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+common O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+control O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+library O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+in O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Microsoft SN pair_0 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Windows SN pair_0 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+XP SV pair_0 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+SP2 SV pair_0 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+, O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Windows SN pair_1 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Server SV pair_1 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+2003 SV pair_1 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+SP2 SV pair_1 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+, O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Windows SN pair_2 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Vista SV pair_2 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+SP2 SV pair_2 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+, O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Windows SN pair_3 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Server SV pair_3 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+2008 SV pair_3 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+SP2 SV pair_3 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+and SV pair_3 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+R2 SV pair_3 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+SP1 SV pair_3 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+, O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Windows SN pair_4 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+7 SV pair_4 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+SP1 SV pair_4 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+, O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Windows SN pair_5 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+8 SV pair_5 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+, O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Windows SN pair_6 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Server SV pair_6 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+2012 SV pair_6 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+, O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+and O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Windows SN pair_7 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+RT SV pair_7 CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+does O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+not O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+properly O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+allocate O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+memory O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+, O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+which O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+allows O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+remote O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+attackers O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+to O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+execute O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+arbitrary O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+code O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+via O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+a O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+crafted O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+value O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+in O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+an O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+argument O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+to O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+an O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+ASP.NET O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+web O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+application O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+, O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+aka O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Comctl32 O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Integer O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Overflow O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+Vulnerability O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+. O O CVE-2013-3195 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3195
+
+Buffer O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+overflow O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+in O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+Adobe SN pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+Reader SN pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+and SN pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+Acrobat SN pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+9.x SV pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+before SV pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+9.5.5 SV pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+, O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+10.x SV pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+before SV pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+10.1.7 SV pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+, O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+and SV pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+11.x SV pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+before SV pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+11.0.03 SV pair_0 CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+allows O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+attackers O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+to O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+execute O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+arbitrary O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+code O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+via O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+unspecified O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+vectors O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+, O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+a O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+different O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+vulnerability O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+than O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+CVE-2013-2733 O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+. O O CVE-2013-2730 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2730
+
+The O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+apache-auth.conf O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+, O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+apache-nohome.conf O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+, O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+apache-noscript.conf O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+, O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+and O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+apache-overflows.conf O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+files O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+in O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+Fail2ban SN pair_0 CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+before SV pair_0 CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+0.8.10 SV pair_0 CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+do O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+not O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+properly O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+validate O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+log O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+messages O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+, O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+which O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+allows O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+remote O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+attackers O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+to O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+block O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+arbitrary O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+IP O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+addresses O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+via O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+certain O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+messages O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+in O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+a O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+request O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+. O O CVE-2013-2178 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2178
+
+Adobe SN pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+Flash SN pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+Player SN pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+before SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+10.3.183.75 SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+and SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+11.x SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+before SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+11.7.700.169 SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+on O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+Windows O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+and O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+Mac O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+OS O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+X O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+, O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+before SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+10.3.183.75 SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+and SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+11.x SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+before SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+11.2.202.280 SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+on O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+Linux O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+, O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+before SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+11.1.111.50 SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+on O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+Android SN pair_1 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+2.x SV pair_1 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+and SV pair_1 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+3.x SV pair_1 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+, O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+and O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+before SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+11.1.115.54 SV pair_0 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+on O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+Android SN pair_2 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+4.x SV pair_2 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+; O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+Adobe SN pair_3 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+AIR SN pair_3 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+before SV pair_3 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+3.7.0.1530 SV pair_3 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+; O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+and O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+Adobe SN pair_4 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+AIR SN pair_4 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+SDK SN pair_4 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+& O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+Compiler SN pair_4 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+before SV pair_4 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+3.7.0.1530 SV pair_4 CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+allow O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+attackers O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+to O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+execute O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+arbitrary O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+code O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+or O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+cause O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+a O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+denial O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+of O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+service O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+( O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+memory O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+corruption O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+) O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+via O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+unspecified O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+vectors O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+, O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+a O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+different O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+vulnerability O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+than O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+CVE-2013-1380 O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+. O O CVE-2013-1378 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1378
+
+The O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+IP O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+stack O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+in O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+Cisco O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+Intrusion O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+Prevention O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+System O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+( O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+IPS O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+) O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+in O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+ASA SN pair_0 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+5500-X SN pair_0 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+IPS-SSP SN pair_0 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+software O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+and O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+hardware O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+modules O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+before SV pair_0 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+7.1 SV pair_0 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+( O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+5 SV pair_0 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+) O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+E4 SV pair_0 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+, O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+IPS SN pair_1 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+4500 SN pair_1 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+sensors SN pair_1 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+before SV pair_1 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+7.1 SV pair_1 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+( O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+6 SV pair_1 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+) O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+E4 SV pair_1 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+, O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+and O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+IPS SN pair_2 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+4300 SN pair_2 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+sensors SN pair_2 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+before SV pair_2 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+7.1 SV pair_2 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+( O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+5 SV pair_2 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+) O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+E4 SV pair_2 CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+allows O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+remote O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+attackers O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+to O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+cause O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+a O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+denial O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+of O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+service O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+( O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+MainApp O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+process O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+hang O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+) O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+via O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+malformed O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+IPv4 O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+packets O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+, O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+aka O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+Bug O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+ID O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+CSCtx18596 O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+. O O CVE-2013-1243 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1243
+
+Buffer O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+overflow O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+in O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+Apple SN pair_0 CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+QuickTime SN pair_0 CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+before SV pair_0 CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+7.7.4 SV pair_0 CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+allows O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+remote O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+attackers O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+to O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+execute O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+arbitrary O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+code O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+or O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+cause O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+a O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+denial O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+of O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+service O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+( O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+application O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+crash O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+) O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+via O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+crafted O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+enof O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+atoms O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+in O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+a O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+movie O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+file O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+. O O CVE-2013-0986 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0986
+
+The O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+GPU O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+process O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+in O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+Google SN pair_0 CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+Chrome SN pair_0 CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+OS SN pair_0 CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+before SV pair_0 CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+25.0.1364.173 SV pair_0 CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+allows O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+attackers O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+to O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+cause O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+a O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+denial O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+of O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+service O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+or O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+possibly O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+have O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+unspecified O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+other O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+impact O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+via O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+vectors O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+related O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+to O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+an O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+overflow O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+. O O CVE-2013-0915 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0915
+
+Google SN pair_0 CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+Chrome SN pair_0 CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+before SV pair_0 CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+24.0.1312.52 SV pair_0 CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+does O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+not O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+properly O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+handle O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+image O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+data O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+in O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+PDF O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+documents O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+, O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+which O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+allows O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+remote O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+attackers O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+to O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+cause O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+a O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+denial O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+of O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+service O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+( O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+out-of-bounds O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+read O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+) O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+via O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+a O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+crafted O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+document O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+. O O CVE-2012-5157 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5157
+
+Multiple O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+heap-based O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+buffer O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+overflows O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+in O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+bmp.w5s O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+in O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+Winamp SN pair_0 CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+before SV pair_0 CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+5.63 SV pair_0 CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+build SV pair_0 CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+3235 SV pair_0 CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+allow O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+remote O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+attackers O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+to O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+execute O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+arbitrary O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+code O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+via O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+the O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+( O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+1 O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+) O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+strf O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+chunk O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+in O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+BI_RGB O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+or O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+( O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+2 O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+) O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+UYVY O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+video O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+data O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+in O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+an O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+AVI O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+file O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+, O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+or O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+( O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+3 O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+) O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+decompressed O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+TechSmith O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+Screen O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+Capture O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+Codec O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+( O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+TSCC O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+) O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+data O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+in O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+an O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+AVI O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+file O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+. O O CVE-2012-4045 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-4045
+
+WebKit O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+, O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+as O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+used O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+in O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+Apple SN pair_0 CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+Safari SN pair_0 CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+before SV pair_0 CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+6.0 SV pair_0 CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+, O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+allows O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+remote O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+attackers O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+to O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+execute O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+arbitrary O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+code O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+or O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+cause O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+a O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+denial O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+of O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+service O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+( O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+memory O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+corruption O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+and O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+application O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+crash O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+) O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+via O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+a O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+crafted O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+web O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+site O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+, O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+a O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+different O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+vulnerability O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+than O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+other O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+WebKit O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+CVEs O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+listed O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+in O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+APPLE-SA-2012-07-25-1 O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+. O O CVE-2012-3640 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3640
+
+Google SN pair_0 CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+Chrome SN pair_0 CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+before SV pair_0 CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+22.0.1229.79 SV pair_0 CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+does O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+not O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+properly O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+handle O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+plug-ins O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+, O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+which O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+allows O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+remote O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+attackers O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+to O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+cause O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+a O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+denial O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+of O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+service O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+( O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+DOM O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+tree O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+corruption O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+) O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+or O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+possibly O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+have O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+unspecified O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+other O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+impact O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+via O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+unknown O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+vectors O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+. O O CVE-2012-2881 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2881
+
+Google SN pair_0 CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+Chrome SN pair_0 CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+before SV pair_0 CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+21.0.1180.89 SV pair_0 CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+does O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+not O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+properly O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+load O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+URLs O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+, O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+which O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+allows O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+remote O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+attackers O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+to O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+cause O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+a O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+denial O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+of O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+service O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+or O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+possibly O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+have O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+unspecified O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+other O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+impact O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+via O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+vectors O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+that O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+trigger O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+a O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+stale O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+buffer O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+. O O CVE-2012-2869 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2869
+
+Integer O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+underflow O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+in O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+the O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+exif_entry_get_value O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+function O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+in O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+exif-entry.c O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+in O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+the O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+EXIF SN pair_0 CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+Tag SN pair_0 CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+Parsing SN pair_0 CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+Library SN pair_0 CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+( O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+aka SN pair_0 CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+libexif SN pair_0 CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+) O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+0.6.20 SV pair_0 CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+might O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+allow O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+remote O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+attackers O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+to O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+execute O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+arbitrary O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+code O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+via O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+vectors O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+involving O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+a O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+crafted O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+buffer-size O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+parameter O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+during O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+the O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+formatting O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+of O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+an O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+EXIF O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+tag O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+, O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+leading O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+to O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+a O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+heap-based O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+buffer O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+overflow O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+. O O CVE-2012-2841 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2841
+
+Heap-based O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+buffer O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+overflow O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+in O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+the O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+avfilter_filter_samples O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+function O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+in O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+libavfilter/avfilter.c O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+in O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+FFmpeg SN pair_0 CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+before SV pair_0 CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+0.9.1 SV pair_0 CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+allows O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+remote O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+attackers O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+to O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+cause O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+a O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+denial O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+of O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+service O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+( O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+application O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+crash O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+) O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+via O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+a O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+crafted O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+media O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+file O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+. O O CVE-2012-0847 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0847
+
+Stack-based O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+buffer O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+overflow O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+in O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+the O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+suhosin_encrypt_single_cookie O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+function O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+in O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+the O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+transparent O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+cookie-encryption O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+feature O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+in O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+the O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+Suhosin SN pair_0 CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+extension SN pair_0 CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+before SV pair_0 CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+0.9.33 SV pair_0 CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+for O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+PHP O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+, O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+when O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+suhosin.cookie.encrypt O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+and O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+suhosin.multiheader O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+are O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+enabled O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+, O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+might O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+allow O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+remote O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+attackers O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+to O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+execute O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+arbitrary O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+code O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+via O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+a O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+long O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+string O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+that O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+is O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+used O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+in O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+a O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+Set-Cookie O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+HTTP O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+header O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+. O O CVE-2012-0807 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0807
+
+Heap-based O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+buffer O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+overflow O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+in O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+the O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+Ole O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+API O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+in O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+the O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+CQOle O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+ActiveX O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+control O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+in O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+cqole.dll O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+in O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+IBM SN pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+Rational SN pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+ClearQuest SN pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+7.1.1 SV pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+before SV pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+7.1.1.9 SV pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+, O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+7.1.2 SV pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+before SV pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+7.1.2.6 SV pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+, O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+and SV pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+8.0.0 SV pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+before SV pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+8.0.0.2 SV pair_0 CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+allows O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+remote O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+attackers O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+to O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+execute O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+arbitrary O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+code O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+via O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+a O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+crafted O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+web O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+page O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+that O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+leverages O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+a O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+RegisterSchemaRepoFromFileByDbSet O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+function-prototype O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+mismatch O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+. O O CVE-2012-0708 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0708
+
+WebKit O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+, O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+as O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+used O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+in O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+Apple SN pair_0 CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+iOS SN pair_0 CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+before SV pair_0 CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+5.1 SV pair_0 CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+and O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+iTunes SN pair_1 CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+before SV pair_1 CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+10.6 SV pair_1 CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+, O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+allows O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+remote O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+attackers O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+to O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+execute O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+arbitrary O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+code O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+or O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+cause O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+a O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+denial O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+of O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+service O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+( O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+memory O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+corruption O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+and O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+application O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+crash O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+) O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+via O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+a O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+crafted O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+web O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+site O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+, O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+a O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+different O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+vulnerability O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+than O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+other O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+WebKit O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+CVEs O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+listed O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+in O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+APPLE-SA-2012-03-07-1 O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+and O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+APPLE-SA-2012-03-07-2 O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+. O O CVE-2012-0613 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0613
+
+WebKit O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+, O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+as O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+used O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+in O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+Apple SN pair_0 CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+iOS SN pair_0 CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+before SV pair_0 CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+5.1 SV pair_0 CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+and O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+iTunes SN pair_1 CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+before SV pair_1 CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+10.6 SV pair_1 CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+, O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+allows O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+remote O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+attackers O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+to O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+execute O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+arbitrary O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+code O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+or O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+cause O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+a O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+denial O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+of O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+service O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+( O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+memory O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+corruption O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+and O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+application O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+crash O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+) O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+via O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+a O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+crafted O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+web O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+site O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+, O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+a O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+different O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+vulnerability O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+than O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+other O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+WebKit O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+CVEs O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+listed O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+in O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+APPLE-SA-2012-03-07-1 O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+and O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+APPLE-SA-2012-03-07-2 O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+. O O CVE-2012-0611 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0611
+
+WebKit O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+, O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+as O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+used O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+in O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+Apple SN pair_0 CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+iOS SN pair_0 CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+before SV pair_0 CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+5.1 SV pair_0 CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+and O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+iTunes SN pair_1 CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+before SV pair_1 CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+10.6 SV pair_1 CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+, O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+allows O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+remote O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+attackers O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+to O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+execute O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+arbitrary O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+code O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+or O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+cause O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+a O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+denial O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+of O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+service O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+( O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+memory O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+corruption O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+and O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+application O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+crash O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+) O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+via O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+a O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+crafted O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+web O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+site O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+, O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+a O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+different O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+vulnerability O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+than O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+other O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+WebKit O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+CVEs O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+listed O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+in O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+APPLE-SA-2012-03-07-1 O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+and O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+APPLE-SA-2012-03-07-2 O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+. O O CVE-2012-0603 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0603
+
+Buffer O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+overflow O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+in O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+EMC SN pair_0 CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+RSA SN pair_0 CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+SecurID SN pair_0 CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+Software SN pair_0 CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+Token SN pair_0 CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+Converter SN pair_0 CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+before SV pair_0 CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+2.6.1 SV pair_0 CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+allows O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+remote O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+attackers O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+to O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+cause O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+a O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+denial O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+of O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+service O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+or O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+possibly O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+execute O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+arbitrary O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+code O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+via O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+unspecified O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+vectors O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+. O O CVE-2012-0397 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0397
+
+Multiple O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+heap-based O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+buffer O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+overflows O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+in O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+XnView SN pair_0 CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+before SV pair_0 CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+1.99 SV pair_0 CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+allow O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+remote O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+attackers O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+to O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+cause O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+a O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+denial O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+of O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+service O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+( O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+application O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+crash O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+) O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+and O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+possibly O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+execute O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+arbitrary O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+code O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+via O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+a O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+( O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+1 O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+) O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+SGI32LogLum O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+compressed O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+TIFF O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+image O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+or O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+( O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+2 O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+) O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+SGI32LogLum O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+compressed O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+TIFF O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+image O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+with O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+the O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+PhotometricInterpretation O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+encoding O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+set O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+to O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+LogL O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+. O O CVE-2012-0276 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0276
+
+Stack-based O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+buffer O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+overflow O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+in O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+magentservice.exe O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+in O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+the O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+server O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+in O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+HP SN pair_0 CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+LoadRunner SN pair_0 CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+11.00 SV pair_0 CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+before SV pair_0 CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+patch SV pair_0 CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+4 SV pair_0 CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+allows O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+remote O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+attackers O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+to O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+execute O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+arbitrary O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+code O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+via O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+a O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+crafted O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+size O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+value O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+in O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+a O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+packet O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+. O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+
+NOTE O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+: O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+it O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+was O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+originally O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+reported O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+that O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+the O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+affected O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+product O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+is O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+HP O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+Diagnostics O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+Server O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+, O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+but O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+HP O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+states O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+that O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+the O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+vulnerable O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+product O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+is O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+actually O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+HP O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+LoadRunner O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+. O O CVE-2011-4789 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4789
+
+Buffer O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+overflow O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+in O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+an O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+ActiveX O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+control O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+in O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+Advantech/BroadWin SN pair_0 CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+WebAccess SN pair_0 CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+before SV pair_0 CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+7.0 SV pair_0 CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+might O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+allow O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+remote O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+attackers O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+to O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+execute O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+arbitrary O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+code O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+via O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+a O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+long O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+string O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+value O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+in O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+unspecified O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+parameters O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+. O O CVE-2011-4526 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4526
+
+Buffer O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+overflow O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+in O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+the O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+Sierra O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+VMD O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+decoder O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+in O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+libavcodec O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+in O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+FFmpeg SN pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.5.x SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+before SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.5.7 SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+, O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.6.x SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+before SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.6.4 SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+, O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.7.x SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+before SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.7.9 SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+and SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.8.x SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+before SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.8.8 SV pair_0 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+; O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+and O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+in O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+Libav SN pair_1 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.5.x SV pair_1 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+before SV pair_1 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.5.6 SV pair_1 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+, O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.6.x SV pair_1 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+before SV pair_1 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.6.4 SV pair_1 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+, O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+and SV pair_1 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.7.x SV pair_1 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+before SV pair_1 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+0.7.3 SV pair_1 CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+allows O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+remote O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+attackers O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+to O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+cause O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+a O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+denial O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+of O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+service O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+( O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+crash O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+) O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+and O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+possibly O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+execute O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+arbitrary O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+code O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+via O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+a O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+crafted O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+VMD O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+file O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+, O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+related O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+to O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+corrupted O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+streams O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+. O O CVE-2011-4364 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4364
+
+Buffer O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+overflow O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+in O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+ChaSen SN pair_0 CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+2.4.x SV pair_0 CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+allows O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+remote O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+attackers O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+to O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+execute O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+arbitrary O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+code O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+via O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+a O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+crafted O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+string O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+. O O CVE-2011-4000 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4000
+
+Stack-based O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+buffer O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+overflow O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+in O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+the O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+CSoundFile O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+: O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+:ReadS3M O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+function O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+in O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+src/load_s3m.cpp O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+in O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+libmodplug SN pair_0 CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+before SV pair_0 CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+0.8.8.4 SV pair_0 CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+allows O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+remote O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+attackers O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+to O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+cause O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+a O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+denial O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+of O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+service O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+and O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+possibly O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+execute O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+arbitrary O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+code O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+via O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+a O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+crafted O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+S3M O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+file O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+with O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+an O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+invalid O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+offset O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+. O O CVE-2011-2912 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2912
+
+WebKit O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+, O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+as O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+used O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+in O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+Apple SN pair_0 CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+iTunes SN pair_0 CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+before SV pair_0 CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+10.5 SV pair_0 CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+, O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+allows O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+man-in-the-middle O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+attackers O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+to O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+execute O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+arbitrary O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+code O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+or O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+cause O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+a O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+denial O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+of O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+service O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+( O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+memory O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+corruption O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+and O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+application O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+crash O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+) O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+via O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+vectors O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+related O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+to O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+iTunes O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+Store O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+browsing O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+, O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+a O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+different O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+vulnerability O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+than O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+other O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+CVEs O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+listed O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+in O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+APPLE-SA-2011-10-11-1 O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+. O O CVE-2011-2815 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2815
+
+Google SN pair_0 CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+Chrome SN pair_0 CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+before SV pair_0 CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+13.0.782.107 SV pair_0 CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+does O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+not O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+properly O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+handle O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+Skia O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+paths O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+, O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+which O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+allows O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+remote O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+attackers O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+to O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+cause O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+a O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+denial O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+of O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+service O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+( O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+out-of-bounds O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+read O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+) O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+via O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+unspecified O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+vectors O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+. O O CVE-2011-2803 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2803
+
+Heap-based O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+buffer O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+overflow O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+in O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+Adobe SN pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+Reader SN pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+and SN pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+Acrobat SN pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+8.x SV pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+before SV pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+8.3.1 SV pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+, O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+9.x SV pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+before SV pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+9.4.6 SV pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+, O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+and SV pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+10.x SV pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+before SV pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+10.1.1 SV pair_0 CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+allows O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+attackers O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+to O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+execute O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+arbitrary O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+code O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+via O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+unspecified O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+vectors O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+, O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+a O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+different O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+vulnerability O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+than O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+CVE-2011-2433 O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+and O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+CVE-2011-2434 O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+. O O CVE-2011-2437 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2437
+
+Stack-based O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+buffer O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+overflow O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+in O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+ftserver.exe O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+in O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+the O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+OpenText O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+Hummingbird O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+Client O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+Connector O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+, O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+as O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+used O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+in O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+the O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+Indexing O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+Server O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+in O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+EMC SN pair_0 CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+Documentum SN pair_0 CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+eRoom SN pair_0 CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+7.x SV pair_0 CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+before SV pair_0 CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+7.4.3.f SV pair_0 CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+and O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+other O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+products O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+, O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+allows O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+remote O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+attackers O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+to O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+execute O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+arbitrary O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+code O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+by O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+sending O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+a O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+crafted O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+message O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+over O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+TCP O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+. O O CVE-2011-1741 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1741
+
+Multiple O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+integer O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+overflows O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+in O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+the O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+Microsoft O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+( O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+1 O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+) O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+JScript SN pair_0 CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+5.6 SV pair_0 CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+through SV pair_0 CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+5.8 SV pair_0 CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+and O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+( O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+2 O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+) O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+VBScript SN pair_1 CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+5.6 SV pair_1 CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+through SV pair_1 CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+5.8 SV pair_1 CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+scripting O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+engines O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+allow O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+remote O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+attackers O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+to O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+execute O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+arbitrary O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+code O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+via O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+a O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+crafted O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+web O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+page O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+, O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+aka O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+Scripting O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+Memory O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+Reallocation O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+Vulnerability O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
+. O O CVE-2011-0663 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0663
 

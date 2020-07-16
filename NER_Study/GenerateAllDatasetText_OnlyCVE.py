@@ -50,7 +50,7 @@ def main():
                 first_line = cate_data.split("\n")[0]
                 third_words = first_line.split(" ")[5]
                 if third_words.startswith('cve'):
-                    cate_aim_dataset.extend(cate_data)
+                    cate_aim_dataset.append(cate_data)
             len_cate_dataset = len(cate_aim_dataset)
 
             # print(train_dataset_list)
