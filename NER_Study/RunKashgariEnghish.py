@@ -36,7 +36,7 @@ KashgariUsgaeInstance = KashgariUsgae()
 
 
 dataset_folder = 'Dataset/ner_data/integrated_dataset/'
-model_path = 'TrainedModels/saved_ner_model_Enghilsh_BERT0710_2_40epochs'
+model_path = 'TrainedModels/saved_ner_model_Enghilsh_BERT0716_2_40epochs_rate101'
 
 def ImportCorpus():
     #memc
