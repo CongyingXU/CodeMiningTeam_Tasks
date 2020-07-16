@@ -1,1789 +1,3744 @@
-CRLF O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-injection O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-vulnerability O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-in O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-www/delivery/ck.php O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-in O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-Openads SN pair_0 CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-2.3 SV pair_0 CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-( O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-aka SN pair_0 CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-Max SN pair_0 CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-Media SN pair_0 CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-Manager SN pair_0 CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-, O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-MMM SN pair_0 CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-) O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-before SV pair_0 CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-0.3.31-alpha-pr3 SV pair_0 CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-allows O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-remote O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-attackers O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-to O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-inject O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-arbitrary O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-HTTP O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-headers O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-and O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-conduct O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-HTTP O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-response O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-splitting O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-attacks O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-via O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-CRLF O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-sequences O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-in O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-the O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-destination O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-parameter O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-. O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
+CRLF O
+injection O
+vulnerability O
+in O
+actionpack/lib/action_controller/response.rb O
+in O
+Ruby SN
+on SN
+Rails SN
+2.3.x SV
+before SV
+2.3.13 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+the O
+Content-Type O
+header O
+. O
 
-NOTE O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-: O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-some O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-of O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-these O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-details O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-are O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-obtained O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-from O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-third O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-party O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-information O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
-. O O CVE-2007-2047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2047
 
-Multiple O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-CRLF O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-injection O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-vulnerabilities O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-in O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-adclick.php O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-in O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-( O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-a O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-) O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-Openads SN pair_0 CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-( O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-phpAdsNew SN pair_0 CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-) O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-2.0.11 SV pair_0 CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-and SV pair_0 CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-earlier SV pair_0 CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-and O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-( O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-b O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-) O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-Openads O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-for O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-PostgreSQL SN pair_1 CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-( O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-phpPgAds SN pair_1 CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-) O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-2.0.11 SV pair_1 CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-and SV pair_1 CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-earlier SV pair_1 CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-allow O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-remote O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-attackers O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-to O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-inject O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-arbitrary O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-HTTP O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-headers O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-and O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-conduct O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-HTTP O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-response O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-splitting O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-attacks O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-via O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-CRLF O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-sequences O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-in O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-( O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-1 O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-) O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-the O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-dest O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-parameter O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-and O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-( O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-2 O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-) O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-the O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-Referer O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-HTTP O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-header O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-. O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
+Mozilla SN
+Firefox SN
+before SV
+3.6.23 SV
+and SV
+4.x SV
+through SV
+6 SV
+, O
+Thunderbird SN
+before SV
+7.0 SV
+, O
+and O
+SeaMonkey SN
+before SV
+2.4 SV
+do O
+not O
+properly O
+handle O
+HTTP O
+responses O
+that O
+contain O
+multiple O
+Location O
+, O
+Content-Length O
+, O
+or O
+Content-Disposition O
+headers O
+, O
+which O
+makes O
+it O
+easier O
+for O
+remote O
+attackers O
+to O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+crafted O
+header O
+values O
+. O
 
-NOTE O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-: O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-some O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-of O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-these O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-details O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-are O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-obtained O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-from O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-third O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-party O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-information O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
-. O O CVE-2007-2046 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-2046
 
-CRLF O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-injection O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-vulnerability O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-in O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-IBM SN pair_0 CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-WebSphere SN pair_0 CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-Application SN pair_0 CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-Server SN pair_0 CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-( O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-WAS SN pair_0 CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-) O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-before SV pair_0 CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-6.0.2.19 SV pair_0 CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-allows O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-remote O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-attackers O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-to O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-inject O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-arbitrary O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-HTTP O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-headers O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-and O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-conduct O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-HTTP O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-response O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-splitting O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-attacks O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-via O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-a O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-single O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-CRLF O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-sequence O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-in O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-a O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-context O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-that O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-is O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-not O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-a O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-valid O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-multi-line O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-header O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
-. O O CVE-2007-1608 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1608
+CRLF O
+injection O
+vulnerability O
+in O
+the O
+logout O
+functionality O
+in O
+VMware SN
+SpringSource SN
+Spring SN
+Security SN
+before SV
+2.0.7 SV
+and SV
+3.0.x SV
+before SV
+3.0.6 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+the O
+spring-security-redirect O
+parameter O
+. O
 
-CRLF O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-injection O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-vulnerability O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-in O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-phpMyVisites SN pair_0 CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-before SV pair_0 CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-2.2 SV pair_0 CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-allows O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-remote O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-attackers O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-to O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-inject O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-arbitrary O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-HTTP O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-headers O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-and O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-conduct O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-HTTP O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-response O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-splitting O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-attacks O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-via O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-CRLF O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-sequences O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-in O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-the O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-url O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-parameter O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-, O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-when O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-the O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-pagename O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-parameter O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-begins O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-with O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-FILE O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-: O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
-. O O CVE-2007-0892 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0892
 
-CRLF O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-injection O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-vulnerability O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-in O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-Adobe SN pair_0 CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-Acrobat SN pair_0 CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-Reader SN pair_0 CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-before SV pair_0 CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-8.0.0 SV pair_0 CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-, O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-when O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-used O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-with O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-the O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-Microsoft.XMLHTTP O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-ActiveX O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-object O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-in O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-Internet O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-Explorer O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-, O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-allows O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-remote O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-attackers O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-to O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-inject O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-arbitrary O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-HTTP O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-headers O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-and O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-conduct O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-HTTP O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-response O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-splitting O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-attacks O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-via O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-CRLF O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-sequences O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-in O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-the O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-javascript O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-: O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-URI O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-in O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-the O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-( O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-1 O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-) O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-FDF O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-, O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-( O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-2 O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-) O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-XML O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-, O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-or O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-( O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-3 O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-) O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-XFDF O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-AJAX O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-request O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-parameters O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
-. O O CVE-2007-0047 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-0047
+CRLF O
+injection O
+vulnerability O
+in O
+Microsoft SN
+Forefront SN
+Unified SN
+Access SN
+Gateway SN
+( O
+UAG SN
+) O
+2010 SV
+Gold SV
+, O
+Update SV
+1 SV
+, O
+Update SV
+2 SV
+, O
+and SV
+SP1 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+, O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+and O
+cross-site O
+scripting O
+( O
+XSS O
+) O
+attacks O
+, O
+via O
+unspecified O
+vectors O
+, O
+aka O
+ExcelTable O
+Response O
+Splitting O
+XSS O
+Vulnerability O
+. O
 
-CRLF O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-injection O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-vulnerability O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-in O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-lib/exe/fetch.php O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-in O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-DokuWiki SN pair_0 CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-2006-03-09e SV pair_0 CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-, O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-and SV pair_0 CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-possibly SV pair_0 CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-earlier SV pair_0 CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-, O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-allows O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-remote O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-attackers O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-to O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-inject O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-arbitrary O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-HTTP O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-headers O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-and O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-conduct O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-HTTP O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-response O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-splitting O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-attacks O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-via O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-CRLF O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-sequences O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-in O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-the O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-media O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-parameter O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-. O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
 
-NOTE O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-: O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-this O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-issue O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-can O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-be O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-leveraged O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-for O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-XSS O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-attacks O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
-. O O CVE-2006-6965 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6965
+The O
+sapi_header_op O
+function O
+in O
+main/SAPI.c O
+in O
+PHP SN
+before SV
+5.3.11 SV
+and SV
+5.4.x SV
+before SV
+5.4.0RC2 SV
+does O
+not O
+check O
+for O
+% O
+0D O
+sequences O
+( O
+aka O
+carriage O
+return O
+characters O
+) O
+, O
+which O
+allows O
+remote O
+attackers O
+to O
+bypass O
+an O
+HTTP O
+response-splitting O
+protection O
+mechanism O
+via O
+a O
+crafted O
+URL O
+, O
+related O
+to O
+improper O
+interaction O
+between O
+the O
+PHP O
+header O
+function O
+and O
+certain O
+browsers O
+, O
+as O
+demonstrated O
+by O
+Internet O
+Explorer O
+and O
+Google O
+Chrome O
+. O
 
-Multiple O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-CRLF O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-injection O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-vulnerabilities O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-in O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-Oracle SN pair_0 CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-Portal SN pair_0 CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-9.0.2 SV pair_0 CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-and O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-possibly O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-other O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-versions O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-allow O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-remote O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-attackers O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-to O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-inject O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-arbitrary O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-HTTP O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-headers O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-and O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-conduct O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-HTTP O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-response O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-splitting O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-attacks O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-via O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-CRLF O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-sequences O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-in O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-the O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-enc O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-parameter O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-to O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-( O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-1 O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-) O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-calendarDialog.jsp O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-or O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-( O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-2 O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-) O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-fred.jsp O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-. O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
 
-NOTE O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-: O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-the O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-calendar.jsp O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-vector O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-is O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-covered O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-by O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-CVE-2006-6697 O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
-. O O CVE-2006-6699 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6699
+Multiple O
+CRLF O
+injection O
+vulnerabilities O
+in O
+Adobe SN
+ColdFusion SN
+8.0 SV
+through SV
+9.0.1 SV
+allow O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unspecified O
+tags O
+. O
 
-CRLF O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-injection O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-vulnerability O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-in O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-webapp/jsp/calendar.jsp O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-in O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-Oracle SN pair_0 CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-Portal SN pair_0 CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-10g SV pair_0 CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-and SV pair_0 CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-earlier SV pair_0 CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-, O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-including SV pair_0 CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-9.0.2 SV pair_0 CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-, O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-allows O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-remote O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-attackers O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-to O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-inject O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-arbitrary O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-HTTP O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-headers O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-and O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-conduct O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-HTTP O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-response O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-splitting O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-attacks O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-via O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-CRLF O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-sequences O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-in O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-the O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-enc O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-parameter O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
-. O O CVE-2006-6697 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6697
 
-Multiple O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-CRLF O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-injection O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-vulnerabilities O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-in O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-PhpMyAdmin SN pair_0 CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-2.7.0-pl2 SV pair_0 CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-allow O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-remote O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-attackers O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-to O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-inject O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-arbitrary O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-HTTP O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-headers O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-and O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-conduct O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-HTTP O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-response O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-splitting O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-attacks O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-via O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-CRLF O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-sequences O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-in O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-a O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-phpMyAdmin O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-cookie O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-in O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-( O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-1 O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-) O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-css/phpmyadmin.css.php O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-, O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-( O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-2 O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-) O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-db_create.php O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-, O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-( O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-3 O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-) O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-index.php O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-, O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-( O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-4 O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-) O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-left.php O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-, O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-( O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-5 O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-) O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-libraries/session.inc.php O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-, O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-( O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-6 O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-) O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-libraries/transformations/overview.php O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-, O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-( O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-7 O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-) O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-querywindow.php O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-, O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-( O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-8 O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-) O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-server_engines.php O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-, O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-and O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-possibly O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-other O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-files O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
-. O O CVE-2006-6374 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-6374
+CRLF O
+injection O
+vulnerability O
+in O
+chart.cgi O
+in O
+Bugzilla SN
+before SV
+3.2.10 SV
+, O
+3.4.x SV
+before SV
+3.4.10 SV
+, O
+3.6.x SV
+before SV
+3.6.4 SV
+, O
+and SV
+4.0.x SV
+before SV
+4.0rc2 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+the O
+query O
+string O
+, O
+a O
+different O
+vulnerability O
+than O
+CVE-2010-2761 O
+and O
+CVE-2010-4411 O
+. O
 
-CRLF O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-injection O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-vulnerability O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-in O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-premium/index.php O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-in O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-Shop-Script O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-allows O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-remote O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-attackers O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-to O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-inject O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-arbitrary O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-HTTP O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-headers O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-and O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-conduct O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-HTTP O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-response O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-splitting O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-attacks O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-via O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-CRLF O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-sequences O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-in O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-the O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-( O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-1 O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-) O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-links_exchange O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-, O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-( O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-2 O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-) O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-news O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-, O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-( O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-3 O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-) O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-search_with_change_category_ability O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-, O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-( O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-4 O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-) O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-logging O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-, O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-( O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-5 O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-) O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-feedback O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-, O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-( O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-6 O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-) O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-show_price O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-, O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-( O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-7 O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-) O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-register O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-, O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-( O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-8 O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-) O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-answer O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-, O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-( O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-9 O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-) O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-productID O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-, O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-and O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-( O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-10 O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-) O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-inside O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-parameters O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
-. O O CVE-2006-5566 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-5566
 
-CRLF O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-injection O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-vulnerability O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-in O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-links.php O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-in O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-NX5Linx SN pair_0 CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-1.0 SV pair_0 CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-allows O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-remote O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-attackers O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-to O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-inject O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-arbitrary O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-HTTP O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-headers O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-and O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-conduct O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-HTTP O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-response O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-splitting O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-attacks O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-via O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-a O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-CRLF O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-sequence O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-in O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-the O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-url O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-parameter O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
-. O O CVE-2006-4505 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-4505
+NOTE O
+: O
+this O
+issue O
+exists O
+because O
+of O
+an O
+incomplete O
+fix O
+for O
+CVE-2010-2761 O
+. O
 
-CRLF O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-injection O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-vulnerability O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-in O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-Bitweaver SN pair_0 CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-1.3 SV pair_0 CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-allows O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-remote O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-attackers O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-to O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-conduct O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-HTTP O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-response O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-splitting O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-attacks O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-by O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-via O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-CRLF O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-sequences O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-in O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-multiple O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-unspecified O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-parameters O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-that O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-are O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-injected O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-into O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-HTTP O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-headers O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-, O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-as O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-demonstrated O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-by O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-the O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-BWSESSION O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-parameter O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-in O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-index.php O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
-. O O CVE-2006-3105 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3105
 
-Unspecified O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-vulnerability O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-in O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-session.c O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-in O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-PHP SN pair_0 CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-before SV pair_0 CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-5.1.3 SV pair_0 CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-has O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-unknown O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-impact O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-and O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-attack O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-vectors O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-, O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-related O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-to O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-certain O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-characters O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-in O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-session O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-names O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-, O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-including O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-special O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-characters O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-that O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-are O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-frequently O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-associated O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-with O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-CRLF O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-injection O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-, O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-SQL O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-injection O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-, O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-cross-site O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-scripting O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-( O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-XSS O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-) O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-, O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-and O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-HTTP O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-response O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-splitting O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-vulnerabilities O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-. O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
+Unspecified O
+vulnerability O
+in O
+CGI.pm SN
+3.50 SV
+and SV
+earlier SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unknown O
+vectors O
+. O
 
-NOTE O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-: O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-while O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-the O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-nature O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-of O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-the O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-vulnerability O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-is O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-unspecified O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-, O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-it O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-is O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-likely O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-that O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-this O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-is O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-related O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-to O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-a O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-violation O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-of O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-an O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-expectation O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-by O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-PHP O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-applications O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-that O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-the O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-session O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-name O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-is O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-alphanumeric O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-, O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-as O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-implied O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-in O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-the O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-PHP O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-manual O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-for O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-session_name O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-( O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-) O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
-. O O CVE-2006-3016 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3016
 
-Multiple O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-HTTP O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-response O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-splitting O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-vulnerabilities O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-in O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-PHP SN pair_0 CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-5.1.1 SV pair_0 CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-allow O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-remote O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-attackers O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-to O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-inject O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-arbitrary O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-HTTP O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-headers O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-via O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-a O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-crafted O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-Set-Cookie O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-header O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-, O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-related O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-to O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-the O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-( O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-1 O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-) O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-session O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-extension O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-( O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-aka O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-ext/session O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-) O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-and O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-the O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-( O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-2 O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-) O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-header O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-function O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
-. O O CVE-2006-0207 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-0207
+CRLF O
+injection O
+vulnerability O
+in O
+the O
+header O
+function O
+in O
+( O
+1 O
+) O
+CGI.pm SN
+before SV
+3.50 SV
+and O
+( O
+2 O
+) O
+Simple.pm O
+in O
+CGI SN
+: O
+:Simple SN
+1.112 SV
+and SV
+earlier SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+vectors O
+related O
+to O
+non-whitespace O
+characters O
+preceded O
+by O
+newline O
+characters O
+, O
+a O
+different O
+vulnerability O
+than O
+CVE-2010-2761 O
+and O
+CVE-2010-3172 O
+. O
 
-CRLF O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-injection O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-vulnerability O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-in O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-viewcvs O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-in O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-ViewCVS SN pair_0 CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-0.9.2 SV pair_0 CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-allows O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-remote O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-attackers O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-to O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-inject O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-arbitrary O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-HTTP O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-headers O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-and O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-conduct O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-HTTP O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-response O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-splitting O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-attacks O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-via O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-CRLF O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-sequences O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-in O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-the O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-content-type O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-parameter O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
-. O O CVE-2005-4830 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4830
 
-Multiple O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-HTTP O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-response O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-splitting O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-vulnerabilities O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-in O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-Hitachi SN pair_0 CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-Business SN pair_0 CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-Logic SN pair_0 CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-- O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-Container SN pair_0 CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-( O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-BLC SN pair_0 CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-) O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-P-2443-9114 SV pair_0 CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-01-00 SV pair_0 CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-through SV pair_0 CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-02-06 SV pair_0 CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-on O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-Windows O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-, O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-and O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-P-1M43-9111 SV O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-01-01 SV O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-through SV O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-02-00 SV O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-on O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-AIX O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-, O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-allow O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-remote O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-attackers O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-to O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-inject O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-arbitrary O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-HTTP O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-headers O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-via O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-unknown O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-attack O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-vectors O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-in O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-an O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-unspecified O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-input O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-form O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
-. O O CVE-2005-4579 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4579
+CRLF O
+injection O
+vulnerability O
+in O
+TransWARE SN
+Active SN
+mail SN
+6 SV
+build SV
+6.40.010047750 SV
+and SV
+earlier SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unspecified O
+vectors O
+. O
 
-CRLF O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-injection O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-vulnerability O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-in O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-Mantis SN pair_0 CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-1.0.0rc3 SV pair_0 CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-and SV pair_0 CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-earlier SV pair_0 CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-allows O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-remote O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-attackers O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-to O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-modify O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-HTTP O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-headers O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-and O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-conduct O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-HTTP O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-response O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-splitting O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-attacks O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-via O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-( O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-1 O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-) O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-the O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-return O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-parameter O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-in O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-login_cookie_test.php O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-and O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-( O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-2 O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-) O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-ref O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-parameter O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-in O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-login_select_proj_page.php O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
-. O O CVE-2005-4521 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-4521
 
-CRLF O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-injection O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-vulnerability O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-in O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-layers_toggle.php O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-in O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-WebCalendar SN pair_0 CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-1.0.1 SV pair_0 CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-might O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-allow O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-remote O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-attackers O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-to O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-modify O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-HTTP O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-headers O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-and O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-conduct O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-HTTP O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-response O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-splitting O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-attacks O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-via O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-the O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-ret O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-parameter O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-, O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-which O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-is O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-used O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-to O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-redirect O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-URL O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-requests O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
-. O O CVE-2005-3982 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3982
+CRLF O
+injection O
+vulnerability O
+in O
+Bugzilla SN
+before SV
+3.2.9 SV
+, O
+3.4.x SV
+before SV
+3.4.9 SV
+, O
+3.6.x SV
+before SV
+3.6.3 SV
+, O
+and SV
+4.0.x SV
+before SV
+4.0rc1 SV
+, O
+when O
+Server O
+Push O
+is O
+enabled O
+in O
+a O
+web O
+browser O
+, O
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+content O
+, O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+, O
+via O
+a O
+crafted O
+URL O
+. O
 
-HTTP O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-response O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-splitting O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-vulnerability O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-in O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-phpAdsNew SN pair_0 CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-and SN pair_0 CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-phpPgAds SN pair_0 CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-2.0.6 SV pair_0 CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-and SV pair_0 CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-earlier SV pair_0 CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-allows O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-remote O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-attackers O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-to O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-inject O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-arbitrary O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-HTML O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-headers O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-via O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-adclick.php O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-and O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-possibly O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-other O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-unspecified O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-vectors O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
-. O O CVE-2005-3791 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3791
 
-HTTP O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-response O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-splitting O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-vulnerability O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-in O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-frameset.htm O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-in O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-SAP SN pair_0 CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-Web SN pair_0 CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-Application SN pair_0 CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-Server SN pair_0 CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-( O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-WAS SN pair_0 CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-) O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-6.10 SV pair_0 CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-through SV pair_0 CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-7.00 SV pair_0 CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-allows O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-remote O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-attackers O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-to O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-inject O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-arbitrary O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-HTML O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-headers O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-via O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-the O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-sap-exiturl O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-parameter O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
-. O O CVE-2005-3633 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3633
+CRLF O
+injection O
+vulnerability O
+in O
+HP SN
+System SN
+Management SN
+Homepage SN
+( O
+SMH SN
+) O
+before SV
+6.2 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unspecified O
+vectors O
+. O
 
-CRLF O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-injection O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-vulnerability O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-in O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-phpMyAdmin SN pair_0 CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-before SV pair_0 CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-2.6.4-pl4 SV pair_0 CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-allows O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-remote O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-attackers O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-to O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-conduct O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-HTTP O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-response O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-splitting O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-attacks O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-via O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-unspecified O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-scripts O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
-. O O CVE-2005-3621 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3621
 
-HTTP O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-response O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-splitting O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-vulnerability O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-in O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-index.php O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-in O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-phpSysInfo SN pair_0 CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-2.4 SV pair_0 CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-and SV pair_0 CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-earlier SV pair_0 CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-, O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-as O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-used O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-in O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-phpgroupware SN pair_1 CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-0.9.16 SV pair_1 CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-and SV pair_1 CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-earlier SV pair_1 CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-, O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-and O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-egroupware SN pair_2 CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-before SV pair_2 CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-1.0.0.009 SV pair_2 CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-, O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-allows O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-remote O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-attackers O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-to O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-spoof O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-web O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-content O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-and O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-poison O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-web O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-caches O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-via O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-CRLF O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-sequences O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-in O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-the O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-charset O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-parameter O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
-. O O CVE-2005-3348 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3348
+The O
+multipart_init O
+function O
+in O
+( O
+1 O
+) O
+CGI.pm SN
+before SV
+3.50 SV
+and O
+( O
+2 O
+) O
+Simple.pm SN
+in O
+CGI O
+: O
+:Simple O
+1.112 SV
+and SV
+earlier SV
+uses O
+a O
+hardcoded O
+value O
+of O
+the O
+MIME O
+boundary O
+string O
+in O
+multipart/x-mixed-replace O
+content O
+, O
+which O
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+crafted O
+input O
+that O
+contains O
+this O
+value O
+, O
+a O
+different O
+vulnerability O
+than O
+CVE-2010-3172 O
+. O
 
-HTTP O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-response O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-splitting O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-vulnerability O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-in O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-language_select.asp O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-in O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-ASP SN pair_0 CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-Nuke SN pair_0 CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-0.80 SV pair_0 CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-allows O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-remote O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-attackers O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-to O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-spoof O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-web O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-content O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-and O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-poison O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-web O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-caches O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-via O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-CRLF O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-( O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-% O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-0d O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-% O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-0a O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-) O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-sequences O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-in O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-the O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-LangCode O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-parameter O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
-. O O CVE-2005-2065 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2065
 
-Multiple O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-HTTP O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-Response O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-Splitting O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-vulnerabilities O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-in O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-( O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-1 O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-) O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-toggleshow.php O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-, O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-( O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-2 O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-) O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-togglecats.php O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-, O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-and O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-( O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-3 O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-) O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-showprofile.php O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-in O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-Infopop SN pair_0 CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-UBB.Threads SN pair_0 CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-before SV pair_0 CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-6.5.2 SV pair_0 CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-Beta SV pair_0 CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-allow O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-remote O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-attackers O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-to O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-spoof O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-web O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-content O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-and O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-poison O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-web O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-caches O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-via O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-CRLF O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-( O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-% O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-0d O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-% O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-0a O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-) O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-sequences O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-in O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-the O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-Cat O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-parameter O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
-. O O CVE-2005-2060 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-2060
+CRLF O
+injection O
+vulnerability O
+in O
+load.php O
+in O
+the O
+Local O
+Management O
+Interface O
+( O
+LMI O
+) O
+on O
+the O
+IBM SN
+Proventia SN
+Network SN
+Mail SN
+Security SN
+System SN
+( O
+PNMSS SN
+) O
+appliance O
+with O
+firmware O
+before SV
+2.5 SV
+allows O
+remote O
+authenticated O
+users O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+the O
+javaVersion O
+parameter O
+. O
 
-Multiple O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-HTTP O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-Response O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-Splitting O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-vulnerabilities O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-in O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-osCommerce SN pair_0 CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-2.2 SV pair_0 CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-Milestone SV pair_0 CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-2 SV pair_0 CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-and SV pair_0 CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-earlier SV pair_0 CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-allow O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-remote O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-attackers O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-to O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-spoof O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-web O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-content O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-and O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-poison O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-web O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-caches O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-via O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-hex-encoded O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-CRLF O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-( O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-% O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-0d O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-% O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-0a O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-) O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-sequences O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-in O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-the O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-( O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-1 O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-) O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-products_id O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-or O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-( O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-2 O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-) O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-pid O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-parameter O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-to O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-index.php O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-or O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-( O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-3 O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-) O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-goto O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-parameter O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-to O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-banner.php O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
-. O O CVE-2005-1951 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1951
 
-HTTP O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-response O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-splitting O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-vulnerability O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-in O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-the O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-@ O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-SetHTTPHeader O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-function O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-in O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-Lotus SN pair_0 CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-Domino SN pair_0 CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-6.5.x SV pair_0 CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-before SV pair_0 CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-6.5.4 SV pair_0 CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-and SV pair_0 CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-6.0.x SV pair_0 CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-before SV pair_0 CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-6.0.5 SV pair_0 CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-allows O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-attackers O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-to O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-poison O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-the O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-web O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-cache O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-via O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-malicious O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-applications O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
-. O O CVE-2005-1405 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1405
+NOTE O
+: O
+some O
+of O
+these O
+details O
+are O
+obtained O
+from O
+third O
+party O
+information O
+. O
 
-HTTP O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-Response O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-Splitting O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-vulnerability O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-in O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-the O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-Surveys O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-in O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-PHP-Nuke SN pair_0 CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-7.6 SV pair_0 CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-allows O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-remote O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-attackers O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-to O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-spoof O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-web O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-content O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-and O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-poison O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-web O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-caches O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-via O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-hex-encoded O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-CRLF O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-( O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-% O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-0d O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-% O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-0a O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-) O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-sequences O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-in O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-the O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-forwarder O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-parameter O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
-. O O CVE-2005-1180 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-1180
 
-CRLF O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-injection O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-vulnerability O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-in O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-search.php O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-in O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-Phorum SN pair_0 CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-5.0.14a SV pair_0 CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-allows O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-remote O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-attackers O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-to O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-perform O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-HTTP O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-Response O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-Splitting O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-attacks O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-via O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-the O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-body O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-parameter O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-, O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-which O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-is O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-included O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-in O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-the O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-resulting O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-Location O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-header O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
-. O O CVE-2005-0843 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0843
+CRLF O
+injection O
+vulnerability O
+in O
+Xerver SN
+HTTP SN
+Server SN
+4.31 SV
+and SV
+4.32 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+certain O
+byte O
+sequences O
+at O
+the O
+end O
+of O
+a O
+URL O
+. O
 
-Squid SN pair_0 CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-2.5 SV pair_0 CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-up SV pair_0 CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-to SV pair_0 CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-2.5.STABLE7 SV pair_0 CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-allows O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-remote O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-attackers O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-to O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-poison O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-the O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-cache O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-via O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-an O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-HTTP O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-response O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-splitting O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-attack O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
-. O O CVE-2005-0175 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-0175
 
-CRLF O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-injection O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-vulnerability O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-in O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-calendar.php O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-in O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-DCP-Portal SN pair_0 CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-5.3.2 SV pair_0 CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-and SV pair_0 CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-earlier SV pair_0 CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-allows O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-remote O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-attackers O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-to O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-conduct O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-HTTP O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-response O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-splitting O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-attacks O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-to O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-spoof O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-web O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-content O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-and O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-poison O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-web O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-caches O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-via O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-CRLF O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-( O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-% O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-0d O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-% O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-0a O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-) O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-sequences O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-in O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-the O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-PHPSESSID O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-parameter O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
-. O O CVE-2004-2512 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2512
+The O
+web O
+interface O
+in O
+CUPS SN
+before SV
+1.4.2 SV
+, O
+as O
+used O
+on O
+Apple SN
+Mac SN
+OS SN
+X SN
+before SV
+10.6.2 SV
+and O
+other O
+platforms O
+, O
+does O
+not O
+properly O
+handle O
+( O
+1 O
+) O
+HTTP O
+headers O
+and O
+( O
+2 O
+) O
+HTML O
+templates O
+, O
+which O
+allows O
+remote O
+attackers O
+to O
+conduct O
+cross-site O
+scripting O
+( O
+XSS O
+) O
+attacks O
+and O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+vectors O
+related O
+to O
+( O
+a O
+) O
+the O
+product O
+web O
+interface O
+, O
+( O
+b O
+) O
+the O
+configuration O
+of O
+the O
+print O
+system O
+, O
+and O
+( O
+c O
+) O
+the O
+titles O
+of O
+printed O
+jobs O
+, O
+as O
+demonstrated O
+by O
+an O
+XSS O
+attack O
+that O
+uses O
+the O
+kerberos O
+parameter O
+to O
+the O
+admin O
+program O
+, O
+and O
+leverages O
+attribute O
+injection O
+and O
+HTTP O
+Parameter O
+Pollution O
+( O
+HPP O
+) O
+issues O
+. O
 
-CRLF O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-injection O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-vulnerability O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-in O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-Ideal SN pair_0 CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-Science SN pair_0 CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-IdealBB SN pair_0 CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-1.4.9 SV pair_0 CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-through SV pair_0 CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-1.5.3 SV pair_0 CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-allows O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-remote O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-attackers O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-to O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-conduct O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-HTTP O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-response O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-splitting O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-attacks O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-via O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-unknown O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-vectors O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
-. O O CVE-2004-2208 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2208
 
-CRLF O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-injection O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-vulnerability O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-in O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-PD9 SN pair_0 CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-Software SN pair_0 CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-MegaBBS SN pair_0 CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-2 SV pair_0 CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-and SV pair_0 CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-2.1 SV pair_0 CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-allows O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-attackers O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-to O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-conduct O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-HTTP O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-response O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-splitting O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-attacks O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-via O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-the O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-fid O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-parameter O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-in O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-a O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-writenew O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-action O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-to O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-thread-post.asp O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
-. O O CVE-2004-2146 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2146
+CRLF O
+injection O
+vulnerability O
+in O
+FormMail.pl O
+in O
+Matt SN
+Wright SN
+FormMail SN
+1.92 SV
+, O
+and SV
+possibly SV
+earlier SV
+, O
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+the O
+redirect O
+parameter O
+. O
 
-CRLF O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-injection O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-vulnerability O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-in O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-PhpBB SN pair_0 CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-2.0.4 SV pair_0 CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-and SV pair_0 CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-2.0.9 SV pair_0 CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-allows O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-remote O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-attackers O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-to O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-perform O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-HTTP O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-Response O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-Splitting O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-attacks O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-to O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-modify O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-expected O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-HTML O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-content O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-from O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-the O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-server O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-via O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-( O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-1 O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-) O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-the O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-mode O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-parameter O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-to O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-privmsg.php O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-or O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-( O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-2 O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-) O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-the O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-redirect O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-parameter O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-to O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-login.php O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
-. O O CVE-2004-2054 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2054
 
-CRLF O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-injection O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-vulnerability O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-in O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-down.asp O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-for O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-Snitz SN pair_0 CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-Forums SN pair_0 CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-2000 SV pair_0 CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-3.4.04 SV pair_0 CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-allows O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-remote O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-attackers O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-to O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-perform O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-HTTP O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-Response O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-Splitting O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-attacks O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-to O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-modify O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-expected O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-HTML O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-content O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-from O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-the O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-server O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-via O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-the O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-location O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-parameter O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
-. O O CVE-2004-1687 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1687
+CRLF O
+injection O
+vulnerability O
+in O
+CGI SN
+RESCUE SN
+Web SN
+Mailer SN
+before SV
+1.04 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+, O
+and O
+conduct O
+cross-site O
+scripting O
+( O
+XSS O
+) O
+or O
+HTTP O
+response O
+splitting O
+attacks O
+, O
+via O
+CRLF O
+sequences O
+in O
+an O
+unspecified O
+web O
+form O
+. O
 
-CRLF O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-injection O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-vulnerability O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-in O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-Comersus SN pair_0 CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-Shopping SN pair_0 CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-Cart SN pair_0 CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-5.0991 SV pair_0 CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-allows O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-remote O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-attackers O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-to O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-perform O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-HTTP O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-Response O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-Splitting O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-attacks O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-to O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-modify O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-expected O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-HTML O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-content O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-from O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-the O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-server O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-via O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-the O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-redirecturl O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-parameter O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
-. O O CVE-2004-1656 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1656
 
-CRLF O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-injection O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-vulnerability O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-in O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-Serendipity SN pair_0 CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-before SV pair_0 CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-0.7rc1 SV pair_0 CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-allows O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-remote O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-attackers O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-to O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-perform O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-HTTP O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-Response O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-Splitting O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-attacks O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-to O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-modify O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-expected O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-HTML O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-content O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-from O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-the O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-server O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-via O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-the O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-url O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-parameter O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-in O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-( O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-1 O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-) O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-index.php O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-and O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-( O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-2 O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-) O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-exit.php O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-, O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-or O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-( O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-3 O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-) O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-the O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-HTTP O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-Referer O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-field O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-in O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-comment.php O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
-. O O CVE-2004-1620 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1620
+CRLF O
+injection O
+vulnerability O
+in O
+da/DA/Login O
+in O
+Sun SN
+Java SN
+System SN
+Delegated SN
+Administrator SN
+6.2 SV
+through SV
+6.4 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+the O
+HELP_PAGE O
+parameter O
+. O
 
-CRLF O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-injection O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-vulnerability O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-in O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-wp-login.php O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-in O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-WordPress SN pair_0 CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-1.2 SV pair_0 CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-allows O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-remote O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-attackers O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-to O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-perform O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-HTTP O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-Response O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-Splitting O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-attacks O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-to O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-modify O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-expected O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-HTML O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-content O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-from O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-the O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-server O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-via O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-the O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-text O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-parameter O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
-. O O CVE-2004-1584 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1584
 
-CRLF O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-injection O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-vulnerability O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-in O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-subscribe_thread.php O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-in O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-w-Agora SN pair_0 CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-4.1.6a SV pair_0 CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-allows O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-remote O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-attackers O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-to O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-perform O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-HTTP O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-Response O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-Splitting O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-attacks O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-to O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-modify O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-expected O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-HTML O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-content O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-from O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-the O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-server O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-via O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-the O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-thread O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-parameter O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
-. O O CVE-2004-1564 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1564
+CRLF O
+injection O
+vulnerability O
+in O
+bs_disp_as_mime_type.php O
+in O
+the O
+BLOB O
+streaming O
+feature O
+in O
+phpMyAdmin SN
+before SV
+3.1.3.1 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+the O
+( O
+1 O
+) O
+c_type O
+and O
+possibly O
+( O
+2 O
+) O
+file_type O
+parameters O
+. O
 
-CRLF O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-injection O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-vulnerability O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-in O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-index.php O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-in O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-phpWebSite SN pair_0 CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-0.9.3-4 SV pair_0 CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-allows O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-remote O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-attackers O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-to O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-perform O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-HTTP O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-Response O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-Splitting O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-attacks O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-to O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-modify O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-expected O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-HTML O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-content O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-from O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-the O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-server O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-via O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-the O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-block_username O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-parameter O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-in O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-the O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-user O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-module O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
-. O O CVE-2004-1516 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1516
 
-CRLF O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-injection O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-vulnerability O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-in O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-login.php O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-in O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-WebCalendar O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-allows O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-remote O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-attackers O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-to O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-inject O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-CRLF O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-sequences O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-via O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-the O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-return_path O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-parameter O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-and O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-perform O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-HTTP O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-Response O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-Splitting O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-attacks O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-to O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-modify O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-expected O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-HTML O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-content O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-from O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-the O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-server O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
-. O O CVE-2004-1507 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1507
+CRLF O
+injection O
+vulnerability O
+in O
+the O
+WebLink O
+template O
+in O
+Fujitsu SN
+Jasmine2000 SN
+Enterprise SV
+Edition SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unspecified O
+vectors O
+. O
 
-CRLF O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-injection O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-vulnerability O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-in O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-SnipSnap SN pair_0 CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-0.5.2a SV pair_0 CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-, O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-and SV pair_0 CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-other SV pair_0 CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-versions SV pair_0 CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-before SV pair_0 CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-1.0b1 SV pair_0 CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-, O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-allows O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-remote O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-attackers O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-to O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-perform O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-HTTP O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-Response O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-Splitting O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-attacks O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-to O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-modify O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-expected O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-HTML O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-content O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-from O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-the O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-server O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
-. O O CVE-2004-1470 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-1470
 
-CRLF O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-injection O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-vulnerability O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-in O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-Aprelium SN pair_0 CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-Abyss SN pair_0 CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-Web SN pair_0 CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-Server SN pair_0 CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-1.1.2 SV pair_0 CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-and SV pair_0 CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-earlier SV pair_0 CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-allows O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-remote O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-attackers O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-to O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-inject O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-arbitrary O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-HTTP O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-headers O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-and O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-possibly O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-conduct O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-HTTP O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-Response O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-Splitting O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-attacks O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-via O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-CRLF O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-sequences O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-in O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-the O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-Location O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-header O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
-. O O CVE-2003-1338 c cve|https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1338
+CRLF O
+injection O
+vulnerability O
+in O
++webvpn+/index.html O
+in O
+WebVPN O
+on O
+Cisco SN
+Adaptive SN
+Security SN
+Appliances SN
+( O
+ASA SN
+) O
+5580 SN
+series SN
+devices SN
+with O
+software O
+before SV
+8.1 SV
+( O
+2 SV
+) O
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+as O
+demonstrated O
+by O
+a O
+redirect O
+attack O
+involving O
+a O
+% O
+0d O
+% O
+0aLocation O
+% O
+3a O
+sequence O
+in O
+a O
+URI O
+, O
+or O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unspecified O
+vectors O
+, O
+aka O
+Bug O
+ID O
+CSCsr09163 O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+SocialEngine SN
+( O
+SE SN
+) O
+2.7 SV
+and SV
+earlier SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+the O
+PHPSESSID O
+cookie O
+. O
+
+
+NOTE O
+: O
+this O
+was O
+reported O
+within O
+an O
+HTTP O
+Response O
+Splitting O
+section O
+in O
+the O
+original O
+disclosure O
+. O
+
+
+Multiple O
+open O
+redirect O
+vulnerabilities O
+in O
+AIST SN
+NetCat SN
+3.12 SV
+and SV
+earlier SV
+allow O
+remote O
+attackers O
+to O
+redirect O
+users O
+to O
+arbitrary O
+web O
+sites O
+and O
+conduct O
+phishing O
+attacks O
+via O
+( O
+1 O
+) O
+the O
+redirect O
+parameter O
+in O
+a O
+logoff O
+action O
+to O
+modules/auth/index.php O
+or O
+( O
+2 O
+) O
+the O
+url O
+parameter O
+to O
+modules/linkmanager/redirect.php O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Ruby SN
+on SN
+Rails SN
+before SV
+2.0.5 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+a O
+crafted O
+URL O
+to O
+the O
+redirect_to O
+function O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+the O
+WebContainer O
+in O
+IBM SN
+WebSphere SN
+Application SN
+Server SN
+( O
+WAS SN
+) O
+5.1.1.19 SV
+and SV
+earlier SV
+5.1.x SV
+versions O
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unspecified O
+vectors O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Sys.Web O
+in O
+Mono SN
+2.0 SV
+and SV
+earlier SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+the O
+query O
+string O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Mambo SN
+before SV
+4.6.4 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unspecified O
+vectors O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Cacti SN
+0.8.7 SV
+before SV
+0.8.7b SV
+and SV
+0.8.6 SV
+before SV
+0.8.6k SV
+, O
+when O
+running O
+on O
+older O
+PHP O
+interpreters O
+, O
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unspecified O
+vectors O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+the O
+mod_negotiation O
+in O
+the O
+Apache SN
+HTTP SN
+Server SN
+2.2.6 SV
+and SV
+earlier SV
+in O
+the O
+2.2.x SV
+series O
+, O
+2.0.61 SV
+and SV
+earlier SV
+in O
+the O
+2.0.x SV
+series O
+, O
+and O
+1.3.39 SV
+and SV
+earlier SV
+in O
+the O
+1.3.x SV
+series O
+allows O
+remote O
+authenticated O
+users O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+by O
+uploading O
+a O
+file O
+with O
+a O
+multi-line O
+name O
+containing O
+HTTP O
+header O
+sequences O
+and O
+a O
+file O
+extension O
+, O
+which O
+leads O
+to O
+injection O
+within O
+a O
+( O
+1 O
+) O
+406 O
+Not O
+Acceptable O
+or O
+( O
+2 O
+) O
+300 O
+Multiple O
+Choices O
+HTTP O
+response O
+when O
+the O
+extension O
+is O
+omitted O
+in O
+a O
+request O
+for O
+the O
+file O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+index.php O
+in O
+ExpressionEngine SN
+1.2.1 SV
+and SV
+earlier SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+the O
+URL O
+parameter O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Mortbay SN
+Jetty SN
+before SV
+6.1.6rc0 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unspecified O
+vectors O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+the O
+drupal_goto O
+function O
+in O
+includes/common.inc O
+Drupal SN
+4.7.x SV
+before SV
+4.7.8 SV
+and SV
+5.x SV
+before SV
+5.3 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unspecified O
+vectors O
+. O
+
+
+NOTE O
+: O
+this O
+can O
+be O
+leveraged O
+for O
+cross-site O
+scripting O
+( O
+XSS O
+) O
+attacks O
+. O
+
+
+NOTE O
+: O
+some O
+of O
+these O
+details O
+are O
+obtained O
+from O
+third O
+party O
+information O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Joomla SN
+before SV
+1.0.13 SV
+( O
+aka O
+Sunglow O
+) O
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+probably O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+the O
+url O
+parameter O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+the O
+redirect O
+feature O
+in O
+Sun SN
+Java SN
+System SN
+Web SN
+Server SN
+6.1 SV
+and SV
+7.0 SV
+before SV
+20070802 SV
+, O
+when O
+the O
+redirect O
+Server O
+Application O
+Function O
+( O
+SAF O
+) O
+uses O
+the O
+url-prefix O
+parameter O
+and O
+escape O
+is O
+disabled O
+, O
+or O
+an O
+Error O
+directive O
+uses O
+the O
+url-prefix O
+parameter O
+in O
+obj.conf O
+, O
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+. O
+
+
+NOTE O
+: O
+Drake O
+CMS O
+has O
+only O
+a O
+beta O
+version O
+available O
+, O
+and O
+the O
+vendor O
+has O
+previously O
+stated O
+We O
+do O
+not O
+consider O
+security O
+reports O
+valid O
+until O
+the O
+first O
+official O
+release O
+of O
+Drake O
+CMS O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+index.php O
+in O
+Drake SN
+CMS SN
+0.4.0 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+the O
+lang O
+parameter O
+. O
+
+
+Multiple O
+CRLF O
+injection O
+vulnerabilities O
+in O
+Devellion SN
+CubeCart SN
+3.0.15 SV
+allow O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+a O
+cookie O
+name O
+beginning O
+with O
+ccSID O
+to O
+( O
+1 O
+) O
+cart.php O
+or O
+( O
+2 O
+) O
+index.php O
+. O
+
+
+NOTE O
+: O
+this O
+can O
+be O
+leveraged O
+for O
+cross-site O
+scripting O
+( O
+XSS O
+) O
+attacks O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+CFNetwork O
+on O
+Apple SN
+Mac SN
+OS SN
+X SN
+10.3.9 SV
+and SV
+10.4.10 SV
+before SV
+20070731 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+an O
+unspecified O
+context O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+the O
+Digest O
+Authentication O
+support O
+for O
+Microsoft SN
+Internet SN
+Explorer SN
+7.0.5730.11 SV
+allows O
+remote O
+attackers O
+to O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+a O
+LF O
+( O
+% O
+0a O
+) O
+in O
+the O
+username O
+attribute O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+www/delivery/ck.php O
+in O
+Openads SN
+2.3 SV
+( O
+aka SN
+Max SN
+Media SN
+Manager SN
+, O
+MMM SN
+) O
+before SV
+0.3.31-alpha-pr3 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+the O
+destination O
+parameter O
+. O
+
+
+NOTE O
+: O
+some O
+of O
+these O
+details O
+are O
+obtained O
+from O
+third O
+party O
+information O
+. O
+
+
+Multiple O
+CRLF O
+injection O
+vulnerabilities O
+in O
+adclick.php O
+in O
+( O
+a O
+) O
+Openads SN
+( O
+phpAdsNew SN
+) O
+2.0.11 SV
+and SV
+earlier SV
+and O
+( O
+b O
+) O
+Openads O
+for O
+PostgreSQL SN
+( O
+phpPgAds SN
+) O
+2.0.11 SV
+and SV
+earlier SV
+allow O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+( O
+1 O
+) O
+the O
+dest O
+parameter O
+and O
+( O
+2 O
+) O
+the O
+Referer O
+HTTP O
+header O
+. O
+
+
+NOTE O
+: O
+some O
+of O
+these O
+details O
+are O
+obtained O
+from O
+third O
+party O
+information O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+IBM SN
+WebSphere SN
+Application SN
+Server SN
+( O
+WAS SN
+) O
+before SV
+6.0.2.19 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+a O
+single O
+CRLF O
+sequence O
+in O
+a O
+context O
+that O
+is O
+not O
+a O
+valid O
+multi-line O
+header O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+phpMyVisites SN
+before SV
+2.2 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+the O
+url O
+parameter O
+, O
+when O
+the O
+pagename O
+parameter O
+begins O
+with O
+FILE O
+: O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Adobe SN
+Acrobat SN
+Reader SN
+before SV
+8.0.0 SV
+, O
+when O
+used O
+with O
+the O
+Microsoft.XMLHTTP O
+ActiveX O
+object O
+in O
+Internet O
+Explorer O
+, O
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+the O
+javascript O
+: O
+URI O
+in O
+the O
+( O
+1 O
+) O
+FDF O
+, O
+( O
+2 O
+) O
+XML O
+, O
+or O
+( O
+3 O
+) O
+XFDF O
+AJAX O
+request O
+parameters O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+lib/exe/fetch.php O
+in O
+DokuWiki SN
+2006-03-09e SV
+, O
+and SV
+possibly SV
+earlier SV
+, O
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+the O
+media O
+parameter O
+. O
+
+
+NOTE O
+: O
+this O
+issue O
+can O
+be O
+leveraged O
+for O
+XSS O
+attacks O
+. O
+
+
+Multiple O
+CRLF O
+injection O
+vulnerabilities O
+in O
+Oracle SN
+Portal SN
+9.0.2 SV
+and O
+possibly O
+other O
+versions O
+allow O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+the O
+enc O
+parameter O
+to O
+( O
+1 O
+) O
+calendarDialog.jsp O
+or O
+( O
+2 O
+) O
+fred.jsp O
+. O
+
+
+NOTE O
+: O
+the O
+calendar.jsp O
+vector O
+is O
+covered O
+by O
+CVE-2006-6697 O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+webapp/jsp/calendar.jsp O
+in O
+Oracle SN
+Portal SN
+10g SV
+and SV
+earlier SV
+, O
+including SV
+9.0.2 SV
+, O
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+the O
+enc O
+parameter O
+. O
+
+
+Multiple O
+CRLF O
+injection O
+vulnerabilities O
+in O
+PhpMyAdmin SN
+2.7.0-pl2 SV
+allow O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+a O
+phpMyAdmin O
+cookie O
+in O
+( O
+1 O
+) O
+css/phpmyadmin.css.php O
+, O
+( O
+2 O
+) O
+db_create.php O
+, O
+( O
+3 O
+) O
+index.php O
+, O
+( O
+4 O
+) O
+left.php O
+, O
+( O
+5 O
+) O
+libraries/session.inc.php O
+, O
+( O
+6 O
+) O
+libraries/transformations/overview.php O
+, O
+( O
+7 O
+) O
+querywindow.php O
+, O
+( O
+8 O
+) O
+server_engines.php O
+, O
+and O
+possibly O
+other O
+files O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+premium/index.php O
+in O
+Shop-Script O
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+the O
+( O
+1 O
+) O
+links_exchange O
+, O
+( O
+2 O
+) O
+news O
+, O
+( O
+3 O
+) O
+search_with_change_category_ability O
+, O
+( O
+4 O
+) O
+logging O
+, O
+( O
+5 O
+) O
+feedback O
+, O
+( O
+6 O
+) O
+show_price O
+, O
+( O
+7 O
+) O
+register O
+, O
+( O
+8 O
+) O
+answer O
+, O
+( O
+9 O
+) O
+productID O
+, O
+and O
+( O
+10 O
+) O
+inside O
+parameters O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+links.php O
+in O
+NX5Linx SN
+1.0 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+a O
+CRLF O
+sequence O
+in O
+the O
+url O
+parameter O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Bitweaver SN
+1.3 SV
+allows O
+remote O
+attackers O
+to O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+by O
+via O
+CRLF O
+sequences O
+in O
+multiple O
+unspecified O
+parameters O
+that O
+are O
+injected O
+into O
+HTTP O
+headers O
+, O
+as O
+demonstrated O
+by O
+the O
+BWSESSION O
+parameter O
+in O
+index.php O
+. O
+
+
+Unspecified O
+vulnerability O
+in O
+session.c O
+in O
+PHP SN
+before SV
+5.1.3 SV
+has O
+unknown O
+impact O
+and O
+attack O
+vectors O
+, O
+related O
+to O
+certain O
+characters O
+in O
+session O
+names O
+, O
+including O
+special O
+characters O
+that O
+are O
+frequently O
+associated O
+with O
+CRLF O
+injection O
+, O
+SQL O
+injection O
+, O
+cross-site O
+scripting O
+( O
+XSS O
+) O
+, O
+and O
+HTTP O
+response O
+splitting O
+vulnerabilities O
+. O
+
+
+NOTE O
+: O
+while O
+the O
+nature O
+of O
+the O
+vulnerability O
+is O
+unspecified O
+, O
+it O
+is O
+likely O
+that O
+this O
+is O
+related O
+to O
+a O
+violation O
+of O
+an O
+expectation O
+by O
+PHP O
+applications O
+that O
+the O
+session O
+name O
+is O
+alphanumeric O
+, O
+as O
+implied O
+in O
+the O
+PHP O
+manual O
+for O
+session_name O
+( O
+) O
+. O
+
+
+Multiple O
+HTTP O
+response O
+splitting O
+vulnerabilities O
+in O
+PHP SN
+5.1.1 SV
+allow O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+via O
+a O
+crafted O
+Set-Cookie O
+header O
+, O
+related O
+to O
+the O
+( O
+1 O
+) O
+session O
+extension O
+( O
+aka O
+ext/session O
+) O
+and O
+the O
+( O
+2 O
+) O
+header O
+function O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+viewcvs O
+in O
+ViewCVS SN
+0.9.2 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+the O
+content-type O
+parameter O
+. O
+
+
+Multiple O
+HTTP O
+response O
+splitting O
+vulnerabilities O
+in O
+Hitachi SN
+Business SN
+Logic SN
+- O
+Container SN
+( O
+BLC SN
+) O
+P-2443-9114 SV
+01-00 SV
+through SV
+02-06 SV
+on O
+Windows O
+, O
+and O
+P-1M43-9111 SV
+01-01 SV
+through SV
+02-00 SV
+on O
+AIX O
+, O
+allow O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+via O
+unknown O
+attack O
+vectors O
+in O
+an O
+unspecified O
+input O
+form O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Mantis SN
+1.0.0rc3 SV
+and SV
+earlier SV
+allows O
+remote O
+attackers O
+to O
+modify O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+( O
+1 O
+) O
+the O
+return O
+parameter O
+in O
+login_cookie_test.php O
+and O
+( O
+2 O
+) O
+ref O
+parameter O
+in O
+login_select_proj_page.php O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+layers_toggle.php O
+in O
+WebCalendar SN
+1.0.1 SV
+might O
+allow O
+remote O
+attackers O
+to O
+modify O
+HTTP O
+headers O
+and O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+the O
+ret O
+parameter O
+, O
+which O
+is O
+used O
+to O
+redirect O
+URL O
+requests O
+. O
+
+
+HTTP O
+response O
+splitting O
+vulnerability O
+in O
+phpAdsNew SN
+and SN
+phpPgAds SN
+2.0.6 SV
+and SV
+earlier SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTML O
+headers O
+via O
+adclick.php O
+and O
+possibly O
+other O
+unspecified O
+vectors O
+. O
+
+
+HTTP O
+response O
+splitting O
+vulnerability O
+in O
+frameset.htm O
+in O
+SAP SN
+Web SN
+Application SN
+Server SN
+( O
+WAS SN
+) O
+6.10 SV
+through SV
+7.00 SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTML O
+headers O
+via O
+the O
+sap-exiturl O
+parameter O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+phpMyAdmin SN
+before SV
+2.6.4-pl4 SV
+allows O
+remote O
+attackers O
+to O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unspecified O
+scripts O
+. O
+
+
+HTTP O
+response O
+splitting O
+vulnerability O
+in O
+index.php O
+in O
+phpSysInfo SN
+2.4 SV
+and SV
+earlier SV
+, O
+as O
+used O
+in O
+phpgroupware SN
+0.9.16 SV
+and SV
+earlier SV
+, O
+and O
+egroupware SN
+before SV
+1.0.0.009 SV
+, O
+allows O
+remote O
+attackers O
+to O
+spoof O
+web O
+content O
+and O
+poison O
+web O
+caches O
+via O
+CRLF O
+sequences O
+in O
+the O
+charset O
+parameter O
+. O
+
+
+HTTP O
+response O
+splitting O
+vulnerability O
+in O
+language_select.asp O
+in O
+ASP SN
+Nuke SN
+0.80 SV
+allows O
+remote O
+attackers O
+to O
+spoof O
+web O
+content O
+and O
+poison O
+web O
+caches O
+via O
+CRLF O
+( O
+% O
+0d O
+% O
+0a O
+) O
+sequences O
+in O
+the O
+LangCode O
+parameter O
+. O
+
+
+Multiple O
+HTTP O
+Response O
+Splitting O
+vulnerabilities O
+in O
+( O
+1 O
+) O
+toggleshow.php O
+, O
+( O
+2 O
+) O
+togglecats.php O
+, O
+and O
+( O
+3 O
+) O
+showprofile.php O
+in O
+Infopop SN
+UBB.Threads SN
+before SV
+6.5.2 SV
+Beta SV
+allow O
+remote O
+attackers O
+to O
+spoof O
+web O
+content O
+and O
+poison O
+web O
+caches O
+via O
+CRLF O
+( O
+% O
+0d O
+% O
+0a O
+) O
+sequences O
+in O
+the O
+Cat O
+parameter O
+. O
+
+
+Multiple O
+HTTP O
+Response O
+Splitting O
+vulnerabilities O
+in O
+osCommerce SN
+2.2 SV
+Milestone SV
+2 SV
+and SV
+earlier SV
+allow O
+remote O
+attackers O
+to O
+spoof O
+web O
+content O
+and O
+poison O
+web O
+caches O
+via O
+hex-encoded O
+CRLF O
+( O
+% O
+0d O
+% O
+0a O
+) O
+sequences O
+in O
+the O
+( O
+1 O
+) O
+products_id O
+or O
+( O
+2 O
+) O
+pid O
+parameter O
+to O
+index.php O
+or O
+( O
+3 O
+) O
+goto O
+parameter O
+to O
+banner.php O
+. O
+
+
+HTTP O
+response O
+splitting O
+vulnerability O
+in O
+the O
+@ O
+SetHTTPHeader O
+function O
+in O
+Lotus SN
+Domino SN
+6.5.x SV
+before SV
+6.5.4 SV
+and SV
+6.0.x SV
+before SV
+6.0.5 SV
+allows O
+attackers O
+to O
+poison O
+the O
+web O
+cache O
+via O
+malicious O
+applications O
+. O
+
+
+HTTP O
+Response O
+Splitting O
+vulnerability O
+in O
+the O
+Surveys O
+in O
+PHP-Nuke SN
+7.6 SV
+allows O
+remote O
+attackers O
+to O
+spoof O
+web O
+content O
+and O
+poison O
+web O
+caches O
+via O
+hex-encoded O
+CRLF O
+( O
+% O
+0d O
+% O
+0a O
+) O
+sequences O
+in O
+the O
+forwarder O
+parameter O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+search.php O
+in O
+Phorum SN
+5.0.14a SV
+allows O
+remote O
+attackers O
+to O
+perform O
+HTTP O
+Response O
+Splitting O
+attacks O
+via O
+the O
+body O
+parameter O
+, O
+which O
+is O
+included O
+in O
+the O
+resulting O
+Location O
+header O
+. O
+
+
+Squid SN
+2.5 SV
+up SV
+to SV
+2.5.STABLE7 SV
+allows O
+remote O
+attackers O
+to O
+poison O
+the O
+cache O
+via O
+an O
+HTTP O
+response O
+splitting O
+attack O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+calendar.php O
+in O
+DCP-Portal SN
+5.3.2 SV
+and SV
+earlier SV
+allows O
+remote O
+attackers O
+to O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+to O
+spoof O
+web O
+content O
+and O
+poison O
+web O
+caches O
+via O
+CRLF O
+( O
+% O
+0d O
+% O
+0a O
+) O
+sequences O
+in O
+the O
+PHPSESSID O
+parameter O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Ideal SN
+Science SN
+IdealBB SN
+1.4.9 SV
+through SV
+1.5.3 SV
+allows O
+remote O
+attackers O
+to O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+unknown O
+vectors O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+PD9 SN
+Software SN
+MegaBBS SN
+2 SV
+and SV
+2.1 SV
+allows O
+attackers O
+to O
+conduct O
+HTTP O
+response O
+splitting O
+attacks O
+via O
+the O
+fid O
+parameter O
+in O
+a O
+writenew O
+action O
+to O
+thread-post.asp O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+PhpBB SN
+2.0.4 SV
+and SV
+2.0.9 SV
+allows O
+remote O
+attackers O
+to O
+perform O
+HTTP O
+Response O
+Splitting O
+attacks O
+to O
+modify O
+expected O
+HTML O
+content O
+from O
+the O
+server O
+via O
+( O
+1 O
+) O
+the O
+mode O
+parameter O
+to O
+privmsg.php O
+or O
+( O
+2 O
+) O
+the O
+redirect O
+parameter O
+to O
+login.php O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+down.asp O
+for O
+Snitz SN
+Forums SN
+2000 SV
+3.4.04 SV
+allows O
+remote O
+attackers O
+to O
+perform O
+HTTP O
+Response O
+Splitting O
+attacks O
+to O
+modify O
+expected O
+HTML O
+content O
+from O
+the O
+server O
+via O
+the O
+location O
+parameter O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Comersus SN
+Shopping SN
+Cart SN
+5.0991 SV
+allows O
+remote O
+attackers O
+to O
+perform O
+HTTP O
+Response O
+Splitting O
+attacks O
+to O
+modify O
+expected O
+HTML O
+content O
+from O
+the O
+server O
+via O
+the O
+redirecturl O
+parameter O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Serendipity SN
+before SV
+0.7rc1 SV
+allows O
+remote O
+attackers O
+to O
+perform O
+HTTP O
+Response O
+Splitting O
+attacks O
+to O
+modify O
+expected O
+HTML O
+content O
+from O
+the O
+server O
+via O
+the O
+url O
+parameter O
+in O
+( O
+1 O
+) O
+index.php O
+and O
+( O
+2 O
+) O
+exit.php O
+, O
+or O
+( O
+3 O
+) O
+the O
+HTTP O
+Referer O
+field O
+in O
+comment.php O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+wp-login.php O
+in O
+WordPress SN
+1.2 SV
+allows O
+remote O
+attackers O
+to O
+perform O
+HTTP O
+Response O
+Splitting O
+attacks O
+to O
+modify O
+expected O
+HTML O
+content O
+from O
+the O
+server O
+via O
+the O
+text O
+parameter O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+subscribe_thread.php O
+in O
+w-Agora SN
+4.1.6a SV
+allows O
+remote O
+attackers O
+to O
+perform O
+HTTP O
+Response O
+Splitting O
+attacks O
+to O
+modify O
+expected O
+HTML O
+content O
+from O
+the O
+server O
+via O
+the O
+thread O
+parameter O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+index.php O
+in O
+phpWebSite SN
+0.9.3-4 SV
+allows O
+remote O
+attackers O
+to O
+perform O
+HTTP O
+Response O
+Splitting O
+attacks O
+to O
+modify O
+expected O
+HTML O
+content O
+from O
+the O
+server O
+via O
+the O
+block_username O
+parameter O
+in O
+the O
+user O
+module O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+login.php O
+in O
+WebCalendar O
+allows O
+remote O
+attackers O
+to O
+inject O
+CRLF O
+sequences O
+via O
+the O
+return_path O
+parameter O
+and O
+perform O
+HTTP O
+Response O
+Splitting O
+attacks O
+to O
+modify O
+expected O
+HTML O
+content O
+from O
+the O
+server O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+SnipSnap SN
+0.5.2a SV
+, O
+and SV
+other SV
+versions SV
+before SV
+1.0b1 SV
+, O
+allows O
+remote O
+attackers O
+to O
+perform O
+HTTP O
+Response O
+Splitting O
+attacks O
+to O
+modify O
+expected O
+HTML O
+content O
+from O
+the O
+server O
+. O
+
+
+CRLF O
+injection O
+vulnerability O
+in O
+Aprelium SN
+Abyss SN
+Web SN
+Server SN
+1.1.2 SV
+and SV
+earlier SV
+allows O
+remote O
+attackers O
+to O
+inject O
+arbitrary O
+HTTP O
+headers O
+and O
+possibly O
+conduct O
+HTTP O
+Response O
+Splitting O
+attacks O
+via O
+CRLF O
+sequences O
+in O
+the O
+Location O
+header O
+. O
 
 

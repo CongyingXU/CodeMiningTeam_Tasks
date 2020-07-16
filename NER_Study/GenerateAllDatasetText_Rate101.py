@@ -12,12 +12,15 @@ from CommonFunction import File_processing
 all_train = ""
 all_valid = ""
 all_test = ""
+all_train_dup = ""
+all_valid_dup = ""
+all_test_dup = ""
 
 folder = 'Dataset/ner_data/'
 
 
 def main():
-    global all_test, all_train, all_valid, folder
+    global all_test, all_train, all_valid, all_test_dup, all_train_dup, all_valid_dup, folder
 
     # read
     # read memc
@@ -26,9 +29,9 @@ def main():
     all_test_list = File_processing.read_TXTfile(folder + 'memc_test.txt').split('\n\n')
     print(len(all_train_list), len(all_valid_list), len(all_test_list))
 
-    # all_train_list = []
-    # all_valid_list = []
-    # all_test_list = []
+    all_train_list_dup = File_processing.read_TXTfile(folder + 'memc_train.txt').split('\n\n')
+    all_valid_list_dup = File_processing.read_TXTfile(folder + 'memc_valid.txt').split('\n\n')
+    all_test_list_dup = File_processing.read_TXTfile(folder + 'memc_test.txt').split('\n\n')
     # print(len(all_train_list), len(all_valid_list), len(all_test_list))
 
     completed_categ = []
@@ -43,12 +46,22 @@ def main():
             print('categ_name', categ_name)
             # read test
             cate_all_dataset = File_processing.read_TXTfile(folder + categ_name + '_full_dup.txt').split('\n\n')
+            # aim - 过程
+            # target - 最终结果
             cate_aim_dataset = []
+            cate_target_dataset = []
             for cate_data in cate_all_dataset:
                 # choose the dataset with cve in firstline
-                first_line = cate_data.split("\n")[0]
-                third_words = first_line.split(" ")[5]
+                line_list = cate_data.split("\n")
+                third_words = line_list[0].split(" ")[5]
                 if third_words.startswith('cve'):
+                    temp = ""
+                    for line in line_list:
+                        word_list = line.split(" ")
+                        if word_list[0] == "":
+                            break
+                        temp += word_list[0] + " " + word_list[1] + "\n"
+                    cate_target_dataset.append(temp)
                     cate_aim_dataset.append(cate_data)
             len_cate_dataset = len(cate_aim_dataset)
 
@@ -57,8 +70,12 @@ def main():
 
             # extent dataset list
             all_train_list.extend(cate_aim_dataset[:int(len_cate_dataset * 1 / 2)])
-            #all_valid_list.extend()
+            # all_valid_list.extend()
             all_test_list.extend(cate_aim_dataset[int(len_cate_dataset * 1 / 2):])
+
+            all_train_list.extend(cate_target_dataset[:int(len_cate_dataset * 1 / 2)])
+            # all_valid_list.extend()
+            all_test_list.extend(cate_target_dataset[int(len_cate_dataset * 1 / 2):])
             print(len(all_train_list), len(all_valid_list), len(all_test_list))
 
             # write categ
@@ -66,12 +83,30 @@ def main():
             cate_valid = ''
             cate_test = ''
 
-            for ele in cate_aim_dataset[:int(len_cate_dataset * 5 / 8)]:
+            cate_train_dup = ''
+            cate_valid_dup = ''
+            cate_test_dup = ''
+
+            for ele in cate_aim_dataset[:int(len_cate_dataset * 1/2)]:
+                cate_train_dup += ele + '\n\n'
+            # for ele in cate_aim_dataset[int(len_cate_dataset * 5 / 8): int(len_cate_dataset * 6 / 8)]:
+            #     cate_valid_dup += ele + '\n\n'
+            for ele in cate_aim_dataset[int(len_cate_dataset * 1 / 2):]:
+                cate_test_dup += ele + '\n\n'
+
+            for ele in cate_target_dataset[:int(len_cate_dataset * 1 / 2)]:
                 cate_train += ele + '\n\n'
-            for ele in cate_aim_dataset[int(len_cate_dataset * 5 / 8): int(len_cate_dataset * 6 / 8)]:
-                cate_valid += ele + '\n\n'
-            for ele in cate_aim_dataset[int(len_cate_dataset * 6 / 8):]:
+            # for ele in cate_target_dataset[int(len_cate_dataset * 5 / 8): int(len_cate_dataset * 6 / 8)]:
+            #     cate_valid += ele + '\n\n'
+            for ele in cate_target_dataset[int(len_cate_dataset * 1 / 2):]:
                 cate_test += ele + '\n\n'
+
+            File_processing.write_TXTfile(folder + 'integrated_dataset/' + categ_name + '_train_dup.txt',
+                                          cate_train_dup)
+            File_processing.write_TXTfile(folder + 'integrated_dataset/' + categ_name + '_valid_dup.txt',
+                                          cate_valid_dup)
+            File_processing.write_TXTfile(folder + 'integrated_dataset/' + categ_name + '_test_dup.txt',
+                                          cate_test_dup)
 
             File_processing.write_TXTfile(folder + 'integrated_dataset/' + categ_name + '_train.txt',
                                           cate_train)
@@ -90,6 +125,17 @@ def main():
         all_valid += ele + '\n\n'
     for ele in all_test_list:
         all_test += ele + '\n\n'
+
+    for ele in all_train_list_dup:
+        all_train_dup += ele + '\n\n'
+    for ele in all_valid_list_dup:
+        all_valid_dup += ele + '\n\n'
+    for ele in all_test_list_dup:
+        all_test_dup += ele + '\n\n'
+
+    File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_train_dup.txt', all_train_dup)
+    File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_valid_dup.txt', all_valid_dup)
+    File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_test_duptxt', all_test_dup)
 
     File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_train.txt', all_train)
     File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_valid.txt', all_valid)
