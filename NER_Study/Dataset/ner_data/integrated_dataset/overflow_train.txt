@@ -2335,3 +2335,407 @@ session O
 . O
 
 
+Note O
+: O
+In O
+order O
+for O
+exploitation O
+to O
+be O
+possible O
+in O
+ESXi O
+, O
+VNC O
+must O
+be O
+manually O
+enabled O
+in O
+a O
+virtual O
+machine O
+.vmx O
+configuration O
+file O
+. O
+
+
+In O
+addition O
+, O
+ESXi O
+must O
+be O
+configured O
+to O
+allow O
+VNC O
+traffic O
+through O
+the O
+built-in O
+firewall O
+. O
+
+
+VMware SN
+ESXi SN
+( O
+6.5 SV
+before SV
+ESXi650-201710401-BG SV
+) O
+, O
+Workstation SN
+( O
+12.x SV
+before SV
+12.5.8 SV
+) O
+, O
+and O
+Fusion SN
+( O
+8.x SV
+before SV
+8.5.9 SV
+) O
+contain O
+a O
+vulnerability O
+that O
+could O
+allow O
+an O
+authenticated O
+VNC O
+session O
+to O
+cause O
+a O
+heap O
+overflow O
+via O
+a O
+specific O
+set O
+of O
+VNC O
+packets O
+resulting O
+in O
+heap O
+corruption O
+. O
+
+
+This O
+issue O
+may O
+allow O
+a O
+guest O
+to O
+execute O
+code O
+on O
+the O
+host O
+. O
+
+
+The O
+XHCI O
+controller O
+in O
+VMware SN
+ESXi SN
+6.5 SV
+without SV
+patch SV
+ESXi650-201703410-SG SV
+, O
+6.0 SV
+U3 SV
+without SV
+patch SV
+ESXi600-201703401-SG SV
+, O
+6.0 SV
+U2 SV
+without SV
+patch SV
+ESXi600-201703403-SG SV
+, O
+6.0 SV
+U1 SV
+without SV
+patch SV
+ESXi600-201703402-SG SV
+, O
+and SV
+5.5 SV
+without SV
+patch SV
+ESXi550-201703401-SG SV
+; O
+Workstation SN
+Pro SN
+Player SN
+12.x SV
+prior SV
+to SV
+12.5.5 SV
+; O
+and O
+Fusion SN
+Pro SN
+Fusion SN
+8.x SV
+prior SV
+to SV
+8.5.6 SV
+has O
+uninitialized O
+memory O
+usage O
+. O
+
+
+The O
+issue O
+is O
+reduced O
+to O
+a O
+Denial O
+of O
+Service O
+of O
+the O
+guest O
+on O
+ESXi SN
+5.5 SV
+. O
+
+
+Adobe SN
+Digital SN
+Editions SN
+4.5.4 SV
+and SV
+earlier SV
+versions SV
+4.5.4 SV
+and SV
+earlier SV
+have O
+an O
+exploitable O
+memory O
+corruption O
+vulnerability O
+. O
+
+
+Successful O
+exploitation O
+could O
+lead O
+to O
+arbitrary O
+code O
+execution O
+. O
+
+
+Successful O
+exploitation O
+could O
+lead O
+to O
+arbitrary O
+code O
+execution O
+. O
+
+
+Adobe SN
+Flash SN
+Player SN
+versions O
+25.0.0.127 SV
+and SV
+earlier SV
+have O
+an O
+exploitable O
+memory O
+corruption O
+vulnerability O
+when O
+parsing O
+a O
+shape O
+outline O
+. O
+
+
+Adobe SN
+Acrobat SN
+Reader SN
+versions O
+11.0.19 SV
+and SV
+earlier SV
+, O
+15.006.30280 SV
+and SV
+earlier SV
+, O
+15.023.20070 SV
+and SV
+earlier SV
+have O
+an O
+exploitable O
+memory O
+corruption O
+vulnerability O
+in O
+PPKLite O
+security O
+handler O
+. O
+
+
+Successful O
+exploitation O
+could O
+lead O
+to O
+arbitrary O
+code O
+execution O
+. O
+
+
+A O
+specially O
+crafted O
+HTTP O
+request O
+can O
+cause O
+a O
+buffer O
+overflow O
+resulting O
+in O
+overwriting O
+arbitrary O
+data O
+. O
+
+
+An O
+attacker O
+can O
+simply O
+send O
+an O
+HTTP O
+request O
+to O
+the O
+device O
+to O
+trigger O
+this O
+vulnerability O
+. O
+
+
+An O
+exploitable O
+buffer O
+overflow O
+vulnerability O
+exists O
+in O
+the O
+web O
+management O
+interface O
+used O
+by O
+the O
+Foscam SN
+C1 SN
+Indoor SN
+HD SN
+Camera SN
+running O
+application O
+firmware O
+2.52.2.37 SV
+. O
+
+
+macOS SN
+before SV
+10.12.5 SV
+is O
+affected O
+. O
+
+
+It O
+allows O
+remote O
+attackers O
+to O
+execute O
+arbitrary O
+code O
+or O
+cause O
+a O
+denial O
+of O
+service O
+( O
+buffer O
+overflow O
+and O
+application O
+crash O
+) O
+via O
+a O
+crafted O
+SQL O
+statement O
+. O
+
+
+The O
+issue O
+involves O
+the O
+SQLite O
+component O
+. O
+
+
+tvOS SN
+before SV
+10.2.1 SV
+is O
+affected O
+. O
+
+

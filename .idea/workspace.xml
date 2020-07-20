@@ -1,7 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="983e9f34-c57a-4d5e-bf32-564105f2da35" name="Default Changelist" comment="" />
+    <list default="true" id="983e9f34-c57a-4d5e-bf32-564105f2da35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_test_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_train_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_valid_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/csrf_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/csrf_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/csrf_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/csrf_test_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/csrf_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/csrf_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/csrf_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/csrf_train_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/csrf_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/csrf_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/csrf_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/csrf_valid_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dirtra_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dirtra_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dirtra_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dirtra_test_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dirtra_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dirtra_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dirtra_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dirtra_train_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dirtra_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dirtra_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dirtra_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dirtra_valid_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dos_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dos_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dos_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dos_test_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dos_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dos_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dos_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dos_train_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dos_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dos_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dos_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/dos_valid_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/execution_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/execution_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/execution_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/execution_test_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/execution_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/execution_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/execution_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/execution_train_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/execution_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/execution_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/execution_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/execution_valid_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/fileinc_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/fileinc_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/fileinc_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/fileinc_test_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/fileinc_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/fileinc_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/fileinc_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/fileinc_train_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/fileinc_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/fileinc_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/fileinc_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/fileinc_valid_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/gainpre_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/gainpre_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/gainpre_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/gainpre_test_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/gainpre_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/gainpre_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/gainpre_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/gainpre_train_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/gainpre_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/gainpre_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/gainpre_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/gainpre_valid_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/httprs_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/httprs_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/httprs_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/httprs_test_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/httprs_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/httprs_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/httprs_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/httprs_train_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/httprs_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/httprs_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/httprs_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/httprs_valid_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/infor_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/infor_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/infor_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/infor_test_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/infor_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/infor_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/infor_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/infor_train_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/infor_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/infor_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/infor_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/infor_valid_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/overflow_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/overflow_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/overflow_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/overflow_test_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/overflow_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/overflow_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/overflow_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/overflow_train_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/overflow_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/overflow_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/overflow_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/overflow_valid_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/sqli_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/sqli_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/sqli_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/sqli_test_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/sqli_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/sqli_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/sqli_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/sqli_train_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/sqli_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/sqli_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/sqli_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/sqli_valid_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_test_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_train_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_valid_dup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/RunKashgariEnghish.py" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/RunKashgariEnghish.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +99,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.GenerateAllDatasetText_Rate111">
+  <component name="RunManager" selected="Python.GenerateAllDatasetText_Rate212">
     <configuration name="GenerateAllDatasetText" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CodeMiningTeam_Tasks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,8 +163,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="GenerateAllDatasetText_Rate212" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CodeMiningTeam_Tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NER_Study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NER_Study/GenerateAllDatasetText_Rate212.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GenerateAllDatasetText_Rate212" />
         <item itemvalue="Python.GenerateAllDatasetText_Rate111" />
         <item itemvalue="Python.GenerateAllDatasetText_Rate101" />
         <item itemvalue="Python.GenerateAllDatasetText" />
@@ -107,21 +207,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1594900656885">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1595225949697">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594900656885" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1594900656885">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595225949697" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1595225949697">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594900656885" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1594900656885">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595225949697" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1595225949696">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594900656885" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1594900656885">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595225949696" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1595225949697">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594900656885" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595225949697" />
   </component>
 </project>
