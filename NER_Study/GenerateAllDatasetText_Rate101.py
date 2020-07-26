@@ -135,7 +135,7 @@ def main():
 
     File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_train_dup.txt', all_train_dup)
     File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_valid_dup.txt', all_valid_dup)
-    File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_test_dup.txt', all_test_dup)
+    File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_test_duptxt', all_test_dup)
 
     File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_train.txt', all_train)
     File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_valid.txt', all_valid)
