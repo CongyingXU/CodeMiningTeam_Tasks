@@ -69,9 +69,9 @@ def main():
             # print(test_dataset_list)
 
             # extent dataset list
-            all_train_list.extend(cate_aim_dataset[:int(len_cate_dataset * 1 / 3)])
-            all_valid_list.extend(cate_aim_dataset[int(len_cate_dataset * 1 / 3):int(len_cate_dataset * 2 / 3)])
-            all_test_list.extend(cate_aim_dataset[int(len_cate_dataset * 2 / 3):])
+            all_train_list_dup.extend(cate_aim_dataset[:int(len_cate_dataset * 1 / 3)])
+            all_valid_list_dup.extend(cate_aim_dataset[int(len_cate_dataset * 1 / 3):int(len_cate_dataset * 2 / 3)])
+            all_test_list_dup.extend(cate_aim_dataset[int(len_cate_dataset * 2 / 3):])
 
             all_train_list.extend(cate_target_dataset[:int(len_cate_dataset * 1 / 3)])
             all_valid_list.extend(cate_target_dataset[int(len_cate_dataset * 1 / 3):int(len_cate_dataset * 2 / 3)])

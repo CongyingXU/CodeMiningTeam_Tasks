@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_train_dup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/all_valid.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_test_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/bypass_test_dup.txt" afterDir="false" />
@@ -78,7 +79,9 @@
       <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_train_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_train_dup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_valid.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_valid_dup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/Dataset/ner_data/integrated_dataset/xss_valid_dup.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NER_Study/RunKashgariEnghish.py" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/RunKashgariEnghish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/GenerateAllDatasetText_Rate101.py" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/GenerateAllDatasetText_Rate101.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/GenerateAllDatasetText_Rate111.py" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/GenerateAllDatasetText_Rate111.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NER_Study/GenerateAllDatasetText_Rate212.py" beforeDir="false" afterPath="$PROJECT_DIR$/NER_Study/GenerateAllDatasetText_Rate212.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +102,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.GenerateAllDatasetText_Rate212">
+  <component name="RunManager" selected="Python.GenerateAllDatasetText_Rate101">
     <configuration name="GenerateAllDatasetText" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CodeMiningTeam_Tasks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,9 +189,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GenerateAllDatasetText_Rate101" />
         <item itemvalue="Python.GenerateAllDatasetText_Rate212" />
         <item itemvalue="Python.GenerateAllDatasetText_Rate111" />
-        <item itemvalue="Python.GenerateAllDatasetText_Rate101" />
         <item itemvalue="Python.GenerateAllDatasetText" />
       </list>
     </recent_temporary>
@@ -207,21 +210,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1595225949697">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1595239939577">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595225949697" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1595225949697">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595239939577" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1595239939576">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595225949697" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1595225949696">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595239939576" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1595239939576">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595225949696" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1595225949697">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595239939576" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1595239939576">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595225949697" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595239939576" />
   </component>
 </project>

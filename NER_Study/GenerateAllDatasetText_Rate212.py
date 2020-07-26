@@ -69,9 +69,9 @@ def main():
             # print(test_dataset_list)
 
             # extent dataset list
-            all_train_list.extend(cate_aim_dataset[:int(len_cate_dataset * 2 / 5)])
-            all_valid_list.extend(cate_aim_dataset[int(len_cate_dataset * 2 / 5):int(len_cate_dataset * 3 / 5)])
-            all_test_list.extend(cate_aim_dataset[int(len_cate_dataset * 3 / 5):])
+            all_train_list_dup.extend(cate_aim_dataset[:int(len_cate_dataset * 2 / 5)])
+            all_valid_list_dup.extend(cate_aim_dataset[int(len_cate_dataset * 2 / 5):int(len_cate_dataset * 3 / 5)])
+            all_test_list_dup.extend(cate_aim_dataset[int(len_cate_dataset * 3 / 5):])
 
             all_train_list.extend(cate_target_dataset[:int(len_cate_dataset * 2 / 5)])
             all_valid_list.extend(cate_target_dataset[int(len_cate_dataset * 2 / 5):int(len_cate_dataset * 3 / 5)])
@@ -136,7 +136,7 @@ def main():
 
     File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_train_dup.txt', all_train_dup)
     File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_valid_dup.txt', all_valid_dup)
-    File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_test_duptxt', all_test_dup)
+    File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_test_dup.txt', all_test_dup)
 
     File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_train.txt', all_train)
     File_processing.write_TXTfile(folder + 'integrated_dataset/' + 'all_valid.txt', all_valid)
